@@ -1,0 +1,564 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "[CB2#1] $\\frac{2z-1}{z+1}=z$ dans $\\mathbb{C}$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\{-1,1,2\\}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\{\\frac{1+i\\sqrt3}{2},\\frac{1-i\\sqrt3}{2}\\}$"
+        },
+        {
+          "label": "C",
+          "fr": "idem +2"
+        },
+        {
+          "label": "D",
+          "fr": "$\\{i\\sqrt3,-i\\sqrt3\\}$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$2z-1 = z^2+z \\Rightarrow z^2-z+1=0$ → solutions $\\frac{1\\pm i\\sqrt3}{2}$."
+    },
+    {
+      "id": 2,
+      "question_fr": "[CB2#2] $f$ solution de $y''+2y'+4y=0$ ⇒ $g=2f$ solution de :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y''+2y'+4y=0$"
+        },
+        {
+          "label": "B",
+          "fr": "$y''+y'+y=0$"
+        },
+        {
+          "label": "C",
+          "fr": "$y''+4y'+4y=0$"
+        },
+        {
+          "label": "D",
+          "fr": "$2y''+4y'+y=0$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Si $f''+2f'+4f=0$, multiplier par 2 → $(2f)''+2(2f)'+4(2f)=0$."
+    },
+    {
+      "id": 3,
+      "question_fr": "[CB2#3] $z=e^{ix}-e^{-ix}$, $x\\in]0,\\pi[$ ⇒ $|z| =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\cos x$"
+        },
+        {
+          "label": "C",
+          "fr": "$x$"
+        },
+        {
+          "label": "D",
+          "fr": "$2\\sin x$"
+        },
+        {
+          "label": "E",
+          "fr": "$x/2$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$z = -2i\\sin x$ ⇒ $|z| = 2|\\sin x| = 2\\sin x$ (car $\\sin x>0$)."
+    },
+    {
+      "id": 4,
+      "question_fr": "[CB2#4] $\\lim_{n\\to\\infty} n - \\sqrt{n^2-n} =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$1/2$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Multiplier par conjugué : $\\frac{n}{n+\\sqrt{n^2-n}} \\to \\frac12$."
+    },
+    {
+      "id": 5,
+      "question_fr": "[CB2#5] $\\arg(iz)\\equiv 7\\pi/6$, $|z|=\\sqrt2$ ⇒ $\\operatorname{Im}(z^3)=$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\sqrt2$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\sqrt2$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\sqrt2$"
+        },
+        {
+          "label": "E",
+          "fr": "$-2\\sqrt2$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\arg(z) = 7\\pi/6 - \\pi/2 = 2\\pi/3$. $z^3 = (\\sqrt2)^3 e^{i2\\pi} = 2\\sqrt2$ (réel) ⇒ partie imaginaire nulle."
+    },
+    {
+      "id": 6,
+      "question_fr": "[CB2#6] Points équidistants de A(1,2,3) et B(2,0,1) :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Plan $x-y+z=6$"
+        },
+        {
+          "label": "B",
+          "fr": "Plan $2x-4y-4z=-9$"
+        },
+        {
+          "label": "C",
+          "fr": "Plan $2x-4y-4z=9$"
+        },
+        {
+          "label": "D",
+          "fr": "Droite"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Médiatrice : $(x-1)^2+(y-2)^2+(z-3)^2 = (x-2)^2+y^2+(z-1)^2$ → $2x-4y-4z+9=0$."
+    },
+    {
+      "id": 7,
+      "question_fr": "[CB2#7] $\\int_0^1 \\frac{e^{ax}}{e^{ax}+1}dx = \\frac1a$ ⇒ $a =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln(e-1)$"
+        },
+        {
+          "label": "B",
+          "fr": "$2e-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\ln(2e+1)$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\ln(2e-1)$"
+        },
+        {
+          "label": "E",
+          "fr": "$2e+1$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Intégrale = $\\frac1a[\\ln(e^{ax}+1)]_0^1 = \\frac1a\\ln\\frac{e^a+1}{2} = \\frac1a$ ⇒ $\\ln\\frac{e^a+1}{2}=1$ ⇒ $e^a+1=2e$ ⇒ $a=\\ln(2e-1)$."
+    },
+    {
+      "id": 8,
+      "question_fr": "[CB2#8] $z' = (1+i\\sqrt3)z + i$, $\\omega = -\\sqrt3/3$. Mesure de $(\\overrightarrow{\\Omega M}, \\overrightarrow{\\Omega M'})$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2\\pi/3$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\pi/3$"
+        },
+        {
+          "label": "C",
+          "fr": "$-2\\pi/3$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\pi/3$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\pi/6$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\frac{z'-\\omega}{z-\\omega} = 1+i\\sqrt3 = 2e^{i\\pi/3}$ ⇒ angle = $\\pi/3$."
+    },
+    {
+      "id": 9,
+      "question_fr": "[CB2#9] Aire minimale de EFD dans carré côté 1 avec BE=CF=x :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1/4$"
+        },
+        {
+          "label": "C",
+          "fr": "$1/3$"
+        },
+        {
+          "label": "D",
+          "fr": "$1/2$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$S(x) = \\frac{x^2-x+1}{2}$. Dérivée nulle en $x=1/2$."
+    },
+    {
+      "id": 10,
+      "question_fr": "[CB2#10] $|z|-z = 3 - i\\sqrt3$ ⇒ $|z| =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$2\\sqrt3$"
+        },
+        {
+          "label": "D",
+          "fr": "$3\\sqrt2$"
+        },
+        {
+          "label": "E",
+          "fr": "$7\\sqrt2$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Poser $z=x+iy$ ⇒ $y=\\sqrt3$, $\\sqrt{x^2+3}-x=3$ ⇒ $x=-1$, $|z|=\\sqrt{1+3}=2$."
+    },
+    {
+      "id": 11,
+      "question_fr": "[CB2#11] $\\left|\\frac{iz-1}{\\bar z + i}\\right| = 1$ ⇒ ensemble :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Médiatrice de [AB] avec A(-i), B(i)"
+        },
+        {
+          "label": "B",
+          "fr": "Droite (AB)"
+        },
+        {
+          "label": "C",
+          "fr": "Droite (AB) privée de B"
+        },
+        {
+          "label": "D",
+          "fr": "Cercle diamètre [AB]"
+        },
+        {
+          "label": "E",
+          "fr": "Cercle diamètre [AB] privé de B"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$|iz-1| = |\\bar z + i|$ ⇔ $|z+i| = |z-i|$ ⇔ MA=MB."
+    },
+    {
+      "id": 12,
+      "question_fr": "[CB2#12] $\\lim_{n\\to\\infty}(1+\\frac{x}{7n})^{29n}=2022$ ⇒ $x =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{29}{7}\\ln2022$"
+        },
+        {
+          "label": "B",
+          "fr": "$2022\\ln\\frac{7}{29}$"
+        },
+        {
+          "label": "C",
+          "fr": "$2022\\ln\\frac{29}{7}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{7}{29}\\ln2022$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Limite = $e^{\\frac{29}{7}x}=2022$ ⇒ $\\frac{29}{7}x=\\ln2022$ ⇒ $x=\\frac{7}{29}\\ln2022$."
+    },
+    {
+      "id": 13,
+      "question_fr": "[CB2#13] Plan $3x-2z+3=0$, dé à 6 faces, $A(a^2,2a,6a-3)\\in P$ ⇒ probabilité :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1/6$"
+        },
+        {
+          "label": "B",
+          "fr": "$1/3$"
+        },
+        {
+          "label": "C",
+          "fr": "$1/2$"
+        },
+        {
+          "label": "D",
+          "fr": "$2/3$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$3a^2-2(6a-3)+3=0$ ⇒ $3a^2-12a+9=0$ ⇒ $a=1$ ou $3$ (2 cas sur 6)."
+    },
+    {
+      "id": 14,
+      "question_fr": "[CB2#14] Primitive de $f(x)=2e^{3x}-6$ dont la courbe coupe l'axe des ordonnées en 3 :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac23 e^{3x}-6x-\\frac23$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac23 e^{3x}-6x+\\frac73$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac23 e^{3x}-6x-\\frac73$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac23 e^{3x}-5x+\\frac23$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$F(x)=\\frac23 e^{3x}-6x+C$. $F(0)=3$ ⇒ $\\frac23 + C = 3$ ⇒ $C=\\frac73$."
+    },
+    {
+      "id": 15,
+      "question_fr": "[CB2#15] $\\int_0^3 \\frac{x^2+2}{\\sqrt{x^3+6x+4}}dx =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1/3$"
+        },
+        {
+          "label": "B",
+          "fr": "$8/3$"
+        },
+        {
+          "label": "C",
+          "fr": "$10/3$"
+        },
+        {
+          "label": "D",
+          "fr": "$14/3$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Poser $u=x^3+6x+4$, $du=3(x^2+2)dx$ ⇒ intégrale = $\\frac23\\int_0^3 \\frac{du}{2\\sqrt u} = \\frac23[\\sqrt u]_4^{49} = \\frac23(7-2)=10/3$."
+    },
+    {
+      "id": 16,
+      "question_fr": "[CB2#16] $v_1+\\dots+v_n = 2n^2+n$ ⇒ $v_8 =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$31$"
+        },
+        {
+          "label": "B",
+          "fr": "$53$"
+        },
+        {
+          "label": "C",
+          "fr": "$54$"
+        },
+        {
+          "label": "D",
+          "fr": "$62$"
+        },
+        {
+          "label": "E",
+          "fr": "$64$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$v_{n+1} = 2(n+1)^2+(n+1)-2n^2-n = 4n+3$. Pour $n=7$ : $v_8=4\\times7+3=31$."
+    },
+    {
+      "id": 17,
+      "question_fr": "[CB2#17] $f(2x-1)=x^2+3x$ ⇒ $f(1)+f'(1)=$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$5/2$"
+        },
+        {
+          "label": "B",
+          "fr": "$4$"
+        },
+        {
+          "label": "C",
+          "fr": "$9/2$"
+        },
+        {
+          "label": "D",
+          "fr": "$13/2$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$x=1$ ⇒ $f(1)=4$. Dérivée : $2f'(2x-1)=2x+3$ ⇒ $2f'(1)=5$ ⇒ $f'(1)=5/2$ ⇒ somme = $13/2$."
+    },
+    {
+      "id": 18,
+      "question_fr": "[CB2#18] $I_n = \\int_1^n x(\\ln x)^n dx$. Alors $2I_{n+1}+(n+1)I_n =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e$"
+        },
+        {
+          "label": "B",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$e-1/2$"
+        },
+        {
+          "label": "E",
+          "fr": "$e+1/2$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Le calcul donne $I_{n+1} = \\frac{e^2}{2} - \\frac{n+1}{2}I_n$ ⇒ $2I_{n+1}+(n+1)I_n = e^2$. Aucune option ne correspond."
+    },
+    {
+      "id": 19,
+      "question_fr": "[CB2#19] Tangente à $f(x)=1+x+\\dots+x^n$ en $x=1$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y=\\frac{n(n+1)}{2}x - \\frac{(n-2)(n+1)}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$y=\\frac{n(n-1)}{2}x - \\frac{(n-2)(n+1)}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$y=\\frac{(n-1)(n+1)}{2}x + \\frac{(n-2)(n+1)}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$y=\\frac{(n-1)(2n-1)}{2}x - \\frac{(n-2)(n+1)}{2}$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f(1)=n+1$, $f'(1)=\\frac{n(n+1)}{2}$. Tangente : $y = \\frac{n(n+1)}{2}(x-1)+n+1 = \\frac{n(n+1)}{2}x - \\frac{(n-2)(n+1)}{2}$."
+    },
+    {
+      "id": 20,
+      "question_fr": "[CB2#20] $u_{n+1}=f(u_n)$, $f(x)=\\frac{\\sqrt x}{\\sqrt x+\\sqrt{1-x}}$, $u_0\\in]0,1[$ ⇒ $\\lim u_n =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1/3$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$f(x)-x = \\frac{\\sqrt{x(1-x)}(1-2x)}{(\\sqrt x+\\sqrt{1-x})^2}$. Signe de $1-2x$ ⇒ si $x<1/2$ : croissante vers $1/2$ ; si $x>1/2$ : décroissante vers $1/2$ ; si $x=1/2$ : constante. Donc limite $1/2$."
+    }
+  ]
+}

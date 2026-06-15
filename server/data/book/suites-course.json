@@ -1,0 +1,39 @@
+{
+  "course": [
+    {
+      "title": "Rappel sur les suites numériques",
+      "items": [
+        "**1. Voisinage d'un réel** — Soit $\\ell \\in \\mathbb{R}$. Un voisinage de $\\ell$ est tout intervalle $]\\ell-\\varepsilon,\\ell+\\varepsilon[$ avec $\\varepsilon>0$.",
+        "**2. Limite d'une suite** — $(u_n)$ converge vers $\\ell$ si $\\forall\\varepsilon>0,\\ \\exists N\\in\\mathbb{N}\\ :\\ n\\ge N \\Rightarrow |u_n-\\ell|<\\varepsilon$. Notation : $\\displaystyle\\lim_{n\\to+\\infty} u_n = \\ell$.",
+        "**3. Suite divergente** — $(u_n)$ diverge vers $+\\infty$ si $\\forall A>0,\\ \\exists N\\in\\mathbb{N}\\ :\\ u_n>A$. Même définition pour $-\\infty$.",
+        "**4. Opérations algébriques** — Somme, produit, quotient (limite non nulle au dénominateur) de suites convergentes : $\\lim(u_n+v_n)=\\ell+\\ell'$, $\\lim(u_n v_n)=\\ell\\ell'$, $\\lim(u_n/v_n)=\\ell/\\ell'$.",
+        "**5. Unicité de la limite** — Si $(u_n)$ converge, sa limite est unique. Toute suite convergente est bornée.",
+        "**6. Suites adjacentes** — $(u_n)$ croissante, $(v_n)$ décroissante, $\\lim(u_n-v_n)=0$ $\\Rightarrow$ $(u_n)$ et $(v_n)$ convergent vers la même limite.",
+        "**7. Théorème des gendarmes** — Si $v_n \\le u_n \\le w_n$ et $\\lim v_n = \\lim w_n = \\ell$, alors $\\lim u_n = \\ell$.",
+        "**8. Suite monotone** — Toute suite croissante majorée (resp. décroissante minorée) converge.",
+        "**9. Passage à la limite** — Si $u_n \\le v_n$ pour $n$ assez grand, alors $\\lim u_n \\le \\lim v_n$ (quand les limites existent).",
+        "**10. Suite arithmétique** — $u_{n+1}=u_n+r$ $\\Rightarrow$ $u_n=u_0+nr$, somme $S_n=\\frac{(n+1)(u_0+u_n)}{2}$.",
+        "**11. Suite géométrique** — $u_{n+1}=qu_n$ $\\Rightarrow$ $u_n=u_0q^n$, somme $S_n=u_0\\frac{1-q^{n+1}}{1-q}$ pour $q\\ne1$.",
+        "**12. Suite arithmético-géométrique** — $u_{n+1}=au_n+b$. Si $a\\ne1$, point fixe $\\ell=\\frac{b}{1-a}$, poser $v_n=u_n-\\ell$ (géométrique de raison $a$).",
+        "**13. Suites récurrentes** — $u_{n+1}=f(u_n)$. Si $f$ continue et $(u_n)\\to\\ell$, alors $\\ell=f(\\ell)$.",
+        "**14. Théorème de Césaro** — $\\displaystyle\\lim u_n = \\ell$ $\\Rightarrow$ $\\displaystyle\\lim\\frac{u_1+\\dots+u_n}{n} = \\ell$.",
+        "**15. Lemme de Césaro** — $\\displaystyle\\lim(u_{n+1}-u_n)=\\ell$ $\\Rightarrow$ $\\displaystyle\\lim\\frac{u_n}{n} = \\ell$."
+      ]
+    },
+    {
+      "title": "Astuces sur les suites",
+      "items": [
+        "**1. Somme des entiers** — $\\displaystyle\\sum_{k=1}^n k = \\frac{n(n+1)}{2}$",
+        "**2. Somme des carrés** — $\\displaystyle\\sum_{k=1}^n k^2 = \\frac{n(n+1)(2n+1)}{6}$",
+        "**3. Somme des cubes** — $\\displaystyle\\sum_{k=1}^n k^3 = \\left(\\frac{n(n+1)}{2}\\right)^2$",
+        "**4. Somme géométrique** — $\\displaystyle\\sum_{k=0}^n q^k = \\frac{1-q^{n+1}}{1-q}$",
+        "**5. Série télescopique** — $\\displaystyle\\sum_{k=1}^n \\frac{1}{k(k+1)} = 1 - \\frac{1}{n+1}$",
+        "**6. Somme avec $kq^k$** — $\\displaystyle\\sum_{k=0}^n kq^k = \\frac{q-(n+1)q^{n+1}+nq^{n+2}}{(1-q)^2}$",
+        "**7. Binôme de Newton** — $\\displaystyle(a+b)^n = \\sum_{k=0}^n C_n^k a^{n-k}b^k$",
+        "**8. Vandermonde** — $\\displaystyle\\sum_{k=0}^r C_m^k C_n^{r-k} = C_{m+n}^r$",
+        "**9. Cauchy-Schwarz** — $\\displaystyle\\left(\\sum_{k=1}^n a_k b_k\\right)^2 \\le \\left(\\sum_{k=1}^n a_k^2\\right)\\left(\\sum_{k=1}^n b_k^2\\right)$",
+        "**10. Inégalité triangulaire** — $\\displaystyle|u_n-\\ell| < \\varepsilon \\iff \\ell-\\varepsilon < u_n < \\ell+\\varepsilon$"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "course": [
+    {
+      "title": "I. Définitions de l'intégrale",
+      "items": [
+        "**1. Intégrale définie** — $\\displaystyle\\int_a^b f(x)\\,dx = \\lim_{n\\to+\\infty}\\frac{b-a}{n}\\sum_{k=1}^n f\\left(a+k\\frac{b-a}{n}\\right)$. Géométriquement, c'est l'aire sous la courbe de $f$ entre $a$ et $b$.",
+        "**2. Propriétés** — $\\displaystyle\\int_a^b f = -\\int_b^a f$, $\\displaystyle\\int_a^b (f+g) = \\int_a^b f + \\int_a^b g$, $\\displaystyle\\int_a^b \\lambda f = \\lambda\\int_a^b f$. Relation de Chasles : $\\displaystyle\\int_a^b f = \\int_a^c f + \\int_c^b f$."
+      ]
+    },
+    {
+      "title": "II. Primitives",
+      "items": [
+        "**1. Définition** — $F$ est une primitive de $f$ si $F'=f$. L'ensemble des primitives de $f$ est $\\{F_0+C\\mid C\\in\\mathbb{R}\\}$.",
+        "**2. Primitives usuelles** — $\\displaystyle\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}+C$ ($n\\neq -1$), $\\displaystyle\\int \\frac{dx}{x} = \\ln|x|+C$, $\\displaystyle\\int e^x\\,dx = e^x+C$, $\\displaystyle\\int \\cos x\\,dx = \\sin x+C$, $\\displaystyle\\int \\sin x\\,dx = -\\cos x+C$, $\\displaystyle\\int \\frac{dx}{1+x^2} = \\arctan x+C$, $\\displaystyle\\int \\frac{dx}{\\sqrt{1-x^2}} = \\arcsin x+C$.",
+        "**3. Intégration par parties (IPP)** — $\\displaystyle\\int_a^b u(x)v'(x)\\,dx = [u(x)v(x)]_a^b - \\int_a^b u'(x)v(x)\\,dx$. On choisit $u$ dérivable et $v'$ facile à intégrer.",
+        "**4. Changement de variable** — $\\displaystyle\\int_a^b f(\\varphi(t))\\varphi'(t)\\,dt = \\int_{\\varphi(a)}^{\\varphi(b)} f(x)\\,dx$ en posant $x=\\varphi(t)$. On change aussi les bornes.",
+        "**5. Intégrale de Wallis** — $\\displaystyle I_n = \\int_0^{\\pi/2} \\sin^n x\\,dx = \\int_0^{\\pi/2} \\cos^n x\\,dx$. Relation : $I_{n+2} = \\frac{n+1}{n+2} I_n$ avec $I_0=\\pi/2$, $I_1=1$. Équivalent : $I_n \\sim \\sqrt{\\frac{\\pi}{2n}}$.",
+        "**6. Primitives avancées usuelles** — $\\displaystyle\\int \\ln x\\,dx = x\\ln x-x$, $\\displaystyle\\int \\tan x\\,dx = -\\ln|\\cos x|$, $\\displaystyle\\int \\frac{dx}{x\\ln x} = \\ln|\\ln x|$, $\\displaystyle\\int x^n\\ln x\\,dx = \\frac{x^{n+1}}{n+1}\\bigl(\\ln x-\\frac1{n+1}\\bigr)$, $\\displaystyle\\int \\frac{(\\ln x)^2}{x}\\,dx = \\frac13(\\ln x)^3$, $\\displaystyle\\int \\frac{U'}{\\sqrt{U}}\\,dx = 2\\sqrt{U}$, $\\displaystyle\\int U'U^r\\,dx = \\frac{U^{r+1}}{r+1}$.",
+        "**7. Primitives trigonométriques avancées** — $\\displaystyle\\int \\cos(ax+b)\\,dx = \\frac1a\\sin(ax+b)$, $\\displaystyle\\int \\sin(ax+b)\\,dx = -\\frac1a\\cos(ax+b)$, $\\displaystyle\\int e^{ax}\\cos(bx)\\,dx = \\frac{e^{ax}}{a^2+b^2}\\bigl(a\\cos(bx)+b\\sin(bx)\\bigr)$, $\\displaystyle\\int e^{ax}\\sin(bx)\\,dx = \\frac{e^{ax}}{a^2+b^2}\\bigl(a\\sin(bx)-b\\cos(bx)\\bigr)$.",
+        "**8. Primitives de fonctions composées** — $\\displaystyle\\int U' e^{U}\\,dx = e^{U}$, $\\displaystyle\\int \\frac{U'}{U}\\,dx = \\ln|U|$, $\\displaystyle\\int U'\\sqrt{U}\\,dx = \\frac23 U\\sqrt{U}$."
+      ]
+    },
+    {
+      "title": "IV. Volume d'un solide de révolution",
+      "items": [
+        "**1. Volume autour de l'axe des $x$** — $\\displaystyle V(f) = \\pi\\int_a^b \\bigl(f(x)\\bigr)^2\\,dx$. Le solide est engendré par la rotation de la courbe $y=f(x)$ autour de l'axe $Ox$ entre $a$ et $b$."
+      ]
+    },
+    {
+      "title": "V. Équations différentielles",
+      "items": [
+        "**1. Équation du 1er ordre $y' = ay + b$** — Solution générale : $y(x) = ke^{ax} - \\dfrac{b}{a}$ ($a\\neq0$). La solution homogène ($y'=ay$) est $y(x)=ke^{ax}$. Condition initiale $y(x_0)=y_0$ détermine $k$.",
+        "**2. Équation du 2nd ordre $y'' + ay' + by = 0$** — Équation caractéristique : $r^2 + ar + b = 0$, discriminant $\\Delta$. Si $\\Delta>0$ : deux racines réelles $r_1,r_2$ → $y(x)=\\alpha e^{r_1x}+\\beta e^{r_2x}$. Si $\\Delta=0$ : racine double $r_0$ → $y(x)=(\\alpha x+\\beta)e^{r_0x}$. Si $\\Delta<0$ : racines complexes $p\\pm iq$ → $y(x)=(\\alpha\\cos(qx)+\\beta\\sin(qx))e^{px}$."
+      ]
+    },
+    {
+      "title": "III. Méthodes avancées",
+      "items": [
+        "**1. Intégrale de Riemann** — $\\displaystyle\\int_1^{+\\infty} \\frac{dx}{x^\\alpha}$ converge si $\\alpha>1$, diverge si $\\alpha\\le1$. $\\displaystyle\\int_0^1 \\frac{dx}{x^\\alpha}$ converge si $\\alpha<1$, diverge si $\\alpha\\ge1$.",
+        "**2. Fonction Gamma** — $\\displaystyle\\Gamma(n+1)=n!$ prolonge la factorielle aux réels : $\\displaystyle\\Gamma(x) = \\int_0^{+\\infty} t^{x-1}e^{-t}\\,dt$ pour $x>0$.",
+        "**3. Transformée de Laplace** — $\\displaystyle\\mathcal{L}\\{f\\}(p)=\\int_0^{+\\infty} f(t)e^{-pt}\\,dt$. Utile pour résoudre des équations différentielles."
+      ]
+    }
+  ]
+}

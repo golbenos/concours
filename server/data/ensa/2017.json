@@ -1,0 +1,211 @@
+{
+  "year": 2017,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "nombres complexes", "suites", "trigonométrie", "géométrie"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "$\\sqrt{9,8}\\left(\\frac{147}{375}\\right)^{-\\frac{4}{8}} =$",
+        "choices": [{ "label": "A", "fr": "$4$" }, { "label": "B", "fr": "$5$" }, { "label": "C", "fr": "$6$" }, { "label": "D", "fr": "$7$" }],
+        "correctIndex": 1,
+        "explanation_fr": "$\\sqrt{\\frac{49}{5}} \\times \\sqrt{\\frac{125}{49}} = \\sqrt{25}=5$.",
+        "topics": ["algèbre"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 2,
+        "question_fr": "$X = \\sqrt[3]{\\sqrt{5}+2} - \\sqrt[3]{\\sqrt{5}-2}$. En calculant $X^3$, $X =$",
+        "choices": [{ "label": "A", "fr": "$0$" }, { "label": "B", "fr": "$1$" }, { "label": "C", "fr": "$2$" }, { "label": "D", "fr": "$3$" }],
+        "correctIndex": 1,
+        "explanation_fr": "$a^3-b^3=4$, $ab=1$. $X^3=4-3X$ donc $X^3+3X-4=0$. $X=1$ racine.",
+        "topics": ["algèbre", "radicaux"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 3,
+        "question_fr": "$2\\text{Arctan}(1/3)+\\text{Arctan}(1/7) =$",
+        "choices": [{ "label": "A", "fr": "$\\pi/2$" }, { "label": "B", "fr": "$\\pi/3$" }, { "label": "C", "fr": "$\\pi/4$" }, { "label": "D", "fr": "$\\pi/6$" }],
+        "correctIndex": 2,
+        "explanation_fr": "$\\tan(2\\text{Arctan}(1/3))=3/4$. $\\tan(3/4+1/7)=1$, somme dans $]0,\\pi/2+\\pi/4[$ donc $\\pi/4$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 4,
+        "question_fr": "$\\lim_{n\\to+\\infty} \\frac{n-(-1)^n}{n+(-1)^n} =$",
+        "choices": [{ "label": "A", "fr": "$0$" }, { "label": "B", "fr": "$1$" }, { "label": "C", "fr": "$2$" }, { "label": "D", "fr": "$3$" }],
+        "correctIndex": 1,
+        "explanation_fr": "$\\frac{1-(-1)^n/n}{1+(-1)^n/n} \\to 1$.",
+        "topics": ["suites", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 5,
+        "question_fr": "$\\lim_{x\\to+\\infty} \\frac{x e^{-x}+x^2}{x-\\ln x} =$",
+        "choices": [{ "label": "A", "fr": "$0$" }, { "label": "B", "fr": "$1$" }, { "label": "C", "fr": "$+\\infty$" }, { "label": "D", "fr": "$-\\infty$" }],
+        "correctIndex": 2,
+        "explanation_fr": "$\\frac{x^2(e^{-x}/x+1)}{x(1-\\ln x/x)} \\sim x \\to +\\infty$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 6,
+        "question_fr": "$\\lim_{x\\to -1} \\frac{x^3+x^2-x-1}{x^3-3x-2} =$",
+        "choices": [{ "label": "A", "fr": "$1/2$" }, { "label": "B", "fr": "$1/4$" }, { "label": "C", "fr": "$2/3$" }, { "label": "D", "fr": "$3/2$" }],
+        "correctIndex": 2,
+        "explanation_fr": "$(x-1)(x+1)^2/((x-2)(x+1)^2) = (x-1)/(x-2) \\to 2/3$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 7,
+        "question_fr": "$f(x)=|x|$, alors :",
+        "choices": [{ "label": "A", "fr": "$f$ n'est pas dérivable en $0$" }, { "label": "B", "fr": "$f'(0)=0$" }, { "label": "C", "fr": "$f'(0)=1$" }, { "label": "D", "fr": "$f'(0)=-1$" }],
+        "correctIndex": 0,
+        "explanation_fr": "Dérivée à gauche $-1$, à droite $1$, pas dérivable en $0$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 8,
+        "question_fr": "$\\int_0^{\\pi/2} \\cos^7 x\\,dx =$",
+        "choices": [{ "label": "A", "fr": "$1/\\pi$" }, { "label": "B", "fr": "$0$" }, { "label": "C", "fr": "$16/35$" }, { "label": "D", "fr": "$16\\pi/35$" }],
+        "correctIndex": 2,
+        "explanation_fr": "$u=\\sin x$, $\\int_0^1 (1-u^2)^3 du = [u-u^3+3u^5/5-u^7/7]_0^1 = 16/35$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 9,
+        "question_fr": "$\\int_{1/3}^1 \\frac{(x-x^3)^{1/3}}{x^4}dx =$",
+        "choices": [{ "label": "A", "fr": "$2$" }, { "label": "B", "fr": "$5$" }, { "label": "C", "fr": "$6$" }, { "label": "D", "fr": "$7$" }],
+        "correctIndex": 2,
+        "explanation_fr": "$u=1/x^2-1$, $du=-2dx/x^3$. $\\frac12\\int_0^8 u^{1/3}du = \\frac12\\cdot\\frac34\\cdot16=6$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 10,
+        "question_fr": "$\\int_0^1 \\frac{x e^x}{(x+1)^2}dx =$",
+        "choices": [{ "label": "A", "fr": "$e/2-1$" }, { "label": "B", "fr": "$e^{-2}+1$" }, { "label": "C", "fr": "$e^{-2}$" }, { "label": "D", "fr": "$e^2$" }],
+        "correctIndex": 0,
+        "explanation_fr": "$(e^x/(x+1))' = xe^x/(x+1)^2$. $[e^x/(x+1)]_0^1 = e/2-1$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 11,
+        "question_fr": "Représentation paramétrique de la droite passant par $A(-1,2,-3)$ orthogonale au plan $2x-3y+4z+1=0$ :",
+        "choices": [
+          { "label": "A", "fr": "$\\begin{cases}x=3-2t\\\\ y=2-t\\\\ z=-3+t\\end{cases}$" },
+          { "label": "B", "fr": "$\\begin{cases}x=1+2t\\\\ y=-3-2t\\\\ z=-3-4t\\end{cases}$" },
+          { "label": "C", "fr": "$\\begin{cases}x=-3+2t\\\\ y=2-t\\\\ z=-3+t\\end{cases}$" },
+          { "label": "D", "fr": "$\\begin{cases}x=-1+2t\\\\ y=2-3t\\\\ z=-3+4t\\end{cases}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Vecteur directeur $\\vec{n}=(2,-3,4)$. Point $A(-1,2,-3)$. Option D.",
+        "topics": ["géométrie dans l'espace"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 12,
+        "question_fr": "Projeté orthogonal de $A(-1,3,1)$ sur $(D): x=-1+2t,y=2-2t,z=3+3t$ :",
+        "choices": [
+          { "label": "A", "fr": "$(-33/17,50/17,27/17)$" },
+          { "label": "B", "fr": "$(1/13,12/13,60/13)$" },
+          { "label": "C", "fr": "$(-1/17,18/17,75/17)$" },
+          { "label": "D", "fr": "$(-1/17,18/17,-75/17)$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\vec{AH}\\cdot\\vec{u}=0$ donne $t=-8/17$. $H(-33/17,50/17,27/17)$.",
+        "topics": ["géométrie dans l'espace"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 13,
+        "question_fr": "Intersection de la droite $(1,2,3)+t(3,2,1)$ avec $(xOy)$ :",
+        "choices": [{ "label": "A", "fr": "$(4,4,4)$" }, { "label": "B", "fr": "$(-5,-2,1)$" }, { "label": "C", "fr": "$(-8,-4,0)$" }, { "label": "D", "fr": "$(4,4,0)$" }],
+        "correctIndex": 2,
+        "explanation_fr": "$z=3+t=0 \\Rightarrow t=-3$. $B(-8,-4,0)$.",
+        "topics": ["géométrie dans l'espace"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 14,
+        "question_fr": "Probabilité que le coût du repas soit 150 DH (problème des billets) :",
+        "choices": [{ "label": "A", "fr": "$11/32$" }, { "label": "B", "fr": "$10/32$" }, { "label": "C", "fr": "$9/32$" }, { "label": "D", "fr": "$12/32$" }],
+        "correctIndex": 1,
+        "explanation_fr": "Arbre de probabilités : somme des chemins où le total est 150 DH = $10/32$.",
+        "topics": ["probabilités"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 15,
+        "question_fr": "Probabilité que les deux amis paient équitablement :",
+        "choices": [{ "label": "A", "fr": "$6/32$" }, { "label": "B", "fr": "$9/32$" }, { "label": "C", "fr": "$15/32$" }, { "label": "D", "fr": "$11/32$" }],
+        "correctIndex": 0,
+        "explanation_fr": "Payer équitablement = chacun paie 50 DH = total 100 DH. Probabilité $6/32$.",
+        "topics": ["probabilités"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 16,
+        "question_fr": "Probabilité que l'un des deux amis mange gratuitement :",
+        "choices": [{ "label": "A", "fr": "$19/32$" }, { "label": "B", "fr": "$16/32$" }, { "label": "C", "fr": "$22/32$" }, { "label": "D", "fr": "$4/32$" }],
+        "correctIndex": 2,
+        "explanation_fr": "Somme des configurations où un seul ami paie = $22/32$.",
+        "topics": ["probabilités"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 17,
+        "question_fr": "Forme algébrique de $Z = \\frac{\\sqrt{2}+i\\sqrt{6}}{2+2i}$ :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\sqrt{2}}{4}(1+\\sqrt{3}+i\\sqrt{3}-i)$" },
+          { "label": "B", "fr": "$\\frac{\\sqrt{2}}{4}(1-\\sqrt{3}+i\\sqrt{3}-i)$" },
+          { "label": "C", "fr": "$\\frac{\\sqrt{2}}{4}(1+i)$" },
+          { "label": "D", "fr": "$\\frac{\\sqrt{2}}{4}(1-i)$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$Z = \\frac{(\\sqrt{2}+i\\sqrt{6})(2-2i)}{8} = \\frac{\\sqrt{2}}{4}(1+\\sqrt{3}+i\\sqrt{3}-i)$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 18,
+        "question_fr": "Module de $Z$ (même $Z$ que Q17) :",
+        "choices": [{ "label": "A", "fr": "$4$" }, { "label": "B", "fr": "$2$" }, { "label": "C", "fr": "$3$" }, { "label": "D", "fr": "$1$" }],
+        "correctIndex": 3,
+        "explanation_fr": "$|Z| = |z_1|/|z_2| = \\sqrt{8}/\\sqrt{8} = 1$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 19,
+        "question_fr": "Argument de $Z$ (même $Z$) :",
+        "choices": [{ "label": "A", "fr": "$\\pi/12$" }, { "label": "B", "fr": "$\\pi/3$" }, { "label": "C", "fr": "$\\pi/6$" }, { "label": "D", "fr": "$\\pi/2$" }],
+        "correctIndex": 0,
+        "explanation_fr": "$\\arg(z_1)=\\pi/3$, $\\arg(z_2)=\\pi/4$. $\\arg(Z)=\\pi/3-\\pi/4=\\pi/12$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 20,
+        "question_fr": "$Z^{2017}$ (même $Z$) vaut :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\sqrt{2}}{4}(1+\\sqrt{3}+i\\sqrt{3}-i)$" },
+          { "label": "B", "fr": "$\\frac{\\sqrt{2}}{4}(-\\sqrt{3}+i\\sqrt{3})$" },
+          { "label": "C", "fr": "$\\frac{\\sqrt{2}}{4}(1+i)$" },
+          { "label": "D", "fr": "$\\frac{\\sqrt{2}}{4}(1-i)$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$Z=e^{i\\pi/12}$. $Z^{2017}=e^{i2017\\pi/12}=e^{i(168\\pi+\\pi/12)}=Z$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "moyen"
+      }
+    ]
+  }]
+}

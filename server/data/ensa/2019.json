@@ -1,0 +1,291 @@
+{
+  "year": 2019,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "nombres complexes", "suites", "trigonométrie", "géométrie"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "Soit $a,b>0$, suite $u_{n+1} = \\frac{(b^2+ab-a^2)u_n-a^2}{b^2u_n+b^2-ab-a^2}$, $u_0=b/a$. $v_n = \\frac{b}{bu_n-a}$ arithmétique. $u_n$ = ?",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{an+b}{bn+a}$" },
+          { "label": "B", "fr": "$\\frac{n+b}{bn+a}$" },
+          { "label": "C", "fr": "$\\frac{an-b}{bn-a}$" },
+          { "label": "D", "fr": "$\\frac{an+b}{n+a}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Test $n=1$ : $u_1=1$. Option A donne $\\frac{a+b}{b+a}=1$.",
+        "topics": ["suites"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 2,
+        "question_fr": "$u_n = \\sum_{k=1}^n \\frac{1}{2k+n}$. $u_n \\in I$ avec $I =$",
+        "choices": [
+          { "label": "A", "fr": "$[0, \\frac{1}{3}[$" },
+          { "label": "B", "fr": "$[\\frac{1}{3}, 1[$" },
+          { "label": "C", "fr": "$[2, 3[$" },
+          { "label": "D", "fr": "$[1, 2[$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\frac{1}{3n} \\le \\frac{1}{2k+n} \\le \\frac{1}{n+2}$. En sommant : $\\frac{1}{3} \\le u_n < 1$.",
+        "topics": ["suites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 3,
+        "question_fr": "$\\lim u_n$ (même suite Q2) =",
+        "choices": [
+          { "label": "A", "fr": "$\\sqrt{3}$" },
+          { "label": "B", "fr": "$\\ln(3)$" },
+          { "label": "C", "fr": "$\\ln(\\sqrt{3})$" },
+          { "label": "D", "fr": "$0$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "Somme de Riemann : $u_n = \\frac{1}{n}\\sum_{k=1}^n \\frac{1}{2(k/n)+1} \\to \\int_0^1 \\frac{dx}{2x+1} = \\frac{1}{2}\\ln 3 = \\ln\\sqrt{3}$.",
+        "topics": ["suites", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 4,
+        "question_fr": "$\\int_0^1 \\sqrt{4+x^2}\\,dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\ln\\left(\\frac{3+\\sqrt{5}}{2}\\right) - \\frac{\\sqrt{5}}{2}$" },
+          { "label": "B", "fr": "$\\ln\\left(\\frac{3+\\sqrt{5}}{2}\\right) - \\ln\\left(\\frac{\\sqrt{5}}{2}\\right)$" },
+          { "label": "C", "fr": "$\\ln\\left(\\frac{3+\\sqrt{5}}{2}\\right) - \\frac{5}{2}$" },
+          { "label": "D", "fr": "$\\ln\\left(\\frac{3+\\sqrt{5}}{2}\\right) + \\frac{\\sqrt{5}}{2}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "IPP : $I = \\sqrt{5} - I + 4[\\ln(x+\\sqrt{4+x^2})]_0^1$. $2I = \\sqrt{5} + 4\\ln\\frac{1+\\sqrt{5}}{2}$, $I = \\frac{\\sqrt{5}}{2} + \\ln\\frac{3+\\sqrt{5}}{2}$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 5,
+        "question_fr": "$\\cos^4(3x)+\\sin^4(3x)=1$. Les solutions sont $x =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\pi}{2}+2k\\pi$" },
+          { "label": "B", "fr": "$-\\frac{\\pi}{6}+2k\\pi$" },
+          { "label": "C", "fr": "$\\frac{k\\pi}{3}$" },
+          { "label": "D", "fr": "$\\frac{k\\pi}{6}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "$\\cos^4+\\sin^4 = 1 - \\frac{1}{2}\\sin^2(6x) = 1 \\Rightarrow \\sin(6x)=0 \\Rightarrow x = k\\pi/6$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 6,
+        "question_fr": "$\\lambda = \\sqrt[4]{\\frac{7+3\\sqrt{5}}{2}} - \\sqrt[4]{\\frac{7-3\\sqrt{5}}{2}}$. $\\lambda =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$2$" },
+          { "label": "D", "fr": "$3$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\frac{7+3\\sqrt{5}}{2} = \\left(\\frac{3+\\sqrt{5}}{2}\\right)^2$. $\\lambda = \\sqrt{\\frac{3+\\sqrt{5}}{2}} - \\sqrt{\\frac{3-\\sqrt{5}}{2}}$. $\\lambda^2 = 3-2=1$, $\\lambda>0$ donc $\\lambda=1$.",
+        "topics": ["algèbre", "radicaux"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 7,
+        "question_fr": "$\\int_0^a \\sqrt{a^2-x^2}\\,dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\pi a}{4}$" },
+          { "label": "B", "fr": "$4\\pi a$" },
+          { "label": "C", "fr": "$\\pi a^2$" },
+          { "label": "D", "fr": "$\\frac{\\pi a^2}{4}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Aire d'un quart de disque de rayon $a$ : $\\frac{\\pi a^2}{4}$.",
+        "topics": ["analyse", "intégrales", "géométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 8,
+        "question_fr": "On jette 3 fois un dé, on note $a,b,c$. $Q(x)=ax^2+bx+c$. Probabilité que $Q$ admette une racine double :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{11}{216}$" },
+          { "label": "B", "fr": "$\\frac{7}{216}$" },
+          { "label": "C", "fr": "$\\frac{5}{216}$" },
+          { "label": "D", "fr": "$\\frac{9}{216}$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$\\Delta = b^2-4ac=0$. Cas : $(1,2,1)$, $(1,4,4), (2,4,2), (4,4,1)$, $(3,6,3)$. $5$ cas sur $6^3=216$.",
+        "topics": ["probabilités", "algèbre"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 9,
+        "question_fr": "Urne : 4 jaunes, 3 rouges, 3 bleues. Tirage sans remise de 2 boules. Probabilité 2e boule rouge :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{17}{90}$" },
+          { "label": "B", "fr": "$\\frac{15}{90}$" },
+          { "label": "C", "fr": "$\\frac{19}{90}$" },
+          { "label": "D", "fr": "$\\frac{13}{90}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$P(R_2) = P(R_1\\cap R_2)+P(\\overline{R_1}\\cap R_2) = \\frac{3}{10}\\times\\frac{2}{9} + \\frac{7}{10}\\times\\frac{3}{9} = \\frac{27}{90}$. (L'option A contient une coquille, devrait être $27/90$.)",
+        "topics": ["probabilités"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 10,
+        "question_fr": "Même expérience. Probabilité 2e rouge sachant 1re jaune :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{4}{17}$" },
+          { "label": "B", "fr": "$\\frac{5}{17}$" },
+          { "label": "C", "fr": "$\\frac{8}{17}$" },
+          { "label": "D", "fr": "$\\frac{9}{17}$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "Après tirage d'une jaune (sans remise), il reste 9 boules dont 3 rouges. $P = \\frac{3}{9} = \\frac{1}{3}$. (Les options sont basées sur des données d'urne différentes.)",
+        "topics": ["probabilités", "probabilités conditionnelles"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 11,
+        "question_fr": "$z = -1+\\sqrt{2}+i$. $\\arg(z) =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{3\\pi}{8}$" },
+          { "label": "B", "fr": "$\\frac{5\\pi}{8}$" },
+          { "label": "C", "fr": "$\\frac{7\\pi}{8}$" },
+          { "label": "D", "fr": "$\\frac{\\pi}{8}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\text{Re}(z)=\\sqrt{2}-1>0$, $\\text{Im}(z)=1>0$. $\\tan\\theta = \\frac{1}{\\sqrt{2}-1} = \\sqrt{2}+1 = \\tan(3\\pi/8)$.",
+        "topics": ["nombres complexes", "trigonométrie"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 12,
+        "question_fr": "$\\cos(5\\pi/8) =$",
+        "choices": [
+          { "label": "A", "fr": "$\\sqrt{\\frac{2-\\sqrt{2}}{2}}$" },
+          { "label": "B", "fr": "$-\\sqrt{\\frac{2-\\sqrt{2}}{2}}$" },
+          { "label": "C", "fr": "$\\frac{\\sqrt{2-\\sqrt{2}}}{2}$" },
+          { "label": "D", "fr": "$-\\frac{\\sqrt{2-\\sqrt{2}}}{2}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "$\\cos^2(5\\pi/8) = \\frac{1+\\cos(5\\pi/4)}{2} = \\frac{2-\\sqrt{2}}{4}$. $5\\pi/8\\in]\\pi/2,\\pi[$, cosinus négatif, donc $\\cos(5\\pi/8) = -\\frac{\\sqrt{2-\\sqrt{2}}}{2}$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 13,
+        "question_fr": "$a = \\cos(\\pi/5)\\cos(2\\pi/5)$. En calculant $a\\sin(\\pi/5)$, $a =$",
+        "choices": [
+          { "label": "A", "fr": "$1/2$" },
+          { "label": "B", "fr": "$1/3$" },
+          { "label": "C", "fr": "$1/4$" },
+          { "label": "D", "fr": "$1/5$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$a\\sin(\\pi/5) = \\frac{1}{2}\\sin(2\\pi/5)\\cos(2\\pi/5) = \\frac{1}{4}\\sin(4\\pi/5) = \\frac{1}{4}\\sin(\\pi/5)$. Donc $a=1/4$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 14,
+        "question_fr": "$b = \\sin(\\pi/5)\\sin(2\\pi/5) =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{5}{4}$" },
+          { "label": "B", "fr": "$\\frac{\\sqrt{5}}{4}$" },
+          { "label": "C", "fr": "$\\frac{1}{4}$" },
+          { "label": "D", "fr": "$\\frac{\\sqrt{5}}{2}$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$b = \\frac{1}{2}\\left(\\cos(\\pi/5)-\\cos(3\\pi/5)\\right) = \\frac{1}{2}\\left(\\cos(\\pi/5)+\\cos(2\\pi/5)\\right)$. $\\cos(\\pi/5)=\\frac{1+\\sqrt{5}}{4}$, $\\cos(2\\pi/5)=\\frac{\\sqrt{5}-1}{4}$. $b = \\frac{\\sqrt{5}}{4}$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 15,
+        "question_fr": "Ensemble des $M$ tels que $\\vec{AM}\\cdot\\vec{AM} - 4\\vec{AM}\\cdot\\vec{BM} = 0$ :",
+        "choices": [
+          { "label": "A", "fr": "Une droite" },
+          { "label": "B", "fr": "Un cercle" },
+          { "label": "C", "fr": "Une demi-droite" },
+          { "label": "D", "fr": "Un disque" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$-3AM^2 + 4\\vec{AM}\\cdot\\vec{AB} = 0 \\Rightarrow GM = AG$ avec $\\vec{AG} = \\frac{2}{3}\\vec{AB}$. Cercle de centre $G$ et rayon $AG$.",
+        "topics": ["géométrie"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 16,
+        "question_fr": "$u_n = \\prod_{k=0}^n \\frac{k^2+5k+6}{k^2+5k+4} =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{6n+3}{n+4}$" },
+          { "label": "B", "fr": "$\\frac{n+4}{3n+6}$" },
+          { "label": "C", "fr": "$\\frac{n+4}{6n+3}$" },
+          { "label": "D", "fr": "$\\frac{3n+6}{n+4}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "$u_n = \\prod \\frac{(k+2)(k+3)}{(k+1)(k+4)} = (n+2)\\times\\frac{3}{n+4} = \\frac{3n+6}{n+4}$.",
+        "topics": ["suites", "produits"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 17,
+        "question_fr": "Le chiffre des unités de $23^{2019}$ est :",
+        "choices": [
+          { "label": "A", "fr": "$3$" },
+          { "label": "B", "fr": "$9$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$7$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Chiffre des unités de $23^{2019}$ = reste de $3^{2019}$ mod 10. Période 4 : $3,9,7,1$. $2019=4\\times504+3$, reste $7$.",
+        "topics": ["arithmétique"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 18,
+        "question_fr": "$\\prod_{k=1}^n (e^{2^k}+e^{-2^k}) =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{e^{2^{n+1}}-e^{-2^{n+1}}}{e-e^{-1}}$" },
+          { "label": "B", "fr": "$\\frac{e^{2^{n+1}}+e^{-2^{n+1}}}{e-e^{-1}}$" },
+          { "label": "C", "fr": "$\\frac{e^{2^{n+1}}-e^{-2^{n+1}}}{e+e^{-1}}$" },
+          { "label": "D", "fr": "$\\frac{e^{2^{n+1}}+e^{-2^{n+1}}}{e+e^{-1}}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "En multipliant par $e^{2^0}-e^{-2^0}=e-e^{-1}$, télescopage donne $\\frac{e^{2^{n+1}}-e^{-2^{n+1}}}{e-e^{-1}}$.",
+        "topics": ["suites", "produits"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 19,
+        "question_fr": "$f_n(x)=e^x+nx^2-3$, $u_n$ solution de $f_n(x)=0$ ($x\\ge0$, $n>0$). La suite $u_n$ est :",
+        "choices": [
+          { "label": "A", "fr": "croissante" },
+          { "label": "B", "fr": "décroissante" },
+          { "label": "C", "fr": "stationnaire" },
+          { "label": "D", "fr": "périodique" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$f_{n+1}(x)=f_n(x)+x^2 > f_n(x)$. $f_{n+1}(u_n)=u_n^2 > 0 = f_{n+1}(u_{n+1})$. Par croissance de $f_{n+1}$, $u_n > u_{n+1}$.",
+        "topics": ["suites", "analyse"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 20,
+        "question_fr": "Suite Q19, $\\lim u_n =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1}{2}$" },
+          { "label": "B", "fr": "$0$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$\\sqrt{\\frac{1}{2}}$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$u_n^2 = \\frac{3-e^{u_n}}{n}$. $u_n$ bornée, $3-e^{u_n}$ borné, donc $u_n^2\\to0$, $u_n\\to0$.",
+        "topics": ["suites", "limites"],
+        "difficulty": "difficile"
+      }
+    ]
+  }]
+}

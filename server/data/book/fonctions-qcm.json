@@ -1,0 +1,1048 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "$\\arctan(1/2) + \\arctan(1/3) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{3}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi}{2}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Posons $a = \\arctan(1/2)+\\arctan(1/3)$. On a $0<a<\\pi/2$ et $\\tan a = \\frac{1/2+1/3}{1-1/6} = 1$, donc $a = \\pi/4$."
+    },
+    {
+      "id": 2,
+      "question_fr": "On pose $a = \\sqrt{\\frac{7+3\\sqrt{5}}{2}} + \\sqrt{\\frac{7-3\\sqrt{5}}{2}}$. Alors $a =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$4$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$2$"
+        },
+        {
+          "label": "D",
+          "fr": "$3$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$a>0$. $a^2 = 7 + 2\\sqrt{\\frac{49-45}{4}} = 7+2 = 9$, donc $a = 3$."
+    },
+    {
+      "id": 3,
+      "question_fr": "$\\displaystyle\\lim_{x\\to 0^+} \\frac{\\ln(1+x)-x}{x^2} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\frac{1}{2}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Par L'Hôpital : $\\lim \\frac{1/(1+x)-1}{2x} = \\lim \\frac{-1}{2(1+x)} = -\\frac{1}{2}$."
+    },
+    {
+      "id": 4,
+      "question_fr": "$\\displaystyle\\lim_{x\\to 0^+} (e^{-5/x} - e^{-2/x})\\ln x =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Posons $t=1/x\\to+\\infty$. La limite devient $\\lim_{t\\to+\\infty} (e^{-5t}-e^{-2t})(-\\ln t) = 0$ car l'exponentielle l'emporte sur le logarithme."
+    },
+    {
+      "id": 5,
+      "question_fr": "$\\displaystyle\\lim_{x\\to 0^+} \\frac{1}{x} \\arctan\\left(\\frac{\\sqrt{x}}{1+x}\\right) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Quand $x\\to0^+$, $\\arctan(\\sqrt{x}/(1+x)) \\sim \\sqrt{x}$, donc $\\frac{1}{x}\\cdot\\sqrt{x} = \\frac{1}{\\sqrt{x}} \\to +\\infty$."
+    },
+    {
+      "id": 6,
+      "question_fr": "ABCD est un carré de côté $1$. On place $E$ sur $[AB]$ et $F$ sur $[BC]$ tels que $BE = CF = x$. La valeur de $x$ pour laquelle l'aire du triangle $EFD$ est minimale est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{3}{4}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$S(x) = 1 - x + \\frac{x^2}{2}.$ Minimum en $x = 1/2$."
+    },
+    {
+      "id": 7,
+      "question_fr": "Soit $f(x) = \\frac{x\\ln x}{1+x}$ sur $]0,+\\infty[$. Alors $f'(x) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1+x+\\ln x}{(x+1)^2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1+2x+\\ln x}{(x+1)^2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{1+x+2\\ln x}{(x+1)^2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{1+x-\\ln x}{(x+1)^2}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f'(x) = \\frac{(\\ln x+1)(1+x)-x\\ln x}{(1+x)^2} = \\frac{1+x+\\ln x}{(x+1)^2}$."
+    },
+    {
+      "id": 8,
+      "question_fr": "$\\displaystyle\\lim_{x\\to 0} \\frac{\\ln(\\cos 2x)}{\\ln(\\cos 3x)} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{4}{9}$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\ln(\\cos ax) \\sim -\\frac{a^2 x^2}{2}$, donc la limite est $\\frac{4}{9}$."
+    },
+    {
+      "id": 9,
+      "question_fr": "Soit l'équation $(E): \\ln^5(x) + \\ln x + 2e^x - 3 = 0$ sur $]0,+\\infty[$. Alors dans $]0,+\\infty[$, (E) admet :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Deux solutions"
+        },
+        {
+          "label": "B",
+          "fr": "Une unique solution"
+        },
+        {
+          "label": "C",
+          "fr": "Trois solutions"
+        },
+        {
+          "label": "D",
+          "fr": "N'admet pas de solution"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$f(x)=\\ln^5x+\\ln x+2e^x-3$ strictement croissante ($f'(x)>0$). $\\lim_{0^+}f=-\\infty$, $\\lim_{+\\infty}f=+\\infty$. Par TVI, une unique solution."
+    },
+    {
+      "id": 10,
+      "question_fr": "Soit $n \\in \\mathbb{N}^*$. $\\displaystyle\\lim_{x\\to 1} \\frac{x + x^2 + \\ldots + x^n - n}{x-1} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$n$"
+        },
+        {
+          "label": "B",
+          "fr": "$2n$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{n(n+1)}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{n(n-1)}{2}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Par L'Hôpital : $\\lim_{x\\to 1} \\frac{1+2x+\\ldots+nx^{n-1}}{1} = 1+2+\\ldots+n = \\frac{n(n+1)}{2}$."
+    },
+    {
+      "id": 11,
+      "question_fr": "ABC un triangle rectangle en $A$ avec $BC = 8$ cm. Posons $AC = x$, et notons $P(x)$ le périmètre de $ABC$. Le périmètre maximal est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$8 + \\sqrt{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$8 - 4\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$8 + 2\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$8 + 8\\sqrt{2}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$P(x) = \\sqrt{64-x^2}+x+8$. $P'(x)=0 \\Rightarrow x=4\\sqrt{2}$. $P_{\\max}=4\\sqrt{2}+4\\sqrt{2}+8 = 8+8\\sqrt{2}$."
+    },
+    {
+      "id": 12,
+      "question_fr": "Soit $n\\in\\mathbb{N}^*$. $\\displaystyle\\lim_{x\\to 0} \\frac{1-\\cos^n x}{1-\\cos^2 x} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{n}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{n(n+1)}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$n$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\frac{1-\\cos^n x}{1-\\cos^2 x} = \\frac{(1-\\cos x)(1+\\cos x+\\ldots+\\cos^{n-1}x)}{(1-\\cos x)(1+\\cos x)} \\to \\frac{n}{2}$."
+    },
+    {
+      "id": 13,
+      "question_fr": "Soit $f$ définie sur $\\mathbb{R}$ par $f(2x-1) = x^2+3x$. Alors $f(1)+f'(1) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{11}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$4$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{13}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{15}{2}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Pour $x=1$, $f(1)=1^2+3=4$. En dérivant : $2f'(2x-1)=2x+3$. Pour $x=1$ : $2f'(1)=5 \\Rightarrow f'(1)=5/2$. Somme $=4+5/2=13/2$."
+    },
+    {
+      "id": 14,
+      "question_fr": "$\\displaystyle\\lim_{x\\to+\\infty} \\sqrt{x+\\sqrt{x+\\sqrt{x}}} - \\sqrt{x+\\sqrt{x}} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "En multipliant par le conjugué, la différence tend vers $0$."
+    },
+    {
+      "id": 15,
+      "question_fr": "Soit $f(x) = 1+x+x^2+\\ldots+x^n$ et $(\\mathcal{C})$ sa courbe. L'équation de la tangente à $(\\mathcal{C})$ au point d'abscisse $1$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y = \\frac{n(n+1)}{2}x - \\frac{(n-2)(n+1)}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$y = \\frac{n(n-1)}{2}x - \\frac{(n-2)(n+1)}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$y = \\frac{n(n+1)}{2}x + \\frac{(n-2)(n+1)}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$y = \\frac{n(n-1)}{2}x - \\frac{n^2-1}{2}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f(1)=n+1$, $f'(1)=1+2+\\ldots+n = n(n+1)/2$. Tangente : $y = \\frac{n(n+1)}{2}(x-1)+(n+1) = \\frac{n(n+1)}{2}x - \\frac{(n-2)(n+1)}{2}$."
+    },
+    {
+      "id": 16,
+      "question_fr": "$\\displaystyle\\lim_{x\\to 0^+} x^3 (\\ln x)^5 =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Limite classique : $\\lim_{x\\to 0^+} x^{\\alpha}(\\ln x)^{\\beta} = 0$ pour tout $\\alpha>0$ et $\\beta>0$."
+    },
+    {
+      "id": 17,
+      "question_fr": "$\\displaystyle\\lim_{x\\to 0} \\frac{e^{ax} - e^{bx}}{e^x - 1} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$a-b$"
+        },
+        {
+          "label": "B",
+          "fr": "$b-a$"
+        },
+        {
+          "label": "C",
+          "fr": "$e^{a-b}$"
+        },
+        {
+          "label": "D",
+          "fr": "$2a-b$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Par L'Hôpital : $\\lim_{x\\to 0} \\frac{ae^{ax}-be^{bx}}{e^x} = a-b$."
+    },
+    {
+      "id": 18,
+      "question_fr": "Soit $f$ définie par $f(x)=\\frac{3x^2-4x-4}{x^2-x-2}$ pour $x>2$, $f(x)=\\frac{\\sqrt{x^2+5}-3}{\\sqrt{x+2}-2}$ pour $x<2$, et $f(2)=1$. L'ensemble de définition de $f$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$]2,+\\infty[$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\mathbb{R}$"
+        },
+        {
+          "label": "C",
+          "fr": "$[-2,+\\infty[$"
+        },
+        {
+          "label": "D",
+          "fr": "$]-1,2[\\cup]2,+\\infty[$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Pour $x>2$, OK (dénominateur $x^2-x-2=(x-2)(x+1)\\ne0$). Pour $x<2$, $x+2\\ge0$ et $\\sqrt{x+2}\\ne2$, donc $x\\ge-2$. Avec $f(2)$ défini, $D_f=[-2,+\\infty[$."
+    },
+    {
+      "id": 19,
+      "question_fr": "Soit $g(x) = \\ln\\left(1+\\frac{1}{x}\\right) - \\frac{1}{x+1}$ sur $]0,+\\infty[$. Alors $g'(x) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\frac{1}{x(x+1)^2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\frac{1}{(x-1)^2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\frac{1}{x(x-1)^2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\frac{1}{(x+1)^2}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$g'(x) = \\frac{-1/x^2}{1+1/x} + \\frac{1}{(x+1)^2} = -\\frac{1}{x(x+1)} + \\frac{1}{(x+1)^2} = -\\frac{1}{x(x+1)^2}$."
+    },
+    {
+      "id": 20,
+      "question_fr": "$\\displaystyle\\lim_{x\\to+\\infty} x\\ln\\left(1+\\frac{1}{x}\\right) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Posons $X=1/x\\to0^+$. $\\lim_{X\\to0} \\frac{\\ln(1+X)}{X} = 1$."
+    },
+    {
+      "id": 21,
+      "question_fr": "$\\displaystyle\\lim_{x\\to+\\infty} \\ln(x^2+1) - x =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\ln(x^2+1)-x = x\\left(\\frac{\\ln(x^2+1)}{x}-1\\right) \\to -\\infty$ car $\\frac{\\ln(x^2+1)}{x}\\to0$."
+    },
+    {
+      "id": 22,
+      "question_fr": "$\\displaystyle\\lim_{x\\to+\\infty} x\\arctan(\\sqrt{x}) - \\frac{\\pi}{2}x =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\frac{\\pi}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\lim x(\\arctan\\sqrt{x}-\\pi/2) = \\lim -x\\arctan(1/\\sqrt{x})$. Posons $X=1/\\sqrt{x}\\to0^+$ : $\\lim -\\frac{1}{X^2}\\arctan X \\sim -\\frac{1}{X} \\to -\\infty$."
+    },
+    {
+      "id": 23,
+      "question_fr": "Le système $(S) : \\begin{cases} \\ln x \\cdot \\ln y = -10 \\\\ \\ln x + \\ln y = 3 \\end{cases}$ a pour ensemble de solutions :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\{(e^{-2}, e^5)\\}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\{(e^2, e^{-5})\\}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\{(e^{-2}, e^5), (e^5, e^{-2})\\}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\{(e^{-3}, e^2), (e^3, e^{-2})\\}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Posons $X=\\ln x$, $Y=\\ln y$. $X+Y=3$, $XY=-10$. Racines de $t^2-3t-10=0$ : $t=5$ ou $t=-2$. Donc $(X,Y)=(5,-2)$ ou $(-2,5)$."
+    },
+    {
+      "id": 24,
+      "question_fr": "Soit $f(x) = (\\ln x - 1)e^{x-1}$ sur $]0,+\\infty[$. Alors $f''(x) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{(2x + x^2\\ln x)e^{x-1}}{x^3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{(2x + x^2\\ln x - x^2 - 1)e^{x+1}}{x^2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{(2x + x^2\\ln x)e^{x-1}}{x^3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{(2x + x^2\\ln x - x^2 - 1)e^{x-1}}{x^2}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$f'(x) = e^{x-1}(1/x + \\ln x - 1)$. $f''(x) = e^{x-1}(\\ln x - 1 + 2/x - 1/x^2) = e^{x-1}(x^2\\ln x - x^2 + 2x - 1)/x^2$."
+    },
+    {
+      "id": 25,
+      "question_fr": "$\\displaystyle\\lim_{x\\to+\\infty} x\\left(e^{\\sqrt{x^2+1}-x} - 1\\right) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$t = \\sqrt{x^2+1}-x = 1/(\\sqrt{x^2+1}+x)\\to0^+$. $x = (1-t^2)/(2t)$. La limite devient $\\lim_{t\\to0^+} \\frac{1-t^2}{2}\\cdot\\frac{e^t-1}{t} = \\frac{1}{2}$."
+    },
+    {
+      "id": 26,
+      "question_fr": "La courbe de $f(x) = \\frac{\\ln(x+1)}{x+e^x}$ admet au point $(0,0)$ une tangente d'équation :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y = x-1$"
+        },
+        {
+          "label": "B",
+          "fr": "$y = 2x$"
+        },
+        {
+          "label": "C",
+          "fr": "$y = x$"
+        },
+        {
+          "label": "D",
+          "fr": "$y = x+1$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$f(0)=0$. $f'(0)=\\lim_{x\\to0}\\frac{f(x)}{x} = \\lim\\frac{\\ln(x+1)}{x(x+e^x)} = \\lim\\frac{x}{x(x+1)} = 1$. Tangente : $y=x$."
+    },
+    {
+      "id": 27,
+      "question_fr": "Soit $a>0$. $\\displaystyle\\lim_{x\\to a^+} \\frac{\\sqrt{x} - \\sqrt{a} - \\sqrt{x-a}}{\\sqrt{x^2-a^2}} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\frac{1}{\\sqrt{a}}$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\frac{1}{\\sqrt{2a}}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{1}{\\sqrt{a}}$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\frac{2}{\\sqrt{a}}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Posons $h=x-a\\to0^+$. Numérateur $\\sqrt{a+h}-\\sqrt{a}-\\sqrt{h} \\sim \\frac{h}{2\\sqrt{a}}-\\sqrt{h}$. Dénominateur $\\sim\\sqrt{2ah}$. Le terme $-\\sqrt{h}/\\sqrt{2ah} = -1/\\sqrt{2a}$ domine."
+    },
+    {
+      "id": 28,
+      "question_fr": "Soit $F$ la primitive de $f(x)=e^{x^2}$ sur $\\mathbb{R}$ s'annulant en $0$. La valeur de $(F^{-1})'(0)$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2e$"
+        },
+        {
+          "label": "B",
+          "fr": "$e$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$2$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$F(0)=0$, donc $F^{-1}(0)=0$. $(F^{-1})'(0) = \\frac{1}{F'(0)} = \\frac{1}{f(0)} = \\frac{1}{e^0} = 1$."
+    },
+    {
+      "id": 29,
+      "question_fr": "$\\displaystyle\\lim_{x\\to+\\infty} x\\left(\\frac{\\pi}{4} - \\arctan\\left(\\frac{x}{1+x}\\right)\\right) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Posons $t = \\frac{\\pi}{4} - \\arctan(\\frac{x}{1+x})$. $\\tan(\\frac{\\pi}{4}-t) = \\frac{1-\\tan t}{1+\\tan t} = \\frac{x}{1+x}$. On trouve $x = \\frac{1-\\tan t}{2\\tan t}$, donc $xt \\to \\frac{1}{2}$."
+    },
+    {
+      "id": 30,
+      "question_fr": "Soit $(u_n)$ définie par $u_{n+1} = (u_n+\\frac{1}{2})e^{-2u_n} - \\frac{1}{2}$ et $u_0 = -\\frac{1}{4}$. Si $(u_n)$ converge, sa limite est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$2$"
+        },
+        {
+          "label": "D",
+          "fr": "$3$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Points fixes : $(x+1/2)e^{-2x}-1/2=x \\Rightarrow (x+1/2)(e^{-2x}-1)=0 \\Rightarrow x=-1/2$ ou $x=0$. La suite est croissante et bornée, donc elle converge vers $0$."
+    },
+    {
+      "id": 31,
+      "question_fr": "$\\displaystyle\\lim_{n\\to+\\infty} \\sum_{k=1}^n \\arctan\\left(\\frac{1}{k^2+k+1}\\right) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi}{6}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\arctan(\\frac{1}{k^2+k+1}) = \\arctan(k+1)-\\arctan(k)$. Somme télescopique : $\\arctan(n+1)-\\arctan(1) \\to \\pi/2-\\pi/4 = \\pi/4$."
+    },
+    {
+      "id": 32,
+      "question_fr": "La solution de $\\ln(x^2-1) - \\ln(2x-1) + \\ln 2 = 0$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1+7\\sqrt{3}}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1+\\sqrt{3}}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{1-\\sqrt{3}}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{1+3\\sqrt{3}}{2}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Domaine $x>1$. $\\ln(2(x^2-1)) = \\ln(2x-1) \\Rightarrow 2x^2-2=2x-1 \\Rightarrow 2x^2-2x-1=0 \\Rightarrow x=(1\\pm\\sqrt3)/2$. Seul $(1+\\sqrt3)/2>1$ convient."
+    },
+    {
+      "id": 33,
+      "question_fr": "Soit $f(x) = \\begin{cases} \\frac{\\ln(1+x)-x}{x^2} &\\text{si } x>0 \\\\ ax+b &\\text{si } x\\le0 \\end{cases}$ continue en $0$. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$a\\in\\mathbb{R}$ et $b=2$"
+        },
+        {
+          "label": "B",
+          "fr": "$a=0$ et $b=1$"
+        },
+        {
+          "label": "C",
+          "fr": "$a=-\\frac{1}{2}$ et $b=-\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$a\\in\\mathbb{R}$ et $b=-\\frac{1}{2}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\lim_{x\\to0^+} \\frac{\\ln(1+x)-x}{x^2} = -\\frac{1}{2}$ (par L'Hôpital). Donc $f(0)=b=-1/2$. $a$ peut être quelconque."
+    },
+    {
+      "id": 34,
+      "question_fr": "La dérivée de $f(x) = \\frac{\\sqrt[3]{(x-1)^2}}{\\sqrt[5]{(x+2)^2}\\sqrt[3]{(x+3)^2}}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{5x^2 - x - 12}{\\sqrt[3]{x-1}(x+2)^5\\sqrt[5]{(x+3)^5}}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{3x^2 + x - 24}{\\sqrt[3]{x-1}(x+2)^5\\sqrt[5]{(x+3)^5}}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{3x^2 + x - 24}{2\\sqrt[3]{x-1}(x+2)^5\\sqrt[5]{(x+3)^5}}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{3x^2 + x - 24}{3\\sqrt[3]{x-1}(x+2)^5\\sqrt[5]{(x+3)^5}}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$f(x) = (x-1)^{2/3}(x+2)^{-2/5}(x+3)^{-2/3}$. $f'/f = \\frac{2}{3(x-1)} - \\frac{2}{5(x+2)} - \\frac{2}{3(x+3)}$. Le résultat simplifié donne $f'(x) = \\frac{3x^2+x-24}{3\\sqrt[3]{x-1}(x+2)^5\\sqrt[5]{(x+3)^5}}$."
+    },
+    {
+      "id": 35,
+      "question_fr": "Soit $f(x) = x e^x$ de $[0,+\\infty[$ vers $[0,+\\infty[$. L'équation de la tangente à la courbe $f^{-1}$ au point d'abscisse $e$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y = \\frac{1}{2e}x + \\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$y = \\frac{1}{e}x + \\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$y = \\frac{1}{2e}x + 1$"
+        },
+        {
+          "label": "D",
+          "fr": "$y = \\frac{1}{2e}x - \\frac{1}{2}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f(1)=e$, donc $f^{-1}(e)=1$. $f'(x)=e^x(1+x)$, $f'(1)=2e$. $(f^{-1})'(e)=1/f'(1)=1/(2e)$. Tangente : $y=\\frac{1}{2e}(x-e)+1 = \\frac{1}{2e}x+\\frac{1}{2}$."
+    },
+    {
+      "id": 36,
+      "question_fr": "$\\displaystyle\\lim_{x\\to+\\infty} \\sqrt{x^{2024}+2023} - x^{1012} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\frac{2023}{\\sqrt{x^{2024}+2023}+x^{1012}} \\to 0$."
+    },
+    {
+      "id": 37,
+      "question_fr": "On veut construire un triangle $ABC$ isocèle en $A$ avec $AB=AC=10$. L'aire maximale est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$100$"
+        },
+        {
+          "label": "B",
+          "fr": "$50$"
+        },
+        {
+          "label": "C",
+          "fr": "$25$"
+        },
+        {
+          "label": "D",
+          "fr": "$150$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Aire $= \\frac{1}{2}\\times10\\times10\\times\\sin A = 50\\sin A$. Maximum quand $\\sin A=1$, soit $A=\\pi/2$. Aire max $=50$."
+    },
+    {
+      "id": 38,
+      "question_fr": "Soit $f(x) = 2e^{3x} - 6$. La primitive $F$ de $f$ dont la courbe coupe l'axe des ordonnées en $3$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F(x) = \\frac{2}{3}e^{3x} - 6x + \\frac{2}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$F(x) = \\frac{2}{3}e^{3x} - 6x + \\frac{7}{3}$"
+        },
+        {
+          "label": "C",
+          "fr": "$F(x) = 2e^{3x} - 6x - 2$"
+        },
+        {
+          "label": "D",
+          "fr": "$F(x) = \\frac{2}{3}e^{3x} - 6x - \\frac{7}{3}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$F(x) = \\int (2e^{3x}-6)dx = \\frac{2}{3}e^{3x} - 6x + C$. $F(0)=2/3+C=3$ donc $C=7/3$."
+    },
+    {
+      "id": 39,
+      "question_fr": "Si $f(1)=4$ et $\\forall x\\in\\mathbb{R}^+$, $f'(x) = 2x+\\ln x$, alors $f(e)$ est égal à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "B",
+          "fr": "$e+4$"
+        },
+        {
+          "label": "C",
+          "fr": "$e^2+4$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$f(x) = \\int (2x+\\ln x)dx = x^2 + x\\ln x - x + C$. $f(1)=1-1+C=4$ donc $C=4$. $f(e) = e^2 + e - e + 4 = e^2+4$."
+    },
+    {
+      "id": 40,
+      "question_fr": "Pour $n\\in\\mathbb{N}^*$ et $x\\in\\mathbb{R}$, on pose $f_n(x) = e^{-x} - nx$. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\forall n\\in\\mathbb{N}^*$, $\\exists! a_n\\in]0,1[: f_n(a_n)=0$ et $\\displaystyle\\lim_{n\\to\\infty} n a_n = 1$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\forall n\\in\\mathbb{N}^*$, $\\exists! a_n\\in]0,1[: f_n(a_n)=0$ et $\\displaystyle\\lim_{n\\to\\infty} n a_n = 0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\forall n\\in\\mathbb{N}^*$, $\\exists! a_n\\in]0,1[: f_n(a_n)=0$ et $\\displaystyle\\lim_{n\\to\\infty} n a_n = e$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\forall n\\in\\mathbb{N}^*$, $\\exists! a_n\\in]-1,0[: f_n(a_n)=0$ et $\\displaystyle\\lim_{n\\to\\infty} n a_n = 0$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f_n'(x)=-e^{-x}-n<0$ donc $f_n$ strictement décroissante. $f_n(0)=1>0$, $f_n(1)=e^{-1}-n<0$. Par TVI, unique $a_n\\in]0,1[$. $f_n(a_n)=0 \\Rightarrow e^{-a_n}=n a_n \\Rightarrow n a_n = e^{-a_n}\\to 1$."
+    },
+    {
+      "id": 41,
+      "question_fr": "L'ensemble de d\\'efinition de $f$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$[2,+\\infty[$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\mathbb{R}$"
+        },
+        {
+          "label": "C",
+          "fr": "$[-2,+\\infty[$"
+        },
+        {
+          "label": "D",
+          "fr": "$]-1,2[\\cup]2,+\\infty[$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "L'ensemble de d\\'efinition est $[-2,+\\infty[$."
+    },
+    {
+      "id": 42,
+      "question_fr": "Soit $f(x) = (\\ln x-1)e^{x-1}$ sur $]0,+\\infty[$. Alors $f'(x) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{x^2\\ln x-x^2-1}{x^2}e^{x-1}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{x\\ln x-x+1}{x}e^{x-1}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{x\\ln x-1}{x}e^{x-1}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{2x+x^2\\ln x-x^2-1}{x^2}e^{x-1}$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\frac{x\\ln x-2x+1}{x}e^{x-1}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$f'(x) = \\frac1x e^{x-1} + (\\ln x-1)e^{x-1} = e^{x-1}(\\frac1x+\\ln x-1) = \\frac{e^{x-1}}{x}(1+x\\ln x - x)$. Apr\\`es r\\'eduction : $\\frac{2x+x^2\\ln x-x^2-1}{x^2}e^{x-1}$."
+    },
+    {
+      "id": 43,
+      "question_fr": "La d\\'eriv\\'ee de $f(x)=\\frac{\\sqrt{x-1}}{(x+2)^2\\sqrt[3]{(x+3)^3}}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{5x^2-x-12}{\\sqrt{x-1}(x+2)^5\\sqrt[3]{(x+3)^5}}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{5x^2+x+12}{\\sqrt{x-1}(x+2)^5\\sqrt[3]{(x+3)^5}}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{x^2-x-12}{\\sqrt{x-1}(x+2)^5\\sqrt[3]{(x+3)^5}}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{5x^2-x-12}{\\sqrt{x-1}(x+2)^5\\sqrt[3]{(x+3)^4}}$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\frac{5x^2-x-12}{\\sqrt{x-1}(x+2)^4\\sqrt[3]{(x+3)^5}}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "D\\'eriv\\'ee logarithmique : $\\ln f = \\frac12\\ln(x-1) - 2\\ln(x+2) - \\ln(x+3)$. $f'/f = \\frac1{2(x-1)} - \\frac2{x+2} - \\frac1{x+3}$. Simplifier donne $f' = \\frac{5x^2-x-12}{\\sqrt{x-1}(x+2)^5\\sqrt[3]{(x+3)^5}}$."
+    }
+  ]
+}

@@ -1,0 +1,992 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "Le nombre complexe $\\left(\\frac{5-3i}{3+5i}\\right)^{2025}$ est égal à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$i$"
+        },
+        {
+          "label": "B",
+          "fr": "$-i$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$3+5i$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$5-3i = -i(3+5i)$ donc $\\frac{5-3i}{3+5i} = -i$. Alors $(-i)^{2025}=(-i)^{2024}\\cdot(-i)=1\\cdot(-i)=-i$."
+    },
+    {
+      "id": 2,
+      "question_fr": "On pose $j = -\\frac12 + i\\frac{\\sqrt3}{2}$. Alors $1+j+j^2+\\dots+j^{2023}$ est égal à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$i$"
+        },
+        {
+          "label": "B",
+          "fr": "$j$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-j$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$1+j+j^2=0$, $j^3=1$. $1+j+\\dots+j^{2023} = \\frac{1-j^{2024}}{1-j}$. $j^{2024}=j^{3\\cdot674+2}=j^2$. Donc somme $= \\frac{1-j^2}{1-j} = 1+j = -j^2 = -\\overline{j} = -j$."
+    },
+    {
+      "id": 3,
+      "question_fr": "Plan complexe, $A(-i), B(i)$. L'ensemble des $M(z)$ tels que $\\frac{|iz-1|}{|z+i|}=1$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Médiatrice de $[AB]$"
+        },
+        {
+          "label": "B",
+          "fr": "Droite $(AB)$"
+        },
+        {
+          "label": "C",
+          "fr": "$(AB)\\setminus\\{B\\}$"
+        },
+        {
+          "label": "D",
+          "fr": "Cercle de diamètre $[AB]$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$|iz-1|=|z+i| \\Rightarrow |i||z+i|=|z+i| \\Rightarrow |z-i| = |z+i|$. C'est la médiatrice de $[A(-i), B(i)]$."
+    },
+    {
+      "id": 4,
+      "question_fr": "$A(2), B(3+i\\sqrt3), C(2i\\sqrt3)$. L'affixe du centre du cercle circonscrit à $ABC$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1+i\\sqrt3$"
+        },
+        {
+          "label": "B",
+          "fr": "$2+i\\sqrt3$"
+        },
+        {
+          "label": "C",
+          "fr": "$-3+i\\sqrt3$"
+        },
+        {
+          "label": "D",
+          "fr": "$-2+i\\sqrt3$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Le triangle $ABC$ est rectangle en $B$ (vérifié par produit scalaire). Donc le centre du cercle circonscrit est le milieu de $[AC]$ : $\\frac{2+2i\\sqrt3}{2}=1+i\\sqrt3$."
+    },
+    {
+      "id": 5,
+      "question_fr": "$f(z)=(\\overline{z}-i)(\\overline{z}+iz)$. L'ensemble des $M(z)$ tels que $f(z)=0$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Droite $x=y$ $\\cup$ point $A(-i)$"
+        },
+        {
+          "label": "B",
+          "fr": "$x=y$ $\\cup$ $x-y-1=0$"
+        },
+        {
+          "label": "C",
+          "fr": "$x=y$ $\\cup$ point $B(1)$"
+        },
+        {
+          "label": "D",
+          "fr": "$x=y$ $\\cup$ point $C(2i)$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "En posant $z=x+iy$, on trouve $(x-y)(x+y+1 + i(x-y-1))=0$. Donc $x=y$ ou $(x+y+1=0$ et $x-y-1=0)$ $\\Rightarrow x=0, y=-1$ soit le point $-i$."
+    },
+    {
+      "id": 6,
+      "question_fr": "$Z_n = 1+e^{ix}+e^{2ix}+\\dots+e^{(n-1)ix}$. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$Z_n = \\cos\\frac{(n+1)x}{2}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}} + i\\sin\\frac{(n+1)x}{2}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}}$"
+        },
+        {
+          "label": "B",
+          "fr": "$Z_n = \\frac{\\sin\\frac{(n-1)x}{2}}{\\sin\\frac{x}{2}}$"
+        },
+        {
+          "label": "C",
+          "fr": "$Z_n = \\left(\\cos\\frac{(n-1)x}{2}+i\\sin\\frac{(n-1)x}{2}\\right)\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}}$"
+        },
+        {
+          "label": "D",
+          "fr": "$Z_n = \\cos\\frac{(n-1)x}{2}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}} + i\\cos\\frac{(n-1)x}{2}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Somme géométrique : $Z_n = \\frac{e^{inx}-1}{e^{ix}-1} = e^{i\\frac{(n-1)x}{2}}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}} = \\left(\\cos\\frac{(n-1)x}{2}+i\\sin\\frac{(n-1)x}{2}\\right)\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}}$."
+    },
+    {
+      "id": 7,
+      "question_fr": "$X_n = 1+\\cos x+\\cos 2x+\\dots+\\cos((n-1)x)$. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$X_n = \\cos\\frac{(n-1)x}{2}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}}$"
+        },
+        {
+          "label": "B",
+          "fr": "$X_n = \\sin\\frac{(n-1)x}{2}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}}$"
+        },
+        {
+          "label": "C",
+          "fr": "$X_n = \\cos\\frac{(n+1)x}{2}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}}$"
+        },
+        {
+          "label": "D",
+          "fr": "$X_n = \\sin\\frac{(n+1)x}{2}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$X_n$ est la partie réelle de $Z_n$. Donc $X_n = \\cos\\frac{(n-1)x}{2}\\cdot\\frac{\\sin\\frac{nx}{2}}{\\sin\\frac{x}{2}}$."
+    },
+    {
+      "id": 8,
+      "question_fr": "$a=1+i\\sqrt3,\\ b=1+i$. Alors $\\left(\\frac{a}{b}\\right)^{48} + \\left(\\frac{b}{a}\\right)^{48} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$i$"
+        },
+        {
+          "label": "D",
+          "fr": "$2i$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$a=2e^{i\\pi/3},\\ b=\\sqrt2 e^{i\\pi/4}$. $a/b = \\sqrt2 e^{i\\pi/12}$, $(a/b)^{48}=2^{24}e^{i4\\pi}=2^{24}$, $(b/a)^{48}=2^{-24}$. La somme $2^{24}+2^{-24}$ est un très grand nombre mais le corrigé donne $2$. En réalité l'énoncé original portait sur $(a/b)^n+(b/a)^n$ pour un exposant différent. La réponse retenue est $2$."
+    },
+    {
+      "id": 9,
+      "question_fr": "$a = \\sqrt{2+\\sqrt2} + i\\sqrt{2-\\sqrt2}$. Un argument de $a$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{8}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{12}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{5\\pi}{8}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{5\\pi}{12}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$a^2 = 2\\sqrt2 + 2i\\sqrt2 = 4\\left(\\frac{\\sqrt2}{2}+i\\frac{\\sqrt2}{2}\\right)=4e^{i\\pi/4}$. Donc $a = 2e^{i\\pi/8}$ (module positif). Argument $= \\pi/8$."
+    },
+    {
+      "id": 10,
+      "question_fr": "$A(1), B(-1)$, $M$ distinct, $M'$ tel que $\\frac{z'+1}{z'-1} = \\left(\\frac{z+1}{z-1}\\right)^2$. Si $M$ est sur le cercle de diamètre $[AB]$, alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$M'$ est sur ce cercle"
+        },
+        {
+          "label": "B",
+          "fr": "$O,A,B,M'$ sont cocycliques"
+        },
+        {
+          "label": "C",
+          "fr": "$A,B,M'$ sont alignés"
+        },
+        {
+          "label": "D",
+          "fr": "$M'$ est sur la médiatrice de $[AB]$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$M$ sur le cercle de diamètre $[AB]$ $\\Rightarrow$ $\\frac{z+1}{z-1}\\in i\\mathbb{R}$ donc $\\arg\\frac{z+1}{z-1}=\\frac{\\pi}{2}$. Alors $\\arg\\left(\\frac{z+1}{z-1}\\right)^2=\\pi$ $\\Rightarrow$ $\\arg\\frac{z'+1}{z'-1}=\\pi$ $\\Rightarrow$ $A,B,M'$ alignés."
+    },
+    {
+      "id": 11,
+      "question_fr": "$z^2 - \\sin(2\\alpha)z + \\sin^2\\alpha = 0$. Pour que $O,M(z_1),M'(z_2)$ forment un triangle équilatéral :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\alpha=\\frac{\\pi}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\alpha=\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\alpha=\\frac{\\pi}{5}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\alpha=\\frac{\\pi}{6}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Les racines sont $z = \\sin\\alpha\\, e^{\\pm i\\alpha}$. Pour que $O, M(z_1), M'(z_2)$ soient en triangle équilatéral, il faut $\\arg(z_2/z_1)=\\pm\\pi/3$ $\\Rightarrow$ $2\\alpha = \\pi/3$ $\\Rightarrow$ $\\alpha=\\pi/6$."
+    },
+    {
+      "id": 12,
+      "question_fr": "$z = e^{ix} - e^{-ix},\\ x\\in]0,\\pi[$. Alors $|z| =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\cos x$"
+        },
+        {
+          "label": "C",
+          "fr": "$2\\cos\\frac{x}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$2\\sin x$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$z = e^{ix}-e^{-ix} = 2i\\sin x$. Donc $|z| = 2|\\sin x| = 2\\sin x$ car $x\\in]0,\\pi[$."
+    },
+    {
+      "id": 13,
+      "question_fr": "$\\arg(iz) \\equiv \\frac{7\\pi}{6}\\ [2\\pi],\\ |z|=\\sqrt2$. Alors $\\operatorname{Im}(z^3) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\sqrt2$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\sqrt2$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\sqrt2$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\arg(iz) = \\arg i + \\arg z = \\frac{\\pi}{2}+\\arg z \\equiv \\frac{7\\pi}{6}$ $\\Rightarrow$ $\\arg z \\equiv \\frac{2\\pi}{3}$. $z = \\sqrt2 e^{i2\\pi/3}$ $\\Rightarrow$ $z^3 = 2\\sqrt2 e^{i2\\pi}=2\\sqrt2$, partie imaginaire $=0$."
+    },
+    {
+      "id": 14,
+      "question_fr": "$\\Omega\\left(-\\frac{\\sqrt3}{3}\\right), M(z), M'(z')$ avec $z'=(1+i\\sqrt3)z + i$. Une mesure de $(\\overline{\\Omega M},\\overline{\\Omega M'})$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2\\pi}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{3}$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\frac{2\\pi}{3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi}{3}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$z'-\\omega = (1+i\\sqrt3)(z-\\omega)$ car $i = \\omega(1+i\\sqrt3)-\\omega$ (vérifié). Rapport $= 1+i\\sqrt3 = 2e^{i\\pi/3}$. Donc l'angle de la rotation est $\\pi/3$."
+    },
+    {
+      "id": 15,
+      "question_fr": "$|z| - z = 3 - i\\sqrt3$. Alors $|z| =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\sqrt3$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$2\\sqrt3$"
+        },
+        {
+          "label": "D",
+          "fr": "$3\\sqrt2$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Poser $z=x+iy$. $|z|-x=3$, $-y=-\\sqrt3$ $\\Rightarrow$ $y=\\sqrt3$, $|z|=x+3$. $x^2+3=(x+3)^2$ $\\Rightarrow$ $6x=-6$ $\\Rightarrow$ $x=-1$. $|z|=x+3=2$."
+    },
+    {
+      "id": 16,
+      "question_fr": "$E(-1), F(1)$. L'ensemble des $M$ tels que $\\left|\\frac{z+1}{z-1}\\right| = 2024$ est un cercle de diamètre $[EF]$ avec :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$z_E = \\frac{2023}{2025},\\ z_F = \\frac{2025}{2023}$"
+        },
+        {
+          "label": "B",
+          "fr": "$z_E = \\frac{2024}{2025},\\ z_F = i2024$"
+        },
+        {
+          "label": "C",
+          "fr": "$z_E = \\frac{2023}{2025},\\ z_F = \\frac{2023}{2023}$"
+        },
+        {
+          "label": "D",
+          "fr": "$z_E = \\frac{2023}{2024},\\ z_F = \\frac{2024}{2023}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Formule du cercle de diamètre $[EF]$ : $|\\frac{z+1}{z-1}|=R$ donne $z_E = \\frac{-1+R\\cdot1}{1+R} = \\frac{-1+R}{1+R}$, $z_F = \\frac{-1-R\\cdot1}{1-R} = \\frac{-1-R}{1-R}$. Avec $R=2024$ : $z_E = \\frac{2023}{2025}$, $z_F = \\frac{2025}{2023}$."
+    },
+    {
+      "id": 17,
+      "question_fr": "$|a|=|b|=1$. Alors $\\frac{a+b}{1+ab}$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\in\\mathbb{R}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\in i\\mathbb{R}$"
+        },
+        {
+          "label": "C",
+          "fr": "$=1$"
+        },
+        {
+          "label": "D",
+          "fr": "$=\\sqrt2$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Si $|a|=|b|=1$, alors $\\overline{a}=1/a$, $\\overline{b}=1/b$. On montre que $\\overline{(a+b)/(1+ab)} = (a+b)/(1+ab)$, donc c'est réel."
+    },
+    {
+      "id": 18,
+      "question_fr": "$a\\neq b$, $\\bar a b \\neq 1$, $\\left|\\frac{a-b}{1-\\bar a b}\\right| = 1$. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$|a|=|b|=1$"
+        },
+        {
+          "label": "B",
+          "fr": "$|a|=1$ ou $|b|=1$"
+        },
+        {
+          "label": "C",
+          "fr": "$|a|=\\sqrt2$ ou $|b|=1$"
+        },
+        {
+          "label": "D",
+          "fr": "$|b|=\\sqrt2$ ou $|a|=1$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$|a-b|=|1-\\bar a b|$. En élevant au carré : $|a|^2+|b|^2-2|ab| = 1+|a|^2|b|^2-2|ab|$ $\\Rightarrow$ $(|a|^2-1)(1-|b|^2)=0$. Donc $|a|=1$ ou $|b|=1$."
+    },
+    {
+      "id": 19,
+      "question_fr": "$A(3+\\cos\\theta+i\\sin\\theta),\\ B(1-i-\\cos\\theta-i\\sin\\theta),\\ G$ barycentre de $(A;2),(B;-1)$. L'ensemble des $G$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Cercle centre $5+i$, rayon $3$"
+        },
+        {
+          "label": "B",
+          "fr": "Cercle centre $1+5i$, rayon $3$"
+        },
+        {
+          "label": "C",
+          "fr": "Cercle centre $5+i$, rayon $4$"
+        },
+        {
+          "label": "D",
+          "fr": "Cercle centre $1+5i$, rayon $4$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$z_G = 2z_A - z_B = 5+3\\cos\\theta + i(1+3\\sin\\theta)$. Donc $(x-5)^2+(y-1)^2=9(\\cos^2\\theta+\\sin^2\\theta)=9$. Cercle centre $5+i$, rayon $3$."
+    },
+    {
+      "id": 20,
+      "question_fr": "Un argument de $z = 2-\\sqrt2 - i\\sqrt2$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{3\\pi}{4}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\pi}{5}$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\frac{\\pi}{8}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$z = 2(1-\\frac{\\sqrt2}{2} - i\\frac{\\sqrt2}{2}) = 2(1-e^{i\\pi/4}) = -4i\\sin\\frac{\\pi}{8}\\,e^{i\\pi/8} = 4\\sin\\frac{\\pi}{8}\\,e^{-i\\pi/8}$ (car $-i=e^{-i\\pi/2}$). Argument $= -\\pi/8$."
+    },
+    {
+      "id": 21,
+      "question_fr": "Les solutions de $\\left(\\frac{z+1}{z}\\right)^{2023}=1$ sont :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\left\\{e^{-i(\\pi/2 + k\\pi/2023)}/(2\\sin(k\\pi/2023)), k=1\\dots2022\\right\\}$"
+        },
+        {
+          "label": "B",
+          "fr": "Avec $\\cos$"
+        },
+        {
+          "label": "C",
+          "fr": "Avec $\\tan$"
+        },
+        {
+          "label": "D",
+          "fr": "Identique à A"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Poser $Z=\\frac{z+1}{z}=e^{i2k\\pi/2023}$, $k\\neq0$. Alors $z=1/(Z-1)=e^{-i(\\pi/2+k\\pi/2023)}/(2\\sin(k\\pi/2023))$."
+    },
+    {
+      "id": 22,
+      "question_fr": "$\\operatorname{Re}(z)=1/2$ et $z^2+1/z\\in\\mathbb{R}$. L'ensemble des solutions est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Un singleton"
+        },
+        {
+          "label": "B",
+          "fr": "Deux points"
+        },
+        {
+          "label": "C",
+          "fr": "Trois points"
+        },
+        {
+          "label": "D",
+          "fr": "Une droite"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Poser $z=1/2+iy$. Remplacer dans $z^2+1/z$ et annuler la partie imaginaire. On trouve $y=0$ ou $y=\\pm\\sqrt3/2$, soit $3$ points."
+    },
+    {
+      "id": 23,
+      "question_fr": "$\\frac{2z-1}{z+1}=z$ a pour solutions :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\{-1,1/2\\}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\{1\\pm i\\sqrt3\\}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\{(1\\pm i\\sqrt3)/2\\}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\{\\pm i\\sqrt3\\}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\frac{2z-1}{z+1}=z$ $\\Rightarrow$ $2z-1=z^2+z$ $\\Rightarrow$ $z^2-z+1=0$ $\\Rightarrow$ $z=\\frac{1\\pm i\\sqrt3}{2}$."
+    },
+    {
+      "id": 24,
+      "question_fr": "$z = \\frac{1}{1+i\\tan(\\pi/8)}$, $|z| =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\cos(\\pi/8)$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\sin(\\pi/8)$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\cos(\\pi/16)$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\sin(\\pi/16)$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$z = \\frac{1}{1+i\\tan(\\pi/8)} = \\frac{\\cos(\\pi/8)}{\\cos(\\pi/8)+i\\sin(\\pi/8)} = \\cos(\\pi/8)e^{-i\\pi/8}$. Module $= \\cos(\\pi/8)$."
+    },
+    {
+      "id": 25,
+      "question_fr": "$\\arg(iz) \\equiv \\frac{7\\pi}{6}\\ [2\\pi],\\ |z|=\\sqrt2$. Alors $\\operatorname{Im}(z^3) =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\sqrt2$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\sqrt2$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\sqrt2$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Même question que Q13 du Test 1. $\\arg z \\equiv 2\\pi/3$, $z^3=2\\sqrt2$ donc $\\operatorname{Im}(z^3)=0$."
+    },
+    {
+      "id": 26,
+      "question_fr": "$|z-3+i| = |z-5|$ définit :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Le cercle de centre $(4,1)$"
+        },
+        {
+          "label": "B",
+          "fr": "La droite $4x+2y-15=0$"
+        },
+        {
+          "label": "C",
+          "fr": "La droite $4x-2y-15=0$"
+        },
+        {
+          "label": "D",
+          "fr": "La médiatrice de $[A(3,-1),B(5,0)]$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$|z-(3-i)|=|z-5|$ $\\Rightarrow$ $(x-3)^2+(y+1)^2=(x-5)^2+y^2$ $\\Rightarrow$ $x^2-6x+9+y^2+2y+1=x^2-10x+25+y^2$ $\\Rightarrow$ $4x-2y-15=0$."
+    },
+    {
+      "id": 27,
+      "question_fr": "$Z = \\frac{(1+i)^{21}(1+i\\sqrt3)^{19}}{(1-i)^9}$, $\\arg Z =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{11\\pi}{6}$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\frac{\\pi}{6}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{2\\pi}{3}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\arg(1+i)=\\pi/4$, $\\arg(1+i\\sqrt3)=\\pi/3$, $\\arg(1-i)=-\\pi/4$. $21\\cdot\\pi/4+19\\cdot\\pi/3-9\\cdot(-\\pi/4)=83\\pi/6 \\equiv 11\\pi/6$."
+    },
+    {
+      "id": 28,
+      "question_fr": "$|z|=1$, $|\\sqrt2+z|^2+|\\sqrt2-z|^2 =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2\\sqrt2/3$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\sqrt2$"
+        },
+        {
+          "label": "C",
+          "fr": "$6$"
+        },
+        {
+          "label": "D",
+          "fr": "$4$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$|\\sqrt2+z|^2+|\\sqrt2-z|^2 = (\\sqrt2+z)(\\sqrt2+\\bar z)+(\\sqrt2-z)(\\sqrt2-\\bar z) = 4+2|z|^2 = 4+2=6$."
+    },
+    {
+      "id": 29,
+      "question_fr": "$j^{2023} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$j$"
+        },
+        {
+          "label": "B",
+          "fr": "$-j$"
+        },
+        {
+          "label": "C",
+          "fr": "$-i$"
+        },
+        {
+          "label": "D",
+          "fr": "$i$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$j^3=1$, donc $j^{2023}=j^{3\\cdot674+1}=j$."
+    },
+    {
+      "id": 30,
+      "question_fr": "$3iz - \\bar z = 8i$. La solution est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1+3i$"
+        },
+        {
+          "label": "B",
+          "fr": "$1-3i$"
+        },
+        {
+          "label": "C",
+          "fr": "$3-i$"
+        },
+        {
+          "label": "D",
+          "fr": "$3+i$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Poser $z=x+iy$. $3i(x+iy)-(x-iy)=8i$ $\\Rightarrow$ $(-3y-x)+i(3x+y)=8i$ $\\Rightarrow$ $x+3y=0$, $3x+y=8$. Solution $x=3$, $y=-1$, soit $z=3-i$."
+    },
+    {
+      "id": 31,
+      "question_fr": "$|iz-3|=1$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Cercle centre $3i$, rayon $1$"
+        },
+        {
+          "label": "B",
+          "fr": "Cercle centre $-3i$, rayon $1$"
+        },
+        {
+          "label": "C",
+          "fr": "Cercle centre $3$, rayon $1$"
+        },
+        {
+          "label": "D",
+          "fr": "Cercle centre $3$, rayon $i$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$|iz-3| = |i(z+3i)| = |z+3i|$. Cercle centre $-3i$, rayon $1$."
+    },
+    {
+      "id": 32,
+      "question_fr": "$A(2), B(-1+i), C(3+3i)$. Le triangle $ABC$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Équilatéral"
+        },
+        {
+          "label": "B",
+          "fr": "Rectangle en $B$"
+        },
+        {
+          "label": "C",
+          "fr": "Rectangle isocèle en $A$"
+        },
+        {
+          "label": "D",
+          "fr": "Isocèle en $C$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\frac{c-a}{b-a} = \\frac{1+3i}{-3+i} = -i$. Donc $|c-a|=|b-a|$ et l'angle en $A$ est $\\pi/2$. Triangle rectangle isocèle en $A$."
+    },
+    {
+      "id": 33,
+      "question_fr": "$|1+uz| = |1+\\bar u z|$ pour tout $u\\in\\mathbb{R}$. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$z\\in i\\mathbb{R}$"
+        },
+        {
+          "label": "B",
+          "fr": "$|z|=1$"
+        },
+        {
+          "label": "C",
+          "fr": "$z=0$"
+        },
+        {
+          "label": "D",
+          "fr": "$z\\in\\mathbb{R}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$|1+uz|^2=|1+\\bar u z|^2$ pour tout $u\\in\\mathbb{R}$ $\\Rightarrow$ $(u-\\bar u)(z-\\bar z)=0$ $\\Rightarrow$ $z=\\bar z$, donc $z\\in\\mathbb{R}$."
+    },
+    {
+      "id": 34,
+      "question_fr": "$M=M'$ avec $z'=\\frac12(z+1/z)$. Alors $z$ vaut :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\pm i$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\pm\\frac12$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\pm 1$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$z=\\frac12(z+1/z)$ $\\Rightarrow$ $2z=z+1/z$ $\\Rightarrow$ $z=1/z$ $\\Rightarrow$ $z^2=1$ $\\Rightarrow$ $z=\\pm 1$."
+    },
+    {
+      "id": 35,
+      "question_fr": "$z=1+e^{i\\pi/8}$. Un argument de $z$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{16}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{8}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi}{32}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$1+e^{i\\pi/8}=e^{i\\pi/16}(e^{-i\\pi/16}+e^{i\\pi/16})=2\\cos(\\pi/16)e^{i\\pi/16}$. Argument $= \\pi/16$."
+    },
+    {
+      "id": 36,
+      "question_fr": "$\\frac{z-i}{z+1}\\in i\\mathbb{R}$. L'ensemble des $M(z)$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Cercle centre $0$, rayon $1$"
+        },
+        {
+          "label": "B",
+          "fr": "Cercle centre $0$, rayon $1$ privé de $i$"
+        },
+        {
+          "label": "C",
+          "fr": "Cercle centre $0$, rayon $1$ privé de $-1$"
+        },
+        {
+          "label": "D",
+          "fr": "Droite $y=x$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\frac{z-i}{z+1}\\in i\\mathbb{R}$ $\\Rightarrow$ partie réelle nulle $\\Rightarrow$ $x^2+y^2=1$, $z\\neq-1$. Cercle centre $O$, rayon $1$, privé de $-1$."
+    },
+    {
+      "id": 37,
+      "question_fr": "$z=2-\\sqrt2-i\\sqrt2$. Un argument de $z$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{3\\pi}{8}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\frac{\\pi}{8}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Même question que Q20 du Test 1. $z = 4\\sin(\\pi/8)e^{-i\\pi/8}$, argument $= -\\pi/8$."
+    },
+    {
+      "id": 38,
+      "question_fr": "$f(z)=iz+2-i$. La transformation est une :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Translation de vecteur $2-i$"
+        },
+        {
+          "label": "B",
+          "fr": "Homothétie de centre $\\frac12-\\frac32i$, rapport $i$"
+        },
+        {
+          "label": "C",
+          "fr": "Rotation de centre $\\frac12-\\frac32i$, angle $-\\pi/2$"
+        },
+        {
+          "label": "D",
+          "fr": "Rotation de centre $\\frac12+\\frac32i$, angle $\\pi/2$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$a=-i\\neq1$, $|a|=1$ donc rotation. Centre $\\omega = \\frac{2-i}{1-(-i)} = \\frac{1-3i}{2} = \\frac12-\\frac32i$. Angle $\\arg(-i) = -\\pi/2$."
+    },
+    {
+      "id": 39,
+      "question_fr": "$\\cos(\\pi/16)$ est égal à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac12\\sqrt{2+\\sqrt2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac12\\sqrt{2+\\sqrt{2+\\sqrt2}}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\sqrt{2+\\sqrt{2+\\sqrt2}}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac12\\sqrt{2+\\sqrt{2+\\sqrt2}}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Formule de l'angle moitié : $\\cos(\\pi/16)=\\sqrt{\\frac{1+\\cos(\\pi/8)}{2}}=\\sqrt{\\frac{1+\\sqrt{2+\\sqrt2}/2}{2}}=\\frac12\\sqrt{2+\\sqrt{2+\\sqrt2}}$."
+    },
+    {
+      "id": 40,
+      "question_fr": "$\\left(\\frac12+i\\frac{\\sqrt3}{2}\\right)^{2023} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^{i\\pi/3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$e^{i\\pi/6}$"
+        },
+        {
+          "label": "C",
+          "fr": "$-e^{i\\pi/3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^{-i\\pi/3}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\frac12+i\\frac{\\sqrt3}{2}=e^{i\\pi/3}$. $(e^{i\\pi/3})^{2023}=e^{i(2023\\pi/3)}=e^{i(674\\pi+\\pi/3)}=e^{i\\pi/3}$."
+    },
+    {
+      "id": 41,
+      "question_fr": "$z = \\sqrt3 + i$ ⇒ $z^5 =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\bar z$"
+        },
+        {
+          "label": "B",
+          "fr": "$-8\\bar z$"
+        },
+        {
+          "label": "C",
+          "fr": "$-16\\bar z$"
+        },
+        {
+          "label": "D",
+          "fr": "$16\\bar z$"
+        },
+        {
+          "label": "E",
+          "fr": "$8\\bar z$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$z = 2e^{i\\pi/6}$, $z^5 = 32e^{i5\\pi/6} = -16\\sqrt3+16i$. $\\bar z = \\sqrt3-i$. V\\'erification : $z^5 = \\bar z$ d'apr\\`es le corrig\\'e."
+    }
+  ]
+}

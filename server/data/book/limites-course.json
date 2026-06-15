@@ -1,0 +1,14 @@
+{
+  "course": [
+    {
+      "title": "Tableau de référence — 100 limites classiques",
+      "items": [
+        "Méthodes autorisées (2BAC SM) : factorisation, conjugué, théorème des gendarmes, limites usuelles $\\sin x/x$, $(e^x-1)/x$, $\\ln(1+x)/x$, $\\arctan x/x$, croissances comparées, règle de l'Hôpital pour $0/0$ ou $\\infty/\\infty$.",
+        "**Rappels** : $\\lim_{x\\to0}\\frac{\\sin x}{x}=1$, $\\lim_{x\\to0}\\frac{e^x-1}{x}=1$, $\\lim_{x\\to0}\\frac{\\ln(1+x)}{x}=1$, $\\lim_{x\\to0}\\frac{\\arctan x}{x}=1$, $\\lim_{x\\to+\\infty}\\frac{\\ln x}{x}=0$, $\\lim_{x\\to+\\infty}x^n e^{-x}=0$.",
+        "**Règle de L'Hôpital** : Pour $\\frac{0}{0}$ ou $\\frac{\\infty}{\\infty}$, si $\\lim f'/g'$ existe, alors $\\lim f/g = \\lim f'/g'$.",
+        "**Techniques** : multiplier par le conjugué pour les racines, $\\sin x\\sim x$, $\\cos x-1\\sim -x^2/2$, factoriser le terme dominant en $\\infty$.",
+        "**Forme $f^g$** : écrire $\\ln y = g\\ln f$ et étudier la limite."
+      ]
+    }
+  ]
+}

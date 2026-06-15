@@ -1,0 +1,291 @@
+{
+  "year": 2021,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "nombres complexes", "suites", "trigonométrie"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "Une condition nécessaire (pas forcément suffisante) pour réussir le concours de l'ENSA est :",
+        "choices": [
+          { "label": "A", "fr": "Avoir répondu correctement à tout le QCM" },
+          { "label": "B", "fr": "Avoir au plus 25% de réponses fausses" },
+          { "label": "C", "fr": "Avoir au moins 50% de réponses correctes" },
+          { "label": "D", "fr": "Avoir passé le concours" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Pour réussir un concours, il est nécessaire d'y avoir participé. Les autres options décrivent des performances qui ne sont pas strictement nécessaires.",
+        "topics": ["logique"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 2,
+        "question_fr": "Le 17 juillet 2021 (samedi). Quel jour sera le 29 février 2024 ?",
+        "choices": [
+          { "label": "A", "fr": "mardi" },
+          { "label": "B", "fr": "jeudi" },
+          { "label": "C", "fr": "samedi" },
+          { "label": "D", "fr": "lundi" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "957 jours entre les dates. $957 = 7\\times136 + 5$. Samedi + 5 jours = jeudi.",
+        "topics": ["arithmétique"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 3,
+        "question_fr": "Le nombre de diviseurs de $N = 72^{10} \\times 162^{50}$ est :",
+        "choices": [
+          { "label": "A", "fr": "$17600$" },
+          { "label": "B", "fr": "$17680$" },
+          { "label": "C", "fr": "$17820$" },
+          { "label": "D", "fr": "$17901$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "$72^{10} = 2^{30} \\times 3^{20}$, $162^{50} = 2^{50} \\times 3^{200}$, $N = 2^{80} \\times 3^{220}$. Diviseurs $= (80+1)(220+1) = 81\\times221 = 17901$.",
+        "topics": ["algèbre", "arithmétique"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 4,
+        "question_fr": "Soient $x$ et $y$ non nuls, inverses l'un de l'autre, tels que la somme du carré de leur somme avec la somme de leurs carrés vaut 10. Le carré de $x$ vaut :",
+        "choices": [
+          { "label": "A", "fr": "$2-\\sqrt{3}$ ou $2+\\sqrt{3}$" },
+          { "label": "B", "fr": "$1-\\sqrt{5}$ ou $1+\\sqrt{5}$" },
+          { "label": "C", "fr": "$1-\\sqrt{3}$ ou $1+\\sqrt{3}$" },
+          { "label": "D", "fr": "$2-\\sqrt{5}$ ou $2+\\sqrt{5}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$y=1/x$. $(x+1/x)^2 + (x^2+1/x^2) = 10 \\implies 2(x^2+1/x^2)=8 \\implies x^2+1/x^2=4$. $X+1/X=4 \\implies X^2-4X+1=0 \\implies X=2\\pm\\sqrt{3}$.",
+        "topics": ["algèbre"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 5,
+        "question_fr": "$\\prod_{k=0}^{9} \\sqrt[3\\cdot 2^k]{5} =$",
+        "choices": [
+          { "label": "A", "fr": "$\\sqrt[256]{5^{\\frac{511}{3}}}$" },
+          { "label": "B", "fr": "$\\sqrt[256]{5^{\\frac{1023}{3}}}$" },
+          { "label": "C", "fr": "$\\sqrt[512]{5^{\\frac{1023}{3}}}$" },
+          { "label": "D", "fr": "$\\sqrt[1024]{5^{\\frac{511}{3}}}$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$5^{\\frac{1}{3}\\sum_{k=0}^9 (1/2)^k} = 5^{\\frac{1}{3}\\cdot\\frac{1023}{512}} = \\sqrt[512]{5^{1023/3}}$.",
+        "topics": ["algèbre", "suites géométriques"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 6,
+        "question_fr": "$\\lim_{n \\to +\\infty} 3^n e^{-3n} =$",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$0$" },
+          { "label": "C", "fr": "$+\\infty$" },
+          { "label": "D", "fr": "$e$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$3^n e^{-3n} = (\\frac{3}{e^3})^n$. $e^3 \\approx 20,08 > 3$, donc $0<\\frac{3}{e^3}<1$, limite $0$.",
+        "topics": ["analyse", "suites", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 7,
+        "question_fr": "Sachant que $(3+\\sqrt{5})^n+(3-\\sqrt{5})^n$ est un entier pair, $\\lim \\sin((3+\\sqrt{5})^n\\pi) =$",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$-1$" },
+          { "label": "C", "fr": "$0$" },
+          { "label": "D", "fr": "$+\\infty$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "Soit $A_n = 2k$. $\\sin((3+\\sqrt{5})^n\\pi) = \\sin(2k\\pi-(3-\\sqrt{5})^n\\pi) = -\\sin((3-\\sqrt{5})^n\\pi)$. Comme $3-\\sqrt{5} \\approx 0,764$, $(3-\\sqrt{5})^n \\to 0$, donc limite $0$.",
+        "topics": ["analyse", "suites", "limites", "trigonométrie"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 8,
+        "question_fr": "$\\lim_{x \\to \\pi/6} \\frac{\\sqrt{3}\\sin x - \\cos x}{x - \\pi/6} =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$2$" },
+          { "label": "D", "fr": "$+\\infty$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "C'est $g'(\\pi/6)$ avec $g(x)=\\sqrt{3}\\sin x - \\cos x$. $g(\\pi/6)=0$, $g'(x)=\\sqrt{3}\\cos x+\\sin x$, $g'(\\pi/6)=2$.",
+        "topics": ["analyse", "dérivation", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 9,
+        "question_fr": "$\\lim_{x \\to 0^+} x^{1/\\ln(3x)} =$",
+        "choices": [
+          { "label": "A", "fr": "$e$" },
+          { "label": "B", "fr": "$0$" },
+          { "label": "C", "fr": "$\\ln 3$" },
+          { "label": "D", "fr": "$1+e$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\ln y = \\frac{\\ln x}{\\ln 3+\\ln x} = \\frac{1}{\\frac{\\ln 3}{\\ln x}+1} \\to 1$, donc $y \\to e$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 10,
+        "question_fr": "Soit $f$ $T$-périodique avec $\\lim_{x\\to+\\infty} f(x)$ existe dans $\\mathbb{R}^*$. Alors :",
+        "choices": [
+          { "label": "A", "fr": "$f$ est strictement croissante" },
+          { "label": "B", "fr": "$f$ est strictement décroissante" },
+          { "label": "C", "fr": "$f$ est la fonction nulle" },
+          { "label": "D", "fr": "$f$ est une constante non nulle" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Par périodicité, $f(x) = \\lim_{n\\to+\\infty} f(x+nT) = L$. $f$ est constante non nulle.",
+        "topics": ["analyse", "limites", "périodicité"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 11,
+        "question_fr": "Soit $f(x) = x^2+x^3\\cos(1/x)$ si $x\\ne0$, $f(0)=0$. $f'(0) =$",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$0$" },
+          { "label": "C", "fr": "$2$" },
+          { "label": "D", "fr": "$f$ n'est pas dérivable en 0" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\lim_{x\\to0}\\frac{f(x)-f(0)}{x} = \\lim(x+x^2\\cos(1/x)) = 0$. $f'(0)=0$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 12,
+        "question_fr": "Pour la même $f$ de Q11, $f''(0)$ :",
+        "choices": [
+          { "label": "A", "fr": "$f''(0)=0$" },
+          { "label": "B", "fr": "$f''(0)=1$" },
+          { "label": "C", "fr": "$f''(0)=2$" },
+          { "label": "D", "fr": "$f$ n'est pas deux fois dérivable en 0" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "$f'(x)=2x+3x^2\\cos(1/x)+x\\sin(1/x)$. $\\frac{f'(x)-f'(0)}{x} = 2+3x\\cos(1/x)+\\sin(1/x)$. $\\sin(1/x)$ n'a pas de limite, donc $f'$ non dérivable en 0.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 13,
+        "question_fr": "L'aire délimitée par $y=\\cos(\\ln x)$ et $x=e^{\\pi/2}, x=e^{\\pi}$ est :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1}{2}\\left(e^\\pi + e^{\\pi/2}\\right)$" },
+          { "label": "B", "fr": "$e^\\pi - e^{\\pi/2}$" },
+          { "label": "C", "fr": "$e^\\pi + e^{\\pi/2}$" },
+          { "label": "D", "fr": "$e^\\pi$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\cos(\\ln x) \\le 0$ sur $[e^{\\pi/2}, e^\\pi]$. $A = \\int -\\cos(\\ln x)dx = \\frac{1}{2}(e^\\pi+e^{\\pi/2})$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 14,
+        "question_fr": "Soit $f$ continue sur $[0,\\alpha]$ avec $f(x)\\ne-1$ et $f(x)\\cdot f(\\alpha-x)=1$. $\\int_0^\\alpha \\frac{1}{1+f(x)}dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\alpha}{2}$" },
+          { "label": "B", "fr": "$\\alpha$" },
+          { "label": "C", "fr": "$1+\\alpha$" },
+          { "label": "D", "fr": "$\\frac{1}{1+\\alpha}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Par $u=\\alpha-x$ : $I = \\int_0^\\alpha \\frac{f(x)}{1+f(x)}dx$. $2I = \\int_0^\\alpha 1\\,dx = \\alpha \\Rightarrow I = \\alpha/2$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 15,
+        "question_fr": "Soit $f(x)=e^{-x}\\sin x$ et $f^{(4)}$ sa dérivée d'ordre 4, alors $f^{(4)}(x)=$",
+        "choices": [
+          { "label": "A", "fr": "$-f(x)$" },
+          { "label": "B", "fr": "$-4f(x)$" },
+          { "label": "C", "fr": "$4f(x)$" },
+          { "label": "D", "fr": "$-3f(x)$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$f(x) = \\text{Im}(e^{(-1+i)x})$. $(-1+i)^2 = -2i$, $(-1+i)^4 = -4$. $f^{(4)}(x) = \\text{Im}(-4e^{(-1+i)x}) = -4e^{-x}\\sin x = -4f(x)$.",
+        "topics": ["analyse", "dérivation", "nombres complexes"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 16,
+        "question_fr": "Pour la même $f$ de Q15, $\\int_0^\\pi f(x)dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1}{3}(1-e^{-\\pi})$" },
+          { "label": "B", "fr": "$\\frac{1}{2}(1+e^{-\\pi})$" },
+          { "label": "C", "fr": "$\\frac{1}{2}(1-e^{-\\pi})$" },
+          { "label": "D", "fr": "$\\frac{1}{5}(1+e^{-\\pi})$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "Primitive $F(x) = -\\frac{e^{-x}(\\sin x+\\cos x)}{2}$. $F(\\pi)-F(0) = \\frac{e^{-\\pi}}{2}+\\frac{1}{2} = \\frac{1}{2}(1+e^{-\\pi})$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 17,
+        "question_fr": "Soit $u$ solution de $z\\bar{z}+4iz = -3+4i$. Alors :",
+        "choices": [
+          { "label": "A", "fr": "$\\text{Re}(u)\\times\\text{Im}(u) = 2$" },
+          { "label": "B", "fr": "$\\text{Re}(u)\\times\\text{Im}(u) = 1$" },
+          { "label": "C", "fr": "$\\text{Re}(u)+\\text{Im}(u) = 2$" },
+          { "label": "D", "fr": "$u$ est un imaginaire pur" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$u=x+iy$. $x^2+y^2+4i(x+iy)=-3+4i \\Rightarrow 4x=4 \\Rightarrow x=1$. $1+y^2-4y=-3 \\Rightarrow (y-2)^2=0 \\Rightarrow y=2$. $u=1+2i$, produit = $2$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 18,
+        "question_fr": "Soient $z_1,z_2$ solutions de $z^2-2\\bar{z}+3=0$. $\\text{Re}(z_1/z_2) =$",
+        "choices": [
+          { "label": "A", "fr": "$-\\frac{2\\sqrt{6}}{7}$" },
+          { "label": "B", "fr": "$\\frac{2\\sqrt{6}}{7}$" },
+          { "label": "C", "fr": "$\\frac{5}{7}$" },
+          { "label": "D", "fr": "$-\\frac{5}{7}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "$z=x+iy$. Partie imaginaire : $2y(x+1)=0$. $x=-1$ donne $y^2=6$, $z_1=-1+i\\sqrt{6}$, $z_2=-1-i\\sqrt{6}$. $z_1/z_2 = \\frac{-5-2i\\sqrt{6}}{7}$, partie réelle $-5/7$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 19,
+        "question_fr": "Soient $\\theta\\ne0$ réel et $z = \\cos^2\\theta + i\\sin\\theta\\cos\\theta$. La partie réelle de $z^{-3}$ est :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\cos\\theta}{\\sin^3\\theta}$" },
+          { "label": "B", "fr": "$\\frac{\\sin 3\\theta}{\\sin^3\\theta}$" },
+          { "label": "C", "fr": "$\\frac{\\cos 3\\theta}{\\cos^3\\theta}$" },
+          { "label": "D", "fr": "$\\frac{\\sin\\theta}{\\cos^3\\theta}$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$z = \\cos\\theta(\\cos\\theta+i\\sin\\theta) = \\cos\\theta\\,e^{i\\theta}$. $z^{-3} = \\frac{1}{\\cos^3\\theta}e^{-3i\\theta} = \\frac{\\cos 3\\theta - i\\sin 3\\theta}{\\cos^3\\theta}$.",
+        "topics": ["nombres complexes", "trigonométrie"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 20,
+        "question_fr": "$\\cos 5\\theta$ est égal à :",
+        "choices": [
+          { "label": "A", "fr": "$\\cos^5\\theta + 10\\cos^3\\theta\\sin^2\\theta + 5\\cos\\theta\\sin^4\\theta$" },
+          { "label": "B", "fr": "$\\cos^5\\theta + 5\\cos^3\\theta\\sin^2\\theta + 10\\cos\\theta\\sin^4\\theta$" },
+          { "label": "C", "fr": "$\\cos^5\\theta - 10\\cos^3\\theta\\sin^2\\theta + \\cos\\theta\\sin^4\\theta$" },
+          { "label": "D", "fr": "$\\cos^5\\theta - 10\\cos^3\\theta\\sin^2\\theta + 5\\cos\\theta\\sin^4\\theta$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Formule de Moivre : $\\cos 5\\theta = \\text{Re}((\\cos\\theta+i\\sin\\theta)^5) = \\cos^5\\theta - C_5^2\\cos^3\\theta\\sin^2\\theta + C_5^4\\cos\\theta\\sin^4\\theta$ $= \\cos^5\\theta - 10\\cos^3\\theta\\sin^2\\theta + 5\\cos\\theta\\sin^4\\theta$.",
+        "topics": ["trigonométrie", "nombres complexes"],
+        "difficulty": "moyen"
+      }
+    ]
+  }]
+}

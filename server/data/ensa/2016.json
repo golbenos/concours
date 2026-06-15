@@ -1,0 +1,261 @@
+{
+  "year": 2016,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "nombres complexes", "suites", "trigonométrie", "géométrie", "combinatoire"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "$t = \\frac{c-a}{b-a} = re^{i\\theta}$ se traduit par :",
+        "choices": [
+          { "label": "A", "fr": "$AC = rAB$ et $(\\vec{AB},\\vec{AC})\\equiv0$" },
+          { "label": "B", "fr": "$AB = rAC$ et $(\\vec{AB},\\vec{AC})\\equiv\\theta$" },
+          { "label": "C", "fr": "$AC = rAB$ et $(\\vec{AB},\\vec{AC})\\equiv\\theta$" },
+          { "label": "D", "fr": "$AC=r^2AB$ et $(\\vec{AB},\\vec{AC})\\equiv\\theta$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$|t| = AC/AB = r$ et $\\arg(t) = (\\vec{AB},\\vec{AC}) = \\theta$.",
+        "topics": ["nombres complexes", "géométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 2,
+        "question_fr": "$A,B,C$ alignés ssi :",
+        "choices": [
+          { "label": "A", "fr": "$t\\in i\\mathbb{R}$" },
+          { "label": "B", "fr": "$t\\in\\mathbb{R}_+$" },
+          { "label": "C", "fr": "$t\\in i\\mathbb{R}_+$" },
+          { "label": "D", "fr": "$t\\in\\mathbb{R}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Alignés ssi $\\) angle $0$ ou $\\pi$, donc $t$ réel.",
+        "topics": ["nombres complexes", "géométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 3,
+        "question_fr": "Triangle $ABC$ rectangle en $A$ ssi :",
+        "choices": [
+          { "label": "A", "fr": "$t\\in i\\mathbb{R}$" },
+          { "label": "B", "fr": "$t\\in\\mathbb{R}_+$" },
+          { "label": "C", "fr": "$t\\in i\\mathbb{R}_+$" },
+          { "label": "D", "fr": "$t\\in\\mathbb{R}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Rectangle en $A$ ssi $(\\vec{AB},\\vec{AC})=\\pi/2$, donc $t$ imaginaire pur.",
+        "topics": ["nombres complexes", "géométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 4,
+        "question_fr": "Nombre de parties de $E$ à $n$ éléments :",
+        "choices": [
+          { "label": "A", "fr": "$n^2$" },
+          { "label": "B", "fr": "$2^n$" },
+          { "label": "C", "fr": "$n^n$" },
+          { "label": "D", "fr": "$n!$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "Cardinal de l'ensemble des parties = $2^n$.",
+        "topics": ["combinatoire"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 5,
+        "question_fr": "Nombre de parties de $E$ contenant un seul élément de $A$ ($A\\subset E$, $|A|=p$, $|E|=n$) :",
+        "choices": [
+          { "label": "A", "fr": "$n2^{n-p}$" },
+          { "label": "B", "fr": "$pn2^{n-p}$" },
+          { "label": "C", "fr": "$p2^{n-p}$" },
+          { "label": "D", "fr": "$2^{n-p}$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$p$ choix dans $A$, $2^{n-p}$ choix dans $E\\setminus A$.",
+        "topics": ["combinatoire"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 6,
+        "question_fr": "Nombre de chemins de $(0,0)$ à $(p,q)$ (droite/haut) :",
+        "choices": [
+          { "label": "A", "fr": "$C_{p+q}^q$" },
+          { "label": "B", "fr": "$qC_{p+p}^q$" },
+          { "label": "C", "fr": "$C_{pq}^q$" },
+          { "label": "D", "fr": "$2^{p+q}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$p+q$ déplacements dont $q$ vers le haut : $\\binom{p+q}{q}$.",
+        "topics": ["combinatoire"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 7,
+        "question_fr": "$f(x)=2x/(1+x^2)$ :",
+        "choices": [
+          { "label": "A", "fr": "$f$ est injective" },
+          { "label": "B", "fr": "$f$ est surjective" },
+          { "label": "C", "fr": "$f$ n'est pas injective" },
+          { "label": "D", "fr": "$f$ est injective et non surjective" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$f(2)=f(1/2)=4/5$, non injective. $|f(x)|\\le1$, non surjective.",
+        "topics": ["analyse", "fonctions"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 8,
+        "question_fr": "Nombre de diviseurs de $15!$ :",
+        "choices": [
+          { "label": "A", "fr": "$4032$" },
+          { "label": "B", "fr": "$3042$" },
+          { "label": "C", "fr": "$2034$" },
+          { "label": "D", "fr": "$3044$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$15! = 2^{11}\\times3^6\\times5^3\\times7^2\\times11\\times13$. Diviseurs $=12\\times7\\times4\\times3\\times2\\times2=4032$.",
+        "topics": ["arithmétique"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 9,
+        "question_fr": "QCM 20 questions, 4 réponses chacune. Nombre de grilles :",
+        "choices": [
+          { "label": "A", "fr": "$4^{20}$" },
+          { "label": "B", "fr": "$20^4$" },
+          { "label": "C", "fr": "$800$" },
+          { "label": "D", "fr": "$80$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$4^{20}$ grilles possibles.",
+        "topics": ["combinatoire"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 10,
+        "question_fr": "$\\alpha = \\min\\{x(1-y), y(1-z), z(1-x)\\}$, $(x,y,z)\\in[0,1]^3$ :",
+        "choices": [
+          { "label": "A", "fr": "$\\alpha=0$" },
+          { "label": "B", "fr": "$\\alpha>1/4$" },
+          { "label": "C", "fr": "$1/8<\\alpha<1/4$" },
+          { "label": "D", "fr": "$\\alpha\\le 1/4$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Produit $\\le (1/4)^3$, donc $\\alpha^3 \\le (1/4)^3$, $\\alpha \\le 1/4$.",
+        "topics": ["algèbre", "inégalités"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 11,
+        "question_fr": "$\\sum_{k=0}^{2016} (-1)^k C_{2016}^k =$",
+        "choices": [{ "label": "A", "fr": "$0$" }, { "label": "B", "fr": "$1$" }, { "label": "C", "fr": "$2$" }, { "label": "D", "fr": "$3$" }],
+        "correctIndex": 0,
+        "explanation_fr": "$(1-1)^{2016} = 0$.",
+        "topics": ["algèbre", "binôme de Newton"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 12,
+        "question_fr": "$\\sum_{i=1}^{10}\\sum_{j=1}^{10} (i+j)^2 =$",
+        "choices": [{ "label": "A", "fr": "$10000$" }, { "label": "B", "fr": "$10750$" }, { "label": "C", "fr": "$13000$" }, { "label": "D", "fr": "$13750$" }],
+        "correctIndex": 3,
+        "explanation_fr": "$20\\times385 + 2\\times55^2 = 7700+6050=13750$.",
+        "topics": ["algèbre", "sommes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 13,
+        "question_fr": "Toute fonction discontinue est :",
+        "choices": [
+          { "label": "A", "fr": "constante" },
+          { "label": "B", "fr": "non dérivable" },
+          { "label": "C", "fr": "dérivable" },
+          { "label": "D", "fr": "périodique" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "Dérivable $\\Rightarrow$ continue. Contraposée : discontinue $\\Rightarrow$ non dérivable.",
+        "topics": ["analyse", "dérivation", "continuité"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 14,
+        "question_fr": "$f(x)=x^2\\sin(1/x)$ (si $x\\ne0$), $f(0)=0$. Alors :",
+        "choices": [
+          { "label": "A", "fr": "$f'$ n'est pas continue en $0$" },
+          { "label": "B", "fr": "$f'$ est continue en $0$" },
+          { "label": "C", "fr": "$f'$ admet une limite finie en $0$" },
+          { "label": "D", "fr": "$f'$ a pour limite $+\\infty$ en $0$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$f'(0)=0$. $f'(x)=2x\\sin(1/x)-\\cos(1/x)$. $\\cos(1/x)$ n'a pas de limite, donc $f'$ non continue en $0$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 15,
+        "question_fr": "$\\lim_{x\\to+\\infty} \\left(\\frac{x-1}{x+3}\\right)^{x+2} =$",
+        "choices": [{ "label": "A", "fr": "$1$" }, { "label": "B", "fr": "$e^{-4}$" }, { "label": "C", "fr": "$\\sqrt{e}$" }, { "label": "D", "fr": "$0$" }],
+        "correctIndex": 1,
+        "explanation_fr": "$\\exp((x+2)\\ln(1-\\frac{4}{x+3})) \\sim \\exp((x+2)(-\\frac{4}{x+3})) \\to e^{-4}$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 16,
+        "question_fr": "$\\lim_{x\\to0^+} \\frac{2\\cos^2(1/x)-\\sin(1/x)+3}{x+\\sqrt{x}} =$",
+        "choices": [{ "label": "A", "fr": "$+\\infty$" }, { "label": "B", "fr": "$0$" }, { "label": "C", "fr": "$1$" }, { "label": "D", "fr": "$3$" }],
+        "correctIndex": 0,
+        "explanation_fr": "Numérateur borné entre $2$ et $6$, dénominateur $\\to0^+$, donc limite $+\\infty$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 17,
+        "question_fr": "Produit des 4 racines de $(x-7)(x-5)(x+4)(x+6)=608$ :",
+        "choices": [{ "label": "A", "fr": "$464$" }, { "label": "B", "fr": "$608$" }, { "label": "C", "fr": "$232$" }, { "label": "D", "fr": "$840$" }],
+        "correctIndex": 2,
+        "explanation_fr": "$(x^2-x-42)(x^2-x-20)=608$. $y=x^2-x$, $(y-42)(y-20)=608$, $y^2-62y+232=0$. Produit des 4 racines $=y_1y_2=232$.",
+        "topics": ["algèbre", "polynômes"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 18,
+        "question_fr": "$\\int_e^{e^2} \\frac{1+\\ln x}{x\\ln x}dx =$",
+        "choices": [{ "label": "A", "fr": "$1-\\ln2$" }, { "label": "B", "fr": "$1+\\ln2$" }, { "label": "C", "fr": "$\\ln2$" }, { "label": "D", "fr": "$1$" }],
+        "correctIndex": 1,
+        "explanation_fr": "$\\frac{1}{x\\ln x}+\\frac{1}{x}$. Primitive $\\ln(\\ln x)+\\ln x$. $F(e^2)-F(e)=\\ln2+2-(0+1)=1+\\ln2$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 19,
+        "question_fr": "$\\int_0^1 x^2\\sin(\\pi x)dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\pi^2-4}{\\pi^3}$" },
+          { "label": "B", "fr": "$\\frac{\\pi^2+4}{\\pi^3}$" },
+          { "label": "C", "fr": "$\\frac{4}{\\pi^3}$" },
+          { "label": "D", "fr": "$-\\frac{4}{\\pi^3}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Double IPP : $1/\\pi + (2/\\pi)(-2/\\pi^2) = (\\pi^2-4)/\\pi^3$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 20,
+        "question_fr": "$I=\\int_0^{\\pi/2}\\frac{\\sin x}{\\cos x+\\sin x}dx$, $J=\\int_0^{\\pi/2}\\frac{\\cos x}{\\cos x+\\sin x}dx$ :",
+        "choices": [
+          { "label": "A", "fr": "$I=J=0$" },
+          { "label": "B", "fr": "$I=\\pi/2$, $J=\\pi/4$" },
+          { "label": "C", "fr": "$I=J=\\pi/4$" },
+          { "label": "D", "fr": "$I=\\pi/3$, $J=\\pi$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$x\\to\\pi/2-x$ donne $I=J$. $I+J=\\pi/2$, donc $I=J=\\pi/4$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      }
+    ]
+  }]
+}

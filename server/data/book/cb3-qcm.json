@@ -1,0 +1,564 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "[CB3#1] $\\lim_{x\\to0} \\frac{\\sqrt{\\ln(e+x)}-1}{\\sqrt{x+1}-1} =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac1{2e}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac1e$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        },
+        {
+          "label": "E",
+          "fr": "$2e$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Équivalent : $\\sqrt{\\ln(e+x)}-1 \\sim \\frac{\\ln(e+x)-1}{2} = \\frac{\\ln(1+x/e)}{2} \\sim \\frac{x}{2e}$ ; $\\sqrt{x+1}-1 \\sim x/2$ ⇒ rapport → $1/e$."
+    },
+    {
+      "id": 2,
+      "question_fr": "[CB3#2] $f(x)=\\frac{1}{1-x}\\ln(1+\\frac1x)$ ⇒ $f'(x)=$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac1{(1-x)^2}\\ln(1+\\frac1x)+\\frac1{x(1-x^2)}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac1{(1-x)^2}\\ln(1+\\frac1x)-\\frac1{x(1-x^2)}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac1{1-x^2}\\ln(1+\\frac1x)-\\frac1{x(1-x^2)}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac1{(1-x)^2}\\ln(1+\\frac1x)-\\frac1{x(1-x)^2}$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Dérivée par produit : $f'(x) = \\frac{1}{(1-x)^2}\\ln(1+\\frac1x) + \\frac{1}{1-x}\\cdot\\frac{-1/x^2}{1+1/x}$. Simplification → B."
+    },
+    {
+      "id": 3,
+      "question_fr": "[CB3#3] $\\left(\\frac{7-15i}{15+7i}\\right)^{2021} =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$i$"
+        },
+        {
+          "label": "B",
+          "fr": "$-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$7-15i$"
+        },
+        {
+          "label": "D",
+          "fr": "$-i$"
+        },
+        {
+          "label": "E",
+          "fr": "$7+15i$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\frac{7-15i}{15+7i} = \\frac{(7-15i)(15-7i)}{225+49} = \\frac{-224-224i}{274} = -i$. Donc $(-i)^{2021} = -i$."
+    },
+    {
+      "id": 4,
+      "question_fr": "[CB3#4] $x\\in]0,1[$, $\\lim_{n\\to\\infty} (1-x+x^2-x^3+\\dots+(-1)^n x^n) =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac1{x-1}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac1{1-x}$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\frac1{1+x}$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\frac1{1+x}$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Somme géométrique de raison $-x$ : $\\frac{1-(-x)^{n+1}}{1+x} \\to \\frac1{1+x}$."
+    },
+    {
+      "id": 5,
+      "question_fr": "[CB3#5] Nombre de solutions réelles de $x^3+x-1=0$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$2$"
+        },
+        {
+          "label": "D",
+          "fr": "$3$"
+        },
+        {
+          "label": "E",
+          "fr": "$5$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Fonction strictement croissante (dérivée positive) et change de signe entre 0 et 1 ⇒ une seule solution."
+    },
+    {
+      "id": 6,
+      "question_fr": "[CB3#6] $|z|\\bar z = 15 - 20i$ ⇒ $|(1+i)z| =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\sqrt2$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\sqrt2$"
+        },
+        {
+          "label": "C",
+          "fr": "$3\\sqrt2$"
+        },
+        {
+          "label": "D",
+          "fr": "$4\\sqrt2$"
+        },
+        {
+          "label": "E",
+          "fr": "$5\\sqrt2$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$|z|\\bar z = 15-20i$ ⇒ $|z|^2 = 25$ ⇒ $|z|=5$. $|1+i|=\\sqrt2$ ⇒ $|(1+i)z|=5\\sqrt2$."
+    },
+    {
+      "id": 7,
+      "question_fr": "[CB3#7] $f(x)=\\frac{\\sqrt{\\ln(1+x^2)}}{x}$ ⇒ $\\lim_{x\\to0} f(x) =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$1/2$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "n'existe pas"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "À droite : $\\sqrt{\\ln(1+x^2)} \\sim |x|$ ⇒ $f(x) \\sim \\frac{|x|}{x} = 1$ (à droite) et $-1$ (à gauche) ⇒ pas de limite."
+    },
+    {
+      "id": 8,
+      "question_fr": "[CB3#8] $u_{n+1}=u_n^2+u_n$, $u_0=1$ ⇒ $\\lim u_n =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$u_{n+1}-u_n = u_n^2 \\ge 0$ ⇒ croissante. Si convergente, limite vérifie $l=l^2+l$ ⇒ $l=0$ impossible car $u_n\\ge1$. Donc $+\\infty$."
+    },
+    {
+      "id": 9,
+      "question_fr": "[CB3#9] $\\int_0^1 \\frac{x}{1+e^{-x^2}}dx =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\sqrt{\\ln(1+e)}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\ln\\sqrt{1+e}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\ln(1+e)$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\ln\\sqrt{\\frac{1+e}{2}}$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\sqrt{\\ln(1+e)}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\frac{x}{1+e^{-x^2}} = \\frac{x e^{x^2}}{e^{x^2}+1}$. Poser $u=e^{x^2}+1$, $du=2xe^{x^2}dx$ ⇒ intégrale = $\\frac12\\int_2^{e+1}\\frac{du}{u} = \\frac12\\ln\\frac{e+1}{2}$."
+    },
+    {
+      "id": 10,
+      "question_fr": "[CB3#10] $f(1)=4$, $f'(x)=2x+\\ln x$ ⇒ $f(e)=$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "B",
+          "fr": "$e+4$"
+        },
+        {
+          "label": "C",
+          "fr": "$e^2+4$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        },
+        {
+          "label": "E",
+          "fr": "$4$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$f(x)=x^2 + x\\ln x - x + C$. $f(1)=4$ ⇒ $C=4$. Donc $f(e)=e^2+e-e+4 = e^2+4$."
+    },
+    {
+      "id": 11,
+      "question_fr": "[CB3#11] $z=1+i(1+\\sqrt2)$ ⇒",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$|z|=2\\sqrt2\\cos\\frac\\pi8,\\ \\arg z=\\frac{3\\pi}8$"
+        },
+        {
+          "label": "B",
+          "fr": "$|z|=2\\sqrt2\\cos\\frac\\pi8,\\ \\arg z=\\frac\\pi8$"
+        },
+        {
+          "label": "C",
+          "fr": "$|z|=2\\sqrt2\\cos\\frac{3\\pi}8,\\ \\arg z=\\frac{3\\pi}8$"
+        },
+        {
+          "label": "D",
+          "fr": "$|z|=2\\sqrt2\\cos\\frac{3\\pi}8,\\ \\arg z=\\frac\\pi8$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$z = \\sqrt2 e^{i\\pi/4} + \\sqrt2 e^{i\\pi/2} = 2\\sqrt2\\cos\\frac\\pi8 e^{i3\\pi/8}$."
+    },
+    {
+      "id": 12,
+      "question_fr": "[CB3#12] $\\int_1^2 f'(x)f''(x)dx=8$, $f'(2)-f'(1)=2$ ⇒ $f'(2)+f'(1)=$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$4$"
+        },
+        {
+          "label": "B",
+          "fr": "$6$"
+        },
+        {
+          "label": "C",
+          "fr": "$8$"
+        },
+        {
+          "label": "D",
+          "fr": "$10$"
+        },
+        {
+          "label": "E",
+          "fr": "$12$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\int_1^2 f'(x)f''(x)dx = \\frac12[(f'(2))^2-(f'(1))^2] = \\frac12(f'(2)-f'(1))(f'(2)+f'(1)) = \\frac12\\times2\\times S = S = 8$."
+    },
+    {
+      "id": 13,
+      "question_fr": "[CB3#13] $S_n = \\sum_{k=1}^n q^k$ convergente et $\\lim S_n=4$ ⇒ $q=$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2/3$"
+        },
+        {
+          "label": "B",
+          "fr": "$3/4$"
+        },
+        {
+          "label": "C",
+          "fr": "$4/5$"
+        },
+        {
+          "label": "D",
+          "fr": "$5/6$"
+        },
+        {
+          "label": "E",
+          "fr": "$6/7$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Convergence ⇒ $|q|<1$. Limite = $\\frac{q}{1-q}=4$ ⇒ $q=4-4q$ ⇒ $5q=4$ ⇒ $q=4/5$."
+    },
+    {
+      "id": 14,
+      "question_fr": "[CB3#14] $\\int_{\\pi/6}^{\\pi/3} \\frac{\\sin x}{\\sin x+\\cos x}dx =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\pi/3$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\pi/4$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\pi/6$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\pi/8$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\pi/12$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$I+J=\\int dx = \\pi/6$, $J-I = \\int \\frac{\\cos x-\\sin x}{\\sin x+\\cos x}dx = [\\ln(\\sin x+\\cos x)]_{\\pi/6}^{\\pi/3}=0$ ⇒ $I=J=\\pi/12$."
+    },
+    {
+      "id": 15,
+      "question_fr": "[CB3#15] $|z_1|=|z_2|=1$, $|z_1+z_2|=\\sqrt3$ ⇒ $|z_1-z_2| =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$3$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\sqrt3$"
+        },
+        {
+          "label": "D",
+          "fr": "$2$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\sqrt2$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$|z_1+z_2|^2=2+2\\cos\\theta=3$ ⇒ $\\cos\\theta=1/2$. $|z_1-z_2|^2=2-2\\cos\\theta=1$ ⇒ $|z_1-z_2|=1$."
+    },
+    {
+      "id": 16,
+      "question_fr": "[CB3#16] $u_0=0, u_1=1, u_n = \\sqrt{\\frac{u_{n+1}^2+u_{n-1}^2}{2}}$ ⇒ $\\lim u_n =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\sqrt2$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\sqrt2/2$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "On montre que $u_n^2$ est arithmétique de raison 1 ⇒ $u_n^2 = n$ ⇒ $u_n = \\sqrt n \\to +\\infty$."
+    },
+    {
+      "id": 17,
+      "question_fr": "[CB3#17] $f(x)=\\begin{cases} ax+b & x\\le0 \\\\ \\frac1{x+1} & x>0 \\end{cases}$ dérivable en 0 ⇒",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$a=1,b=1$"
+        },
+        {
+          "label": "B",
+          "fr": "$a=-1,b=1$"
+        },
+        {
+          "label": "C",
+          "fr": "$a=2,b=1$"
+        },
+        {
+          "label": "D",
+          "fr": "$a=-1,b=-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$a=-1,b=0$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Continuité : $b=1$. Dérivabilité : limite à droite = $-1$, à gauche = $a$ ⇒ $a=-1$."
+    },
+    {
+      "id": 18,
+      "question_fr": "[CB3#18] $f(x)=3x^2+2ax+b$, $\\int_{-1}^1 f(x)dx < 2$ ⇒ nombre de solutions de $f(x)=0$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$2$"
+        },
+        {
+          "label": "D",
+          "fr": "$3$"
+        },
+        {
+          "label": "E",
+          "fr": "$4$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\int_{-1}^1 f = 2 + 2b < 2$ ⇒ $b<0$. Discriminant $\\Delta = 4(a^2-3b) > 0$ ⇒ 2 solutions réelles."
+    },
+    {
+      "id": 19,
+      "question_fr": "[CB3#19] $z^2 - \\sin(2\\alpha)z + \\sin^2\\alpha = 0$. O, M(z1), M(z2) équilatéral ⇒ $\\alpha=$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\pi/3$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\pi/4$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\pi/5$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\pi/6$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\pi/8$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Solutions : $z=\\sin\\alpha e^{\\pm i\\alpha}$. Triangle équilatéral ⇔ $\\frac{z_1}{z_2}=e^{\\pm i\\pi/3}$ ⇒ $e^{2i\\alpha}=e^{i\\pi/3}$ ⇒ $\\alpha=\\pi/6$."
+    },
+    {
+      "id": 20,
+      "question_fr": "[CB3#20] $f_n(x)=e^{-x}-nx$, $n\\in\\mathbb{N}^*$. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\exists!\\alpha_n\\in]0,1[,\\ f_n(\\alpha_n)=0$ et $n\\alpha_n\\to1$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\alpha_n\\in]0,1[,\\ n\\alpha_n\\to0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\alpha_n\\in]0,1[,\\ n\\alpha_n\\to e$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\alpha_n\\in]-1,0[,\\ n\\alpha_n\\to0$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\alpha_n\\in]-1,0[,\\ n\\alpha_n\\to1$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f_n(0)=1>0$, $f_n(1)=e^{-1}-n<0$ ⇒ solution unique dans $]0,1[$. $e^{-\\alpha_n}=n\\alpha_n$ ⇒ $-\\alpha_n = \\ln n + \\ln\\alpha_n$ ⇒ $n\\alpha_n \\to 1$."
+    }
+  ]
+}

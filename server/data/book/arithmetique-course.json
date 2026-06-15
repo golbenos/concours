@@ -1,0 +1,26 @@
+{
+  "course": [
+    {
+      "title": "I. Arithmétique",
+      "items": [
+        "**1. Divisibilité** — $a\\mid b$ s'il existe $k\\in\\mathbb{Z}$ tel que $b=ka$. Si $a\\mid b$ et $b\\mid c$ alors $a\\mid c$. Si $c\\mid a$ et $c\\mid b$ alors $c\\mid(ma+nb)$ pour tous $m,n\\in\\mathbb{Z}$.",
+        "**2. Nombre premier** — Un entier $n>1$ est premier s'il a exactement deux diviseurs : $1$ et lui-même. Décomposition : $n=p_1^{\\alpha_1}\\times\\dots\\times p_r^{\\alpha_r}$. Nombre de diviseurs : $(\\alpha_1+1)\\dots(\\alpha_r+1)$.",
+        "**3. Division euclidienne** — $a=bq+r$ avec $0\\le r<b$. $q$ quotient, $r$ reste, uniques.",
+        "**4. Congruences** — $a\\equiv b\\pmod{n}$ $\\Leftrightarrow$ $n\\mid(a-b)$. Compatible avec $+$, $-$, $\\times$, $^p$. Fermat : si $a\\wedge p=1$ et $p$ premier, $a^{p-1}\\equiv1\\pmod{p}$.",
+        "**5. PGCD** — $d=a\\wedge b$ $\\Rightarrow$ $a=\\alpha d$, $b=\\beta d$, $\\alpha\\wedge\\beta=1$. $\\operatorname{PGCD}(ka,kb)=k\\cdot\\operatorname{PGCD}(a,b)$.",
+        "**6. Gauss** — $a\\wedge b=1$ et $a\\mid bc$ $\\Rightarrow$ $a\\mid c$.",
+        "**7. Bézout** — $a\\wedge b=1$ $\\Leftrightarrow$ $\\exists u,v\\in\\mathbb{Z}:au+bv=1$. L'équation $ax+by=c$ a des solutions entières $\\Leftrightarrow$ $\\operatorname{PGCD}(a,b)\\mid c$."
+      ]
+    },
+    {
+      "title": "II. Matrices",
+      "items": [
+        "**1. Matrices $2\\times2$** — Déterminant $\\det A = ad-bc$ pour $A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}$. Inverse : $A^{-1}=\\frac{1}{\\det A}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}$.",
+        "**2. Exemples $2\\times2$** — $M=\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}$ $\\Rightarrow$ $M^n=2^{n-1}M$. $M=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}$ $\\Rightarrow$ $M^n=\\begin{pmatrix}1&n\\\\0&1\\end{pmatrix}$. $M=\\begin{pmatrix}a&0\\\\0&b\\end{pmatrix}$ $\\Rightarrow$ $M^n=\\begin{pmatrix}a^n&0\\\\0&b^n\\end{pmatrix}$.",
+        "**3. Matrices $3\\times3$** — $M=\\begin{pmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{pmatrix}$ $\\Rightarrow$ $M^n=3^{n-1}M$. Diagonale : $\\operatorname{diag}(a,b,c)^n=\\operatorname{diag}(a^n,b^n,c^n)$.",
+        "**4. Matrice triangulaire** — $M=\\begin{pmatrix}a&a&a\\\\0&a&a\\\\0&0&a\\end{pmatrix}$ $\\Rightarrow$ $M^n=a^n\\begin{pmatrix}1&n&n(n+1)/2\\\\0&1&n\\\\0&0&1\\end{pmatrix}$.",
+        "**5. Nilpotence** — $\\det A=0$ $\\Rightarrow$ $A$ non inversible. $A\\neq0$, $B\\neq0$, $AB=0$ $\\Rightarrow$ $A$ nilpotente et non inversible."
+      ]
+    }
+  ]
+}

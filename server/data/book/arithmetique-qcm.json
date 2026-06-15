@@ -1,0 +1,540 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "Pour $n \\in \\mathbb{N}^*$, on pose $a_n = 2n^2 + 5n + 4$, $b_n = 2n+1$ et $d_n = a_n \\wedge b_n$. Alors $d_n$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$3$"
+        },
+        {
+          "label": "D",
+          "fr": "$4$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Division euclidienne : $2n^2+5n+4 = (2n+1)(n+2) + 2$. Donc $d_n = (2n+1) \\wedge 2 = 1$ (car $2n+1$ est impair)."
+    },
+    {
+      "id": 2,
+      "question_fr": "$M = \\begin{pmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{pmatrix}$. Alors $M^{2024}$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\begin{pmatrix}3^{2024}&3^{2024}&3^{2024}\\\\3^{2024}&3^{2024}&3^{2024}\\\\3^{2024}&3^{2024}&3^{2024}\\end{pmatrix}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\begin{pmatrix}3^{2023}&3^{2024}&3^{2024}\\\\3^{2024}&3^{2023}&3^{2023}\\\\3^{2024}&3^{2024}&3^{2023}\\end{pmatrix}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\begin{pmatrix}2^{2024}&3^{2023}&3^{2023}\\\\3^{2023}&2^{2024}&3^{2023}\\\\3^{2023}&3^{2023}&2^{2024}\\end{pmatrix}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\begin{pmatrix}3^{2023}&3^{2023}&3^{2023}\\\\3^{2023}&3^{2023}&3^{2023}\\\\3^{2023}&3^{2023}&3^{2023}\\end{pmatrix}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$M^2 = 3M$, par récurrence $M^n = 3^{n-1}M$. Donc $M^{2024} = 3^{2023} M = 3^{2023} \\begin{pmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{pmatrix}$."
+    },
+    {
+      "id": 3,
+      "question_fr": "Sachant que $11 \\times 11 = 121$, le produit $111111111 \\times 111111111$ est égal à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1234567654321$"
+        },
+        {
+          "label": "B",
+          "fr": "$123456787654321$"
+        },
+        {
+          "label": "C",
+          "fr": "$12345678987654321$"
+        },
+        {
+          "label": "D",
+          "fr": "$1234568654321$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Le carré d'un nombre composé de $n$ fois le chiffre 1 donne un palindrome symétrique dont le chiffre central est $n$. Pour $n=9$, le résultat est $12345678987654321$."
+    },
+    {
+      "id": 4,
+      "question_fr": "$M = \\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&3\\end{pmatrix}$. Alors $M^{2023}$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\begin{pmatrix}1&0&0\\\\0&2^{2024}&0\\\\0&0&3^{2024}\\end{pmatrix}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\begin{pmatrix}1&0&0\\\\0&2^{2022}&0\\\\0&0&3^{2022}\\end{pmatrix}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\begin{pmatrix}1&0&0\\\\0&2^{2023}&0\\\\0&0&3^{2023}\\end{pmatrix}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\begin{pmatrix}1&0&0\\\\0&2^{2023}&0\\\\0&0&3^{2023}\\end{pmatrix}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Matrice diagonale : chaque coefficient diagonal est élevé à la puissance $n$. Donc $M^{2023} = \\operatorname{diag}(1, 2^{2023}, 3^{2023})$."
+    },
+    {
+      "id": 5,
+      "question_fr": "Le nombre de diviseurs positifs de $N = 546 \\times 840$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$180$"
+        },
+        {
+          "label": "B",
+          "fr": "$181$"
+        },
+        {
+          "label": "C",
+          "fr": "$182$"
+        },
+        {
+          "label": "D",
+          "fr": "$183$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$546 = 2 \\cdot 3 \\cdot 7 \\cdot 13$, $840 = 2^3 \\cdot 3 \\cdot 5 \\cdot 7$. Donc $N = 2^4 \\cdot 3^2 \\cdot 5^1 \\cdot 7^2 \\cdot 13^1$. Nombre de diviseurs = $(4+1)(2+1)(1+1)(2+1)(1+1) = 5 \\cdot 3 \\cdot 2 \\cdot 3 \\cdot 2 = 180$."
+    },
+    {
+      "id": 6,
+      "question_fr": "$M = \\begin{pmatrix}1&1&1\\\\0&1&1\\\\0&0&1\\end{pmatrix}$. Alors $M^{100}$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\begin{pmatrix}1&100&100\\\\0&1&100\\\\0&0&1\\end{pmatrix}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\begin{pmatrix}1&100&5050\\\\0&1&100\\\\0&0&1\\end{pmatrix}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\begin{pmatrix}100&100&5050\\\\0&100&100\\\\0&0&100\\end{pmatrix}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\begin{pmatrix}1&100&5050\\\\0&1&1\\\\0&0&1\\end{pmatrix}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$M = I + N$ avec $N$ nilpotente ($N^3=0$). On trouve $M^n = \\begin{pmatrix}1&n&n(n+1)/2\\\\0&1&n\\\\0&0&1\\end{pmatrix}$. Pour $n=100$, $n(n+1)/2 = 5050$."
+    },
+    {
+      "id": 7,
+      "question_fr": "Les entiers relatifs $n$ tels que $2n+5$ divise $n-1$ sont :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\{5, -3, -2, 1\\}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\{-6, -3, -2, 1\\}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\{-6, 7, -2, 1\\}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\{-6, -3, 11, 1\\}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$2n+5 \\mid n-1 \\Rightarrow 2n+5 \\mid 2(n-1) - (2n+5) = -7$. Donc $2n+5 \\in \\{\\pm1, \\pm7\\}$. Solutions : $-6, -3, -2, 1$."
+    },
+    {
+      "id": 8,
+      "question_fr": "Soit $A = \\begin{pmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{pmatrix}$. On pose $M = I + A + A^2 + \\dots + A^n$ ($n \\in \\mathbb{N}^*$). Alors $M$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$I + 3^n A$"
+        },
+        {
+          "label": "B",
+          "fr": "$I + \\frac{3^n - 1}{3}A$"
+        },
+        {
+          "label": "C",
+          "fr": "$I + \\frac{2^n - 1}{2}A$"
+        },
+        {
+          "label": "D",
+          "fr": "$I + \\frac{3^n - 1}{2}A$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$A^2 = 3A$, donc $A^k = 3^{k-1}A$. Somme géométrique : $M = I + A(3^n-1)/(3-1) = I + (3^n-1)A/2$."
+    },
+    {
+      "id": 9,
+      "question_fr": "Les entiers $x$ tels que $6 + x \\equiv 5 \\pmod{3}$ sont :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1 + 3k$"
+        },
+        {
+          "label": "B",
+          "fr": "$2 + 3k$"
+        },
+        {
+          "label": "C",
+          "fr": "$3 + 5k$"
+        },
+        {
+          "label": "D",
+          "fr": "$2 + 5k$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$6 + x \\equiv 5 \\pmod{3} \\Rightarrow x \\equiv -1 \\equiv 2 \\pmod{3}$. Les solutions sont $x = 2 + 3k$."
+    },
+    {
+      "id": 10,
+      "question_fr": "$A = \\begin{pmatrix}0&1&3\\\\0&0&2\\\\0&0&0\\end{pmatrix}$. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$A^3 = 0$ et $A$ inversible"
+        },
+        {
+          "label": "B",
+          "fr": "$I - A$ inversible et $(I-A)^{-1} = I + A^2$"
+        },
+        {
+          "label": "C",
+          "fr": "$I + A$ inversible et $(I+A)^{-1} = I - A + A^2$"
+        },
+        {
+          "label": "D",
+          "fr": "$I + A$ inversible et $(I+A)^{-1} = I - A$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$A$ est strictement triangulaire supérieure, donc $A^3 = 0$ et $A$ n'est pas inversible. On vérie que $(I+A)(I - A + A^2) = I$. Donc $(I+A)^{-1} = I - A + A^2$."
+    },
+    {
+      "id": 11,
+      "question_fr": "Les entiers $x$ tels que $3x \\equiv 5 \\pmod{4}$ sont :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1 + 3k$"
+        },
+        {
+          "label": "B",
+          "fr": "$2 + 3k$"
+        },
+        {
+          "label": "C",
+          "fr": "$3 + 4k$"
+        },
+        {
+          "label": "D",
+          "fr": "$2 + 5k$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$3x \\equiv 5 \\equiv 1 \\pmod{4}$. En testant les résidus, $3 \\cdot 3 = 9 \\equiv 1$. Donc $x \\equiv 3 \\pmod{4}$, soit $x = 3 + 4k$."
+    },
+    {
+      "id": 12,
+      "question_fr": "$B = \\begin{pmatrix}0&1&1\\\\1&0&1\\\\1&1&0\\end{pmatrix}$. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$B^2 - B - 2I = 0$ et $B$ non inversible"
+        },
+        {
+          "label": "B",
+          "fr": "$B$ inversible et $B^{-1} = B - I$"
+        },
+        {
+          "label": "C",
+          "fr": "$B$ inversible et $B^{-1} = \\frac12 B - \\frac12 I$"
+        },
+        {
+          "label": "D",
+          "fr": "$B$ inversible et $B^{-1} = \\frac12 B - I$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "On calcule $B^2 = \\begin{pmatrix}2&1&1\\\\1&2&1\\\\1&1&2\\end{pmatrix}$, donc $B^2 - B - 2I = 0$. Alors $B(B - I) = 2I$, soit $B^{-1} = \\frac12(B - I)$."
+    },
+    {
+      "id": 13,
+      "question_fr": "Le reste de la division de $2^{456}$ par 5 est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$3$"
+        },
+        {
+          "label": "D",
+          "fr": "$4$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$2^4 = 16 \\equiv 1 \\pmod{5}$, et $456 = 4 \\cdot 114$, donc $2^{456} \\equiv 1^{114} \\equiv 1 \\pmod{5}$."
+    },
+    {
+      "id": 14,
+      "question_fr": "Le reste de la division de $9^{2014}$ par 11 est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$3$"
+        },
+        {
+          "label": "C",
+          "fr": "$5$"
+        },
+        {
+          "label": "D",
+          "fr": "$7$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$9^5 \\equiv 1 \\pmod{11}$ (Fermat : $9^{10} \\equiv 1$, donc $9^5 \\equiv \\pm 1$, en fait $9^5 = 59049 \\equiv 1$). $2014 = 5 \\cdot 402 + 4$, donc $9^{2014} \\equiv 9^4 \\equiv 5 \\pmod{11}$."
+    },
+    {
+      "id": 15,
+      "question_fr": "Le reste de la division de $2^{437}$ par 7 est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$3$"
+        },
+        {
+          "label": "D",
+          "fr": "$4$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$2^3 = 8 \\equiv 1 \\pmod{7}$, $437 = 3 \\cdot 145 + 2$, donc $2^{437} \\equiv 2^2 = 4 \\pmod{7}$."
+    },
+    {
+      "id": 16,
+      "question_fr": "Le chiffre des unités de $2^{2^{2024}}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$4$"
+        },
+        {
+          "label": "B",
+          "fr": "$6$"
+        },
+        {
+          "label": "C",
+          "fr": "$8$"
+        },
+        {
+          "label": "D",
+          "fr": "$9$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Cycle des unités de $2^n$ : $2,4,8,6$. $2^{2024}$ est pair ; $2024$ est multiple de $4$, donc $2^{2024} \\equiv 6 \\pmod{10}$."
+    },
+    {
+      "id": 17,
+      "question_fr": "Le PGCD de 252 et 360 est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$4$"
+        },
+        {
+          "label": "C",
+          "fr": "$12$"
+        },
+        {
+          "label": "D",
+          "fr": "$36$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Algorithme d'Euclide : $360 = 252 \\cdot 1 + 108$, $252 = 108 \\cdot 2 + 36$, $108 = 36 \\cdot 3 + 0$. PGCD = $36$."
+    },
+    {
+      "id": 18,
+      "question_fr": "Soient $a,b \\in \\mathbb{N}^*$ avec $b$ impair. On pose $d = (2^b - 1) \\wedge (2^a + 1)$. Alors $d$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$3$"
+        },
+        {
+          "label": "D",
+          "fr": "$5$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$d \\mid (2^b-1)$ et $d \\mid (2^a+1)$, donc $2^b \\equiv 1$ et $2^a \\equiv -1 \\pmod{d}$. Alors $2^{2a} \\equiv 1$ et $2^{ab} \\equiv 1$ et $-1$, donc $d \\mid 2$. $b$ impair donc $2^b-1$ impair, donc $d=1$."
+    },
+    {
+      "id": 19,
+      "question_fr": "Les solutions dans $\\mathbb{Z}$ du système $\\begin{cases} x \\equiv 3 \\pmod{5} \\\\ x \\equiv 2 \\pmod{4} \\end{cases}$ sont :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$x = 10k - 2$"
+        },
+        {
+          "label": "B",
+          "fr": "$x = 60k - 2$"
+        },
+        {
+          "label": "C",
+          "fr": "$x = 20k - 2$"
+        },
+        {
+          "label": "D",
+          "fr": "$x = 40k - 2$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$x = 5q + 3 = 4p + 2$ donne $5q - 4p = -1$. Solution particulière $q=-1,p=-1$. Général : $q = 4k - 1$, $p = 5k - 1$. Donc $x = 5(4k-1)+3 = 20k - 2$."
+    },
+    {
+      "id": 20,
+      "question_fr": "Les solutions de $3x \\equiv 2 \\pmod{19}$ sont :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$7 + 38k$"
+        },
+        {
+          "label": "B",
+          "fr": "$14 + 19k$"
+        },
+        {
+          "label": "C",
+          "fr": "$7 + 38k$"
+        },
+        {
+          "label": "D",
+          "fr": "$7 + 19k$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Inverse de 3 modulo 19 : $3 \\cdot 13 = 39 \\equiv 1$. Donc $x \\equiv 2 \\cdot 13 = 26 \\equiv 7 \\pmod{19}$, soit $x = 7 + 19k$."
+    },
+    {
+      "id": 21,
+      "question_fr": "$1111111111 \\times 1111111111 =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1234567654321$"
+        },
+        {
+          "label": "B",
+          "fr": "$123456787654321$"
+        },
+        {
+          "label": "C",
+          "fr": "$12345678987654321$"
+        },
+        {
+          "label": "D",
+          "fr": "$1234568654321$"
+        },
+        {
+          "label": "E",
+          "fr": "$1234567887654321$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Le produit de deux nombres de 10 chiffres compos\\'es uniquement de 1 donne $12345678987654321$."
+    },
+    {
+      "id": 22,
+      "question_fr": "La n\\'egation de \\\" $f$ est la fonction nulle \\\" est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\forall x, f(x)>0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\forall x, f(x)\\neq0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\forall x, f(x)=0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\exists x, f(x)\\neq0$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\exists x, f(x)=0$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "\\\" $f$ fonction nulle \\\" signifie $\\forall x, f(x)=0$. Sa n\\'egation est $\\exists x, f(x)\\neq0$."
+    }
+  ]
+}

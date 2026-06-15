@@ -1,0 +1,8 @@
+{
+  "name_fr": "ENSA-ENSAM Préparation Complète",
+  "name_en": "ENSA-ENSAM Complete Preparation",
+  "name_ar": "إنسـا-إنسام تحضير كامل",
+  "description_fr": "Livre de préparation aux concours ENSA et ENSAM — 10 tests + 3 concours blancs",
+  "icon": "📐",
+  "sections": ["suites", "fonctions", "integrales", "complexes", "arithmetique", "geometrie"]
+}

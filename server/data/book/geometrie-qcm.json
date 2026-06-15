@@ -1,0 +1,680 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "Un sac $S_1$ contient 2 boules rouges et 3 boules noires. Un sac $S_2$ contient 3 boules rouges et 2 boules noires. On tire une boule de $S_1$ : si elle est noire, on la met dans $S_2$, puis on tire une boule de $S_2$ ; si elle est rouge, on l'écarte, puis on tire une boule de $S_2$. La probabilité que la boule tirée de $S_2$ soit rouge est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac35$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{22}{50}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{27}{50}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Arbre pondéré : $P(R_2) = P(R_1)P_{R_1}(R_2) + P(N_1)P_{N_1}(R_2) = \\frac25\\cdot\\frac35 + \\frac35\\cdot\\frac36 = \\frac{6}{25} + \\frac{3}{10} = \\frac{12}{50} + \\frac{15}{50} = \\frac{27}{50}$."
+    },
+    {
+      "id": 2,
+      "question_fr": "Mêmes données. Sachant que la boule tirée de $S_2$ est rouge, la probabilité que la boule tirée de $S_1$ soit rouge est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac49$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac59$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac79$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac89$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$P_{R_2}(R_1) = \\frac{P(R_1)P_{R_1}(R_2)}{P(R_2)} = \\frac{\\frac25\\cdot\\frac35}{27/50} = \\frac{6}{25}\\cdot\\frac{50}{27} = \\frac{4}{9}$."
+    },
+    {
+      "id": 3,
+      "question_fr": "Dans l'espace, $A(1;2;3)$, $B(2;0;1)$. L'ensemble des points $M(x;y;z)$ équidistants de $A$ et $B$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Plan $x - y + z = 6$"
+        },
+        {
+          "label": "B",
+          "fr": "Plan $2x - 4y - 4z = -9$"
+        },
+        {
+          "label": "C",
+          "fr": "Plan $2x - 4y - 4z = 9$"
+        },
+        {
+          "label": "D",
+          "fr": "Droite définie par $x+y+z=6$ et $2x-4y-4z=-9$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Médiateur de $[AB]$ : milieu $I(3/2;1;2)$, vecteur $\\overrightarrow{AB}(1;-2;-2)$. Équation : $1(x-3/2)-2(y-1)-2(z-2)=0$ $\\Rightarrow$ $x-2y-2z+9/2=0$ $\\Rightarrow$ $2x-4y-4z=-9$."
+    },
+    {
+      "id": 4,
+      "question_fr": "Plan $(P): 3x - 2z + 3 = 0$. On lance un dé, on obtient $a \\in \\{1,\\dots,6\\}$. Probabilité que $A(a^2; 2a; 6a-3) \\in (P)$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac16$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac13$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac23$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$3a^2 - 2(6a-3) + 3 = 0$ $\\Rightarrow$ $3a^2 - 12a + 9 = 0$ $\\Rightarrow$ $a^2 - 4a + 3 = 0$ $\\Rightarrow$ $a=1$ ou $a=3$. Probabilité $= 2/6 = 1/3$."
+    },
+    {
+      "id": 5,
+      "question_fr": "$(P): x - z + 1 = 0$, $(Q): x + y + 1 = 0$. $M(x_0;y_0;z_0)$ équidistant de $(P)$ et $(Q)$ vérifie :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$x_0 + y_0 = 0$ ou $2x_0 + y_0 - z_0 + 2 = 0$"
+        },
+        {
+          "label": "B",
+          "fr": "$x_0 + y_0 = 0$ ou $2x_0 + y_0 - z_0 = 0$"
+        },
+        {
+          "label": "C",
+          "fr": "$2x_0 + y_0 = 0$ ou $2x_0 + y_0 - z_0 = 0$"
+        },
+        {
+          "label": "D",
+          "fr": "$2x_0 + y_0 = 0$ ou $y_0 - z_0 = 0$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\frac{|x_0 - z_0 + 1|}{\\sqrt2} = \\frac{|x_0 + y_0 + 1|}{\\sqrt2}$ $\\Rightarrow$ $|x_0 - z_0 + 1| = |x_0 + y_0 + 1|$. Soit $x_0 - z_0 + 1 = x_0 + y_0 + 1$ $\\Rightarrow$ $-z_0 = y_0$, soit $x_0 - z_0 + 1 = -x_0 - y_0 - 1$ $\\Rightarrow$ $2x_0 + y_0 - z_0 + 2 = 0$."
+    },
+    {
+      "id": 6,
+      "question_fr": "Un sac contient 4 boules rouges $(1,1,2,2)$ et 3 vertes $(1,1,2)$. Tirage successif sans remise de 2 boules. Probabilité d'avoir deux nombres différents sachant qu'elles sont de même couleur :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{5}{42}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{2}{21}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$B$ : même couleur. $p(B) = (A_4^2 + A_3^2)/A_7^2 = (12+6)/42 = 18/42 = 3/7$. $A\\cap B$ : même couleur et numéros différents : $(2\\cdot2\\cdot2 + 2\\cdot2\\cdot2)/42 = 12/42 = 2/7$. $p_B(A) = (2/7)/(3/7) = 2/3$."
+    },
+    {
+      "id": 7,
+      "question_fr": "Urne : 5 rouges $(0,1,1,1,2)$, 4 vertes $(0,1,1,2)$. Tirage simultané de 3 boules. $B$ : somme des numéros $= 3$. $C$ : 3 boules vertes. Alors $P_B(C)$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{5}{42}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{2}{15}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{1}{15}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{2}{21}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\operatorname{Card}(\\Omega) = C_9^3 = 84$. $B$ : (1,1,1) ou (0,1,2) : $C_5^3 + C_2^1 C_2^1 C_5^1 = 10+20=30$, $p(B)=30/84=5/14$. $B\\cap C$ : vertes (0,1,2) : $1\\cdot1\\cdot2=2$, $p(B\\cap C)=2/84=1/42$. $p_B(C) = (1/42)/(5/14)=1/15$."
+    },
+    {
+      "id": 8,
+      "question_fr": "École de 300 élèves : 60 au Cyber (30% filles), 90 au Sport (60% filles), 150 à l'Environnement (72% filles). Chaque élève une seule activité. Probabilité qu'un élève choisi au hasard soit une fille :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{5}{42}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{1}{15}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{3}{5}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$P(F) = \\frac{60}{300}\\cdot0.3 + \\frac{90}{300}\\cdot0.6 + \\frac{150}{300}\\cdot0.72 = 0.06 + 0.18 + 0.36 = 0.6 = 3/5$."
+    },
+    {
+      "id": 9,
+      "question_fr": "Même école. Sachant que l'élève est un garçon, probabilité qu'il soit à l'Environnement :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{5}{21}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{7}{20}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{1}{15}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{3}{20}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$P(G\\cap\\text{Env}) = (150/300)\\cdot0.28 = 0.14$, $P(G) = 0.4$. $P_G(\\text{Env}) = 0.14/0.4 = 0.35 = 7/20$."
+    },
+    {
+      "id": 10,
+      "question_fr": "Plan $(P): 2x - y - 2z + 2 = 0$, sphère $(S): x^2 - 6x + y^2 + z^2 + 10z - 2 = 0$. Représentation paramétrique de la droite passant par le centre de $(S)$ et perpendiculaire à $(P)$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\begin{cases} x = 3 + 2t \\\\ y = -t \\\\ z = -5 - 2t \\end{cases}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\begin{cases} x = 3 - 2t \\\\ y = t \\\\ z = -5 - 2t \\end{cases}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\begin{cases} x = 3 + 2t \\\\ y = -t \\\\ z = 5 - 2t \\end{cases}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\begin{cases} x = 3 + 2t \\\\ y = -t \\\\ z = 5 - 2t \\end{cases}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Centre de $(S)$ : $x^2-6x = (x-3)^2-9$, $z^2+10z = (z+5)^2-25$ $\\Rightarrow$ $(x-3)^2+y^2+(z+5)^2=36$. Centre $\\Omega(3;0;-5)$. Vecteur normal $\\vec{n}(2;-1;-2)$. Droite : $x=3+2t, y=-t, z=-5-2t$."
+    },
+    {
+      "id": 11,
+      "question_fr": "Menu : 6 entrées, 4 plats, 5 desserts. Nombre de menus différents :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$120$"
+        },
+        {
+          "label": "B",
+          "fr": "$84$"
+        },
+        {
+          "label": "C",
+          "fr": "$50$"
+        },
+        {
+          "label": "D",
+          "fr": "$60$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Principe multiplicatif : $6 \\times 4 \\times 5 = 120$."
+    },
+    {
+      "id": 12,
+      "question_fr": "Plans $(P): 2x + y - z + 1 = 0$ et $(R): x - 3y - z + 3 = 0$. Intersection $(D)$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\begin{cases} x = -\\frac67 + \\frac47 t \\\\ y = \\frac57 - \\frac17 t \\\\ z = t \\end{cases}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\begin{cases} x = 3 + 2t \\\\ y = -t \\\\ z = 5 - 2t \\end{cases}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\begin{cases} x = -\\frac67 + \\frac47 t \\\\ y = \\frac57 - t \\\\ z = t \\end{cases}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\begin{cases} x = -\\frac27 + \\frac47 t \\\\ y = \\frac57 - \\frac17 t \\\\ z = t \\end{cases}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Résolution du système : poser $z=t$, on trouve $x = -6/7 + 4t/7$, $y = 5/7 - t/7$."
+    },
+    {
+      "id": 13,
+      "question_fr": "Nombre de façons d'asseoir 5 enfants sur 5 sièges :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$120$"
+        },
+        {
+          "label": "B",
+          "fr": "$84$"
+        },
+        {
+          "label": "C",
+          "fr": "$50$"
+        },
+        {
+          "label": "D",
+          "fr": "$60$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$5! = 120$ permutations."
+    },
+    {
+      "id": 14,
+      "question_fr": "Plan $(P): 2x + 3y - z + 4 = 0$, point $A(1;0;1)$. Coordonnées du projeté orthogonal $H$ de $A$ sur $(P)$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$(-2; \\frac92; -\\frac12)$"
+        },
+        {
+          "label": "B",
+          "fr": "$(-2; \\frac92; -\\frac12)$"
+        },
+        {
+          "label": "C",
+          "fr": "$(2; \\frac92; \\frac12)$"
+        },
+        {
+          "label": "D",
+          "fr": "$(2; \\frac92; -\\frac12)$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Droite orthogonale à $(P)$ passant par $A$ : $x=1+2t, y=3t, z=1-t$. Substituer dans $2x+3y-z+4=0$ $\\Rightarrow$ $t=-5/14$. $H = (-2, 9/2, -1/2)$."
+    },
+    {
+      "id": 15,
+      "question_fr": "Plan $(P_d): x - 4y + 2z + d = 0$, sphère centre $\\Omega(1;2;3)$, rayon $\\sqrt{21}$. Valeurs de $d$ pour que $(P_d)$ coupe $(S)$ suivant un cercle de rayon $r>0$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\{20;21\\}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\{-20;22\\}$"
+        },
+        {
+          "label": "C",
+          "fr": "$]-20;22[$"
+        },
+        {
+          "label": "D",
+          "fr": "$[-20;22]$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Condition : $d(\\Omega, (P_d)) < R$. $d = \\frac{|1-8+6+d|}{\\sqrt{1+16+4}} = \\frac{|d-1|}{\\sqrt{21}} < \\sqrt{21}$ $\\Rightarrow$ $|d-1| < 21$ $\\Rightarrow$ $-20 < d < 22$."
+    },
+    {
+      "id": 16,
+      "question_fr": "Plan $(P): 2x - 5y - 6z + 4 = 0$, sphère centre $\\Omega(2;-2;3)$, rayon 3. Alors :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$(P)$ coupe $(S)$ suivant un cercle de rayon 3 de centre $\\Omega$"
+        },
+        {
+          "label": "B",
+          "fr": "$(P)$ coupe $(S)$ suivant un cercle de rayon 3 de centre $H(2;2;3)$"
+        },
+        {
+          "label": "C",
+          "fr": "$(P)$ tangente à $(S)$ en $H(2;2;3)$"
+        },
+        {
+          "label": "D",
+          "fr": "$(P)$ tangente à $(S)$ en $H(2;0;-3)$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$d(\\Omega, (P)) = \\frac{|4+10-18+4|}{\\sqrt{4+25+36}} = \\frac{0}{\\sqrt{65}} = 0 < 3$ $\\Rightarrow$ cercle de rayon 3, centre $\\Omega$."
+    },
+    {
+      "id": 17,
+      "question_fr": "$S_1$ : 4 rouges, 2 noires ; $S_2$ : 2 rouges, 1 noire. On choisit un sac au hasard, puis on tire une boule. Sachant qu'elle est rouge, probabilité qu'elle vienne de $S_1$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{15}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac14$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac13$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$P(S_1|R) = \\frac{\\frac12\\cdot\\frac46}{\\frac12\\cdot\\frac46 + \\frac12\\cdot\\frac23} = \\frac{2/3}{2/3+2/3} = \\frac12$."
+    },
+    {
+      "id": 18,
+      "question_fr": "$A(n;4;0)$, $B(-n;0;0)$, $C(-n;4;3)$, $D(n;0;-3)$. Pour tout $n$, $(AB)$ et $(CD)$ sécantes en $H$. Coordonnées de $H$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$(0;-n;2)$"
+        },
+        {
+          "label": "B",
+          "fr": "$(0;2;0)$"
+        },
+        {
+          "label": "C",
+          "fr": "$(n;-n;2)$"
+        },
+        {
+          "label": "D",
+          "fr": "$(0;1;2)$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Paramétrisation : $(AB): x=n-2nt, y=4-4t, z=0$. $(CD): x=-n+2nt', y=4-4t', z=3-6t'$. Égalité donne $t=t'=1/2$. Alors $x=0, y=2, z=0$."
+    },
+    {
+      "id": 19,
+      "question_fr": "On choisit un nombre de 0 à 999. Probabilité qu'au moins un de ses chiffres soit strictement supérieur à 5 :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{764}{1000}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{7}{250}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{137}{250}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{784}{1000}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Total $= 1000$ (000 à 999). Chiffres $\\le 5$ : 6 possibilités (0..5). Tous les chiffres $\\le 5$ : $6^3 = 216$. Donc au moins un $>5$ : $1000-216 = 784$. Probabilité $= 784/1000$."
+    },
+    {
+      "id": 20,
+      "question_fr": "Cube ABCDEFGH de côté 6 cm, coupé par le plan (BEG). Hauteur du tétraèdre BEFG relative à la base BEG :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2\\sqrt3$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\sqrt2$"
+        },
+        {
+          "label": "C",
+          "fr": "$2\\sqrt5$"
+        },
+        {
+          "label": "D",
+          "fr": "$3\\sqrt2$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Repère $(A; \\overrightarrow{AB}, \\overrightarrow{AD}, \\overrightarrow{AE})$ : $B(6,0,0), E(0,0,6), G(6,6,6), F(6,0,6)$. Plan $(BEG)$ : vecteur normal $\\overrightarrow{DF}(6,-6,6) \\parallel (1,-1,1)$. Équation $x-y+z-6=0$. $h = d(F,(BEG)) = |6-0+6-6|/\\sqrt{1+1+1} = 6/\\sqrt3 = 2\\sqrt3$."
+    },
+    {
+      "id": 21,
+      "question_fr": "Dans l'espace, $A(1;2;3)$, $B(2;0;1)$. L'ensemble des points $M(x;y;z)$ \\'equidistants de $A$ et $B$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\text{Plan } x-y+z=6$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\text{Plan } 2x-4y-4z=-9$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\text{Plan } 2x-4y-4z=9$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\text{Droite } x+y+z=6 \\text{ et } 2x-4y-4z=-9$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\text{Plan } x+2y+z=3$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$MA^2=MB^2 \\Rightarrow (x-1)^2+(y-2)^2+(z-3)^2=(x-2)^2+y^2+(z-1)^2 \\Rightarrow 2x-4y-4z=-9$."
+    },
+    {
+      "id": 22,
+      "question_fr": "Plan $(P): 3x-2z+3=0$. On lance un d\\'e, $a\\in\\{1,\\dots,6\\}$. Probabilit\\'e que $A(a^2;2a;6a-3)\\in(P)$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac16$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac13$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac23$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$3a^2-2(6a-3)+3=0 \\Rightarrow 3a^2-12a+9=0 \\Rightarrow a^2-4a+3=0 \\Rightarrow a=1$ ou $3$. $2/6=1/3$."
+    },
+    {
+      "id": 23,
+      "question_fr": "$(P): x-z+1=0$, $(Q): x+y+1=0$. $M(x_0;y_0;z_0)$ \\'equidistant de $(P)$ et $(Q)$ v\\'erifie :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y_0+z_0=0\\text{ ou }2x_0+y_0-z_0+2=0$"
+        },
+        {
+          "label": "B",
+          "fr": "$y_0+z_0=0\\text{ ou }y_0-z_0=0$"
+        },
+        {
+          "label": "C",
+          "fr": "$2x_0+y_0=0\\text{ ou }y_0-z_0=0$"
+        },
+        {
+          "label": "D",
+          "fr": "$2x_0+y_0=0\\text{ ou }y_0+z_0=0$"
+        },
+        {
+          "label": "E",
+          "fr": "$y_0-z_0=0\\text{ ou }2x_0+y_0-z_0+2=0$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\frac{|x_0-z_0+1|}{\\sqrt2} = \\frac{|x_0+y_0+1|}{\\sqrt2} \\Rightarrow x_0-z_0+1 = \\pm(x_0+y_0+1) \\Rightarrow -z_0=y_0$ ou $2x_0+y_0-z_0+2=0$."
+    },
+    {
+      "id": 24,
+      "question_fr": "Menu : 6 entr\\'ees, 4 plats, 5 desserts. Nombre de menus diff\\'erents :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$120$"
+        },
+        {
+          "label": "B",
+          "fr": "$30$"
+        },
+        {
+          "label": "C",
+          "fr": "$40$"
+        },
+        {
+          "label": "D",
+          "fr": "$50$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$6\\times4\\times5 = 120$."
+    },
+    {
+      "id": 25,
+      "question_fr": "Nombre de fa\\c{c}ons d'asseoir 5 enfants sur 5 si\\`eges :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$84$"
+        },
+        {
+          "label": "B",
+          "fr": "$240$"
+        },
+        {
+          "label": "C",
+          "fr": "$120$"
+        },
+        {
+          "label": "D",
+          "fr": "$50$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$5! = 120$."
+    },
+    {
+      "id": 26,
+      "question_fr": "Intersection de $(P): 2x+y-z+1=0$ et $(R): x-3y-z+3=0$. Un param\\'etrage de $(D)$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$x=-\\frac67+\\frac27t,\\ y=\\frac57-\\frac17t,\\ z=t$"
+        },
+        {
+          "label": "B",
+          "fr": "$x=-\\frac67+\\frac27t,\\ y=-\\frac57+\\frac17t,\\ z=t$"
+        },
+        {
+          "label": "C",
+          "fr": "$x=\\frac67+\\frac27t,\\ y=\\frac57-\\frac17t,\\ z=t$"
+        },
+        {
+          "label": "D",
+          "fr": "$x=\\frac67-\\frac27t,\\ y=\\frac57+\\frac17t,\\ z=t$"
+        },
+        {
+          "label": "E",
+          "fr": "$x=-\\frac67-\\frac27t,\\ y=\\frac57+\\frac17t,\\ z=t$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "R\\'esoudre $\\begin{cases}2x+y-z=-1\\\\ x-3y-z=-3\\end{cases}$. Soustraire : $x+4y=2$, $z=5-7y$. Poser $y=t$ : $x=2-4t$, $z=5-7t$. V\\'erifie l'option (A)."
+    },
+    {
+      "id": 27,
+      "question_fr": "Lancer deux d\\'es, $X=$ la plus grande valeur ⇒ $P(X=5)=$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac1{12}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac7{36}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac1{24}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac14$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Cas favorables : 5 avec le premier d\\'e (5,1)-(5,5) + 4 avec le second (1,5)-(4,5) = 9 sur 36 = $1/4$."
+    }
+  ]
+}

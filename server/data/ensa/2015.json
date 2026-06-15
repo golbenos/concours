@@ -1,0 +1,291 @@
+{
+  "year": 2015,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "nombres complexes", "suites", "trigonométrie", "géométrie", "combinatoire", "arithmétique"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "$\\frac{1}{n+1}+\\frac{1}{(n+1)(n+2)}+\\frac{1}{(n+1)(n+2)(n+3)}+\\cdots$ est une série :",
+        "choices": [
+          { "label": "A", "fr": "convergente" },
+          { "label": "B", "fr": "divergente" },
+          { "label": "C", "fr": "n'ayant pas de limite" },
+          { "label": "D", "fr": "négative" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{1}{(n+1)(n+2)\\cdots(n+k)} \\le \\frac{1}{(n+1)^k}$. La série converge.",
+        "topics": ["analyse", "suites", "séries"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 2,
+        "question_fr": "$\\lim_{n\\to\\infty} \\frac{\\sqrt{n-1}}{\\sqrt{n}+\\sqrt{n+1}} =$",
+        "choices": [
+          { "label": "A", "fr": "$1/2$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$2$" },
+          { "label": "D", "fr": "$0$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{\\sqrt{1-1/n}}{1+\\sqrt{1+1/n}} \\to 1/2$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 3,
+        "question_fr": "$f(x)=x\\sin x \\cos x$, $f'(x)=$",
+        "choices": [
+          { "label": "A", "fr": "$\\sin2x+x\\cos2x$" },
+          { "label": "B", "fr": "$\\sin2x+2x\\cos2x$" },
+          { "label": "C", "fr": "$\\sin2x-x\\cos2x$" },
+          { "label": "D", "fr": "$\\sin x\\cos x+x\\cos2x$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$f(x)=\\frac{x}{2}\\sin2x$. $f'(x)=\\frac12\\sin2x+x\\cos2x$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 4,
+        "question_fr": "Équation de la tangente à $f(x)=\\ln(1+\\sin x)$ en $x=0$ :",
+        "choices": [
+          { "label": "A", "fr": "$y=x$" },
+          { "label": "B", "fr": "$y=1$" },
+          { "label": "C", "fr": "$y=1-x$" },
+          { "label": "D", "fr": "$y=0$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$f(0)=0$, $f'(0)=1$. Tangente $y=x$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 5,
+        "question_fr": "Équation de la tangente à $g(x)=x\\ln x$ en $x=1$ :",
+        "choices": [
+          { "label": "A", "fr": "$y=x-1$" },
+          { "label": "B", "fr": "$y=x+1$" },
+          { "label": "C", "fr": "$y=1-x$" },
+          { "label": "D", "fr": "$y=2x-1$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$g(1)=0$, $g'(x)=\\ln x+1$, $g'(1)=1$. $y=x-1$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 6,
+        "question_fr": "$\\int_0^1 \\frac{\\arctan x}{1+x^2}dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\pi^2/32$" },
+          { "label": "B", "fr": "$\\pi^2/16$" },
+          { "label": "C", "fr": "$\\pi^2/8$" },
+          { "label": "D", "fr": "$\\pi^2/4$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$u=\\arctan x$. $\\int_0^{\\pi/4} u^2 du = \\frac12(\\pi/4)^2 = \\pi^2/32$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 7,
+        "question_fr": "$\\int_{-1}^1 \\frac{x^3}{x^4+x^2+1}dx =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$2$" },
+          { "label": "D", "fr": "$-1$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Fonction impaire, intégrale symétrique nulle.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 8,
+        "question_fr": "$\\int_0^{\\pi/2} \\cos^2 x\\sin^2 x\\,dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\pi/16$" },
+          { "label": "B", "fr": "$\\pi/8$" },
+          { "label": "C", "fr": "$\\pi/4$" },
+          { "label": "D", "fr": "$\\pi/2$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac14\\int_0^{\\pi/2}\\sin^2 2x\\,dx = \\frac18\\int_0^{\\pi/2}(1-\\cos4x)dx = \\pi/16$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 9,
+        "question_fr": "$\\lim_{x\\to0} \\frac{\\sin(ax)-\\sin(bx)}{x} =$",
+        "choices": [
+          { "label": "A", "fr": "$a-b$" },
+          { "label": "B", "fr": "$a+b$" },
+          { "label": "C", "fr": "$a$" },
+          { "label": "D", "fr": "$b$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{\\sin(ax)}{x} \\to a$, donc $\\to a-b$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 10,
+        "question_fr": "$\\lim_{x\\to0} \\frac{\\tan x-\\sin x}{x\\sin^2 x} =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1/2$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$\\infty$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\frac{\\sin x(1/\\cos x-1)}{x\\sin^2 x} = \\frac{1-\\cos x}{x\\sin x\\cos x} \\sim \\frac{x^2/2}{x^2} = 1/2$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 11,
+        "question_fr": "$2+4+6+\\cdots+100 =$",
+        "choices": [
+          { "label": "A", "fr": "$2550$" },
+          { "label": "B", "fr": "$5050$" },
+          { "label": "C", "fr": "$2500$" },
+          { "label": "D", "fr": "$5000$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$2(1+2+\\cdots+50) = 2\\times\\frac{50\\times51}{2}=2550$.",
+        "topics": ["algèbre", "sommes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 12,
+        "question_fr": "$1^2+3^2+5^2+\\cdots+99^2 =$",
+        "choices": [
+          { "label": "A", "fr": "$166650$" },
+          { "label": "B", "fr": "$83325$" },
+          { "label": "C", "fr": "$50000$" },
+          { "label": "D", "fr": "$12500$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\sum_{k=1}^{50}(2k-1)^2 = \\frac{50\\times51\\times101}{6} - 4\\times\\frac{49\\times50\\times99}{6} + 4\\times\\frac{50\\times51}{2} - 50 = 166650$.",
+        "topics": ["algèbre", "sommes"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 13,
+        "question_fr": "Forme exponentielle de $Z = 2+2i\\sqrt{3}$ :",
+        "choices": [
+          { "label": "A", "fr": "$4e^{i\\pi/3}$" },
+          { "label": "B", "fr": "$2e^{i\\pi/3}$" },
+          { "label": "C", "fr": "$4e^{i\\pi/6}$" },
+          { "label": "D", "fr": "$4e^{i\\pi/2}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$|Z|=4$, $\\arg(Z)=\\arctan(\\sqrt{3})=\\pi/3$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 14,
+        "question_fr": "Racines de $z^3 = 2+2i\\sqrt{3}$ :",
+        "choices": [
+          { "label": "A", "fr": "$\\sqrt[3]{4}e^{i(\\pi/9+2k\\pi/3)}$" },
+          { "label": "B", "fr": "$\\sqrt[3]{8}e^{i(\\pi/3+2k\\pi/3)}$" },
+          { "label": "C", "fr": "$\\sqrt[3]{4}e^{i(\\pi/3+2k\\pi/3)}$" },
+          { "label": "D", "fr": "$\\sqrt[3]{8}e^{i(\\pi/9+2k\\pi/3)}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$z_k = \\sqrt[3]{4}e^{i(\\pi/9+2k\\pi/3)}$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 15,
+        "question_fr": "$z = x+iy$ tel que $|z| = |z+2|$ :",
+        "choices": [
+          { "label": "A", "fr": "$x=-1$" },
+          { "label": "B", "fr": "$x=0$" },
+          { "label": "C", "fr": "$y=-1$" },
+          { "label": "D", "fr": "$x=1$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$x^2+y^2 = (x+2)^2+y^2$ donne $4x+4=0$, $x=-1$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 16,
+        "question_fr": "Nombre de mots de 3 lettres distinctes de $\\{$A,B,C,D,E$\\}$ :",
+        "choices": [
+          { "label": "A", "fr": "$60$" },
+          { "label": "B", "fr": "$125$" },
+          { "label": "C", "fr": "$15$" },
+          { "label": "D", "fr": "$20$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$5\\times4\\times3 = 60$.",
+        "topics": ["combinatoire"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 17,
+        "question_fr": "Soit $M\\in\\mathcal{M}_2(\\mathbb{R})$ telle que $M^3=M$. $\\det M$ peut valoir :",
+        "choices": [
+          { "label": "A", "fr": "$0$ ou $1$ ou $-1$" },
+          { "label": "B", "fr": "$0$ ou $1$" },
+          { "label": "C", "fr": "$0$ seulement" },
+          { "label": "D", "fr": "$\\pm1$ seulement" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\det^3 = \\det$, donc $\\det=0,1,-1$.",
+        "topics": ["algèbre", "matrices"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 18,
+        "question_fr": "$\\int_0^\\infty \\frac{e^{-\\sqrt{t}}}{\\sqrt{t}}dt =$",
+        "choices": [
+          { "label": "A", "fr": "$2$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$\\sqrt{\\pi}$" },
+          { "label": "D", "fr": "$\\infty$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$u=\\sqrt{t}$, $du=dt/(2\\sqrt{t})$. $2\\int_0^\\infty e^{-u}du=2$.",
+        "topics": ["analyse", "intégrales", "suites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 19,
+        "question_fr": "$\\lim_{n\\to\\infty} n\\ln(1+\\frac1n) =$",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$0$" },
+          { "label": "C", "fr": "$+\\infty$" },
+          { "label": "D", "fr": "$e$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\ln(1+1/n) \\sim 1/n$, donc $n\\times(1/n)=1$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 20,
+        "question_fr": "Tirage de 3 boules sans remise parmi 3 vertes, 4 bleues, 2 rouges. Probabilité de 3 couleurs différentes :",
+        "choices": [
+          { "label": "A", "fr": "$2/7$" },
+          { "label": "B", "fr": "$3/7$" },
+          { "label": "C", "fr": "$4/7$" },
+          { "label": "D", "fr": "$1/7$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{3\\times4\\times2}{C_9^3} = \\frac{24}{84} = \\frac{2}{7}$.",
+        "topics": ["probabilités"],
+        "difficulty": "moyen"
+      }
+    ]
+  }]
+}

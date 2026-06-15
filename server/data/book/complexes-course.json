@@ -1,0 +1,40 @@
+{
+  "course": [
+    {
+      "title": "I. Ensemble des nombres complexes",
+      "items": [
+        "**1. Forme algébrique** — $z = a+ib$ avec $(a,b)\\in\\mathbb{R}^2$, $i^2=-1$. Conjugué : $\\overline{z}=a-ib$.",
+        "**2. Propriétés du conjugué** — $\\overline{z+z'}=\\overline{z}+\\overline{z'}$, $\\overline{z\\cdot z'}=\\overline{z}\\cdot\\overline{z'}$, $\\overline{z^n}=(\\overline{z})^n$, $z\\overline{z}=a^2+b^2=|z|^2$. $z\\in\\mathbb{R}\\Leftrightarrow z=\\overline{z}$, $z\\in i\\mathbb{R}\\Leftrightarrow \\overline{z}=-z$.",
+        "**3. Module** — $|z|=\\sqrt{a^2+b^2}=\\sqrt{z\\overline{z}}$. Propriétés : $|z|=|\\overline{z}|$, $|z^n|=|z|^n$, $|zz'|=|z||z'|$, inégalité triangulaire $|z+z'|\\le|z|+|z'|$.",
+        "**4. Valeurs trigonométriques** — $\\cos(\\pi/12)=(\\sqrt6+\\sqrt2)/4$, $\\sin(\\pi/8)=\\sqrt{2-\\sqrt2}/2$, $\\tan(\\pi/12)=2-\\sqrt3$.",
+        "**5. Équation $az^2+bz+c=0$** — $\\Delta=b^2-4ac$. Si $\\Delta<0$ : $z=\\frac{-b\\pm i\\sqrt{-\\Delta}}{2a}$. Si $\\Delta\\ge0$ : $z=\\frac{-b\\pm\\sqrt{\\Delta}}{2a}$. Factorisation : $az^2+bz+c=a(z-z_1)(z-z_2)$.",
+        "**6. Équations particulières** — $z^2=i \\Leftrightarrow z=\\pm(1+i)/\\sqrt2$, $z^2=-i \\Leftrightarrow z=\\pm(1-i)/\\sqrt2$, $z^3=1$ donne $z=1,j,j^2$ avec $j=-1/2+i\\sqrt3/2$, $j^3=1$, $1+j+j^2=0$.",
+        "**7. Racines n-ièmes** — $z^n=u=re^{i\\theta}$ $\\Rightarrow$ $z_k=\\sqrt[n]{r}\\,e^{i(\\theta+2k\\pi)/n}$ pour $k=0,\\dots,n-1$. Racines de l'unité : $\\omega_k=e^{i2k\\pi/n}$.",
+        "**8. Argument** — $\\arg(zz')\\equiv\\arg z+\\arg z'\\pmod{2\\pi}$, $\\arg(z/z')\\equiv\\arg z-\\arg z'$, $\\arg(\\overline{z})\\equiv-\\arg z$, $\\arg(z^n)\\equiv n\\arg z$.",
+        "**9. Formes trigo et exponentielle** — $z=|z|(\\cos\\theta+i\\sin\\theta)=|z|e^{i\\theta}$. Produit : $[r;\\theta][r';\\theta']=[rr';\\theta+\\theta']$.",
+        "**10. Notation exponentielle** — $e^{i\\theta}=\\cos\\theta+i\\sin\\theta$, $\\cos\\theta=\\frac{e^{i\\theta}+e^{-i\\theta}}{2}$, $\\sin\\theta=\\frac{e^{i\\theta}-e^{-i\\theta}}{2i}$. De Moivre : $(\\cos\\theta+i\\sin\\theta)^n=\\cos(n\\theta)+i\\sin(n\\theta)$. Factorisation : $1+e^{i\\theta}=2\\cos(\\theta/2)e^{i\\theta/2}$, $1-e^{i\\theta}=-2i\\sin(\\theta/2)e^{i\\theta/2}$."
+      ]
+    },
+    {
+      "title": "II. Astuces — Formes trigonométriques",
+      "items": [
+        "**1. $a\\pm ai$** — $a\\pm ai=[\\sqrt2\\,a;\\pm\\pi/4]$, $-a\\pm ai=[\\sqrt2\\,a;\\pm3\\pi/4]$.",
+        "**2. Avec $\\sqrt3$** — $a\\pm ai\\sqrt3=[2a;\\pm\\pi/3]$, $-a\\pm ai\\sqrt3=[2a;\\pm2\\pi/3]$, $a\\sqrt3\\pm ai=[2a;\\pm\\pi/6]$, $-a\\sqrt3\\pm ai=[2a;\\pm5\\pi/6]$.",
+        "**3. Cas particuliers** — $a=[a;0]$, $-a=[a;\\pi]$, $ai=[a;\\pi/2]$, $-ai=[a;-\\pi/2]$.",
+        "**4. Somme des racines n-ièmes** — $1+j+\\overline{j}=0$, $j^3=1$."
+      ]
+    },
+    {
+      "title": "III. Géométrie et nombres complexes",
+      "items": [
+        "**1. Affixe et distance** — $z_{\\overrightarrow{AB}}=z_B-z_A$, $AB=|z_B-z_A|$, milieu $z_I=(z_A+z_B)/2$.",
+        "**2. Alignement** — $A,B,C$ alignés $\\Leftrightarrow (z_B-z_A)/(z_C-z_A)\\in\\mathbb{R}$. Cocycliques : $\\frac{z_C-z_A}{z_B-z_A}\\cdot\\frac{z_B-z_D}{z_C-z_D}\\in\\mathbb{R}$.",
+        "**3. Parallélisme et orthogonalité** — $(AB)\\parallel(DC)\\Leftrightarrow(z_C-z_D)/(z_B-z_A)\\in\\mathbb{R}$. $(AB)\\perp(DC)\\Leftrightarrow(z_C-z_D)/(z_B-z_A)\\in i\\mathbb{R}$.",
+        "**4. Barycentre** — $z_G=(\\alpha z_A+\\beta z_B+\\gamma z_C)/(\\alpha+\\beta+\\gamma)$. Centre de gravité : $z_G=(z_A+z_B+z_C)/3$.",
+        "**5. Nature d'un triangle** — $(z_C-z_A)/(z_B-z_A)=ib$ $\\Rightarrow$ rectangle en $A$. $=[1;\\theta]$ $\\Rightarrow$ isocèle en $A$. $\\theta=\\pm\\pi/2$ $\\Rightarrow$ rectangle isocèle. $\\theta=\\pm\\pi/3$ $\\Rightarrow$ équilatéral.",
+        "**6. Ensembles de points** — Cercle centre $A$ rayon $r$ : $|z-z_A|=r$. Médiatrice $[AB]$ : $|z-z_A|=|z-z_B|$.",
+        "**7. Transformations** — Translation $\\vec{u}$ : $z'=z+z_{\\vec{u}}$. Homothétie centre $\\Omega$, rapport $k$ : $z'-\\omega=k(z-\\omega)$. Rotation angle $\\theta$ : $z'-\\omega=e^{i\\theta}(z-\\omega)$. Cas $z'=az+b$ : si $a=1$ translation ; si $|a|=1$, rotation de centre $b/(1-a)$ et angle $\\arg a$."
+      ]
+    }
+  ]
+}

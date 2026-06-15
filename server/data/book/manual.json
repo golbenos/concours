@@ -1,0 +1,218 @@
+{
+  "integrales": [
+    {
+      "id": 101,
+      "question_fr": "La valeur de l'int?grale $\\int_0^1 \\sqrt{1-x^2}\\,dx$ est:",
+      "choices": [
+        { "label": "A", "fr": "$\\frac{\\pi}{2}$" },
+        { "label": "B", "fr": "$\\frac{\\pi}{4}$" },
+        { "label": "C", "fr": "$\\pi$" },
+        { "label": "D", "fr": "$\\frac{\\pi}{8}$" }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\int_0^1 \\sqrt{1-x^2}\\,dx = \\frac{\\pi}{4}$ (quart de cercle de rayon 1).",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 102,
+      "question_fr": "Soit $a \\in \\mathbb{R}^*$. Si $\\int_0^1 \\frac{e^{ax}+1}{e^{ax}-1}\\,dx = 1$ alors $a$ est �gal ? :",
+      "choices": [
+        { "label": "A", "fr": "$\\ln(e-1)$" },
+        { "label": "B", "fr": "$2e-1$" },
+        { "label": "C", "fr": "$\\ln(2e+1)$" },
+        { "label": "D", "fr": "$\\ln(2e-1)$" }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "En calculant l'int�grale on obtient $\\frac{1}{a}\\ln\\left(\\frac{e^a-1}{e^a+1}\\right) = 1$, donc $a = \\ln(2e-1)$.",
+      "difficulty": "difficile"
+    },
+    {
+      "id": 103,
+      "question_fr": "La valeur de $\\int_0^1 \\frac{1}{x^2\\sqrt{4-x^2}}\\,dx$ est:",
+      "choices": [
+        { "label": "A", "fr": "$\\frac{\\sqrt{3}}{4}$" },
+        { "label": "B", "fr": "$\\frac{\\sqrt{3}}{3}$" },
+        { "label": "C", "fr": "$\\frac{\\sqrt{3}}{2}$" },
+        { "label": "D", "fr": "$\\sqrt{3}$" }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Par le changement de variable $x = 2\\sin t$, on obtient $\\int_0^{\\pi/6} \\frac{2\\cos t}{4\\sin^2 t \\cdot 2\\cos t}\\,dt = \\frac{\\sqrt{3}}{3}$.",
+      "difficulty": "difficile"
+    }
+  ],
+  "complexes": [
+    {
+      "id": 201,
+      "question_fr": "Dans $\\mathbb{C}$, l'ensemble des solutions de l'�quation $z^{2024} = 1$ est:",
+      "choices": [
+        { "label": "A", "fr": "$\\{e^{2ik\\pi/2024} ; k = 1,2,\\ldots,2024\\}$" },
+        { "label": "B", "fr": "$\\{e^{2ik\\pi/2024} ; k = 0,1,\\ldots,2023\\}$" },
+        { "label": "C", "fr": "$\\{e^{ik\\pi/2024} ; k = 0,1,\\ldots,2023\\}$" },
+        { "label": "D", "fr": "$\\{e^{ik\\pi/1012} ; k = 0,1,\\ldots,2023\\}$" }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Les racines 2024-i�mes de l'unit� sont $e^{2ik\\pi/2024}$ pour $k = 0,1,\\ldots,2023$.",
+      "difficulty": "facile"
+    },
+    {
+      "id": 202,
+      "question_fr": "Soit $z = \\frac{3+5i}{5-3i}$. Alors $\\arg(z)$ est:",
+      "choices": [
+        { "label": "A", "fr": "$\\frac{\\pi}{2}$" },
+        { "label": "B", "fr": "$-\\frac{\\pi}{2}$" },
+        { "label": "C", "fr": "$0$" },
+        { "label": "D", "fr": "$\\pi$" }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$z = \\frac{3+5i}{5-3i} = i$, donc $\\arg(z) = \\frac{\\pi}{2}$.",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 203,
+      "question_fr": "Dans $\\mathbb{C}$, l'ensemble des solutions de $\\frac{z}{z+1} = z$ est:",
+      "choices": [
+        { "label": "A", "fr": "$\\{0, -1+i, -1-i\\}$" },
+        { "label": "B", "fr": "$\\{0, 1+i, 1-i\\}$" },
+        { "label": "C", "fr": "$\\{0, i, -i\\}$" },
+        { "label": "D", "fr": "$\\{0, 1, -1\\}$" }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "L'�quation devient $z = z(z+1)$ soit $z^2 = 0$ ou $z = i, -i$. Donc $S = \\{0, i, -i\\}$.",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 204,
+      "question_fr": "Dans $\\mathbb{C}$, l'ensemble des solutions de $3iz - 7 = 8i$ est:",
+      "choices": [
+        { "label": "A", "fr": "$\\{3-2i\\}$" },
+        { "label": "B", "fr": "$\\{3+i\\}$" },
+        { "label": "C", "fr": "$\\{3+2i\\}$" },
+        { "label": "D", "fr": "$\\{3-3i\\}$" }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$z = \\frac{7+8i}{3i} = \\frac{(7+8i)(-i)}{3} = \\frac{-7i+8}{3} = \\frac{8}{3} -\\frac{7}{3}i$.",
+      "difficulty": "facile"
+    }
+  ],
+  "arithmetique": [
+    {
+      "id": 301,
+      "question_fr": "Les solutions dans $\\mathbb{Z}$ de l'�quation $3x \\equiv 2 \\pmod{19}$ sont:",
+      "choices": [
+        { "label": "A", "fr": "$7 + 38k,\\; k \\in \\mathbb{Z}$" },
+        { "label": "B", "fr": "$14 + 19k,\\; k \\in \\mathbb{Z}$" },
+        { "label": "C", "fr": "$7 + 19k,\\; k \\in \\mathbb{Z}$" },
+        { "label": "D", "fr": "$14 + 38k,\\; k \\in \\mathbb{Z}$" }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "On cherche l'inverse de 3 modulo 19 : $3 \\times 13 = 39 \\equiv 1 \\pmod{19}$, donc $x \\equiv 13 \\times 2 \\equiv 26 \\equiv 7 \\pmod{19}$.",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 302,
+      "question_fr": "Le PGCD de 2024 et 2025 est:",
+      "choices": [
+        { "label": "A", "fr": "$1$" },
+        { "label": "B", "fr": "$2024$" },
+        { "label": "C", "fr": "$2025$" },
+        { "label": "D", "fr": "$0$" }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Deux entiers cons�cutifs sont toujours premiers entre eux, donc $\\gcd(2024,2025) = 1$.",
+      "difficulty": "facile"
+    },
+    {
+      "id": 303,
+      "question_fr": "Soit $M = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$. Alors $M^n$ pour $n \\in \\mathbb{N}$ est:",
+      "choices": [
+        { "label": "A", "fr": "$\\begin{pmatrix} 1 & n \\\\ 0 & 1 \\end{pmatrix}$" },
+        { "label": "B", "fr": "$\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$" },
+        { "label": "C", "fr": "$\\begin{pmatrix} n & n \\\\ 0 & n \\end{pmatrix}$" },
+        { "label": "D", "fr": "$\\begin{pmatrix} 1 & 0 \\\\ n & 1 \\end{pmatrix}$" }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Par r�currence : $M^n = \\begin{pmatrix} 1 & n \\\\ 0 & 1 \\end{pmatrix}$ pour tout $n \\in \\mathbb{N}$.",
+      "difficulty": "facile"
+    },
+    {
+      "id": 304,
+      "question_fr": "Les solutions dans $\\mathbb{Z}^2$ du syst�me $\\begin{cases} x \\equiv 3 \\pmod{5} \\\\ x \\equiv 2 \\pmod{7} \\end{cases}$ sont:",
+      "choices": [
+        { "label": "A", "fr": "$x \\equiv 23 \\pmod{35}$" },
+        { "label": "B", "fr": "$x \\equiv 13 \\pmod{35}$" },
+        { "label": "C", "fr": "$x \\equiv 33 \\pmod{35}$" },
+        { "label": "D", "fr": "$x \\equiv 3 \\pmod{35}$" }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Par le th�or�me des restes chinois : $x = 3 \\times 7 \\times 3 + 2 \\times 5 \\times 3 \\equiv 23 \\pmod{35}$.",
+      "difficulty": "moyen"
+    }
+  ],
+  "geometrie": [
+    {
+      "id": 401,
+      "question_fr": "Dans l'espace rapport� ?  un rep�re orthonorm� $(O,\\vec{i},\\vec{j},\\vec{k})$, l'ensemble des points $M(x,y,z)$ �quidistants de $A(1,2,3)$ et $B(2,0,1)$ est:",
+      "choices": [
+        { "label": "A", "fr": "Le plan $x - y + z = 6$" },
+        { "label": "B", "fr": "Le plan $2x - 4y - 4z = -9$" },
+        { "label": "C", "fr": "Le plan $2x - 4y - 4z = 9$" },
+        { "label": "D", "fr": "La droite d'�quations $x+y+z=6$ et $2x-4y-4z=-6$" }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$MA^2 = MB^2 \\Rightarrow (x-1)^2+(y-2)^2+(z-3)^2 = (x-2)^2+y^2+(z-1)^2$ $\\Rightarrow 2x-4y-4z = -9$.",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 402,
+      "question_fr": "On tire une boule de $S_1$ (2 rouges, 3 noires). Si elle est noire on la met dans $S_2$ (3 rouges, 2 noires), puis on tire une boule de $S_2$. La probabilit� que la boule tir�e de $S_2$ soit rouge est:",
+      "choices": [
+        { "label": "A", "fr": "$\\frac{3}{5}$" },
+        { "label": "B", "fr": "$\\frac{9}{25}$" },
+        { "label": "C", "fr": "$\\frac{12}{25}$" },
+        { "label": "D", "fr": "$\\frac{2}{5}$" }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$P(R_2) = P(R_1)P(R_2|R_1) + P(N_1)P(R_2|N_1) = \\frac{2}{5}\\cdot\\frac{3}{5} + \\frac{3}{5}\\cdot\\frac{4}{6} = \\frac{6}{25}+\\frac{12}{30} = \\frac{12}{25}$.",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 403,
+      "question_fr": "Une urne contient 9 boules : 5 rouges num�rot�es $0,1,1,1,2$ et 4 vertes num�rot�es $0,1,1,2$. On tire 3 boules simultan�ment. Soit $B$ : \"Obtenir 3 boules dont la somme des num�ros est 3\" et $C$ : \"Obtenir 3 boules vertes\". Alors $P_B(C)$ est:",
+      "choices": [
+        { "label": "A", "fr": "$\\frac{1}{21}$" },
+        { "label": "B", "fr": "$\\frac{2}{21}$" },
+        { "label": "C", "fr": "$\\frac{4}{21}$" },
+        { "label": "D", "fr": "$\\frac{5}{21}$" }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$P_B(C) = \\frac{P(C \\cap B)}{P(B)}$. Calcul du nombre de cas favorables et total.",
+      "difficulty": "difficile"
+    },
+    {
+      "id": 404,
+      "question_fr": "Dans une �cole de 300 �l�ves : 60 au club Cyber (30% filles), 90 au club Sport (60% filles), 150 au club Environnement (72% filles). Chaque �l�ve pratique une seule activit�. La probabilit� que l'�l�ve choisi soit une fille est:",
+      "choices": [
+        { "label": "A", "fr": "$\\frac{81}{150}$" },
+        { "label": "B", "fr": "$\\frac{81}{100}$" },
+        { "label": "C", "fr": "$\\frac{81}{200}$" },
+        { "label": "D", "fr": "$\\frac{81}{300}$" }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$P(F) = \\frac{60}{300}\\times 0.3 + \\frac{90}{300}\\times 0.6 + \\frac{150}{300}\\times 0.72 = \\frac{18+54+108}{300} = \\frac{180}{300} = \\frac{81}{150}$.",
+      "difficulty": "moyen"
+    },
+    {
+      "id": 405,
+      "question_fr": "Soit la droite $(\\Delta)$ passant par $A(1,2,3)$ et de vecteur directeur $\\vec{u}(2,-1,2)$. Une repr�sentation param�trique de $(\\Delta)$ est:",
+      "choices": [
+        { "label": "A", "fr": "$\\begin{cases} x = 1+2t \\\\ y = 2-t \\\\ z = 3+2t \\end{cases}$" },
+        { "label": "B", "fr": "$\\begin{cases} x = 2+t \\\\ y = -1+2t \\\\ z = 2+3t \\end{cases}$" },
+        { "label": "C", "fr": "$\\begin{cases} x = 1-2t \\\\ y = 2+t \\\\ z = 3-2t \\end{cases}$" },
+        { "label": "D", "fr": "$\\begin{cases} x = 2t \\\\ y = -t \\\\ z = 2t \\end{cases}$" }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Une droite passant par $A(x_0,y_0,z_0)$ de vecteur $\\vec{u}(a,b,c)$ a pour param�trisation $\\begin{cases} x = x_0+at \\\\ y = y_0+bt \\\\ z = z_0+ct \\end{cases}$.",
+      "difficulty": "facile"
+    }
+  ]
+}

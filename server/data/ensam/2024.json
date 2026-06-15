@@ -1,0 +1,153 @@
+{
+  "year": 2024,
+  "subjects": [
+    {
+      "name_fr": "Mathématiques",
+      "name_en": "Mathematics",
+      "name_ar": "الرياضيات",
+      "topics": ["suites", "analyse", "trigonométrie", "intégrales", "nombres complexes", "algèbre"],
+      "questions": [
+        {
+          "id": 1,
+          "question_fr": "$\\arctan\\left(\\frac{1}{2}\\right) + \\arctan\\left(\\frac{1}{3}\\right) =$",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{\\pi}{4}$" },
+            { "label": "B", "fr": "$\\frac{\\pi}{3}$" },
+            { "label": "C", "fr": "$\\frac{\\pi}{6}$" },
+            { "label": "D", "fr": "$\\frac{\\pi}{2}$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$\\tan(a+b) = \\frac{1/2+1/3}{1-1/6} = 1$, donc $a+b = \\pi/4$.",
+          "topics": ["trigonométrie", "analyse"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 2,
+          "question_fr": "$\\lim_{x\\to 0^+} \\frac{\\ln(1+x)-x}{x^2} =$",
+          "choices": [
+            { "label": "A", "fr": "$-\\infty$" },
+            { "label": "B", "fr": "$-\\frac{1}{2}$" },
+            { "label": "C", "fr": "$+\\infty$" },
+            { "label": "D", "fr": "$0$" }
+          ],
+          "correctIndex": 1,
+          "explanation_fr": "DL : $\\ln(1+x) = x - \\frac{x^2}{2} + o(x^2)$, donc $\\frac{\\ln(1+x)-x}{x^2} \\to -\\frac{1}{2}$.",
+          "topics": ["analyse", "limites"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 3,
+          "question_fr": "$\\lim_{x\\to 0^+} (e^x - e^{-x})\\ln x =$",
+          "choices": [
+            { "label": "A", "fr": "$-\\infty$" },
+            { "label": "B", "fr": "$0$" },
+            { "label": "C", "fr": "$+\\infty$" },
+            { "label": "D", "fr": "$1$" }
+          ],
+          "correctIndex": 1,
+          "explanation_fr": "$e^x - e^{-x} \\sim 2x$, donc $2x\\ln x \\to 0$.",
+          "topics": ["analyse", "limites"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 4,
+          "question_fr": "Soit $f$ dÃ©finie sur $]0,+\\infty[$ par $f(x) = \\frac{x\\ln x}{1+x}$. Alors $f'(x) =$",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{1+x+\\ln x}{(x+1)^2}$" },
+            { "label": "B", "fr": "$\\frac{1+2x+\\ln x}{(x+1)^2}$" },
+            { "label": "C", "fr": "$\\frac{1+x+2\\ln x}{(x+1)^2}$" },
+            { "label": "D", "fr": "$\\frac{1+x-\\ln x}{(x+1)^2}$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$f'(x) = \\frac{(\\ln x+1)(1+x) - x\\ln x}{(1+x)^2} = \\frac{1+x+\\ln x}{(x+1)^2}$.",
+          "topics": ["analyse", "dÃ©rivation"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 5,
+          "question_fr": "$\\lim_{x\\to 0} \\frac{\\ln(\\cos 2x)}{\\ln(\\cos 3x)} =$",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{4}{9}$" },
+            { "label": "B", "fr": "$\\frac{2}{3}$" },
+            { "label": "C", "fr": "$1$" },
+            { "label": "D", "fr": "$0$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$\\ln(\\cos x) \\sim -\\frac{x^2}{2}$, donc $\\frac{\\ln(\\cos 2x)}{\\ln(\\cos 3x)} \\sim \\frac{-4x^2/2}{-9x^2/2} = \\frac{4}{9}$.",
+          "topics": ["analyse", "limites"],
+          "difficulty": "difficile"
+        },
+        {
+          "id": 6,
+          "question_fr": "Soit $g(x) = \\ln\\left(1+\\frac{1}{x}\\right) - x + 1$ sur $]0,+\\infty[$. Alors $g'(x) =$",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{1}{(x+1)^2}$" },
+            { "label": "B", "fr": "$1$" },
+            { "label": "C", "fr": "$\\frac{1}{(x-1)^2}$" },
+            { "label": "D", "fr": "$-\\frac{1}{x(x+1)^2}$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$g'(x) = \\frac{-1/x^2}{1+1/x} - 1 = -\\frac{1}{x(x+1)} - 1 = -\\frac{1}{x(x+1)^2}$.",
+          "topics": ["analyse", "dÃ©rivation"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 7,
+          "question_fr": "$\\lim_{x\\to +\\infty} x\\ln\\left(1+\\frac{1}{x}\\right) =$",
+          "choices": [
+            { "label": "A", "fr": "$0$" },
+            { "label": "B", "fr": "$1$" },
+            { "label": "C", "fr": "$+\\infty$" },
+            { "label": "D", "fr": "$-\\infty$" }
+          ],
+          "correctIndex": 1,
+          "explanation_fr": "$\\ln(1+1/x) \\sim 1/x$, donc $x \\cdot 1/x = 1$.",
+          "topics": ["analyse", "limites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 8,
+          "question_fr": "ABCD est un carrÃ© de cÃ´tÃ© 1. On place E sur [AB] et F sur [BC] tels que BE = CF = $x$. La valeur de $x$ pour laquelle l'aire du triangle EFD est minimale est :",
+          "choices": [
+            { "label": "A", "fr": "$1$" },
+            { "label": "B", "fr": "$\\frac{1}{2}$" },
+            { "label": "C", "fr": "$\\frac{1}{3}$" },
+            { "label": "D", "fr": "$\\frac{2}{3}$" }
+          ],
+          "correctIndex": 2,
+          "explanation_fr": "Aire = $1 - \\frac{x}{2} - \\frac{1-x}{2} - \\frac{x(1-x)}{2} = \\frac{1 - x + x^2}{2}$. Minimum en $x=1/3$.",
+          "topics": ["analyse", "gÃ©omÃ©trie"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 9,
+          "question_fr": "Soit $f(2x-1) = x^2 + 3x$ pour tout $x\\in\\mathbb{R}$. $f(1) + f'(1)$ est Ã©gale Ã :",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{11}{4}$" },
+            { "label": "B", "fr": "$4$" },
+            { "label": "C", "fr": "$\\frac{15}{4}$" },
+            { "label": "D", "fr": "$2$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "Soit $u=2x-1$, $x=\\frac{u+1}{2}$. $f(u) = (\\frac{u+1}{2})^2 + 3(\\frac{u+1}{2}) = \\frac{u^2+8u+7}{4}$. $f(1)=4$, $f'(1)=\\frac{1}{2}\\cdot1+2=\\frac{5}{2}$, somme $=\\frac{11}{4}$.",
+          "topics": ["analyse", "dÃ©rivation"],
+          "difficulty": "difficile"
+        },
+        {
+          "id": 10,
+          "question_fr": "$\\lim_{x\\to 0} \\frac{1-\\cos^n x}{1-\\cos^2 x} =$",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{n}{2}$" },
+            { "label": "B", "fr": "$1$" },
+            { "label": "C", "fr": "$n$" },
+            { "label": "D", "fr": "$n(n+1)$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$\\cos^n x = (1-(1-\\cos x))^n \\sim 1 - n(1-\\cos x)$. Donc $\\frac{1-\\cos^n x}{1-\\cos^2 x} \\sim \\frac{n(1-\\cos x)}{1-\\cos^2 x} = \\frac{n}{1+\\cos x} \\to \\frac{n}{2}$.",
+          "topics": ["analyse", "limites", "trigonomÃ©trie"],
+          "difficulty": "difficile"
+        }
+      ]
+    }
+  ]
+}

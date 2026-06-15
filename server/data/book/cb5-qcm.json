@@ -1,0 +1,424 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "[CB5#1] Domaine de $f(x)=\\frac{\\ln(4-x^2)}{\\ln(x+1)}$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$[2,+\\infty[$"
+        },
+        {
+          "label": "B",
+          "fr": "$]-1,0[\\cup]0,2[$"
+        },
+        {
+          "label": "C",
+          "fr": "$]-1,2[$"
+        },
+        {
+          "label": "D",
+          "fr": "$[0,1[$"
+        },
+        {
+          "label": "E",
+          "fr": "$[-2,-1]$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$4-x^2>0$ ⇒ $-2<x<2$ ; $x+1>0$ ⇒ $x>-1$ ; $\\ln(x+1)\\neq0$ ⇒ $x\\neq0$. Intersection → $]-1,0[\\cup]0,2[$."
+    },
+    {
+      "id": 2,
+      "question_fr": "[CB5#2] $x\\ln(x+1) > 0$ ⇒ ensemble des solutions :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$]-1,+\\infty[$"
+        },
+        {
+          "label": "B",
+          "fr": "$]-1,0[$"
+        },
+        {
+          "label": "C",
+          "fr": "$]-1,0[\\cup]0,+\\infty[$"
+        },
+        {
+          "label": "D",
+          "fr": "$]0,+\\infty[$"
+        },
+        {
+          "label": "E",
+          "fr": "$]-1,1[$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Tableau de signe : $x\\ln(x+1) > 0$ ⇔ ($x>0$ et $x+1>1$) ou ($x<0$ et $0<x+1<1$) ⇒ $x>0$ ou $-1<x<0$."
+    },
+    {
+      "id": 3,
+      "question_fr": "[CB5#3] $\\lim_{x\\to0^+} \\frac{e^x - x^2 - 1}{x\\sin x} =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$1$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$e^x-1-x^2 \\sim x$ (car $e^x-1\\sim x$), $\\sin x \\sim x$ ⇒ numérateur $\\sim x$, dénominateur $\\sim x^2$ ⇒ $\\sim 1/x$ → $+\\infty$."
+    },
+    {
+      "id": 4,
+      "question_fr": "[CB5#4] $\\arg\\left(\\frac{(1+i)^{21}(1+i\\sqrt3)^{19}}{(1-i)^9}\\right) =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\pi/3$"
+        },
+        {
+          "label": "B",
+          "fr": "$11\\pi/6$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\pi/6$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\pi$"
+        },
+        {
+          "label": "E",
+          "fr": "$2\\pi/3$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\arg(1+i)=\\pi/4$, $\\arg(1+i\\sqrt3)=\\pi/3$, $\\arg(1-i)=-\\pi/4$. Calcul : $21\\pi/4 + 19\\pi/3 + 9\\pi/4 = 30\\pi/4+19\\pi/3 = \\frac{45\\pi+38\\pi}{6}=\\frac{83\\pi}{6} \\equiv \\frac{11\\pi}{6}$."
+    },
+    {
+      "id": 5,
+      "question_fr": "[CB5#5] $u_n = \\frac{2^n + n^2}{n^2 e^n + 1}$, $\\lim u_n =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$-1$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$u_n \\sim \\frac{2^n}{n^2 e^n} = \\left(\\frac{2}{e}\\right)^n \\frac1{n^2} \\to 0$ car $2/e < 1$."
+    },
+    {
+      "id": 6,
+      "question_fr": "[CB5#6] $\\int_1^e (\\ln x)(-x + x\\ln x) dx =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln3$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\frac12$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\ln3$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Primitive : $\\frac12(x\\ln x - x)^2$ entre 1 et $e$ donne $-\\frac12$."
+    },
+    {
+      "id": 7,
+      "question_fr": "[CB5#7] Tangente à $f(x)=\\frac{\\ln(x+1)}{x+e^x}$ en O(0,0) :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y=x+1$"
+        },
+        {
+          "label": "B",
+          "fr": "$y=x$"
+        },
+        {
+          "label": "C",
+          "fr": "$y=2x$"
+        },
+        {
+          "label": "D",
+          "fr": "$y=-2x$"
+        },
+        {
+          "label": "E",
+          "fr": "$y=x-1$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$f'(0) = \\lim_{x\\to0}\\frac{\\ln(x+1)}{x(x+e^x)} = 1\\times\\frac1{1}=1$. Donc $y=x$."
+    },
+    {
+      "id": 8,
+      "question_fr": "[CB5#8] $|z-2|=|z-i|$ ⇒ droite d'équation :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-4x+2y+3=0$"
+        },
+        {
+          "label": "B",
+          "fr": "$y=-2x-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$y=-2x+3$"
+        },
+        {
+          "label": "D",
+          "fr": "$y=2x-\\frac32$"
+        },
+        {
+          "label": "E",
+          "fr": "$y=2x+1$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$(x-2)^2+y^2 = x^2+(y-1)^2$ ⇒ $-4x+2y+3=0$ (ou $y=2x-3/2$)."
+    },
+    {
+      "id": 9,
+      "question_fr": "[CB5#9] Point équidistant de $P: x-z+1=0$ et $Q: x+y+1=0$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y_0+z_0=0$ ou $2x_0+y_0-z_0+2=0$"
+        },
+        {
+          "label": "B",
+          "fr": "$y_0+z_0=0$ ou $y_0-z_0=0$"
+        },
+        {
+          "label": "C",
+          "fr": "$2x_0+y_0=0$ ou $y_0-z_0=0$"
+        },
+        {
+          "label": "D",
+          "fr": "$2x_0+y_0=0$ ou $y_0+z_0=0$"
+        },
+        {
+          "label": "E",
+          "fr": "$y_0-z_0=0$ ou $2x_0+y_0-z_0+2=0$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$d(M,P)=d(M,Q)$ ⇒ $|x_0-z_0+1| = |x_0+y_0+1|$ ⇒ deux cas."
+    },
+    {
+      "id": 10,
+      "question_fr": "[CB5#10] Tirage sans remise dans urne (4R:1,1,2,2 ; 3V:1,1,2). Probabilité d'avoir deux nombres différents sachant même couleur :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$5/42$"
+        },
+        {
+          "label": "B",
+          "fr": "$2/21$"
+        },
+        {
+          "label": "C",
+          "fr": "$10/42$"
+        },
+        {
+          "label": "D",
+          "fr": "$3/7$"
+        },
+        {
+          "label": "E",
+          "fr": "$2/3$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$P(B)=\\frac{C_4^2+C_3^2}{C_7^2}=\\frac{6+3}{21}=\\frac{9}{21}=\\frac37$. $P(A\\cap B)=\\frac{2\\times2 + 2\\times1}{21}=\\frac{6}{21}=\\frac27$. Donc $P_B(A)=\\frac{2/7}{3/7}=\\frac23$."
+    },
+    {
+      "id": 11,
+      "question_fr": "[CB5#11] $|z|=1$ ⇒ $|\\sqrt2+z|^2 + |\\sqrt2-z|^2 =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2\\sqrt2$"
+        },
+        {
+          "label": "B",
+          "fr": "$-2\\sqrt2$"
+        },
+        {
+          "label": "C",
+          "fr": "$6$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\sqrt2$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\sqrt2$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Développement : $|\\sqrt2+z|^2+|\\sqrt2-z|^2 = 2+2+2|z|^2 = 6$."
+    },
+    {
+      "id": 12,
+      "question_fr": "[CB5#12] Parmi ces propositions sur $u_n = \\frac1{\\sqrt{1+n^2}}$, laquelle est FAUSSE ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$u_n$ est croissante"
+        },
+        {
+          "label": "B",
+          "fr": "$u_n$ est minorée"
+        },
+        {
+          "label": "C",
+          "fr": "$u_0=0$"
+        },
+        {
+          "label": "D",
+          "fr": "$u_n\\le1$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\lim u_n=0$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "La suite est décroissante (pas croissante). Les autres propositions sont vraies : minorée par 0, $u_0=1$, $u_n\\le1$, limite 0."
+    },
+    {
+      "id": 13,
+      "question_fr": "[CB5#13] $\\ln(-2\\sqrt2+\\ln x) + \\ln(2\\sqrt2+\\ln x)=0$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "une seule solution"
+        },
+        {
+          "label": "B",
+          "fr": "deux solutions"
+        },
+        {
+          "label": "C",
+          "fr": "pas de solution"
+        },
+        {
+          "label": "D",
+          "fr": "$S=\\{e^3\\}$"
+        },
+        {
+          "label": "E",
+          "fr": "trois solutions"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Domaine : $\\ln x > 2\\sqrt2$. Équation ⇒ $\\ln^2 x - 8 = 1$ ⇒ $\\ln x = \\pm 3$. Seule $\\ln x = 3$ (car $3>2\\sqrt2$) → $x=e^3$."
+    },
+    {
+      "id": 14,
+      "question_fr": "[CB5#14] Asymptote oblique de $f(x)=2x+1+\\sqrt{4x^2+x-1}$ en $+\\infty$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y=-2x-1$"
+        },
+        {
+          "label": "B",
+          "fr": "$y=2x+1$"
+        },
+        {
+          "label": "C",
+          "fr": "$y=2x-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$y=-2x+2$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\sqrt{4x^2+x-1} = 2x\\sqrt{1+\\frac1{4x}-\\frac1{4x^2}} \\sim 2x(1+\\frac1{8x}) = 2x + \\frac14$. Donc $f(x) \\sim 4x + 1,25$. Aucune option ne correspond."
+    },
+    {
+      "id": 15,
+      "question_fr": "[CB5#15] Parmi ces propositions sur $f(x)=-x^2+\\ln(1+x^2)$, laquelle est FAUSSE ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$D_f=\\mathbb{R}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\lim_{x\\to+\\infty}f(x)=-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$f'(0)=0$"
+        },
+        {
+          "label": "D",
+          "fr": "$f$ est paire"
+        },
+        {
+          "label": "E",
+          "fr": "$f(0)=1$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$f$ est paire, définie sur $\\mathbb{R}$, $f'(x)=-2x+\\frac{2x}{1+x^2}$ ⇒ $f'(0)=0$, $f(0)=0$, limite en $+\\infty$ = $-\\infty$. Donc $f(0)=1$ est faux."
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "year": 2022,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "géométrie", "nombres complexes", "suites", "trigonométrie"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "Sachant que $11 \\times 11 = 121$, le produit $111111111 \\times 111111111$ est égal à :",
+        "choices": [
+          { "label": "A", "fr": "$1234567654321$" },
+          { "label": "B", "fr": "$123456787654321$" },
+          { "label": "C", "fr": "$12345678987654321$" },
+          { "label": "D", "fr": "$1234568654321$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "Le nombre 111111111 comporte 9 chiffres \"un\". Le carré d'un nombre constitué de n chiffres 1 (pour n ≤ 9) forme une suite symétrique (palindrome) de la forme $123\\dots(n-1)n(n-1)\\dots321$. Pour n=9, le résultat est donc $12345678987654321$.",
+        "topics": ["algèbre", "arithmétique"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 2,
+        "question_fr": "Le nombre de diviseurs positifs du nombre $546 \\times 840$ est :",
+        "choices": [
+          { "label": "A", "fr": "$180$" },
+          { "label": "B", "fr": "$181$" },
+          { "label": "C", "fr": "$182$" },
+          { "label": "D", "fr": "$183$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Décomposons en facteurs premiers : $546 = 2 \\times 3 \\times 7 \\times 13$, $840 = 2^3 \\times 3 \\times 5 \\times 7$. $N = 2^4 \\times 3^2 \\times 5^1 \\times 7^2 \\times 13^1$. Nombre de diviseurs $= (4+1)(2+1)(1+1)(2+1)(1+1) = 5 \\times 3 \\times 2 \\times 3 \\times 2 = 180$.",
+        "topics": ["algèbre", "arithmétique"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 3,
+        "question_fr": "Soit $f : \\mathbb{R} \\to \\mathbb{R}$. La négation de la proposition « $f$ est la fonction nulle » est :",
+        "choices": [
+          { "label": "A", "fr": "$\\forall x \\in \\mathbb{R}, f(x) > 0$" },
+          { "label": "B", "fr": "$\\forall x \\in \\mathbb{R}, f(x) \\neq 0$" },
+          { "label": "C", "fr": "$\\forall x \\in \\mathbb{R}, f(x) = 0$" },
+          { "label": "D", "fr": "$\\exists x \\in \\mathbb{R}, f(x) \\neq 0$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "La proposition « $f$ est la fonction nulle » s'écrit $\\forall x \\in \\mathbb{R}, f(x) = 0$. Sa négation est $\\exists x \\in \\mathbb{R}, f(x) \\neq 0$.",
+        "topics": ["algèbre", "logique"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 4,
+        "question_fr": "La solution de l'équation $\\ln(x^2 - 1) - \\ln(2x - 1) + \\ln 2 = 0$ est :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1+7\\sqrt{3}}{2}$" },
+          { "label": "B", "fr": "$\\frac{1+\\sqrt{3}}{2}$" },
+          { "label": "C", "fr": "$\\frac{1-\\sqrt{3}}{2}$" },
+          { "label": "D", "fr": "$\\frac{1+3\\sqrt{3}}{2}$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "Domaine $D_E = ]1, +\\infty[$. $\\ln\\left(\\frac{2(x^2-1)}{2x-1}\\right) = 0 \\implies 2x^2 - 2x - 1 = 0$. $\\Delta = 12$. $x = \\frac{1 \\pm \\sqrt{3}}{2}$. Seule $x = \\frac{1+\\sqrt{3}}{2}$ appartient au domaine.",
+        "topics": ["analyse", "logarithmes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 5,
+        "question_fr": "La valeur maximale des termes $u_k = C_{22}^k 20^{22-k} 21^k$ dans le développement de $(20+21)^{22}$ est atteinte pour $k$ égal à :",
+        "choices": [
+          { "label": "A", "fr": "$8$" },
+          { "label": "B", "fr": "$9$" },
+          { "label": "C", "fr": "$10$" },
+          { "label": "D", "fr": "$11$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "$\\frac{u_{k+1}}{u_k} = \\frac{22-k}{k+1} \\times \\frac{21}{20} > 1 \\implies k < \\frac{442}{41} \\approx 10,78$. La suite croît jusqu'à $k=11$, puis décroît. Maximum atteint pour $k=11$.",
+        "topics": ["algèbre", "binôme de Newton", "suites"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 6,
+        "question_fr": "$\\lim_{n \\to +\\infty} \\sqrt[n]{n^2} =$",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$0$" },
+          { "label": "C", "fr": "$+\\infty$" },
+          { "label": "D", "fr": "$e$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\sqrt[n]{n^2} = n^{2/n} = (n^{1/n})^2$. Comme $\\lim n^{1/n} = 1$, la limite est $1^2 = 1$.",
+        "topics": ["analyse", "suites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 7,
+        "question_fr": "$\\lim_{n \\to +\\infty} n - \\sqrt{(n+5)(n+7)} =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$-6$" },
+          { "label": "C", "fr": "$6$" },
+          { "label": "D", "fr": "$+\\infty$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\lim \\frac{n^2 - (n^2+12n+35)}{n+\\sqrt{n^2+12n+35}} = \\lim \\frac{-12n-35}{n+n\\sqrt{1+\\frac{12}{n}+\\frac{35}{n^2}}} = \\lim \\frac{-12n}{2n} = -6$.",
+        "topics": ["analyse", "suites", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 8,
+        "question_fr": "Soient $a$ et $b$ deux réels ; $f$ définie par $f(x) = \\begin{cases} \\frac{\\ln(1+x)-x}{x^2} & x>0 \\\\ ax+b & x\\le 0 \\end{cases}$ est continue en $0$ ssi :",
+        "choices": [
+          { "label": "A", "fr": "$a \\in \\mathbb{R}$ et $b = 2$" },
+          { "label": "B", "fr": "$a = 0$ et $b = 1$" },
+          { "label": "C", "fr": "$a = -\\frac{1}{3}$ et $b = \\frac{1}{2}$" },
+          { "label": "D", "fr": "$a \\in \\mathbb{R}$ et $b = -\\frac{1}{2}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "DL de $\\ln(1+x) = x - \\frac{x^2}{2} + o(x^2)$. $\\frac{\\ln(1+x)-x}{x^2} \\to -\\frac{1}{2}$. Donc $b = -\\frac{1}{2}$, $a \\in \\mathbb{R}$.",
+        "topics": ["analyse", "continuité", "développements limités"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 9,
+        "question_fr": "La dérivée de $f(x) = \\frac{\\sqrt{x-1}}{\\sqrt[3]{(x+2)^2}\\sqrt{(x+3)^3}}$ est :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{5x^2-x-12}{\\sqrt{x-1}\\sqrt[3]{(x+2)^5}\\sqrt{(x+3)^5}}$" },
+          { "label": "B", "fr": "$\\frac{3x^2+x-24}{\\sqrt{x-1}\\sqrt[3]{(x+2)^5}\\sqrt{(x+3)^5}}$" },
+          { "label": "C", "fr": "$\\frac{2x^2+x-24}{2\\sqrt{x-1}\\sqrt[3]{(x+2)^5}\\sqrt{(x+3)^5}}$" },
+          { "label": "D", "fr": "$\\frac{5x^2+x-24}{3\\sqrt{x-1}\\sqrt[3]{(x+2)^5}\\sqrt{(x+3)^5}}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Par dérivation logarithmique : $\\frac{f'}{f} = \\frac{1}{2(x-1)} - \\frac{2}{3(x+2)} - \\frac{3}{2(x+3)}$. Après simplification : $f'(x) = \\frac{-(5x^2+x-24)}{3\\sqrt{x-1}\\sqrt[3]{(x+2)^5}\\sqrt{(x+3)^5}}$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 10,
+        "question_fr": "Soit $f : [0, +\\infty[ \\to [0, +\\infty[$ définie par $f(x) = xe^x$. L'équation de la tangente à $f^{-1}$ au point d'abscisse $e$ est :",
+        "choices": [
+          { "label": "A", "fr": "$y = \\frac{1}{2e}x + \\frac{1}{2}$" },
+          { "label": "B", "fr": "$y = \\frac{1}{e}x + \\frac{1}{2}$" },
+          { "label": "C", "fr": "$y = \\frac{1}{2e}x + 1$" },
+          { "label": "D", "fr": "$y = \\frac{1}{e}x - 1$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$f(1)=e$ donc $f^{-1}(e)=1$. $(f^{-1})'(e) = \\frac{1}{f'(1)} = \\frac{1}{2e}$. Tangente : $y = \\frac{1}{2e}(x-e)+1 = \\frac{1}{2e}x+\\frac{1}{2}$.",
+        "topics": ["analyse", "dérivation", "fonctions réciproques"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 11,
+        "question_fr": "$\\int_0^1 \\frac{1-x^2}{1+x^2} dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\pi}{2} + 1$" },
+          { "label": "B", "fr": "$\\frac{\\pi}{2} - 1$" },
+          { "label": "C", "fr": "$-1 + \\frac{\\pi}{4}$" },
+          { "label": "D", "fr": "$-1 - \\frac{\\pi}{4}$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\frac{1-x^2}{1+x^2} = \\frac{2}{1+x^2} - 1$. $\\int_0^1 = [2\\arctan x - x]_0^1 = 2\\cdot\\frac{\\pi}{4} - 1 = \\frac{\\pi}{2} - 1$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 12,
+        "question_fr": "Soit $I_n = \\int_{-1}^1 (x^2-1)^n dx$. La valeur de $I_4$ est :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{252}{315}$" },
+          { "label": "B", "fr": "$\\frac{254}{315}$" },
+          { "label": "C", "fr": "$\\frac{258}{315}$" },
+          { "label": "D", "fr": "$\\frac{256}{315}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "$I_4 = 2\\int_0^1 (1-x^2)^4 dx$. Par $x=\\sin t$ : $I_4 = 2\\int_0^{\\pi/2} \\cos^9 t\\,dt = 2 \\times \\frac{128}{315} = \\frac{256}{315}$.",
+        "topics": ["analyse", "intégrales", "intégrales de Wallis"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 13,
+        "question_fr": "$\\cos(\\pi/16)$ est égal à :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1}{2}\\sqrt{2 + \\sqrt{2 - \\sqrt{2}}}$" },
+          { "label": "B", "fr": "$\\frac{1}{2}\\sqrt{2 - \\sqrt{2 + \\sqrt{2}}}$" },
+          { "label": "C", "fr": "$\\frac{1}{16}\\sqrt{2 + \\sqrt{2 + \\sqrt{2}}}$" },
+          { "label": "D", "fr": "$\\frac{1}{2}\\sqrt{2 + \\sqrt{2 + \\sqrt{2}}}$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "Par $\\cos(x/2) = \\sqrt{\\frac{1+\\cos x}{2}}$ : $\\cos(\\pi/4)=\\frac{\\sqrt{2}}{2}$, $\\cos(\\pi/8)=\\frac{1}{2}\\sqrt{2+\\sqrt{2}}$, $\\cos(\\pi/16)=\\frac{1}{2}\\sqrt{2+\\sqrt{2+\\sqrt{2}}}$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 14,
+        "question_fr": "La formule algébrique de $(\\frac{1}{2}+i\\frac{\\sqrt{3}}{2})^{2023}$ est :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}$" },
+          { "label": "B", "fr": "$-\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}$" },
+          { "label": "C", "fr": "$\\frac{\\sqrt{3}}{2} + i\\frac{1}{2}$" },
+          { "label": "D", "fr": "$-\\frac{\\sqrt{3}}{2} + i\\frac{1}{2}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Forme exponentielle : $e^{i\\pi/3}$. $2023 = 3\\times674+1$, donc $e^{i2023\\pi/3} = e^{i\\pi/3}$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 15,
+        "question_fr": "Soit $z = \\sqrt{3}+i$, alors $z^5$ est égal à :",
+        "choices": [
+          { "label": "A", "fr": "$\\bar{z}$" },
+          { "label": "B", "fr": "$-8\\bar{z}$" },
+          { "label": "C", "fr": "$-16\\bar{z}$" },
+          { "label": "D", "fr": "$16\\bar{z}$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$|z|=2$, $z=2e^{i\\pi/6}$. $z^5=32e^{i5\\pi/6}$. $z^5/\\bar{z} = 16e^{i\\pi} = -16$, donc $z^5 = -16\\bar{z}$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 16,
+        "question_fr": "Soient $z_1,z_2$ solutions de $2z^2-2(m+1+i)z+m^2+(1+i)m+i=0$, $m\\in\\mathbb{C}^*$, $m\\ne1,i$. $\\text{Im}(z_1)\\times\\text{Im}(z_2) =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1-m^2}{2}$" },
+          { "label": "B", "fr": "$\\frac{1+m^2}{2}$" },
+          { "label": "C", "fr": "$\\frac{1-m^2}{4}$" },
+          { "label": "D", "fr": "$\\frac{1+m^2}{4}$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$\\Delta' = (im)^2$. $z_1 = \\frac{(m+1+i)+im}{2}$, $z_2 = \\frac{(m+1+i)-im}{2}$. Si $m$ réel, $\\text{Im}(z_1)=\\frac{1+m}{2}$, $\\text{Im}(z_2)=\\frac{1-m}{2}$, produit $= \\frac{1-m^2}{4}$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 17,
+        "question_fr": "La solution $y(x)$ de $y''+y'+\\frac{5}{2}y=0$, $y(0)=-4$, $y'(0)=6$ est :",
+        "choices": [
+          { "label": "A", "fr": "$e^{-x/2}\\left(-4\\cos\\frac{3}{2}x - \\frac{8}{3}\\sin\\frac{3}{2}x\\right)$" },
+          { "label": "B", "fr": "$e^{-x/2}\\left(-4\\cos\\frac{3}{2}x + \\frac{8}{3}\\sin\\frac{3}{2}x\\right)$" },
+          { "label": "C", "fr": "$e^{-x/2}\\left(-4\\cos\\frac{3}{2}x - \\frac{8}{3}\\sin\\frac{2}{3}x\\right)$" },
+          { "label": "D", "fr": "$e^{-x/2}\\left(-4\\cos\\frac{3}{2}x + \\frac{8}{3}\\sin\\frac{2}{3}x\\right)$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "Équation caractéristique $r^2+r+\\frac{5}{2}=0$, $\\Delta=-9$, racines $-\\frac{1}{2}\\pm i\\frac{3}{2}$. $y(0)=-4\\Rightarrow A=-4$. $y'(0)=2+\\frac{3}{2}B=6\\Rightarrow B=\\frac{8}{3}$.",
+        "topics": ["analyse", "équations différentielles"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 18,
+        "question_fr": "Dans un repère orthonormé, on considère le plan $P: 2x-y-2z+2=0$ et la sphère $x^2-6x+y^2+z^2+10z-2=0$. Une représentation paramétrique de la droite passant par le centre de la sphère et perpendiculaire à $P$ est :",
+        "choices": [
+          { "label": "A", "fr": "$\\begin{cases}x=3+2t\\\\ y=-t\\\\ z=-5-2t\\end{cases}$" },
+          { "label": "B", "fr": "$\\begin{cases}x=3-2t\\\\ y=t\\\\ z=-5-2t\\end{cases}$" },
+          { "label": "C", "fr": "$\\begin{cases}x=3+2t\\\\ y=-t\\\\ z=5-2t\\end{cases}$" },
+          { "label": "D", "fr": "$\\begin{cases}x=-3+2t\\\\ y=-t\\\\ z=-5-2t\\end{cases}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Centre de la sphère : $C(3,0,-5)$. Vecteur normal de $P$ : $\\vec{n}=(2,-1,-2)$. Représentation : $\\begin{cases}x=3+2t\\\\ y=-t\\\\ z=-5-2t\\end{cases}$.",
+        "topics": ["géométrie", "géométrie dans l'espace"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 19,
+        "question_fr": "300 élèves : 60 au club Cyber Sécurité (30% filles), 90 au club Sport (60% filles), 150 au club Environnement (72% filles). Un élève choisi au hasard, probabilité que ce soit une fille :",
+        "choices": [
+          { "label": "A", "fr": "$0,4$" },
+          { "label": "B", "fr": "$0,5$" },
+          { "label": "C", "fr": "$0,6$" },
+          { "label": "D", "fr": "$0,7$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "Total filles : $60\\times0,30 + 90\\times0,60 + 150\\times0,72 = 18+54+108 = 180$. $P(F) = \\frac{180}{300} = 0,6$.",
+        "topics": ["probabilités"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 20,
+        "question_fr": "Sachant que l'élève choisi est un garçon, probabilité qu'il soit au club Environnement :",
+        "choices": [
+          { "label": "A", "fr": "$0,25$" },
+          { "label": "B", "fr": "$0,35$" },
+          { "label": "C", "fr": "$0,45$" },
+          { "label": "D", "fr": "$0,55$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "Total garçons $=300-180=120$. Garçons Environnement $=150-108=42$. $P(\\text{Environnement}|G)=\\frac{42}{120}=0,35$.",
+        "topics": ["probabilités", "probabilités conditionnelles"],
+        "difficulty": "facile"
+      }
+    ]
+  }]
+}

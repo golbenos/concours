@@ -1,0 +1,291 @@
+{
+  "year": 2014,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "nombres complexes", "suites", "trigonométrie", "géométrie", "combinatoire", "arithmétique", "matrices"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "$\\frac{1}{k}-\\frac{1}{k+1} =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1}{k(k+1)}$" },
+          { "label": "B", "fr": "$\\frac{1}{k(k-1)}$" },
+          { "label": "C", "fr": "$-\\frac{1}{k(k+1)}$" },
+          { "label": "D", "fr": "$\\frac{2}{k(k+1)}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{1}{k}-\\frac{1}{k+1} = \\frac{k+1-k}{k(k+1)} = \\frac{1}{k(k+1)}$.",
+        "topics": ["algèbre"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 2,
+        "question_fr": "$\\sum_{k=1}^n \\frac{1}{k(k+1)} =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{n}{n+1}$" },
+          { "label": "B", "fr": "$\\frac{n+1}{n}$" },
+          { "label": "C", "fr": "$\\frac{1}{n}$" },
+          { "label": "D", "fr": "$\\frac{1}{n+1}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Somme télescopique : $1-1/(n+1)=n/(n+1)$.",
+        "topics": ["algèbre", "suites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 3,
+        "question_fr": "Soit $f(x)=x^3-3x+1$. Le nombre de racines réelles :",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$2$" },
+          { "label": "C", "fr": "$3$" },
+          { "label": "D", "fr": "$0$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$f'(x)=3x^2-3=0$ en $x=\\pm1$. $f(-1)=3>0$, $f(1)=-1<0$, $f(-\\infty)=-\\infty$, $f(+\\infty)=+\\infty$. 3 racines réelles.",
+        "topics": ["analyse", "polynômes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 4,
+        "question_fr": "$\\sin(\\pi/12) =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$" },
+          { "label": "B", "fr": "$\\frac{\\sqrt{6}+\\sqrt{2}}{4}$" },
+          { "label": "C", "fr": "$\\frac{\\sqrt{2}-\\sqrt{6}}{4}$" },
+          { "label": "D", "fr": "$\\frac{\\sqrt{3}-1}{2}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\sin(\\pi/12)=\\sin(\\pi/3-\\pi/4)=\\frac{\\sqrt{6}-\\sqrt{2}}{4}$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 5,
+        "question_fr": "$\\cos(\\pi/12) =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$" },
+          { "label": "B", "fr": "$\\frac{\\sqrt{6}+\\sqrt{2}}{4}$" },
+          { "label": "C", "fr": "$\\frac{\\sqrt{2}-\\sqrt{6}}{4}$" },
+          { "label": "D", "fr": "$\\frac{\\sqrt{3}+1}{2}$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\cos(\\pi/12)=\\cos(\\pi/3-\\pi/4)=\\frac{\\sqrt{6}+\\sqrt{2}}{4}$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 6,
+        "question_fr": "$\\tan(\\pi/12) =$",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$\\sqrt{3}$" },
+          { "label": "C", "fr": "$2-\\sqrt{3}$" },
+          { "label": "D", "fr": "$2+\\sqrt{3}$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$\\frac{\\sqrt{6}-\\sqrt{2}}{\\sqrt{6}+\\sqrt{2}} = \\frac{(\\sqrt{6}-\\sqrt{2})^2}{4} = \\frac{8-4\\sqrt{3}}{4} = 2-\\sqrt{3}$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 7,
+        "question_fr": "Soit $u_n = n\\sin(1/n)$. $\\lim u_n =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$+\\infty$" },
+          { "label": "D", "fr": "$-\\infty$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\sin(1/n) \\sim 1/n$, donc $n\\times(1/n)=1$.",
+        "topics": ["suites", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 8,
+        "question_fr": "Soit $u_n = n(e^{1/n}-1)$. $\\lim u_n =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$+\\infty$" },
+          { "label": "D", "fr": "$e$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$e^{1/n}-1 \\sim 1/n$, donc $n\\times(1/n)=1$.",
+        "topics": ["suites", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 9,
+        "question_fr": "$\\int_0^1 x e^{x^2} dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{e-1}{2}$" },
+          { "label": "B", "fr": "$e-1$" },
+          { "label": "C", "fr": "$e$" },
+          { "label": "D", "fr": "$\\frac{e}{2}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$u=x^2$, $\\frac12\\int_0^1 e^u du = \\frac{e-1}{2}$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 10,
+        "question_fr": "Équation matricielle $X^2= \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$ :",
+        "choices": [
+          { "label": "A", "fr": "infinies solutions" },
+          { "label": "B", "fr": "1 solution" },
+          { "label": "C", "fr": "2 solutions" },
+          { "label": "D", "fr": "4 solutions" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\begin{pmatrix}\\pm1&a\\\\0&\\pm1\\end{pmatrix}$, $\\begin{pmatrix}\\pm1&0\\\\b&\\pm1\\end{pmatrix}$, etc. Infinité de solutions.",
+        "topics": ["algèbre", "matrices"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 11,
+        "question_fr": "$\\det\\begin{pmatrix}1&a&a^2\\\\1&b&b^2\\\\1&c&c^2\\end{pmatrix} =$",
+        "choices": [
+          { "label": "A", "fr": "$(a-b)(b-c)(c-a)$" },
+          { "label": "B", "fr": "$(a+b)(b+c)(c+a)$" },
+          { "label": "C", "fr": "$(a-b)(b+c)(c+a)$" },
+          { "label": "D", "fr": "$0$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Déterminant de Vandermonde.",
+        "topics": ["algèbre", "matrices"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 12,
+        "question_fr": "Angle entre $(\\vec{u},\\vec{v})$ si $\\|\\vec{u}\\|=\\|\\vec{v}\\|=\\|\\vec{u}-\\vec{v}\\|$ :",
+        "choices": [
+          { "label": "A", "fr": "$\\pi/3$" },
+          { "label": "B", "fr": "$\\pi/6$" },
+          { "label": "C", "fr": "$\\pi/2$" },
+          { "label": "D", "fr": "$2\\pi/3$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\|\\vec{u}-\\vec{v}\\|^2 = \\|\\vec{u}\\|^2+\\|\\vec{v}\\|^2-2\\vec{u}\\cdot\\vec{v}$. $1=2-2\\cos\\theta$, $\\cos\\theta=1/2$, $\\theta=\\pi/3$.",
+        "topics": ["géométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 13,
+        "question_fr": "$z_1,z_2$ deux nombres complexes tels que $|z_1|=|z_2|=1$ et $|z_1+z_2|=\\sqrt{2}$. $|z_1-z_2|=$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$\\sqrt{2}$" },
+          { "label": "D", "fr": "$2$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$|z_1+z_2|^2+|z_1-z_2|^2=2(|z_1|^2+|z_2|^2)=4$. $2+|z_1-z_2|^2=4$, $|z_1-z_2|^2=2$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 14,
+        "question_fr": "$\\begin{vmatrix} 1 & 1 & 1 \\\\ a & b & c \\\\ a^3 & b^3 & c^3 \\end{vmatrix} =$",
+        "choices": [
+          { "label": "A", "fr": "$(a-b)(b-c)(c-a)(a+b+c)$" },
+          { "label": "B", "fr": "$(a+b+c)^3$" },
+          { "label": "C", "fr": "$(a+b+c)^2(a-b)$" },
+          { "label": "D", "fr": "$-\\begin{vmatrix}1&a&a^3\\\\1&b&b^3\\\\1&c&c^3\\end{vmatrix}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Déterminant factoriel par $(a-b)(b-c)(c-a)(a+b+c)$.",
+        "topics": ["algèbre", "matrices"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 15,
+        "question_fr": "$\\int_0^{\\pi} \\frac{x\\sin x}{1+\\cos^2 x}dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\pi^2/4$" },
+          { "label": "B", "fr": "$\\pi/2$" },
+          { "label": "C", "fr": "$\\pi$" },
+          { "label": "D", "fr": "$0$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$x\\to\\pi-x$ donne $I=\\pi\\int_0^{\\pi}\\frac{\\sin x}{1+\\cos^2 x}dx - I$. $2I = \\pi[-\\arctan(\\cos x)]_0^{\\pi} = \\pi^2/2$. $I=\\pi^2/4$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 16,
+        "question_fr": "Urne : 3 blanches, $n$ noires. Tirage sans remise de 2 boules. Probabilité de 2 blanches $=1/15$. $n=$",
+        "choices": [
+          { "label": "A", "fr": "$3$" },
+          { "label": "B", "fr": "$4$" },
+          { "label": "C", "fr": "$5$" },
+          { "label": "D", "fr": "$6$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$\\frac{3}{3+n}\\times\\frac{2}{2+n} = \\frac{1}{15}$. $(3+n)(2+n)=90$, $n^2+5n-84=0$, $n=7$ ou $n=-12$. Donc $n=5$.",
+        "topics": ["probabilités"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 17,
+        "question_fr": "$\\lim_{x\\to0^+} x\\ln x =$",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$0$" },
+          { "label": "C", "fr": "$-\\infty$" },
+          { "label": "D", "fr": "$+\\infty$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "Croissance comparée : $\\lim_{x\\to0^+} x\\ln x = 0$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 18,
+        "question_fr": "$\\int_0^1 \\ln x\\,dx =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$-1$" },
+          { "label": "D", "fr": "$+\\infty$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$[x\\ln x - x]_0^1 = (0-1)-(0-0) = -1$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 19,
+        "question_fr": "$\\ln(\\sqrt{2}+1)+\\ln(\\sqrt{2}-1)=$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$\\ln2$" },
+          { "label": "D", "fr": "$\\ln(\\sqrt{2})$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\ln((\\sqrt{2}+1)(\\sqrt{2}-1)) = \\ln(2-1)=\\ln1=0$.",
+        "topics": ["algèbre", "logarithmes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 20,
+        "question_fr": "Soit $A=\\{0,1,2\\}$ et $B=\\{0,1\\}$. Le nombre d'applications injectives de $A$ vers $B$ :",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$6$" },
+          { "label": "D", "fr": "$8$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$|A|=3>|B|=2$. Impossible d'avoir une injection.",
+        "topics": ["combinatoire"],
+        "difficulty": "facile"
+      }
+    ]
+  }]
+}

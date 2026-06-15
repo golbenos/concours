@@ -1,0 +1,6242 @@
+================================================================================
+ENSA-ENSAM MATHS - PRÉPARATION COMPLÈTE AUX CONCOURS
+================================================================================
+
+Source: 'ensa-ensam maths.pdf' — Livre complet de préparation
+
+Mathématiques
+Suite Numérique
+Chapitre
+Rappel sur les suites numériques
+1- Suite croissante; décroissante
+(Un)nEIN une suite de premier terme U
+(Vn ∈ N): Un+1 - Un Σ 0 ⇒ (Un) est croissante
+(Vn ∈ N): Un+1 -Un < 0 = (U) est décroissante
+(Vn ∈ N): Un+1- Un = 0 ⇒ (Un) est constante
+Résultat:
+(Un) est croissante alors (Vn E N); Un ≥ Uo
+(Un) est décroissante alors : Vn EN; Un ≤ U,
+2- Suite géométrique - arithmétique
+(Un)nEIN une suite de premier terme U et p un entier tel que 0 ≤ p ≤n
+(Un)géométrique
+Un+1 = qUn
+Un = Up x qh-p
+Sn = U0 + ... + Un
+1-gn+1
+= Uo 1-q
+S = Up+..+ Un
+1-gh-p+1
+= Up 1-g
+Sn = 1+q...+ qh
+1-qn+1
+=
+1-q
+qh + qh+1 +..+ q
+qh-qm+1
+1-q
+UnUn+2 = (Un+1)2
+3- Suite convergente
+(Un) arithmétique
+Un+1 = Un +r
+Un = U+ (n - p)r
+S = Uo+..+ Un
+(n+1) (U, + U"(
+=
+Sn = Up+..+ Un
+(n-p+1)(Up + Un)
+S=1+2 ... + n
+n(n+1)
+=
+S = n+ (n +1) + .. + m
+(n-m+1)(n+m)
+Un+Un+2 = 2Un+1
+Si lim Un = L ∈ R on dit que la suite (Un) est convergente
+n→+∞
+Toute suite croissante et majorée est convergente
+Toute suite décroissante et minorée est convergente
+4- Limites des suites usuelles
+lim n= +∞
+n→+∞
+lim ∞
+ n² = +∞,
+1 lim 2= 0
+lim= 0.
+n→+∞  n→+∞ ²
+1 1
+lim √n = +∞ ; lim nP = +∞ ; p EN lim = 0; lim= 0; pEN
++8
+n→+∞ d n→+∞0Vn→+∞
+5- Limite d'une suite
+Vn <Un
+lim V=+∞ lim U = +∞ n→+∞
+Un <Vn
+lim V =-∞ n→+∞ lim U = -∞
+V< Un < W
+>
+lim V = limW = 1 _lim Un = |
+n→+∞
+n→+∞
+6-La suite (Vn) définie par : Vn=f(Un )
+(|U" − I| < Vn
+•lim V=0lim Un =
+n→+∞
+-1 < q<1⇒ lim+∞
+ q" = 0
+q Σ 1⇒ ∞n lim q" = +∞
+q<-1→(q") n'admet pas de limite
+Si la fonction f est continue enlet lim Un =1 alors
+n→+∞
+lim Vn = f(1) n→+∞
+7- La suite (Un) liée à une fonction f, définie par : Un+1=f(Un
+f une fonction définie sur un intervalle I et (Un) une suite définie par (Vn € N);
+Un+1 = f(Un) et U EI; si
+➤ fest continue sur I et f(I) C I
+➤ La suite (Un) est convergente
+Alors la limite de la suite (Un) est l la solution de l' équation f(x) = x dans I
+II Astuces sur les suites
+1- Limites classiques
+ca
+lim (1+сn bn cп =eь
+lim n(a-1) = ln a ; a Σ 0
+2→+∞
+n→+∞ lim (a" + b) = a ; a Σ b>0
+lim n (an-bn) = In(; a>0 etb>0
+lim asin"(n)+Bcos(n)
+n→+∞0 0; a>0 et b>0
+m
+lim nm = lim nn = 1
+n→+∞ →+∞ n→+∞
+lim
+n→+∞
+nu
+n!
+=+∞
+lim o0+→n = 0; q>1
+gn
+-
+(In n)a
+a Σ 0 et q Σ 1
+lim
+n→+∞
+sin(n) lim (-1)" =0
+n n→+∞ 
+n
+na lim 0:
+2→+∞
+lim cos(n)
+n→+∞ 
+lim
+2→+∞ nb
+lim (n)a 0
+n+too enь a
+lim (1+ a
+ntc =
+=
+n→+∞ u+b
+= 0; a Σ 0 et bΣ 0
+; Σ 0 et b Σ 0
+pae
+2- Moyenne de CESARO
+lim U=1⇒ lim
+n→+∞
+U₁+..+Un
+= 1
+n→+∞ 
+3- Règle d'Alembert
+Si lim Un+1 = 1 ≥ 0 et (U) positive :
+n→+∞ Un
+Si l Σ 1 alors lim U= +∞
+11→+∞
+ Sil<1 alors lim Un = 0
+n→+∞
+4- Suite: un+1=aun+b de premier terme up
+Si a = 1 alors la suite (un) est arithmétique de raison b
+b
+Si a 1 alors on pose l = avec l est la solution de l'équation f(x) = x avec 1-a
+f(x) = ax+ b
+➤ La suite (vn) définie par vn = un - l est géométrique de raison a de plus :
+(An ≥ d); un = (up - 1)an-p +1
+Si up <lalors la suite est croissante
+Si up Σ l alors la suite est décroissante
+Si a Σ 1 alors lim u = +∞
+n→+∞
+Si -1 < a < 1 alors lim un = 1
+_aun+b 5- Suite:Un+1 =
+cun+d
+n→+∞
+ax+b Soit la fonction f(x) = аxcx+d
+Si l'équation f(x) = x admet deux solutions réels différents 11 et l2 alors on a :
+Un-11 Pour tout n ≥ 0 on pose vn =
+un-12
+(Vn ≥ 0); 1₁ < un < 12
+La suite (vn) est géométrique de raison
+Vo
+Si (un) est croissante alors lim_un = 12 n→+∞
+Si (un) est décroissante alors lim un = 11 n→+∞
+6- Symboles: Σ et □
+nENetao; a1; a2.... an et c des nombres réels
+k=n k=n
+Σ ak = ao + a1 + a2 + ... + an-2 + an-1 + an
+k=0
+aқ = а1 X а2 X ... .....X an-2 X an-1 X an
+k=1
+k=n k=n
+>1 = (n +1) c= c
+k=1 k=0
+k=n
+c = c(n+1)
+k=0
+IV
+Changement d'indice
+k=n
+Σ ak =
+k=p
+Changement d'indice
+k= n(n+1) 2
+(m-n+1)(n+m)
+k=n+m
+Σ
+k=p+m
+ak-m
+k=n k=n-m
+Σ ak = Σ aktm
+k=p k=p-m
+Σk=nk =
+∑_{k=0}(ak + b) =
+(n+1)(na+2b)
+k² n(n+1)(2n+1) 6
+[n(n+1)]
+Thgk = 1-qh+1
+1-q
+Σακ _q"-qm+1
+1-q
+_ nqh+2-(n+1)qh+1+b Σk=1 kgk =
+∑_{k=1}
+k(k+1)
+=
+n
+n+1
+=1-
+(1-q)2
+n+1
+m
+k=n k(k+1) m+1
+∑_{k=1}
+1 n(n+3)
+k(k+1)(k+2) 4(n+1)(n+2)
+n(n+1)(2n+1) Eisisn min(i; j) =
+1sjsn
+__n(n+1) Losxsn E(x) =
+2k=1 Ck ak n-k = (a + b)" ; (Binome de Newton)
+Σ1 C aκ = (a + 1)R
+Σ Σ=1 C = 2"
+Σ=1 kC = n2η-1
+Σ=1 k²CΚ = n(n + 1)2η-2
+Σk=0(C)2 = C2n
+lim ∑_{k=1}k= +0 :
+lim Σ = In(2) n→+∞ k=n k
+lim .
+1 2
+n→+∞ k=1 k² 6
+Testez-vous pour le jour ]
+Consignes:
+- L'épreuve dure 45 minutes
+- Ce questionnaire comporte 20 QCM
+Chaque Question comporte une seule réponse juste
+L'utilisation de toute sorte de calculatrice est interdite
+1 Pour tout n entier et n ≥ 2, on pose:
+Pn
+k=n
+= ∏ (1 - 1/k²)
+k=2
+Si la suite (Pn) est convergente alors sa limite est:
+
+□
+□ A 1  □ B 0
+□
+□ C 2
+D3
+2 Pour tout n entier et n ≥ 1, on pose: Sn = Σ 1/(k(k+1))
+                                                      k=1
+Si la suite (Sn) est convergente alors sa limite est :
+□ A 1  □ B 0
+□ C 1/2  □ D 3
+
+3 On pose : (∀n ∈ IN*); Sn = Σ_{k=1}^{n} n/(n²+k)
+   La limite de Sn est:
+□ A -1  □ B 0
+□ C 1/2  □ D 1
+4 La valeur maximale des termes uk = C(2022, k) × 2022^(2022-k) × 21^k dans le développement de
+(20+21)^22 par la formule de Binôme de Newton est atteinte pour k égale à :
+□ A 8  □ B 9
+□ C 10  □ D 11
+5 Soit la suite (un) définie pour tout entier naturel n par Un+1 = 2 un + 3 et u0 = 0.
+Alors la limite de (un) est :
+□ A 0  □ B 1
+□ C 1/2  □ D +∞
+6 Soit (un) définie la suite telle que ; (∀n ∈ N); Un+1 = √(2un+3) et u0 = 1.
+Si (un) est convergente alors sa limite est:
+□ A 0  □ B -1
+□ C 2  □ D 3
+7 Soit (un) une suite telle que lim (un+1 - un) = 2
+   n→+∞
+Alors lim (un/n) est égale à:
+   n→+∞
+□ A 1  □ B 0
+□ C 1/2  □ D 2
+8 lim (n - √(n²-n)) est égale à:
+   n→+∞
+□ A -∞  □ B 0
+□ C 1/2  □ D 1
+9 Soit x ∈ R*;
+   lim (1 + 29/n)^n = 2022 alors x est égal à :
+   n→+∞
+□ A 2 ln 2022  □ B 2022 ln 2
+□ C 2022 ln 29  □ D ln 2022
+10 Soit (un) définie la suite telle que ; (∀n ∈ N); Un+1 = √(2un) et u0 = 0.
+Si (un) est convergente alors sa limite est :
+□ A 0  □ B 1
+□ C 2  □ D +∞
+11 Soit (Un)n≥5 une suite telle que (∀n ≥ 5): Un = 1/n + 1/2
+La limite de la suite (Un) est:
+□ A 0  □ B +∞
+□ C 4  □ D 2
+12 lim (√(n²+n+1) - √(n²-n+1))
+   n→+∞
+□ A 2  □ B +∞
+□ C 0  □ D 1
+13 Soit (un) une suite géométrique de premier terme u0 et de raison (q>0) telle
+   que u1 = 2 et u2 = 4. Alors Sn = u0+u1+...+un = :
+□ A 2^n - 1  □ B 2^(n+1) - 1
+□ C 2^(n-1)  □ D 2^n + 1
+14 Si (vn)n∈N est une suite telle que (∀n∈N*): v1+v2+...+vn = 2n²+n
+Alors:
+□ A v8 = 31  □ B v8 = 53
+□ C v8 = 54  □ D v8 = 62
+15 Si (vn) est une suite arithmétique de premier terme v1=2 de raison r telle que
+   (vn) est décroissante et 4(v1)²+(v2)² = 164. Alors:
+□ A r = -2  □ B r = -4
+□ C r = -6  □ D r = 2
+16 Soit (un) une suite géométrique de premier terme u1 = 5 et de raison (q>0)
+   telle que u5 = 1280. Alors:
+□ A q = 1  □ B q = 2
+□ C q = 3  □ D q = 4
+17 Soit (un) une suite arithmétique telle que u2+u3+u4 = 21 et u6 = 25.
+Alors le premier terme u0 est:
+□ A 6  □ B -52
+□ C -11  □ D -36
+18 Soit (un) une suite arithmétique telle que u3+u4+...+u10 = 672 et u6 = 81.
+   Alors le terme u3 est:
+   □ A 103
+   □ B 213
+   □ C 123
+   □ D 105
+19 Soit (Un)n∈N une suite telle que: ∀n∈N: Un+2 = Un+1 - Un, U0=1, U1=2
+Pour tout n∈N on pose: Vn = Un+1 - Un. Alors:
+□ A Vn = (-1)^n  □ B Un = (-1)^n
+□ C Un = 1  □ D Un = (-1)^(n+1)
+20 Laquelle des suites suivantes est convergente ?
+   □ A (n)
+   □ B ((-1)^n)
+   □ C ((-1)^n + 1/n)
+   □ D (sin(n)/n)
+Mathématiques
+Solution detaillée
+1 x 3 2x4 3x5
+Pn 22 32 42
+Il faut remarquer que 1- 1
+k2
+k2-1 (k-1)(k+1)
+k2 k2
+=(1-20)×(10)×× □η =
+ (1)
+Pn
+=
+(2-1)(2 + 1) X
+(3- 1)(3+1)
+X..
+X...X
+(n - 2)n
+(n -1)2
+X
+(n - 1)(n + 1)
+n²
+(n - 1)(n + 1)
+n2
+1 (n+1) n+1
+Pn =
+lim Pn = ∞
+n
+lim
+n+8
+n+1
+2n
+n
+lim =
+
+2n n→+∞ 2n 2
+Alors la bonne réponse est D
+n
+1 1
++ +
++
+S = k(k+1) 1(1+1) 2(2+ 1 n(n + 1)
+k=1
+1 1 1 1 1
+S
++ + +
+=
+1 1+ 1 2 2+1 n n+1
+1 1 1 1 1
+S
+= 1
++ +
+2 2 3 n n+ 1
+S =1- n+1
+lim S= lim 1-
+n→+∞ →+∞ n+1
+= 1+ 0 = 1
+Alors la bonne réponse est A
+Soit k € {1; 2;3; ... ;n};
+1≤k≤n⇒n²+1≤n²+k≤n² +n
+Astuce
+1 1
+=
+k k+1 k(k+1)
+1 1 1
+122+ n n2 + k n2 + 1
+n n 11
+< <
+n² +n n² + k n2 +-1
+n
+n
+n n n
+1 <
+n² +n4 n² +-k n²+1☑
+k=1 k=1 k=1
+n n
+n² +n xu≤S2 +1 xn
+n² n²
+n²
+n² +n
+SSS
+Or: lim = lim =
+n→+∞ ²+n n→+∞ 2
+n2 +1
+n2 1
+n2 n2 Et lim = lim =1
+n→+∞ ²n2 n→+∞ ²+1
+Donc d'après le théorème des gendarmes _lim S = 1
+n→+∞
+Alors la bonne réponse est D
+Soit k € {0,1,2 .....,21,22} 1ère méthode
+On a: ux = C2 2022-k 21k = C(2022, (
+On a C= C(22,-k relation de symétrie
+20 Donc C2 = C3 ; C(22, = C3 ; ; C(22, = C(22, C = C11: C12 = C10
+Donc la valeur maximale est atteinte pour donc k=11 2ème méthode:
+Soit k € {0,1,2 .....,21,22}
+On a: uk = C2 2022-k 21k = 20222 (
+On va étudier la monotonie de la suite (ux)
+Uk+1- uk = CCk+1 2021-k 21k+1-C2 2022-k 21k
+21 21 k
+= 20220 (20) +1 - 20220 20
+22-k 21 21
+=
+k
+k+1 C(22,(20)k+1 - C(22, (20
+21 22-k 21
+= 20222 ( 20k+1 X20-1)
+23,21(22-1)-20(k + 1)
+= C(2022,2 (
+20 20(k+1)
+21 442-41k
+= 202202 (20) (20(k +1)
+442
+Uk+1 - Uk ≥ 0 → 442 - 41k ≥ 0 k≤≈ 10,... 41
+Donc si 0≤ k ≤ 10 alors la suite (u) est croissante
+si 11 ≤ k ≤ 22 alors la suite (u) est croissante
+Donc La valeurs maximale des termes urk = C2 2022-k 21k est 11
+Alors la bonne réponse est D
+Suite: un+1 = aun + b avec a = 2 et b = 3
+1ère méthode :
+• Sia = 1 alors la suite (un) est arithmétique de raison b
+Si a 1 alors on pose l = b - 3 = -3
+1-a 1-2
+La suite (vn) définie par vn = nn - l = n + 3 est géométrique de raison a = 2 de
+plus :(Vn ≥ p); un = (up- 1)ah-P +1,
+Donc (Vn ≥ 0); un = 3 × 2" + 3 donc_lim n = +∞ n→+∞
+La plus simple méthode de remarquer que (Vn ∈ N); n≥u
+Puis montrons par récurrence que: (VnEN); un ≥ u
+Et par suite on a: (Vn∈N); un ≥ net lim n = +∞
+Donc lim un = +∞
+n→+∞
+Alors la bonne réponse est D
+n→+∞
+Considérons la fonction par f: x → √2x+3
+f(x) - x = 0 √2x+3 = x 2x + 3 = x²
+x²-2x -3 = 0
+(x+1)(x -3) = 0
+x=−1 ou x = 3
+Donc si (un) est convergente alors la limite est -1 ou bien 3
+Un+1- Un =√2un +3- nn
+2un +3- un2
+√2un +3+ un
+-un² + 2un -3
+√2un+3 un
+2ème méthode:
+= -(un +1)(un - 3)
+√2un +3 + un
+On peut démontrer par récurrence que (Vn ∈ N); 1 ≤ un ≤ 3 donc
+1 ≤ u≤3 = un +1≥ 0 et un - 3≤ 0 et√2un +3 +un Σ 0
+-(un + 1)(nn -3) 20
+√2un +3 + un
+n+1 - u, 20
+Donc la suite (un) est croissante, d'où la limite de (un) est 3
+Alors la bonne réponse est D
+lim v =1⇒ lim n+8
+V1 +... +Vn =1
+n
+On pose vn = un- un-1 pour tout n de IN
+On a +∞→n lim Vn+1 = 2
+Donc lim v = 2
+n→+∞
+Donc d'après Moyenne de CESARO
+Donc lim
+n→+∞
+Donc lim
+Donc
+n→+∞0
+lim
+n→+∞
+V₁ +...+Vn-1
+= 2
+n
+(u1- no) + (u2 - u₁) +.... +(un-Un-1)
+nu onn
+= 2
+= 2
+Astuce
+Moyenne de CESARO
+n
+Un
+on
+Donc lim
+n→+∞ 
+= 2
+n
+Un Donc lim = 2
+n→+∞ 
+Alors la bonne réponse est D
+1ère méthode
+1 1
+lim n-√n² - n = lim n-(n- n+8 n+ 2 2
+2ème méthode:
+n² - (n² - n) n
+lim n- √n²- n = lim lim
+n→+∞ + n+√n²- n n+n + √n²- n
+n 1 1 1
+= lim
+n+8
+= lim =
+n(1+1- n
+2 n+∞ 2
+1+ 1-2
+V n
+Alors la bonne réponse est C
+U2 4
+1 2
+Ona:q=== 2 doncu, = 2uo doncu=== 1 2 2
+u 2
++ "n+ = 0n S = u ₁u+
+qh+1-1 2n+1-1
+q-1 2-1
+= 2n+1 - 1
+Alors la bonne réponse est B
+On a (Vn E N*) : v₁ + V2 + . + Vn-1 + Vn = 2n² +n; (L1)
+Donc : (Vn E N*) : v₁ + V2₂ + .+ Vn + Vn+1 = 2(n+ 1)² +n+1; (L2)
+Donc: (Vn E N*) : Vn+1 = 2(n + 1)² + (n + 1) - 2n² - n ; (L2 - L1)
+Donc: (Vn ∈ N*) : Vn+1 = 2n² + 4n + 2 + n + 1 − 2n² - n = 4n +3
+Donc: (Vn ∈ N*) : Vn+1 = 4n + 3
+Donc: on prend n = 7 on trouve Vg = (4 x 7) + 3 = 31
+Alors la bonne réponse est A
+On a (vn) est une suite arithmétique décroissante donc r≤0
+Et on a (Vn;p∈N ) : vn = Vp + (n − p)r
+4(v₁)2+(v2)² = 164 ⇒ 4(2 + r)²+(2 + 2r)² = 164
+⇒4(2 +r)2+4(1 + r)2 = 164
+⇒ (2 +r)2+(1 +r)2 = 41
+⇒ r² + 3r - 18 = 0
+⇒r=-6 our= 3
+Doncr = -6 car r ≤0
+Alors la bonne réponse est C
+16 น 1280
+On a un = upgh-p donc u, = u₁99-1 donc q =
+= 256
+1 5
+Donc q8 = 28 donc|q| = 2 et on a (q Σ 0) donc q = 2
+Alors la bonne réponse est B
+On a la suite (un)suite arithmétique donc pour toutn; p: un = up + (n- p)r
+U2 + U3 + u4 = 21 u- 4r + u6- 3r + ug - 2r = 21
+3u,-9r = 21
+75-9r = 21 9r = 54 ⇒r= 6
+Donc: uo = u6 − 6r = 25 - 36 = -11
+Alors la bonne réponse est C
+On a la suite (un)suite arithmétique donc pour tout n; p:un = up + (n- p)r
+(10-3+1)(u2 + U10) U3 + U4 +...+ u10 =
+= 4(u, - 4r + u, + 3r) = 4(162 – г)
+Et on a : u3 + U4 +...+ U10 = 672 donc 4(162 - r) = 672 donc r = -6
+□ D'où un = u, - 4r = 81 + 24 = 105
+Alors la bonne réponse est D
+5 2
+Vn+1 = Un+2- Un+1=Un+1Un-Un+1
+2 2 2 2 2
+=(-1)Un*1-U=U*U(Un+1-Un)=3
+Donc la suite (Vn) est géométrique de raison q =et3 de premier terme Vo avec
+n
+Vo = U₁ - U, = 1 Soit nE IN ona; Vn = V × (q)n-0 = () donc Vn = ()"
+Alors la bonne réponse est A
+ת)-1( 1
+On a -1 ≤ (-1)" ≤1 donc <
+n n
+(-1)n Donc -1-≤-1+<-1+ n
+Et on a lim -1-=
+n→+∞ 
+n
+lim
+n→+∞
+Alors la bonne réponse est B
+1 く
+n
+-1+= -1 donc lim - 1+
+n n→+∞
+-1)"=-1
+n
+Testez-vous pour le jour)
+Consignes:
+- L'épreuve dure 45 minutes
+- Ce questionnaire comporte 20 QCM
+Chaque Question comporte une seule réponse juste L'utilisation de toute sorte de calculatrice est interdite
+1 Soit (un) définie la suite tel que ; (Vn € N); Un+1 = (Un+) et U = 1. Alors lim ∞
+ U =
+□ A -1
+
+□ B +∞
+C1
+□ D N'existe pas
+2 Soit (un) et (Vn) deux suites tels que ; u, = a et vo = ẞ avec0 < a < ẞ et (Vn E N);
+Un+1 =
+et
+Un+Vn Vn+1 un+vn
+un On pose Wn =
+Vn
+Alors lim wn =
+n→+∞
+□ A 1
+□ B
++∞
+α C
+□ B
+□ D 0
+n
+lim n2 =
+n→+∞
+□ A e  □ B +∞
+0 C□
+□ D 1
+4 lim n-√(n+ 5)(n + 7) =
+n→+∞
+□ A e  □ B -6
+□ C 6  □ D -3
+Soit (un) une suite tel que :
+k=n
+2k
+Un =
+Alors lim un = k=1
+□
+n→+∞
+A1
+Be2
+□ C e  □ D 2
+□
+□ A
+□
+२ n
+lim 1++ + +
+=
+11+∞ 2 2
+ D+∞
+7 =
+n→+∞ k²-1 □ A 1
+k=2
+□
+□
+□ B
+□ C
+□ D 3
+8 Soit (un) définie la suite tel que; (Vn ∈ N); Un+1 =
+3Un et U = 1. √U+7
+Si (un) est convergente alors sa limite est:
+A0
+B1
+□ C √7  □ D √2
+1 1 1 1
+□
+□
+□ A 513 2 4 8 512
+824
+□ B
+172
+521
+171 C
+512
+□ D 571
+723
+10 Soit (un) définie la suite tel que; (Vn ∈ N); un+1 = u +un+1 et U, = 1.
+Alors
+□ A la limite de (un) est 0  □ B la limite de (un) est 1
+□ C la limite de(un) est +∞  □ D La limite de (un) n'existe pas
+2n+1 1
+11 On pose: (Vn ∈ IN*); Sn =
+√n² +k
+La limite de Sn est: k=1
+□ A 2  □ B 0
+□ C
+D1
+12 Soit a € R; on pose: (Vn ∈ IN*); Sn =7n²
+La limite de Sn est:
+E(ka)
+k=1
+□ A a  □ B 2a
+□ C
+a
+Da
+13 Soit (un) définie la suite tel que; (Vn ∈N); Un+1
+Si (un) est convergente alors sa limite est :
+□ A 0
+B1
+□ D √2
+14 Soit (un) une suite tel que : uUn = cos² ()
+k=n
+On pose P =
+k=0
+1+√Un
+=
+et U =
+Alors lim P =
+n→+∞
+□ A 22  □ B 4 2
+π2
+15 Soit la suite(un) tel que : (Vn e IN); (1 — un)un+1 ≥ 4
+et un € ]0; 1[
+Alors la limite de (un) est:
+□ A
+□ B
+□ C 0  □ D + n3 16 lim
+n→+∞ 2n
+=
+□ A
+□ B 0  □ C +80
+□ D 1
+17 lim (37 + 2") =
+2→+∞
+19 /1 lim n 4n - 3n =
+□
+□ A 2
+□
+□
+□ B 3 B ln  □ C +∞ □C+∞
+□ D 1 DIn
+18 (ln n)2024 lim 20 3
+lim (1+ _n+2023-
+□
+□
+□ A
+n→+∞ 12023 2
+□ A e2024 n→+∞  +2024  □ B 3 Be3
+□ C +8  □ C +8
+□ D De2023
+Mathématiques
+Solution detaillée
+Correction
+Ona U = 1 done U, = (U+2) = 1 Doù: vne IN; U = 1 (Par récurrence)
+Alors lim Un = 1
+(On peut résoudre l'équation f(x) = x avec f(x) = (x+))
+Alors la bonne réponse est C
+Soit n ∈ N: Wn+1 =
+= w²
+Vn+1 vả
+Donc: Wn+1 = Wn
+On a 0 < a < ẞ donc0 <<1<1; Donc w = € ]0; 1[
+Considérons la fonction définit sur[0; 1] par f(x) = x2
+
+f est continue sur l'intervalle [0; 1]
+f([0; 1]) = [0;1] < [0; 1]
+Wo = € [0; 1]
+Par suite on peut montrer par récurrence que wn € [0; 1]
+Soit x E [0; 1]
+f(x) - x = x² − x = x(x – 1) ≤0
+Donc (wn) est décroissante
+On a (Wn) est décroissante et minorée par 0 donc elle est convergente
+Alors la limite de (un) est L la solution de l'équation f(x) = x
+f(x) = x → x(x – 1) = 0
+⇒X= 1 ou x = 0
+Et comme (wn) est décroissante donc lim wn = 0
+n→+∞
+Alors la bonne réponse est D
+3 lim n2 = lim nn = lim en In(n) = e = 1
+n+∞ n→+∞ →+∞
+Alors la bonne réponse est D
+4 1ère méthode
+n²-n²-12n -35
+lim n-√(n+5)(n+7) = _lim
+n→+∞ +8 n+√n² + 12n + 35
+35、 35 n(-12- (-12- n
+12 =
+-6
+n
+= lim
+n→+∞
+= lim 2
+12 35 n→+∞ 12 35
+n 1+ 1+ 1+ +
++
+n n2 V
+n n2 2ème méthode:
+12 35 12 35
+lim n-(n +5)(n +7) = _lim n 1- 1+ +
+=
+n+8 n→+∞  n2
+lim
+n→+∞
+n
+2n 2n2
+35 Remarque =
+lim - = -6
+n→+∞ 2n 1 - √1 +X~-x2
+Alors la bonne réponse est B
+Astuce
+v₁ +... +Vn
+lim v=1⇒ lim =1
+n→+∞ →+∞ n Moyenne de CESARO
+On pose : S" = ln(nn(
+Sn = In(un( =
+k=1
+n
+Σιπ
+2k
+Done lim In (1+k
+= lim kln(1+
+n→+∞
+Donc d'près CESARO : lim Sn = 2
+n→+∞
+k
+n
+2 k 1 2
+In(1 k
+k
+k=1
+=
+lim k x-= 2
+n→+∞ k
+Ona Sn = ln(un)
+Donc un = eSn
+□ D'où lim un = e²
+n→+∞
+Alors la bonne réponse est B
+On reconnaît les n premiers termes d'une suite géométrique de raison et de 1
+premier terme 1.
+n+1
+n1- n+1
+Donc: 1++ (1) + ) + + ( =2x(1-()) ユーラ 1
+Donc: lim 1-()
+n+1
+= 1.
+Or lim () = 0, (car -1 <<1)
+n+1
+Et donc: lim 2(1- ()**) = 2.
+n→+∞
+□ D'où, lim 1++()+() ()"=2
+Alors la bonne réponse est B
+1 1 1 1
+a = et b =
+1-(-1) 2 -1-1 2
+Astuce
+1 1 1 1 1
+a b
+Donc k2-1 2 k-1 k+1
+= +
+k2 – 1 (k− 1)(k+1)_ k-1'k-(-1)
+n n
+1 1 1 1
+k2 -1 2 k
+-
+-1 k+ 1
+k=2 k=2
+n
+1 1 1
+=
+52 - k+ 11
+k=2
+n
+1 1 1
+
+2 ✓k- 1 Lk+ 1
+k=2 k=2
+n-1 n+1
+1 1 1
+=
+2 p d
+p=1 p=3
+n-1 n-1
+1 1 1 1 1 1
+=
+ Σ
+- +1+- p
+2 p n n+1
+p=3 p=3
+1 3
+1 1
+2 2 n n1+ 11
+n
+1 3
+Donc lim
+n→+∞ k²-1 4
+k=2
+Alors la bonne réponse est B
+Remarque
+(Vn ∈ N); UΣ 0
+3x
+Considérons la fonction définit sur [0; +∞[par f(x) = √x2+7
+3x x2(2- x²)
+f(x) = x O
+= 0 ⇒ x = 0 ou x = √2 car x € [0; +∞[
+√x² +7 √x² +7
+Par récurrence on vérifie que 0 < U < √2
+Soit n E IN: Un+1 - U = (2), donc la suite (U) est croissante √U+7
+La suite (Un) est majorée par √2, donc elle est convergente
+f est continue sur l'intervalle [0; √2]
+f([0; √2]) = [0; √2] = [0; √2] * u0 = 1€[0; √2]
+Alors la limite de (un) est L la solution de l'équation f(x) = x dans [0; √2]
+Donc la limite de la suite (un) est √Z
+Alors la bonne réponse est D
+1 1 1 1 1 1 1 1
+2 -+-+512 4 8 (1-ラナー・ 256
+1 1 1
+11-(-1)
+=x 1. 2-1-(一)
+171
+512
+Alors la bonne réponse est C
+Considérons la fonction définit sur R par f(x) = x² + x + 1
+f(x) = x x² + x +1=x→ x² = -1
+Donc la suite n'est pas convergente donc les chois A et B sont annulés
+Soit n E IN: Un+1- U = U2+ 1 Σ 0, donc la suite (Un) est croissante
+Si la suite (un) est majorée alors la limite (un) est convergente
+Donc la suite est non majorée et croissante d'où la limite de(un) est +∞
+Alors la bonne réponse est C
+Soit k € {1; 2; 3;... ;n};
+1 ≤ k≤ 2n+1 ⇒ n² + 1 ≤ n² + k ≤ n² + 2n +1
+n
+1 1
+√n² + 2n+1 √n² +k
+n+1
+n+1
+2n +1
+n+1
+=
+2n+1
+□
+k=1
+1≤
+(2n +
+≤SS
+2n+1
+k=1
+1)
+n
+n² +k
+≤S
+2n+1
+√n² +1
+2n+1 lim = 2
+<
+√n² +1
+2n+1
+√n² +1 k=1
+S x (2n + 1) Vn² + 1
+2n+1 Or: lim
+n→+∞ +1 n→+∞ √n²+1
+Donc d'après le théorème des gendarmes lim Sn = 2
+Alors la bonne réponse est A
+Soit k € {1; 2;3;... ; n};
+n→+∞
+n n n
+ka -1≤ E(ak) < ka (ka -1) S E(ak) < ka
+k=1 k=1 k=1
+n n n n
+a k- 1 E(ak) S a k
+k=1 k=1 k=1 k=1
+Or: lim
++0
+a(n+1)
+2n
+ے
+n
+an(n +1)
+a(n+1)
+2n
+_1= lim a(n+1)
+nn→+∞ 2n
+n
+E(ak) ≤
+an(n + 1)
+k=1
+1 a(n +1)
+n 2n
+Donc d'après le théorème des gendarmes lim +8Sn = 2
+Alors la bonne réponse est A
+Considérons la fonction définit sur [0; +∞[par f(x) =
+1+√x
+1+√x f(x) = x = x ⇒ 2x - √x-1 = 0 2√x² - √x- 1= 0
+√x = 1 ou √x =
+< 0 avес A= 9
+√x = 1 ou √x = -
+>0 x = 1 ラ
+Donc si (Un) est convergente alors sa limite est 1
+Alors la bonne réponse est B
+On a sin(2x) = 2 cos(x) sin(x) donc cos(x) =sin (2x)
+2sin (x)
+TT
+π sin (2 2n+2) sin (2+1) ()(π
+2n+2) 2sin (2n+2) 2sin (2n+2)
+=
+=
+2n+1
+2sin
+sin (2k+1)
+ (2k+2) (
+2sin
+sin (2k+1)
+(2k+2) ()()X
+n+1 sin 2 (
+☑
+sin 2
+π
+sin 2 (ラ
+sin 2
+TT
+2n+2)
+ע
+)22(
+=
+-X
+sin
+π
+sin 2 (23) sin 2
+1 1 1
+sin 2( π
+2n+
+1π
+-I
+2n+2
+☑
+2n+1 π 2n+1 sin sin (2u+2)
+2 2
+1 22+2 1 2 1
+= X ☑
+= x
+2n+1
+μ
+π
+π
+sin π
+(5n+2) sin (2n+2)
+1μ 1
+2n+2 2n+2
+sin (+2) 2
+On a+2 = 1 donc lim P = =
+(2)1
+22+2 n→+∞
+π2
+Alors la bonne réponse est C
+15 1
+On a (Vn € IN); (1 - Un)Un+1Z4
+Et on a (Vx E ]0; 1[); (1 — x(x≤ (Tu peux la montrer f□ilement)
+Donc (Vn є IN); (1 – n"(n" ≤
+Donc (Vn ∈ IN); (1 – n"(nU ≤ )1 - un)un+1
+Or 1 - u Σ 0 donc (Vn € IN); un ≤ un+1 donc (un) est décroissante
+Et comme (un) est minorée par 0 donc elle est convergente
+On pose lim un = L avec L E [0; 1] +8
+On a (Vn E IN); (1- un)un+12 donc (1-4) L
+Et on a (vn E IN); (1 - un) un s donc (1 - L)L S
+Donc≤ (1 - L)L≤ donc (1–L)L = 4
+DoncL2- L+= 0 donc (L-)2 = 0 donc L =
+Alors la bonne réponse est A
+; donc lim= 0
+n→+∞2n
+Astuce
+na lim=0 ; a Σ 0 et q Σ 1
+n→+∞ qn
+Alors la bonne réponse est B
+Donc lim (3n + 2nn = 3
+n→+∞
+Alors la bonne réponse est B
+(ln n)2024
+= 0
+Astuce
+lim (an + b = a a>b>0
+n→+∞
+Astuce
+(In n)a lim
+n→+∞ b = 0; a Σ 0 et b >0
+Donc lim
+n→+∞ 2023
+Alors la bonne réponse est D
+19 14)
+Donc lim n (4-3) = In3
+Alors la bonne réponse est D
+Astuce
+lim n(an-b) = In(); a>0 et b>0
+Astuce
+ca
+a
+n+2023 = p3 lim
+n→+∞
+(1+ ntc =ea et lim (1+cn = еb
+n+b n→+∞ bn
+n +2024 Donc lim (1+
+n→+∞
+Alors la bonne réponse est B
+Mathématiques
+Rappel sur l'étude des fonctions
+Chapitre
+IContinuité et dérivabilité d'une fonction
+1- Continuité et dérivabilité en un point d'une fonction f
+f est continue en a lim f(x) = f(a) x→a
+f dérivable sur I =⇒ f est continue sur I
+f dérivable en a ⇒ lim f(x)-f(a)
+x→a x-a
+=
+f'(a) ⇒l'équation de la tangente en a
+est:(T): y = f'(a)(x - a) + f(a)
+lim f(x)-f(a) x→a+ х-а = +8⇒f n'est pas dérivable en a ⇒ (Cf) admet une demi tangente
+verticale en A(a; f(a)) dirigée vers le haut
+2- Fonctions dérivées
+(ax + b)' = a ; (ax2)' = 2ax
+(a x")' = anxn-1; (a U")' = a nU'Un-1
+ש
+
+(UV)' = U'V + UV' u'v-uv'
+(v)2
+(e*)' = e* ; (eU(x))' = U'(x)eU(x)
+In'(x) = ; In'(U) =
+(ax)' = a*ln(a); (a)' = U'a ln(a)
+(cos(x))' =-sin(x); (cosx)' = sin x
+x2 2
+ (
+-an (a -an U'
+:
+xn+1 Un+1
+(vx) : (√U)' =
+2√x 2VU
+( (0) U' U (tan x)'= 1 + tan² x =
+cos2 x
+nx U n
+
+/ax+b ad-bc (aU+b
+= =
+\cx+d (cx+d)2 cu+d/
+(ad-bc)U'
+(cx+d)2
+(f(U))' = U'f'(U); (f-¹)'(a) =
+f'[f-1 (a)]
+3- T.V.I et Fonction réciproque
+Si f est continue et strictement monotone sur [a; b] et f(a) x f(b) < 0 Alors
+l'équation f(x) = 0 admet une unique solution a dans [a; b]
+Si f une fonction continue et strictement monotone sur un intervalle I,
+Alors la fonction f admet une fonction réciproque, notée f-1, définit sur J = f(1)
+m
+Vxm = x
+4- Théorème de ROLLE :
+Si f est continue sur [a; b] est dérivable sur ]a; b[ et f(a) = f(b)
+alors; (3c€ ]a; b[): f(c) = 0
+5- Théorème d'□croissement fini
+(f une fonction continue }
+sur [a; b] = (Эс € ]а; b[): f(b) — f(a) = (b - а) Г(c)
+(f est dérivable sur ]a; b[
+Inégalité d'□croissement fini
+Si (Vx € 1): }f'(x)} ≤ k alors (Vx; y ∈ I): [f(x) - f(y)| ≤ k|x- y
+6- Eléments de symétries de (Cf)
+la droite d'équation (A) : x = a est un axe de symétrie de (Cf) ssi Vx € D:
+(2a - x) € D et f(2a - x) = f(x)
+Σ La fonction f est paire ssi Vx ED: (-x) ∈ D et f(-x) = f(x)
+La droite (Oy) est un axe de symétrie de (Cf)
+Le point A(a; b) est centre de symétrie de (Cf) ssi Vx E D
+(2a - x) E Dr et f(2a - x) + f(x) = 2b
+Σ La fonction est impaire ssi VxED: (-x) E DF et f(-x) = -f(x)
+Le point O est centre de symétrie de (Cf)
+et f(x+T) = f(x)
+f périodique de période T ssi Vx € D : (x + T) ∈ D
+II Fonction arctangente
+1- Définition
+La fonction x→ tanx réalise une bijection de ]-vers R.La fonction réciproque est
+appelé arctangente, notée arctan
+2- Propriétés et astuces :
+1) (Vx€]-); (Vy €R) :tan(x) = y ⇒ x = arctan y
+ππ
+2) (Vx€]-): arctan (tan x) = x
+(Vx E R): tan(arctan x) = x
+(Vx ER): cos(arctan x) =
+√1+x2
+X
+(Vx E R): sin (arctan x) =
+√1+x2
+3) La fonction arctan est impaire
+4) Vx € ]0; +∞[: 0 < arctanx< 2
+< arctan x < 0
+1 π
+5) (Vx € ]0; +∞); arctan x + arctan -=5
+)AX э [-∞∞; 0); arctan x + arctan
+X
+x 2
+π
+=-
+6) Soient a; b € R*: arctan a + arctan b = arctan () ; ab 1
+arctan a - arctan b = arctan
+a-b
+1+ ab
+arctan(a + 1) - arctan a = ar□tan(TL a +a 1
+3- Valeurs importantes
+X  ±1 +√3 √3 ±(√2-1)
+arctan(x) 0
+π
+π
+π π
+4- Limites:
+π π arctan(x) arctan(ax) a
+lim arctan(x) = ;lim arctan(x) =- 2 x-8 2
+lim
+x0
+= 1; lim
+x-0 bx b
+5- Fonction dérivée :
+1 U(x) (Vx E IR): (arctan(x)) = 1+X2 )AХ Э I) : (arctan U(x))' =
+1+ U2 (x)
+IIFormules de transformation
+Formules principales:
+1) cos(a + b) = cos a cos b - sin a sin b 4) sin(a - b) = sin a cos b - cos a sin b
+tan a + tan b
+2) cos(a - b) = cos a cos b + sin a sin b 5) tan(a + b) =
+1- tan a x tan b
+3) sin(a + b) = sin a cos b + cos a sin b
+tan a - tan b
+6) tan(a - b) =
+1+ tan a x tan b
+IV
+
+Formules de duplication :
+7) sin(2a) = 2cos a sin a
+9) tan (2a) =
+2tan a
+1+ tan2 a
+Formules de linéarisation:
+10) cos2 a =
+1 + cos (2a)
+8) cos (2a) = cos² a - sin² a = 2cos2 a - 1
+= 1 - 2sin² a
+et sin2 a =
+1- cos (2a)
+Changement de variable t = tan); On pose t= tan on trouve que :
+2t
+11) tan (a) =
+1+t2
+2t 1-t2
+; sin (a) = 1++2; cos (a) = 1+2
+Fonction logarithme népérien et exponentielle
+1- Fonction logarithme népérien
+DIn =]0, +∞[ et; ln(1) = 0
+Ln(e) = 1 avec e≈ 2,7
+- Propriétés algébriques le la fonction In :
+ln(x x y) = In(x) + In(y)
+In () = In(x) - In(y); In () = -In(x)
+In(x*) = r ln(x), r eQ, In(√x) = In (x)
+- Equations et inéquations:
+In(x) = In (y) x = y
+ln(x) < ln(y) →x <у
+Le signe de ln : In(x)>0 →x>1
+In(x) < 0 °Vx<1
+Ln(x) = 0 x = 1
+• Ln(x) = a →x = ea
+2- Limites de la fonction In; a>0; B>0
+
+FI: ; ; 0x∞ 0 +∞-(+∞)
+• lim In(x( =-∞ lim In(x) = +∞ x→0+ x→+
+lim x In(x) = 0
+In (x)
+x+0+ lim
+x→+ xа
+=0
+lim x (lnx) = 0
+(ln x)B
+x→0+
+lim
+x→+∞
+= 0
+χα
+In(1+ax( lim a ln(x)-ln(a) 1
+x-0 Bx B
+lim
+x→a x-a a
+loga(1+x) lim og -3 In(ax) lim =1
+x-0 ☑ In(a) x→+∞ln(ẞx)
+In(cos ax) α2 lim x0 In(cos Bx) B2
+In(P(x)) lim
+X Q(x) = 0 / lim P(x) = lim Q(x) =+8
+x→+∞ x8
+3- D'autre astuces sur les limites
+lim √x2a + B-x = 0
+x18
+sin (x) cos (x) lim = 0 : lim =0:
+xа xa lim E(x)
+X
+limx+..√xx+√x-/x+..√x+ √x = 0
+x→+ N
+(n+ 1)fois
+= 1, lim E(x)
+= 0
+x→0+ X
+nfois
+f(x)-f(a) lim = f'(a) ; f dérivable en a
+xf(a)-af(x)
+x→a x-a
+lim
+x-a
+= f(a) - af' (a)
+x-a
+Règle de L'HOSPITALE: lim = lim
+x→a g xa g'
+4- La fonction exponentielle
+Pour tout x dans IR: exp(x) = ex
+Pour tout x de IR: e* Σ 0 et eº = 1
+- Propriétés algébriques le la fonction exp :
+ex+y = ex xey; ex ≠ 0 ex =
+ex
+ex-y = et (ex)r = ex ;rEQ
+e* = ey x = y
+- Equations et inéquations:
+Ln(e*) = x et eln(a) = a ; avec a Σ 0
+e* < ey x<y
+e* = a x = ln(a) : avec a Σ 0
+- Limites de la fonction exp :
+ lim ex = 0+
+x-8
+lim ex =+∞
+eßx lim x egx = 0 ; lim =+∞
+X-8 x→+∞ xа
+eax-1_ a lim x-0 Bx B
+ex-ea lim = ex
+x→0 x-а
+eax-eBx lim ex-0 x
+= a - B ; lim = In a
+5- Fonctions équivalentes au voisinage de 0
+αx-1
+x-0 x
+x2 Sin x~ x ; tanx~x; cosx~1- 2
+ln(1 +x)~x; ln(1-x)~-x ; e*~1+x
+(1 +x)~1+αx; (1-x)~1- ax
+~1-x ; ~1+x
+1+x
+√I+x ~1+ ; √1-x~1- 2
+Testez-vous pour le jour)
+Consignes :
+- L'épreuve dure 45 minutes
+Ce questionnaire comporte 20 QCM Chaque Question comporte une seule réponse juste L'utilisation de toute sorte de calculatrice est interdite
+1 arctan
+□ A
+□ B
+□ D /4M_6m_3 5
+(+arctan()= 3
+
+З
+47+3√5
+On pose a =
+47-3√5
+V 2
+□A 4
+1 B
+□ C 2  □ D 1
+ln(1+ x) - х
+lim
+x→0+ x2
+-8 A□
+□ B
+_ 1
+□ C +∞  □ D D 0
+4 lim
+x→0+ (ex -ex)In(x)
+-8 A□
+□ B
+□ C +∞
+0 D□
+1 5
+lim
+x-0 Xarctan() 1+x/
+-8 A□
+1 B
+-
+□ C +8
+D0□
+6 ABCD est un carré de coté 1.
+On pl□e les points E et F respectivement sur les coté [AB] et [BC] tels que BE = CF = x
+La valeur de x pour laquelle l'aire du triangle EFD est minimale est:
+□ A 1
+□ B
+C3
+3 D□
+x Inx
+7 Soit f la fonction définit sur ]0; +∞[par f(x) =
+Alors f'(x) =
+1+x
+1+x+lnx □Α (x+1)2
+□ B 1+2x+lnx
+(x+1)2
+C1+x+2lnx
+(x+1)2
+1+x-lnx □D (x+1)2
+In(cos 2x) lim
+x→0 ln(cos 3x)
+□ A
+□ B
+□ C
+□ D 1
+9 Soit dans ]0; +∞[ l'équation suivante (E): In5(x) +In(x) + 2e*--3
+Alors dans ]0; +∞[l'équation (E) admet
+□ A Deux solutions  □ B Une unique solution
+CTrois solutions
+□ D N'admet pas de solution
+x+x²+..+x"-n 10 Soit n e N* alors lim x-1 x-1
+□ A n  □ B 2n
+□ C
+n(n+1)
+Dn(n-1)
+11 ABC un triangle réctangle en A tel que BC = 8cm
+Posons AC = x, et notons P(x) le périmètre du triangle ABC
+Le périmètre maximale du triangle ABC est :
+□ A +∞√2  □ B 8-4√2
+C8+2/2
+□ D 8+8√2
+12 Soit n € N* lim 1-cos"(x) x0 1-cos2(x)
+n
+□ A
+B1
+Cn(n+1)
+□ Dn
+13 Soit f la fonction définit sur R par: (Vx E R) : f(2x - 1) = x² + 3x
+Alors f(1) + f'(1) est égale à
+11 A
+0 B 4
+□ C
+15 OD 2
+14 lim
+x→+
+x+ x+ √x- x+ √x =
+□ A +∞
+B00
+1 C□
+Q D 0
+k=nk =
+15 Soit f la fonction définie sur R par: f(x) = Σ=x* = 1 + x +x² +...+ x"
+Et (C) sa courbe dans un repère orthonormé
+L'équation réduite de la tangente à (C) au point d'abscisse 1 est:
+□ A
+n(n+1) (n-2)(n+1) y = X
+n(n-1)
+ B
+(n-2)(n+1) y =
+2 2
+□
+□
+□ C y
+n(n+1)
+= -x+ 2
+n(n-1) D y =
+x
+(n-2)(n+1)
+n²-1
+16 lim x³ (ln x)5 = 0
+x-0+
+A0
+□ B 1  □ C -8
+□ D +80
+17 la valeur de eax-ebx
+lim avec a et b sont des réels est :
+x-0 ex - 1
+□ A a-b  □ B b- a
+се(а- b)
+□ D 2a - b
+3x2-4x-4 f(x) =
+;xΣ 2
+x2-x-2
+18 Soit fune fonction Définie par : √x2+5-3 f(x) =
+= √x+2-2 ix < 2
+f(2) =1
+L'ensemble de définition de la fonction f est
+□ A]2; +∞[
+OBR
+□ C [-2; +∞[
+□ D]-1; 2[U ]2; +∞[
+19 Soit g une fonction définit sur ]0;+∞[par g(x) = In(1+)-x+1
+Alors g'(x) =
+□ A
+(x+1)2
+B1
+□ C
+(x-1)2
+-1
+x(x-1)2
+-1
+Dx(x+1)2
+20 lim x ln (1+) =
+x→+∞
+A0
+□ B 1  □ C 18
+00+ D□
+Mathématiques
+Solution detaillée
+On pose a = arctan ()+ arctan() On a0<<1 et0<<1
+Donc 0 < arctan
+Donc tan(a)
+< et0< arctan ()< 4
+tan arctan (arcta ())+tan (arctan (3))
+1 - tan
+112+3
+1-2×
+arctan 5 tan arctan 3
+Donc 0 <a <
+π
+= 1
+Donc tan(a) = 1 donc a =
+Alors la bonne réponse est А
+Correction
+7+3√5 7-3√5 7+3√5 4 7+3√54 7-3√5 7-3√5
+a2 =
+=
+-2 +
+2 V
+2 2
+V V
+2 2 2
+7+3√5 7-3√5 7+3√5 7-3√5
+-2+ Donc a2 +2 = +
+V 2 2
+2 2
+7+3√5 7-3 √5
+Donc (a + 2)2 =
++
+V 2 V 2
+7+3√5 7+3√5 7-3√5 7-3√5
+Donc (a + 2)2 = +2 +
+2 V
+2 2 2
+Donc (a + 2)² = 7 + 2 donc (a²)² + 4a² - 5 = 0
+Donc a2 = -5 < 0 ou a2 = 1 car le dicriminat est 36
+Donc a2² = 1 donc a = 1 oua= −1 < 0 et comme a Σ 0 donc a = 1
+Alors la bonne réponse est D
+lim
+x→0+
+In(1 +x) - х
+x2
+-1 Astuce
++x
+= lim +0x 2x Règle de L'HOSPITALE: lim
+x→a g
+f
+(1+x)2
+= lim
+x-0+ 2
+Alors la bonne réponse est D
+-5 -2
+lim
+x0+ (-) in(x) = lim (e-st-e-2t)n
+= lim - (e-5t In(t)
++0
+= lim - xe-2t(e-3-3t - 1)
+t+∞
+= 0 x (-1) ×0 = 0
+Alors la bonne réponse est D
+1 √x
+lim-arcta n
+x→0+ X 1+x
+= lim 1+x
+ln(t)
+X
+Car lim
+=lim - lim
+x g xa g"a
+√x
+√x arctan(1+x
+lim x→0+ x(x +1) √x
+1+x
+√x √x arcta n
+1+x
+=
+x→0+ X √x
+1+x
+√x
+1 arctan(1+X =+8
+= lim √x(x+1) √x
+arctan(X)
+= +∞ et lim- X0 X
+=1
+X→0√x(x+1)
+Alors la bonne réponse est C
+SEFD = SABCD - SAED - SBEF-SCFD
+x-x2 x 2-1+x−x+x² - x
+=
+1 x (1- х) xx (1 - x) 1 xx
+= (1 x 1) 2 2 2
+1-x
+= 1
+2 2 2
+x2 - x+ 1
+=
+2 2
+x²- 2 xx+
+1. З
+(x-5) 4
+Donc pour x = on obtient l'air minimale de EFD qui est 2
+N
+318
+IV
+342
+Remarque A
+1-x Ex B
+On peut dresser le tableau de variation de 1-x
+x2-x+1 S(x) = sur [0; 1] 1
+et on trouve que S admet une valeur minimale en
+F
+□ D
+□ C
+Alors la bonne réponse est B
+Rappel
+u'v- uv' 1
+; (uv)' = u'v + uv'; (In x)' = = Soit x € ]0; +∞[
+v2 X
+(Inx+xx)(x+ 1) (x + 1) - (xln x×1) (ln x+1)(x + 1) - xln x
+f'(x) =
+(x+1)2 (x+1)2
+xln x + ln x + x + 1 - 4xln x lnx+x+1
+=
+(x+ 1)2 (x+ 1)2
+Alors la bonne réponse est A
+In(cos 2x) 22 4
+lim
+x-0o In( cos 3x) 32 す
+Astuce
+In(ax) In(cos ax) a2
+lim = 1 ; lim
+x→+c∞ ln(Bx) x0 ln(cos Bx) B2
+Alors la bonne réponse est C
+Soit f la fonction définit sur ]0; +∞[ par f(x) = In5(x) + ln(x) + 2e* --3
+f'(x) =In*(x) ++2ex+>0
+Donc f est strictement croissante sur ]0; +∞]
+lim f(x) = +∞ et lim f(x) = -∞ donc 0 € f(]0; +∞ = ]-00; +∞[
+x→+∞ x-0+
+Donc d'après TVI l'équation (E) admet une unique solution dans ]0; +∞[
+Alors la bonne réponse est B
+lim
+x→1
+Astuce
+f
+Règle de L'HOSPITALE: lim = lim = lim
+xa g x→α g x→a g"
+x +x² + .. +x" -n 1 + 2x+ ...+ nxn-1
+x-1
+= lim
+x→1 1
+n(n +1)
+= 1+2+…+n =
+Alors la bonne réponse est C
+Soit x € ]0;8[ ona: P(x) = AB + AC + BC
+Donc: AB² + x² = 64 donc AB = √64-x² D'où
+P'(x) =
+-2x
+2√64-x2
+P'(x) ≥ 0
++1 =
+-X
+√64-x2 +1 =
+Astuce
+□ D'apés théorème de pithagore on a
+AB² + AC2 = BC2
+Vx € ]0; 8[; P(x) = √64 - x² + x+8
+√64-x2 - x
+√64-x2
+64-2x2
+(√64 - x²+ x)√64-x²
+20→64- 2x² ≥ 0 x² < 32 → x ≤ √32 → x ≤ 4√2 64-2x2
+(√64-x2+x)√64-x2
+X 0 4√2
+f(x) + 
+8+8√2
+f(x)
+Le périmètre maximale du triangle ABC est 8 + 8√2
+Alors la bonne réponse est D
+=
+1- cos"(x) lim lim х+0 1- сos2 (x) x-0
+= lim
+x-0
+(1- cosx) (cosh-1x+. + cosx + 1)
+(1 - cos x)(cos x+ 1)
+(cosh-1x + .. + cosx+1) 1+..+1+1
+(cos x + 1) 2
+n
+Remarque
+On peut utiliser la règle d'hôpital
+Alors la bonne réponse est A
+On a (Vx € R) : f(2x - 1) = x² + 3x donc pour x = 1 on trouve f(1) = 4
+Et on a f(2x - 1) = x³ + 3x donc (2x - 1)'f'(2x - 1) = 2x+3
+Donc 2f' (2x - 1) = 2x + 3, donc pour x = 1 on trouve 2f'(1) = 5 donc f'(1) =
+□ D'où f(1) + f'(1) = 4 +=22
+Alors la bonne réponse est C
+NI5
+14 Astuce
+limx/x+..√x+ √x-/x+..√x+ √x = 0X
+(n + 1)fois nfois
+Donc: lim x+/x+ √x -/x+ √x = 0
+x→+0
+Alors la bonne réponse est D
+On a f(x) = 1 +x+x² + ... + xп Donc f(1) = 1+ 1 + 12 + ... + 1n = n+1
+f'(x) = 1 + 2x + 3x² + ..+ uxu-1
+n(n+1)
+Donc f'(1) = 1+2+3 + +n =
+L'équation réduite de la tangente à (C) au point d'abscisse 1 est : (T):y = f'(1)(x — 1) + f(1)
+Donc (T): у
+n(n+1) =
+Donc (T): y
+=
+(x - 1) + (n+1)
+n(n+1) (n(n+1) 2(n+1))
+Donc (T): y
+= Donc (T): y =
+2 2 2
+n(n+1)_ n(n+1) 2(n+1) X- +
+2 2
+n(n+1). (n+1)(n-2)
+2 X 2
+Alors la bonne réponse est A
+16 Astuce
+lim x (lnx)B = 0
+x-0+
+Alors la bonne réponse est A
+(ln x)B
++∞→x lim =0
+xa
+Astuce
+f f"
+Règle de L'HOSPITALE : lim= lim = lim xa g x→a g' x→a g" 17
+eax ebx aeax - bebx
+lim = lim =a-b
+x0 eх - 1 x0 ex
+Alors la bonne réponse est A
+3x2-4x-4 √x2+5-3
+Considérons la fonction u:x → et v: x →
+x2-x-2 √x+2-2
+x EDx2-x-2 0x ≠ 2 ou x≠ -1 Donc D₁ = ]-0;-1[U]-1; 2[U]2; +∞]
+➤ Donc la restriction de f sur ]2; +∞[est définie sur: D n ]2; +[ = ]2; +[
+xEDx² + 5 ≥ 0 etx+ 2 ≥ 0 et√x+2-2≠0
+OxNI2 ou √x+22 xN−2 ou x +2 #4 ⇒x ≥ −2 ou x ≠ 2
+Donc Dv = [−2; 2[ U ]2; +∞[
+➤ Donc la restriction de f sur ]-0; 2[ est définie sur: Dn]-∞; 2[ = [−2; 2[
+Donc Dr = [−2; 2[ U ]2; +∞[U {2}, car f(2) = 1 ; D'où D = [−2; +∞[
+Alors la bonne réponse est C
+Soit x € ]0; +∞ [
+Rappel
+u'
+[In(u)]'=
+et
+u
+g'(x) = -_x² -1
+1 (x + 1)2 1+
++
+x+ 1 (x + 1)2
+X
+1 1
+x+1
+x2
+(x+1)
+x(x+ 1)2
+(x+1)2
++
+X
+x(x + 1)2
+x(x +1)
+-1
+Donc Vx € ]0, +∞[:g'(x) =x(x+1)2
+Alors la bonne réponse est A
++
+(x+ 1)2
+-x - 1 + x
+x(x + 1)2
+1 ère méthode:
+2ème méthode:
+u'
+et
+On pose X = donc x = x ; or x→ +8x+0+
+Donc 1 lim x ln (1+) = lim ln (1 +X) = +∞x
+1 1
+lim
+X→0+
+ln(1+X)
+= 1
+lim x In (1 +) = lim x x= 1 car In(1 +X)~X au voisinage de 0
+x+ x1
+Consighes
+- L'épreuve dure 45 minutes
+Ce questionnaire comporte 20 QCм
+- Chaque Question comporte une seule réponse juste
+- L'utilisation de toute sorte de calculatrice est interdite
+1 lim In(x² + 1) − x =
++∞x
+□ A 0
+B1
+□ C -8
+□D 00+ TT
+2 lim x arctan (x) - ×
+x→+∞
+□ A -8
+□ B
+□ C +∞
+D0 (lnx. lny = -10
+(S):'Inx + Iny = 3
+3 On considère dans R2 le systèmes suivant
+Alors l'ensemble des solutions de système (S) est :
+□ A {(e2; e5)}  □ B {(e²;e-5)}
+□ C {(e2;e5); (e5;e~2)}  □ D {(e3; e²); (e3; e2)}
+4 fune fonction définit sur ]0; +∞[par f(x) = (ln x − 1) ex-1, alors
+□ A f"(x) =
+_ (2x+x²lnx)e*-1
+x3
+a B _f"(x) = (2x+x2lnx-x*-1)e*+1
+□ C f"(x) =
+_ (2x+x²Inx)ex-1
+x3
+QD f"(x) =
+(2x+x²Inx-x2-1)ex-1
+x2
+5 lim x( evX²+1-x - 1) =
+x→+∞
+□ A -8
+□ B
+□ C +8
+D0 44
+La courbe de
+In(x+1) la fonction f définie par: f(x) =
+x+ex admet au point 0(0;0) une tangente d'équation:
+□ A y= x - 1  □ B y= 2x
+Cy= □X
+OD y= x + 1
+7 Soit; a Σ 0 alors √x- √a - √x- a
+lim =
+x→a+ Vx2-a2
+□ A 1
+Va
+□ B 1
+√2a
+□ C
+Va
+□ D
+√a
+8 Soit F la primitive de la fonction f définie par f(x) = e*² sur IR et qui s'annule en 0
+Alors la valeur de (F-1)'(0) est
+□ A 2e
+в е
+□ C 1
+D2
+π
+9 lim x( x+84 arctan ()=
+DA -0
+1 B
+□ C +∞  □ D 0
+10 Soit (un) définie la suite tel que ; (Vn EN); Un+1 = (un +e-2un --et uo =
+-1
+Si (un) est convergente alors sa limite est :
+A0
+□ B -1  □ C 2
+3 D□
+11 lim
+n
+Σ
+k=1
+arctan
+k2+k+ 1
+□ A
+□ B
+FI2
+□ D
+TT
+12 La solution de l'équation à variable réelle x: In(x² - 1) - ln(2x − 1) + ln 2 = 0 est
+□ A 1+7√3  □ B 1+√E
+1-√3
+□
+□ C
+□ D
+1+3√3
+13 Soient a et b deux réels la fonction f(x) =
+□ A аE Retb = 2
+{m( +x)=x six Σ 0 soit continue en 0 si:
+ax+b six ≤0
+Ba = 0 et b = 1
+c a =- et b =
+□ D aE Ret b =- 2
+√x-1
+14 Soit f la fonction définie par: f(x) =
+la dérivée de f est
+/(x+2)2 √(x+3)3
+☐ A 5x²-x-12 √x-1(x+2)5 √(x+3)5
+3x2+x-24 B
+√x-1/(x+2)5 √(x+3)5
+3x²+x-24 C
+2√x-1(x+2)5 √(x+3)5
+3x²+x-24
+□ D 3VX-I/(x+2)5 √(x+3)5
+15 Soit f une fonction de [0; +∞[vers [0; +∞[ définie par f(x) = xe*. l'équation de la
+tangente à la courbe f-1 au point d'abscisses e est
+y=x+ 1
+□
+□
+□ A
+2e
+1 1
+□ B y ==x+ e 2  □ C y
+= x+1 2e
+□ D У= x-1 2e
+16 lim x2024 + 2023-x1012
+□ A +∞  □ B -00
+OC 1
+□ D 0
+17 On veut construire un triangle ABC isocèle en A tel que AB = AC = 10
+Alors l'aire maximale de ce triangle est:
+A100
+B50
+□ C 25  □ D 150
+18 Soit f la fonction définit sur R par f(x) = 2e3x -6
+La primitive de la fonction sur R dont la courbe coupe l'axe des ordonnées en 3 est
+définie par :
+- 6x +-
+□ A F(x) =
+3x -6x3
+□ B F(x) = =e3x3x
+F(x) 23x
+□
+□ C
+DF(x) = e3x 3
+-6x-2
+-
+6x
++
+19 sif(1) = 4 est (Vx € R.4*): f'(x) = 2x + Inx alors f (e) est égale à:
+Ae2
+ов е + 4
+ce2+4
+De
+20 Pour tout entier naturel non nul n et pour tout réel x on pose :
+fn(x) = e-x - ux
+Alors on a :
+Α (ηΕΝ*), 3!αη €]0; 1[: f(αn) = 0
+et lim
+00+n
+nan = 1
+□ B (Vn ∈ N*), E! an ∈ ]0; 1[ : f(αn) = 0 et lim nan = 0
+n+∞
+□ C (Vn ∈N*), 3! an ∈ ]0; 1[ : f(an) = 0 et lim na, = e
+n+∞
+□ D (VnΕΝ*), 3!αη €]-1;0[: f( n) = 0 et lim na" = 0
+n→+∞
+Mathématiques
+Solution detaillée
+Correction
+= lim x -1
+X
+∞x lim ln(x² + 1) - x = lim x
+x→+
+=
+lim
+[ln(x² + 1)
+X
+(2) + (1+)
+=-8
+X
+2ln(x) 1
+=
+∞X
+lim x + 1
+X
+Car lim x = +∞ et lim 2ln(x)
+= 0 et lim In(1+) ∞+→x
+= 0
+x X
+Alors la bonne réponse est C
+π
+On a: lim x arctan (√x) x = lim x(arctan (Vx) 2 x+0
+1 프
+π
+Et on a d'après l'exercice 22 : arctan √x + arctan= √x 2
+Donc arctan (√x) -=2 - arctan
+Donc: lim x
+∞+←x arctan (√x)-x2 x = x+8 lim x (arctan (VX) -
+= lim - x arctan
+x→+∞
+On pose X =
+√x
+= lim -
+x→+∞
+donc = et xDonc: lim - √x☑
+x→+∞
+X
+arctan 1
+√x
+X
+x
+arctan √x X
+= lim √x x
+arctan 1
+√x
+1 1
+√x √x
++∞ X0+
+1 arctan X
+= lim X
+1 X0+ X X
+√x
+arctan ✗
+Car: lim
+8-=
+et lim
+=
+X-0+ X X-0+ X
+Alors la bonne réponse est A
+3 1ère méthode
+On rempl□e les solutions données on trouve que les couples (e-2;e5); (e5; e-2)
+sont des solutions de (S)
+2ème méthode:
+On pose X = In(x) et Y = In(y) donc (Inx. Iny = -10
+(Inx + Iny = 3
+(X x Y = -10 (X+Y = 3
+Rappel:
+Pour déterminer deux réels x et y tels que x + y = S etxxy = P avec S et P
+donnés
+On résoudre l'équation t² - St + P = 0
+Donc on résoudre l'équation t2 - 3t - 10 = 0 ; A= (-3)2 - 4 x 1 x (-10) = 49
+3-√49 3+√49 X = et Y =
+2 2
+X = -2 et Y =5
+ln x =-2 et In y = 5
+x = e-2 et y = e5; Donc : S = {(e~2;e5); (e5; e~2)}
+3ème méthode:
+(lnx. Iny =-10
+(Inx + Iny = 3
+fInx.Iny = -10
+Inx = 3- Iny
+ے)3lny - In² y +10 = 0
+Inx = 3- Iny
+(ln² y - 3lny - 10 = 0
+lnx = 3 - Iny
+{(Iny + 2)(Iny-5) = 0 (Iny = -2 ou Iny = 5y = e-2 ou y = e5
+Inx = 3 - Iny Inx = 3 - Iny (Inx = 3- Iny
+( y = e-2
+(Inx = 3 - Iny
+ے
+ou
+(y = e-2 ou
+x= e5
+{ y =es y=e-2 ou{ y= e5
+(Inx = 3- Iny(Inx = 5 Unx = -2
+(y = e5
+(x = e-2
+Donc: S = {(e-2; e5); (e5; e-2)}
+Alors la bonne réponse est C
+Lère méthode
+La réponse juste et D car il faut que le degré de dénominateur soit inférieur ou
+égale à 1 plus il contient ex-1
+Zeme méthode
+Soit x € ]0; +∞[
+1 ex-1 f'(x) = x ex-1 + (ln x — 1) ex-1 =-+ ex-1]nx — ex-1
+x
+=ex-1 +xex-1ln x — x ex-1 e*-1(1 + x ln x - x)
+X X
+[ex-1(x ln x-x+ 1) + ex-1ln(x)]x - ex-1 (x ln x-x+1) f"(x) =
+x2
+ex-1(x² In x− x² +x+ xln(x) - xln x+ x- 1)
+f"(x) =
+x2
+e*-1(2x + x² In x − x² - 1) f"(x) =
+x2
+Alors la bonne réponse est D
+∞X lim x(eVx²+1-x -1) = lim_x(e√x²+1-x -1) = lim x( evx²+1+x - 1) x++8 x→+∞
+= +∞tx
+lim √x² + 1 + x
+-(
+e√x²+1+x - 1
+√x² + 1+x
+e√x2+1+x-1
+lim
+x→+∞
+1 e√x²+1+x -1 1
+1++1 x2 √x² + 1 + x
+1 1
+Car = lim = et =
+lim(
+x→+∞
+-) = lim( e-1) =1
+t0 t
+1++1 √x2+1+x
+Alors la bonne réponse est B
+L'équation est : y = f'(0)(y -0) + f(0)
+On remarque que f(0) = 0 donc la réponse ne peut être A ou E donc y = f'(0)x
+Calculons a = f'(0)
+In(x + 1)
+f(x) - f(0) x+ ex In(x+ 1) 1
+lim =
+x→0 x-0 lim
+x0
+lim
+X x→0 X
+= 1 = f'(0) (x + ex)
+In(x+1) Car lim = 1 et lim1 = 1; Donc y = x
+x-0 x x→0 (x+ex)
+√x- √a- √x-a √x-√a √x-a
+lim x→a+ √x2- a2
+√x-a
+= lim
+= lim
+x→a+ √x2-a² √x²-22
+(√x- √a)(√x + √a)√x² -a2
+x-a (√x+ √a)(√x² - a2)
+(x - a)√x² - a2
+= lim
+√(x - a)(x + a)
+√x-a
+x+a+ (√x+ √a)(x2 - a2) √(x- a)√(x + a)
+= lim (x- a) √x²- a2
+x→a+ (√x+ √a)(x - a)(x + a) x→a+ (√x + √a) (x+ a)
+1 √x2-a2
+= lim √x+ a
+√x2-a2 1  1 1
+= lim
+x→a+ (√x + √a) (x+ a) √x+a (2√a) (2a) √2a √2a
+Alors la bonne réponse est B
+√x+ a
+On a F(0) = 0 donc F-1(0) = 0
+1 1
+-= 1 (F-1)'(0) = F'(0) f(0) 1
+Alors la bonne réponse est C
+On pose t = - arctan (
+Onax→+∞ donc→ +oo donct0
+1+x
+On at = "- arctan() donc- t = arctan (
+1+x
+1-tant
+□ D onc ✗== tan (-t) =
+1+x 1+tan t
+Donc x(1+ tan t) = (1 + x)( 1 - tan t)
+Donc x + xtan t = x( 1 — tan t) + 1 – tan t
+Donc x(1 + tan t – 1 + tan t) = 1 - tan t
+1-tan t
+Donc x =
+2tan t
+TT
+lim x( x→+04
+- arctan
+X t(1- tan t)
+() =lim 1 + x1 2tan t
+(1- tan t) t 1
+=
+x→+∞
+lim X
+=
+2 tan t 2
+Alors la bonne réponse est B
+Considérons la fonction par f: x→ (x + )e~2x -
+-2x1
+1 1
+f(x) = x (x+)e-x - =x
+1 1
+→ (x+)e-2x - (x +)2 = 0
+(e-2x -1) = 0
+Ox=− onx = 0
+On peut démontrer par récurrence que (Vn € N); -≤un ≤0
+Donc si (un) est convergente alors la limite est -1 ou bien 3
+Un+1-Un = )nu +((e-2un -1)
+1 1
+.≤ n" ≤0 un +≥ 0 ete-2un -120 2
+⇒ lin+1 -un 20
+Donc la suite (un) est croissante, d'où la limite de (un) est 0
+Alors la bonne réponse est A
+arctan k
+11 Astuce
+Vx ∈ IR+; arctan(x + 1) - arctan x = ar□tan(x² +x+ 1
+n
+n
+n
+n
+arctan )2+k+1 = Σarctan(k + 1) - aretan k = Σarctan(k+ 1) -Σ
+k=1 k=1
+k=1 k=1 n
+n-1
+= arctan(n+1) + ) arctan(k + 1) – □ctan1 - arctan k
+k=2
+n=1
+n
+n
+= arctan(n +1) + ✗ arctan(p) - □ctan(1) –
+arctan k
+k=2
+p=é
+π
+= arctan(n + 1) -
+Donc la suite de terme générale 1 arctan () est convergente et:
+n
+π π
+lim arctan
+n→+∞ (k²+k+1 = lim arctan(n + 1) - n→+∞
+k=1
+π
+Car lim arctan(x( =ニ =
+Alors la bonne réponse est B
+XEDEx² − 1 Σ 0 et 2x - 1 Σ 0 Donc DE = ]1,+∞]
+Soitx E DE ln(x² - 1) – ln(2x – 1) + ln 2 = 0 → ln(2(x² - 1)) = ln(2x - 1)
+2(x²-1) = 2x — 1
+2x2-2x - 1 = 0 avec A= 12
+2+√12 1+√3 2-√12 1+√3
+Donc x = E ]1,+∞[ ou x =
+= ]1, +∞[
+2 4 2
+Alors la bonne réponse est B
+1 ère méthode
+Soit f est continue en 0 lim f(x) = f(0) → lim ln(1+x)-x-
+= b
+n-0 n→o+ x2
+1 -1
+1+x (1+x) 1
+lim n0+ 2x
+=9 lim
+n→0+
+=b b
+2 2
+2ème méthode:
+limf(x)=lim
+x-+x²(x)-x
+x²
+x(+8(x))_ 1
+=lim10
+NB: In(1+x)=x-x'+x'e(x) avec lim e(x) (développement limité à l'ordre 2 de la fct
+x→ In(1-x) au voisinage de 0)
+/ Continue en 0 limf(x)=limf(x)b=- 1-40 2-10
+Alors la bonne réponse est D
+On veut que a est quelconque
+14 1 ère méthode:
+f(x)=((x-1)2 x(x+2)3 x(x+3)²)
+= }(x-1) x(x+2)3 x(x+3)3 -3(x+2)3 x(x-1) x(x+3)3-2(x+3)3x(x-1)2x(x+2)3
+=(x-1)3 x(x+2}® x(x+3)(x+2)x(x+3)-2(x-1)(x+3)-2(x-1)(x+2)]
+(x-1)2 x(x+2)3 6 x(x+3)2 [3(*+5x+6)-(x+3)-4(*²+2x-3)-9(*²+x-2)]
+(x=1) x(*+ 2]3 x (X+ 3)2 (-108-2*+497 6
+2ème méthode :
+(x-1)
+r°(x)=(x+2)°(r+3)= f°(x)((x+ 2)'(x+ 3)")=(x-1)
+=(f"(x)((x+2)" (x+3)")) =((x-1))
+=6f'(x)f*(x)((x+2)*(x+3)°)+f*(x)((x+2)* (x+3}") =3(x-1)°
+>6f (x)(x-1)+f*(x)(4(x+2)°'(x+3)*+9(x+2)'(x+ 3)*)=3(x-1)* f(x)
+6f'(x) (x-1)
+f(x)
+(x-1)6f(x)
+→f(x)
++f (x)(x+2)*(x+3)*+(4(x+3)+9(x+2))= 3(x-1)
+f(x) (x+2)(x+3) (+(4(x+2)+9 (x+ 3)|=3
+13x+30
+f(x) x-1 (x+2)(x+3)
+f(x)[(-2)x(5x²+ x-24)] 6(x-1)(x+2)(x+3)
+3x²+15x+18-13x²-30x+13x+30
+2(x-1)(x+2)(x+3)
+5x² +x-24
+3√x-12/(x+2)√(x+ 3)°
+Alors la bonne réponse est D
+On a(A):y =((f") (e)}x + f^(e)-((r") (e))e
+On remarque que f(1) = e, donc f-1(e)=1. On a f'(x)=(1+x)e* donc f (1) =2e
+Ona: (r") (e)=Of(1) 2e
+Alors la bonne réponse est A
+11 11
+Donc(A): y=x+1-=x+ 2e 2 2e 2
+1ère méthode:
+x2024 + 2023 - (x1012)2
++∞→x
+lim √x2024 + 2023 - x1012 = lim x→+∞ √x2024 + 2023+ x1012
+2023
+= lim
+x→+∞ √x2024 + 2023 + x1012
+= 0
+2ème méthode:
+Astuce lim √x2a +B -xα = 0 ; « >0
+Par exemple on chsoisit comme paramètre une mesure x en radians de l'angle
+orienté (AB; AC)
+Pour raison de symétie il suffit que x décrire l'intérvalle [0; ]
+L'aire de ABC s'exprime en foncction de x par :
+□ A (x) =× 10 × 10 × sin x = 50 sin x
+Elle est maximale lorsque sinx est maximal doncx = donc A(x) = 50 sin - 50
+Remarque
+Quant x =, l'angle (AB; AC) est alors un angle droit donc le triangle ABC est isocèle et rectangle en A
+Alors la bonne réponse est B
+Soit f la fonction définit sur R par f(x) = 2e3x — 6
+Donc F(x) = e3x - 6x + c
+On a la courbe de F coupe l'axe des ordonnées en 3 donc F(0) = 3
+e-6 x0 +c = 3 23 F(0) = 3
+c=3 -
+= c=
+Donc F(x) = e3x - 6x+ 3 3
+Alors la bonne réponse est B
+(Ax €]0,+∞[)f(x)= 2x+Inx alors (Vx€ ]0,+∞[)√(x)= x²+xInx-x+c
+Et comme f(x) = 4 alors cste=4 et par suite f(e)=e²+4
+Alors la bonne réponse est C
+Soit ne N* la fonction est dérivable (donc continue) sur R et on a:
+(Vx€R)[(x)=-e* - n<0, donc est strictement décroissante sur R.
+Donc elle réalise une bijection de R vers (R) = R. (puisque lim )x(=-
+et lim (x) = +∞∞). Et comme 0 (R)
+On a: (0)=1>0, √(a)= 0 et (1) =
+alors (!a R:J(a) =O
+1-ne
+e
+<0. Donc : (1)<J(a)<J,(0(
+Et comme est strictement décroissante sur R alors 0 a 1
+On a:(a)- (a)=a>0, donc 1(a)<J(a)=0= Sr1(21)
+Et comme est strictement décroissante sur R alors a+1<a, donc
+la suite (an) est strictement décroissante, et comme elle est minorée (par 0)
+alors elle est convergente. Si on pose limxt a = 1 alors on a 1=0, ou 011
+Et comme (VneN*) = n alors nécessairement 1=0, car si non, nous
+a
+e
+aurons lim n=-ER, ce qui contredit le fait que lim n= to0. x+∞ 1 xt
+comme (Vn€N*)e *" = na, et la fonction : x → e™* est continue en 0, alors
+lim na = lim e = e° =1 X+∞
+Alors la bonne réponse est C
+Mathématiques
+Calcul d'intégrales
+Chapitre
+Calcul d'intégrales
+1- Définition d'intégrale d'une fonction f
+Soit F une primitive de f sur [a; b[
+L'intégrale de la fonction f de a à b est le nombre réel noté par J f(x) dx tel que :
+f(x) dx = [F(x)]2 = F(b) - F(a)
+2- Propriétés d'intégrale
+J f(x) dx = 0
+- La linéarité de l'intégrale :
+J f(x) +g(x) dx = f f(x) dx + J g(x) dx
+J k f(x) dx = k f(x) dx ; avec k dans IR
+- Relation de CHELS:
+J f(x) dx = f f(x) dx + f f(x) dx
+- L'intégrale et l'ordre:
+Si Vx € [a; b]; f(x) Σ 0 alors f(x) dx Σ 0
+Σ f(x) dx = - J f(x) dx
+Si Vx € [a; b];f(x) < 0 alors f(x) dx <0
+Sih < f < g alorshdx < fdx < J gdx
+Si f impaire alors f(x) dx = 0
+Si f paire alors f f(x) dx= 2 f f(x) dx
+F(x) = S f(t) dt F'(x) = f(x)
+lim f(t) dt = f(a)
+- Intégration par parties:
+Intégration par parties :f UV' dx = [U V] – SJa U' V dx
+3- L'aire du domaine délimité par (C) et (Cg) et les droites :x = a et x = b
+□ A = u.A
+Ja
+4- Primitive d'une fonction r E Q/-1 et astuces rapides
+➤Fest une primitive de f ssi F est dérivable sur I et Vx € l; F'(x) = f(x)
+r+1
+r+1 H J U'(x) x U(x)" =
+U(x)r+1
+fk = kx; Sx= r+1
+a
+x (n-1)x"-1
+U'(x)
+= √U(x) ; S √x =x√x 2/U(x)
+Σ J U'(x)eU(x) = eV(x); 1
+S= aln(x);
+a
+S
+k
+Seax =eaх
+ax+b
+k In(|ax +bl) ; S a
+f ln x = xlnx-x ; fU' ln(U) =U In(U) - U
+S=1 In (|lnx[)
+U'(x)
+ln(x) (In x)2
+2 x In(x)
+n+1 J x" ln(x) (ln xIn x _ 1
+xn
+n+1
+(n-1)xn-1 (In x+ ;
+n+1
+n-1
+=In(|U(x)]) U(x)
+(lnx)" (lnx)n+1 1 -1
+x n+1 x (lnx)n (n-1)(lnx)и
+(x-a)(x-b)
+In(x-a)
+a-b
+J cos(x) = sin(x)
+f cos(ax + b) = sin(ax + b)
+S tan(x) = -ln(|cos x)
+; S sin(x) = -cos(x)
+; ∫ sin(ax +b) =-cos(ax + b)
+sin(x)
+cos(x)
+S=S 1 + (tan x)2 = tan x
+(cosx)2
+s74= ln(]x + √x² + a²( : S √x² + a² =
+_x√x²+a²+a² ln(x+√x²+a²)
+J cos(ln(x))) =
+_ x(cos(lnx)+sin(ln x))
+; f sin(In(x))) x(sin(inx)-cos(In x)) 2 2
+eax (a cos(bx)+bsin(b x)) f eaxcos(bx) = a2+b2
+eax (a sin(bx)-bcos(b x)) Seax sin(bx) =
+a2+b2
+5- Intégration par changement de variable :
+Jf(g(x)).g'(x) dx =?On pose t = g(x) donc dt = g'(x)dx
+Donc Jaf f(g(x)).g'(x) px =
+rg(b)
+f(t) dt
+g(a)
+- Changement de variable classiques:
+Si l'intégrale contient cos ou sin sur le dénominateur on pose t = tan 2
+21 21 Et on a: sin x =
+1+14
+1-1
+;coS x =1+72 et tan x =
+1-12
+Si l'intégrale contient Vax + b on pose t = √ax + b
+น
+ax+b ax+b
+Si l'intégrale contient on pose t =
+cx+d V cx+d
+Si l'intégrale contient va - x on poset = Vasint t avecte
+6- Fonction x→ f(t) dt:
+F(x) = S f(t) ⇒ (Vx € I); F'(x) = f(x)
+f est paire ⇒ Fest impaire
+f est impaire ⇒ F est paire
+7- Dérivation de la fonction fu(x) f(t) dt:
+(x(u Jv(x)
+On pose: F(x) == Jv(x) f(t) dt
+F'(x) = u'(x)f(u(x)) - v'(x)f(v(x))
+8- Somme de RIEMANN :
+b-a k(b-a)
+On pose: Sη =ΣΞf(a n + n
+et Sn = 1f(a + k(b-a)) b-an
+น 2), alors les suites (Sn) et (sn) sont convergentes et on a: n
+lim S= lim Sn = Sf(x) dx n→+∞0o 00+→n
+9- Intégrales de WALIS ; n є N
+π
+U= [² cos" (x) dt= [ sin"(x) dr
+TT TT
+U=: U₁= 1 et U2 = 4
+_n+1 Un+2=Un et UnUn+1 =
+n+2
+π
+2(n+1)
+π (2η)! 22n (n!)2
+Uzn = ×
+222n (n!)2 et U2n+1 =
+(2n +1)!
+lim Un+1
+n→+∞ Un
+= 1 et lim √n Un =
+n→+∞ 2
+Testez-vous pour le jour]
+Consignes: L'épreuve dure 45 minutes
+Ce questionnaire comporte 20 QCM
+Chaque Question comporte une seule réponse juste
+L'utilisation de toute sorte de calculatrice est interdite
+
+1 La valeur de l'intégrale S√1-x2 dx est
+AT
+TT □ B
+□ C
+π
+□ D
+TT
+2 Soit n e N", considérons la suite (Un)nes-tel que: Un=
+Alors lim Un est:
+n→+∞
+AL
+1 □ B
+□ C
+□ D
+3 Soit a € R*. Si Jo cax+1 J1_eax dx = 1 alors a est égal à:
+a
+□ A ln(e - 1)  □ B 2e – 1
+□ C ln(2e + 1)  □ D ln(2e - 1)
+4 La valeur de l'intégrale 1
+x2 √4-x² dx est
+□ A
+√3
+□ B √3  □ C √3
+√3 □ D
+5 L'intégrale fo3 x²+2 dx est égale à:
+□ A
+□ B
+□ C In(2ea+ 1)
+□ D
+k=1
+6 La valeur de l'intégrale
+□ A
+□ B 1+
+π
+□ C
+□ D 2+
+3 1 dx est J1 x2 √4-x2
+7 Si pour tout entier naturel n, In = fx(In x)"dx
+Ae
+Be2
+☐C 1
+e-1
+□ D
+11-x2 8 La valeur de Jo 1+x2-dx est:
+□ A +1  □ B -1
+□ C -1
+ODA+1 4
+9 Soit n ∈ N*, considérons la suite (Un)nen* tel que :
+Alors lim Un est:
+n→+∞
+A0
+n
+Vn² +kn k=1
+□ B 2(V2-1)  □ C 2(√3 - 1)
+□ D 3(√Z-1)
+10 Soit n EN*, on pose In = f,(x2 - 1)" dx la valeur de la valeur de 14 est:
+□ A 252
+315
+□ B 254
+315
+258 □ C
+315
+□ D
+256
+315
+11 La valeur de l'intégrale dx est J1 x2 √4-x2
+0 A
+Зп
+π
+□ B
+□
+□ C
+□ D
+4 60
+12 La valeur de l'intégrale J est -1-sin x
+OA
+□ B
+C1
+스
+□ D;2
+13 L'intégrale f (In x)(-x + xln x)dx est égale à:
+□ A In (3)
+B1
+C4
+□ D - 1
+14 Une primitive de la fonction x→ cos3(x) sur R est la fonction F définit sur R par :
+□ A sin x-sin³ (x)
+Bsin² (x)
+□ C cosx-sin³ (x)  □ D -sin²(x)
+La valeur de l'intégrale x" sin(x) dx est
+DAT
+B0
+C1
+OD
+X
+16 Une primitive de la fonction f:x→ (x+2)4
+□ A + 1
+(x+2)3 2(x+2)2
+□ B (x+2)2
+sur]-2; +∞[ est la fonction F par
+2 1
+□ C 3(x+2)3 2(x+2)2
+Dln ((x +2)4
+17 Pour tout entier naturel n non nul on pose : In = n fjx"e*²dx.
+Alors lim In =
+x→+∞
+□ A e
+B0
+□ C 1
+OD 2
+18 Soit nEN, considérons la suite (1n)neN tel que: In= Si (1+x2(u
+Si la suite (In)nEN est convergente alors la limite de (In)neN est:
+Ae
+B0
+C1
+□ D
+19 L'intégrale f
+dx est égale à: sin(x) 3
+□ A In  □ B -In
+□ C 1
+20 L'intégrale f√x + Idx est égale à:
+□ A √8-1  □ B ∞
+□ C (+1)  □ D (√8-1)
+Mathématiques
+Solution detaillée
+Calculons l'intégrale: S √1-x2 px
+On pose x = sin(t) donc dx = cos(t)dt;
+Pour x=0 on a : sin t =0 donc t=0
+Pour x = 1 on a sin(t) = 1 donc t =
+√1 - x² dx = |"√1- sin²t cos t dt
+Jo
+π
+-I oot costdt = frcos t costd
+=
+cos²t dt Corte 10
+21 1г 1
+x+sin(2t) 7-4
+Alors la bonne réponse est A
+k 1-0
+n² n
+k=1
+ے
+k=1
+k(1-0) 0+
+n
+avec a = 0 et b = 1 et f(x) = x
+Jo
+_mi %U =[ )x(f *d = [ x xd
+Alors la bonne réponse est D
+1 e
+ax
+e ax+ 1
+xp1 1 ae ax
+=
+a a J eax+ 1
+ae ax
+xp = 1 -
+a
+b-an-1
+k(b-a f(a+ n n
+k=0
+Itxef dx = 1 O
+JO
+(e ax+ 1)'
+e ax+1 dx = 1
+→ [ln(le ax+ 1])]} = 1 → ln(e 2+ 1) − ln(2) = 1
+e+1 =1 =ee ³+1 = 2e 2 2
+Correction
+e= 2e -1
+a = ln(2e - 1)
+Alors la bonne réponse est D
+√3 1
+Calculons l'intégrale : D = Ji x2√-xž px
+1 1
+On pose t= x donc dt = -d2 dx
+1 De plus x =
+Pour x = √3 on a : t = √3
+Pour x = 1 on a t= e¹ = 1
+3 -√3 1 1 dx 1 1
+□ D = dx =
+dt
+J1 x2 √4-x2 J1 √4-x2 2 1 1
+√3 4- V +2
+1 1
+1 t 1
+1م
+dt = dt = dt
+1 14t²- 1 √4t2-1 4 1 2√4t2-1
+√3 √3 √3 V t2
+1 1 √3 =√4t²-1 4
+√3
+Alors la bonne réponse est D
+x 2+2
+√x3 + 6x + 4
+dx =
+dx
+2 3 (x3 + 6x + 4)':dx
+3 2√x3 + 6x + 4
+2√x3 +6x +4
+3 3x2+6
+3J0Jo
+= √x³ +6x+4) =(√27+ 18 + 4 -√4) 3
+2 2
+=(√49-2) =(7-2) २ 3
+Alors la bonne réponse est C
+Calculons l'intégrale: fo11 dx Jo (1+x2)2
+On pose t = arctan x donc dt = dx 1+x2
+De plus x = tan t
+Pour x=0 on a: t=arctan 0 = 0
+Pour x = 1 on a t= arctan 1 =
+c 1 1
+E= dx =
+Jo (1+x2)2 Jo 1+x2
+π π
+4 1 4 1
+dt = dt
+Jo 1+ tan² t 1
+Jo
+cos2 t
+π
+T
+cos² t dt =
+Jo Jo 2
+(200+ += (2) A
+1 1 2+n
+=
+2 8
+Alors la bonne réponse est D
+On a In = x(ln x)"dx donc In+1 = f x(ln x)"+1dx
+Poems
+u(x) = (ln x)n+1 alors v'(x) = x
+u'(x) = (n + 1)(In x)"
+v(x) =
+ll s'ensuit donc : In+1=[ (n x)+]-f"(n + 1) (lnx)" x 2 dx
+e2
+Donc In+1 =-0-+I 2 2
+_e² n+1
+x (In x)" dx donc In+1 = 2
+Donc 21n+1 = e² - (n + 1)In donc 2In+1 + (n + 1)In = e?
+Alors la bonne réponse est B
+11-x 2
+Jo 1+x2
+xp= =
+=
+Jo 1+x2
+1+x2
+1 +x2
+-dx = 1dx
+Jo 1+x2
+π
+[2 arctan(1 + x2) - x] = 2 arctan(1) - 1 =2x-4
+Alors la bonne réponse est B
+n
+1 1 1 2-1 k(2-1). Un = f(1+
+k1 Vn√n² + kn n k
+n n
+k=1 1+ k=1
+V
+n
+avec a = 1 et b = 2 et f(x) =
+2 1
+Donc
+n→+∞
+lim Un = =dx = [2√x] = 2(√2-1) J₁ √x
+Alors la bonne réponse est B
+1=}(x1)('dx = ]((x*)'-4(x) +6(x)"-4(x)+1/x
+π
+1=-1
+=2](x*-4x+6x-4x'+1)/x=2 7 5
+14 6 4
+=2 +1=2 35–180 + 376–420+319 =2x 128 256
+315 315 315
+Alors la bonne réponse est D
+Calculons lintégrale: F = f(1 + ) arctan x dx
+On pose t = donc x =t
+Donc dt =-dx
+Donc dx = -x²dt
+donc dx = -dt
+Pour x =ona:tt= 2
+Pour x = 2 on a t =
+=1
+F= (1+ arctan x dx x2)
+-Pa+r = J2[1 + t3) arctan(一)
+=f ( + 1) rctan)dt
+(+) arctan t) dt
+π
+ニ
+(1)
+at f(+3) retured
+πς-1 12 3π
+= +t 一
+2t1 2
+3п 3
+Donc F =-F donc 2F =
+2 2
+Donc F =374
+Alors la bonne réponse est A
+Calculons l'intégrale : G = S
+dx
+On pose t = tan
+1-sin x
+Donc dt =
+1+ tan² ())dx
+Donc dx = dt 1+tan2
+Donc dx = 2 dt
+Pour x = - ona:t = -1 2
+Pour x = 0 on a t = 0
+2t 1-t2 2t Et on a sin x =
+1+t2 ; COS X= 1+t2 et tan x =
+1-t2
+dx 1 - sin x
+1 م 1
+dt 2t 1+t2 1
+- J 1 + t2 - 2t
+dt 1+t2
+1 +t2 1+t2
+
+= 1
+dt = 2 dt Jt2 -1 -2t +1 -1 (t-1)2
+2 
+t-11
+=2-1
+= 1
+Alors la bonne réponse est C
+Une primitive de la fonctionx→ ln(x) sur ]0; +∞[est x→ xln(x) -x donc:
+الre re
+In(x)(-x+ xlnx)dx = [ (xtn(x) - x)'(-x+ xIn x)dx 11
+1 1 1
+==2
+ [(xln(x) - x)] = - ×1-2
+Alors la bonne réponse est D
+14 f(x) = cos³(x) = cos(x)cos2(x)
+= cos(x)(1 - sin2x) = cos x - cosx sin²x
+Une primitive de u'u² est de la forme u³. 1
+□ D'où F(x) = sin x- sin³ (x) +C, avec CER
+Alors la bonne réponse est A
+1 ère méthode 15 Astuce
+f est inpaire f(x) dx = 0
+On a f x sin(x) est impaire donc S x sin(x) dx = 0
+2ème méthode:
+Intégration par partie six fois !!!!!!
+Alors la bonne réponse est C
+2 1 2
+=
+=
+= (x + 2)-3 — 2(x +2)-4
+(x+2)4 (x+2)4 (x+2)1 (x+2)3 (x+2)4
+Une primitive de u'u" est de la formeun+1 n+1
+F(x) = (x+ 2)-2-2x(x + 2)-3 + C, avec CEIR,
+F(x) =
+1 + 2 +c, avec CE R, 2(x+2)2 3(x+2)3
+Alors la bonne réponse est C
+Astuce: lmn f x"f(x) dx =f(1) =e
+Alors la bonne réponse est A
+Soit x E [1;2] etnEN
+On a: x² ≥ 1 et 051 1
+Donc x2+1≥2 (1+x2)n
+1 1
+Donc et x2 +1 0≤
+(1 + x2)n Donc 0>
+et 0≤
+(1+x2)n
+(1+ x2)nSan
+1 2م
+1 2م
+Donc 0S dx >
+(1 +x2)n
+1 1 2م
+2n
+Donc: 0≤ px ≤
+J1 (1 + x2)n 2 (2-1)
+Donc : (Vn €N): 0 ≤ I ≤7
+1 1 1
+Et lim = = lim
+n→+∞ 2n n→+∞ (3)2 = 0 car-11
+Donc d'après théorème de gendarme on a : lim In = 0
+Alors la bonne réponse est B
+19 Astuce
+classique : S
+sin(x) In(tan et cesx =-in(tan( +5)|)
+TT TT
+ラ2 1 X12
+sin(x) 2 in (tan) - In(tan)
+4-0 √3 √3
+Alors la bonne réponse est B
+√x+ 1dx = (x+1)'√x+ 1dx
+Jo
+(x+ 1)'(x+ 1)2dx
+=vx+1] = (8-1) Alors la bonne réponse est D
+Testez-vous pour le jour ]
+Consignes:
+- L'épreuve dure 45 minutes
+- Ce questionnaire comporte 20 QCM
+Chaque Question comporte une seule réponse juste
+L'utilisation de toute sorte de calculatrice est interdite
+1 Pour tout entier naturel n non nul on pose: In = tedx. 1
+Jo ex+1
+Alors (Vn ∈ N*) : In+1 + In égal à :
+
+□ A e+n
+□ -1e
+□
+□
+□ B
+n+1
+e-1 C
+n
+en-2 D
+2 L'intégrale f1ddx est égale à: xln(x)
+□ A -ln(2)  □ B In(In(2))
+Cln 2
+((2)D -ln(ln□
+3 Soit fla fonction définit sur]1;+[par : f(x) = Sx in(e) x1dt
+Alors lim f (x) est égale à
+x1
+□ A ln(3)  □ B ln(4)
+□ C In(5)
+D1
+e2x-1 4 L'intégrale S dx est égale à
+e2x+1
+□ A ln (e²+1
+2e
+□ B In (e-1
+2e
+□ C In (e+1
+e
+□ D
+e2-1
+5 L'intégrale f1x+x+4 dx est égale à x+1
+□A 2ln(2) +
+□ B + 2ln(2) 6  □ C ln(2) -
+DIn(2) +
+6 L'intégraleff3 5x+1 dx est égale à: J2 x2+x-2
+□ A 8ln(2) -3ln(5)  □ B 3ln(2) +8ln(5)
+□ C 8ln(2) +3ln(5)  □ D 8ln(2)
+7 Soit n ∈ N, considérons la suite (Un)nEN tel que:
+น
+n
+Un = 1+
+k=1
+Alors lim Un est:
+n→+∞
+□ A
+□ B
+e
+□ A
+e
+□ C 4
+e
+□ D 1
+8 L'intégrale fo x√3-x dxest égale à:
+□ A 8ln(2) + (1 - 35)  □ B (1+V35)
+□ C (1-35)
+ロ+ (1-35)
+9 L'intégrale f sin(In(x)) dx est égale à:
+Ae sin(1)
+□ B -e cos (1)
+☐ C
+cos (1)
+De sin(1)-e cos (1)
+Soit n EN*,considérons la suite (Un)nen tel que :Un=ΣV
+Alors lim Un est:
+n→+∞
+□ A
+□ B
+□ C
+D1
+11 Le plan est apporté à un repère orthogonal (O, ,J) avec
+[| [| = 3 cm et [||| = 2 cm. Soit f définie sur ]0, +[par: f(x) =
+x (x+1)
+et (Cf) sa courbe dans (O, i,j). Alors l'aire du domaine plan limité
+par la courbe (C), la droite (ox) et les droites x=1 et x=2
+□ A 6 lncm²  □ B 6 ln ( cm²
+□ C 6 ln ) cm²
+D12 In(cm²
+12 L'intégrale fdx est égale à:
+An(
+Bn(
+Dn
+13 L'intégralefdx est égale à:
+□ A In(2)
+B1
+□ C ln (3)  □ D In(5)
+14 Soit n € N*, considérons la suite (Un)nen tel que : Un
+Alors lim Un est:
+DA
+n→+∞
+n
+n
+= >
+n² + k² k=1
+□ B
+☐C T-37-1 F-2
+□ D 1
+15 Si ² f'(x)f"(x)dx = 8 et f'(2) - f'(1) = 2 alors f'(2) + f'(1) égal à :
+□ A 4
+B6
+C8
+□ D 10
+16 L'intégrale J1px x2-2x+5 est égale à:
+An (3)
+□ C
+□ D
+ln (2)_xeх 17 L'intégrale So dx est égale à:
+Jo (ex+1)2
+AIn(2)-In (3)
+□ B (2) - 10 (3)
+n (3) - in(2)
+Dn(+ n (3)
+18 Le plan est apporté à un repère orthogonal (O, ,j) avec
+Le plan est apporté à un repère orthonormé (O, ĩ,j) ; [[|| = 1 cm
+Soit g la fonction définie par: g(x) = sin(x) et (Cg) sa courbe
+dans (O, ī,j). Alors l'aire du domaine délimité par la courbe
+π
+de g et les droites d'équations : x = etx =- est:
+2 2
+Acncm²
+□ B 6 cm²  □ C 4cm²
+□ D 2 cm²
+19 Soit f la fonction définit sur ]0; +∞[par: F(x) =
+xIn (t) dt J² t2+1
+Alors
+□ A Pour tout x de ]0; +[:F(x) = In (2)  □ B Pour tout x de ]0; +∞[:F(x) = x2 +1
+□ C Pour tout x de ]0; +∞[: F(x) = 2x² + 1  □ D Pour tout x de ]0; +∞[: F(x) = 0
+Mathématiques
+Solution detaillée
+Correction
+1 Astuce en-1
+linéarité de l'intégrale on montre que :(An ∈ N*) : In+1 + In = n
+Alors la bonne réponse est C
+1 e 1 1
+px =
+xln(x) J2 In(x)
+e (ln x)'
+2 In(x)
+xp =
+J2
+(ln x)'x
+ln(x)-dx
+-dx = [ln(ln(x))]2 = ln(ln(e)) - ln(ln(2)) = −ln(ln(2))
+Alors la bonne réponse est D
+Soit x € ]1; +o[ona x≤t ≤x* et1< x<t donc ln(t) Σ 0
+1 1
+x>t≤ x4 → x ≤ ≤x4
+t ln(t) t ln(t) t ln(t)
+rx4 1 1
+x -dt < f(x) ≤ x
+dt
+Jx tln(t) Jx t ln(t)
+1 t In'(t)
+-dt dt -dt = [ln|ln t|]* = ln(4)
+Jx t ln(t) ln(t) Jx In(t)
+Donc xln(4) ≤ f(x) ≤ x*ln(4)
+□ D'où lim f (x) = ln(4) x1+
+Alors la bonne réponse est B
+1 e2x - 1 1ex(ex - exx(
+dx
+Jo e2x +1 1
+ex(ex +x(
+=
+Jo
+f¹ (e * + e_x(,
+ex +e-х
+J=xp ex-e-x dx ex+e-x
+-dx = [ln(e* + e-*)]%
+(e² + 1
+2e = ln(e * + e^3) - in(1 +1) = In (e+)- in(2) = In
+Alors la bonne réponse est A
+x³ +x+4
+On pose: f(x) =
+; sur| = [0; 1]
+x+1
+x³ +x +4 x+1
+3x 2x+
+0 -x² +x+ 4
+x² -x+ 2
+-x2 -x
+0+2x+4
+2x+2
+0+2
+Donc: x3 +x+ 4 = (x + 1)(x² - x+2) +2
+x³+x+4 (x+1)(x² - x + 2)
+Donc: +
+x+1 x+1
+x+1
+= x² -x + 2 +
+x3 x2
+Donc une primitive est: F(x) = + 2x +2 ln(x + 1)
+3 2
+1x ³ + x +4
+J% x+1
+「x3 2
+Alors la bonne réponse est B
+x+1
++2x+2(x+1) =+2+2(2) +2hm(2) Jo
+5x +1 5x +1
+On pose g(x) =
+sur I = [2; 3]
+x² +x-2 (x - 1)(x +2)
+Donc il existe deux réels a et b tel que : g(x) =+x-1x+2
+Cherchons a et b :
+a b ax + 2a + bx - Ь (a + b)x + 2a – b
+g(x) =
+x-1
++
+x+2 (x - 1)(x + 2) (x - 1)(x + 2)
+Et on a: g(x) = x2+x-2
+fa+b=5 5xt Donc: (2a-b=1
+Donc: 3b=9
+2a-b = 1
+2L1-L2 {b=3 Donc
+Donc: {b = 3 :
+la =2
+Donc: g(x) =
+2a-3 = 1
++- x-1x +2
+Donc une primitive de g est: G(x) = 2 ln(x - 1) + 3ln(x + 2)
+□ B =
+J2
+5x +1 px
+x² + x-2
+= [2 ln(x – 1) + 3ln(x + 2)]3
+= 2ln(2) + 3ln(5) – 0 + 3ln(4)
+= 8ln(2) +3ln(5)
+Alors la bonne réponse est C
+On pose V = ln(U)
+-=
+n
+k=1
+น
+1 k
+n
+k=1 k=1
+k=1
+12+∞ n-+∞ n Jo
+m % = m (+1( (*+1)J= P
+In(1
+= [(x+ 1)ln(x + 1)]} – ['1 dx = 2ln(2) -1 = tn
+Jo
+_ 4
+Donc lim V == In() donc_lim ln(U₁) = In( donc _lim_Un = 2
+11→+∞ n→+∞
+Alors la bonne réponse est B
+Calculons l'intégrale G = fox√/3- x px
+u(x) = x
+(v'(x) = √3− x = (3 — x)2
+u'(x) = 1
+alors v(x) Posons
+Il s'ensuit donc :
+2 72 2
+z dx G=- x(3-x)2 +
+4 2 2
+4 4
+=-+ 1
+3 + 15(13) = + (1-35)
+Alors la bonne réponse est D
+Calculons l'intégrale H = J, sin(In(x)) dx
+Posons {u(x) = sin(ln(x)) alors {u'(x) = cos(ln(x))
+v(x) = x
+cos (ln(x)) dx = e sin(1) -
+v'(x) = 1
+H = [x sin(ln(x))] -
+Posons u(x) = cos(ln(x))
+) v'(x) = 1
+(u'(x) alors
+re
+J1
+= -sin(ln(x)) x
+v(x) = x
+cos (ln(x)) dx
+H = e sin(1) - ([x[x cos(In(x))] cos(tn())} ++f
+Donc: 2H = e sin(1) – e cos (1)
+Donc: H =
+e sin(1) - e cos (1)
+Alors la bonne réponse est D
+sin (ln(x)) dxpx) = e sin(1) - e cos (1) – Н
+1 1
+lim Vk = lim
+n→+∞0 n4 n+on√n k=1 k=1
+n
+1 □ 3 k
+1 1
+=
+= x3 dx
+n++∞ n n Jo Jo
+k=1
+Γ3 41 3
+=
+14 or 4
+Alors la bonne réponse est C
+1 1 1
+On a (: Vx € ]0, +∞[): f(x) =
+= >0
+x (x+ 1) X x+ 1
+□ A= [10)1 dxx u.a = [f(x) dxxu.a J1
+21 1
+dx x | × |ll
+x x+1
+= [ln|x| - ln}x + 1|]}x 2cmx 3 cm
+=(1n()+In(2))x 6cm²= 61n()cm²
+Alors la bonne réponse est A
+12 Astuce
+1 In
+(x- a)(x- b) a-b
+(x-3 5
+x2-9
+1 5م
+In x+3
+J4 (x - 3)(x +3) 3+3
+1 1 7
+In(7)) = n(2)
+Alors la bonne réponse est C
+13 Astuce 1
+= ln(x + √x² + a2) (Changement de vaiable x = a ta
+√x² +a2
+1 1
+dx =
+Jo √x²+6 Jo √x2+32
+= (In(9) – In(3)) = In (2)3/ = In(3)
+Alors la bonne réponse est C
+11 1 1
+u
+π
+n2lim
+ + k2 n+oon k²Jo 1 +x² = lim
+k=1 1+)
+Alors la bonne réponse est C
+Rappel: 15 (g(x))' g(x)(px =
+(C)の 1
+donc pour g(x) = f'(x) on a:
+(r)]=8
+→ ((r'(2))² - (f'(1))") = 8
+e(r(2) +f(1))(f(2) - f(1))) = 8
+= ((f'(2) + f'(1))x 2)= 8 carf'(2) – f'(1) = 2
+f'(2) +f'(1) = 8
+Alors la bonne réponse est C
+16 1
+x2 - 2x +5
+3م
+xp =
+-3 1
+x2-2x+1+4
+(x - 1)2 +4 dx =
+-1'
+dx
+(x-1√ -12 4
+2 -1
+4 +1
+T-xX-113 TT
+= arctan =
+2 2 1 8
+dx
+Alors la bonne réponse est D
+ln (2) xex
+Calculons l'intégrale H = J (ex+1)2
+u(x) = x
+dx
+u'(x) = 1
+Posons ex alors v'(x) = (ex+1)2 {v(x) =-ex+1
+x- In (2) In (2) 1
+In (2) ام) 2 (ex
+H= + dx =
+_ + 1 dx
+Lex + 10 ex + 1 Lex + 1
+OT
+Jo ex + 1
+o+l= *e(n-x+ + )1
+Lex
+(2) nןx-ז
+Donc: H =In(2) - In (3) 3
+Alors la bonne réponse est A
+On a (:Vx E [0,]) ;sin x≥ 0 et (: vx € [-;0]) ; sin x ≤0
+
+ラ
+lg(x)| dx x u. a = -sin x dx + sinx dx u. a
+Jo 2
+= ([cos x]" n+ [-cos x]) cm² π
+= ((1 - 0) - (0- 1))cm² = 2cm²
+On a la fonction x→ |sin x est paire donc
+□ A = g(x) dx x u. a
+T
+2 sin x dx × u. a = 21 sin x dx x u. a
+π
+cm2
+= 2(-(0- 1))cm² = 2cm²
+Alors la bonne réponse est D
+2ème méthode:
+Rappel: 19
+□ Dérivation de la fonction F(x) = Jv(x) su(x f(t) dt
+F'(x) = u'(x)f(u(x)) - v'(x)f(v(x))
+In (t)
+On pose f(t( = 3z+1
+u(x) = x
+v(x) = ln(x) In(x)
+1 ère méthode :
+La fonction F est dérivable sur ]0; +∞[: et
+F'(x) = u'(x)f(u(x)) - v'(x)f(v(x))
+= (+(x)
+In(x) 1 In = +
+x²+1 x2 1
++1
+x2 +1 x² +1
+= 0
+Donc pour tout x de ]0; +o[: F'(x) = 0
+Donc pour tout x de ]0; +∞[: F(x) = cte
+1 1n () dt = 0
+On a F(1) =J1 2+1
+□ D'où pour tout x de ]0; +[:F(x) = 0
+Alors la bonne réponse est D
+Mathématiques
+Nombres complexes
+Chapitre
+Ensemble C
+1- Forme algébrique
+□ C = {z = a + ib \(a; b) ∈ R2 et i? = -1}
+z = a + ib → Z = a - ib ;
+2- Propriété de Conjugué d'un complexe
+z +z' = z+Z : ZXz =ZxZ :3=2 : zz = a² + b² ; zn = (z(u
+Z+ z = 2Re(z) z - Z = 2ilm(z)
+3- Module d'un nombre complexe : | z |
+I z I= √zz = √a² +92
+| z |=| Z |=| −z |=| −z l= √a² +92
+2X2'=2×21 11
+| z^ |=| z" ;|z+z'|≤|z | +| z' |
+4- Tableau des valeurs importantes
+ZERz = ž ; zEiR Z = -Z
+θ
+π
+/2 π/3 T/4 0
+π
+π
+cos (0) 0 1/2 √2/2 √3/2 1 √6+ √2 √2+√2
+4 2
+sin (0) 1 √3/2 12/2 1/2 0 √6-√2 √2-√2
+4 2
+tan (0) √3 1 √3/2  2-√3 √2-1
+5- Résolution d'équations du second degré
+Soit l'équation (E) : az² + bz + c = 0
+-b±i√-A Si A < 0 alors: z =
+2a
+-bIVA Si A Σ 0 alors: z =
+2a
+-b Si A = 0 alors: z =
+2a
+az² + bz + c = a(z − Z1)(z- Z2) ;
+□ C
+21+22 =-= -et z₂2z= a
+z2 = U2 z = ±U
+z² = az = ±√a
+z² = −a z = tiva
+z² = 1 z = ±1; z² = -1 ⇒ z = ti
+z³ = 1 z = 1 ou z = j=-+ i et z= j= j² =--; 1+j+1= 0 et j³ = 1
+L'équation z" = 1; z € C ; possède exactement n racines sont :
+k = cos (2)+ isin
+2kn 2k
+() = e, avec k∈ {0; 1; 2 ......; n - 1}
+Soit u = ret, alors l'équation z" = u ; z € C possède exactement n racines sont :
+.0+2kn
+2kn (0 2kп (0 2kп
+=cos isin =rVT en,
+n n n n In' n
+avec kE {0; 1; 2 ... ...; n - 1}
+Relation entre Zk et Wk
+Si Zo une r□ine n-ième de Z alors zk = Zo X Wk avec k€ {0; 1; 2......; n - 1}
+w sont les racines n-ième de l'unité
+6- Argument d'un nombre complexe
+arg(zz') = arg(2) + arg(z') [2]
+arg)= arg(z)- arg(z') [2π]:
+arg(z") = n arg(z) [2п]
+arg(z) = - arg(z) [2n]
+arg(-z) = nt + arg(z)[2r]
+7- Forme trigonométrique et exро
+arg =- arg(z) [2n]
+z = a + ib =| z \ et0 = [l z \; −0] =| z | (cos(0) + isin(0)) = [| z l; 0]
+b
+cos(6) = et sin (0) =
+8- Opérations sur Forme trigonométrique
+[r; 0][r'; 0'] = [rr'; 0 + 0']
+[6-07 一
+[r';0]
+[r; 0] = [r;-0] ; -[r; 0] = [r' ; n + 0]
+([r; 0])" = [r²; n0]
+9- Notation exponentielle elo
+eto = cos(0) + isin(0)
+e-i0 = cos(0) - isin(0)
+eto = 1; etn =-1; e = i;e=-i
+l ei0 |= 1 ; arg(el9) = 0[2n]
+e10 = e-10 : -eie = ei(0+")
+V0 ER; AneZ : (eio" = eine
+(cos(0) + isin(0))" = cos(n0) +i sin(n0)
+eio+e-10 cos(0) =
+elo-e-i0
+et sin (0) =
+2 2i
+Σ eio +e-i0 = 2 cos(0)
+el0 - e-i0 = 2i sin(0) ; 1+e =2 cos ()e
+1- et0 = -Zi sin (e
+eta + elß = 2 cos () e
+(a-Bia+
+a+B eia - eiß = 2i sin (-fe 1-eie 1+ele=-i tan
+Pour toutn ∈N*, ona: 1+ z + z² + .. +zn-1 =
+2-1
+II Astuce: a € IR
+1- Formes trigonométriques à retenir
+a = [a; 0] ; -a = [a; π]
+z-1
+
+• ai = a; ;-ai=[a;-
+
+a ± ai√3 = [2a;±]
+2пт
+• at aiv3 = 20 3.
+• av3 ± ai = [20
+5л
+• -av3 ± ai = [20; 6
+3п
+• a ± ai = [Vža; 7 ; a tai = V2a; 土
+2- Géométrie et les nombres complexes
+L'affixe de vecteur AB : ZA= ZB - ZA
+• A(ZA)et B(zg) alors : AB =| ZB- ZA
+L'affixe de I le milieu du segment [AB] est z, tel que : Z₁ = ZA*ZD 2
+□ A, B, C sont alignés n
+ZBZA EIR
+ZC-ZA
+□ A,B,C et D sont cocycliques ( appartenant au même cercle)
+(AB, AC) = arg (2cZ^)[2π]
+ZB-ZA
+(AB) // (DC) ZC-ZD E IR
+ZB-ZA
+(AB) 1 (DC) ZC-ZD Ei IR
+ZB-ZA
+ZC-zV X ZBB-ZD EIR
+ZB-ZV ZC-ZD
+_azA+BZB+YZC
+a+B+y Soit G le barycentre des point pondérés (A; a); (B;ẞ) et (C; y): Zc =
+Si G est le centre de gravité de triangle ABC alors: ZG
+AB = AC
+ZA+ZB+Zc
+Zc-ZA = ib ABC est rectangle en A
+ZC-ZA [1;0]
+ZB-ZA ((AB, AC) = 0[2π] ' ZB-ZA
+Zc-ZA [1; 0] ⇒ le triangle ABC est isocèle en A
+ZB-ZA
+ZC-ZA
+= [1; le triangle ABC est rectangle et isocèle en
+□ A
+ZB-ZA
+ZC-ZA [1; alors le triangle ABC est équilatérale
+ZB-ZA
+3- Ensemble des points M(z)
+l'ensemble des points M d'affixe z tel que : z-ZAl =r est un cercle de centre A(ZA)
+et de rayonr; r Σ 0
+➤ L'ensemble des points M d'affixe z tel que : |z - zAl≤r est l'intérieur du cercle de
+centre A(Z) et de rayon r
+➤ L'ensemble des points M d'affixe z tel que : z - zA| ≥r est l'extérieur du cercle de
+centre A(z) et de rayon r
+l'ensemble des points M d'affixe z tel que Z-ZA
+= R est un cercle de diamètre [EF]
+z-ZB
+tel que: ZE =
+ZA+R ZB
+1+R et ZF =
+ZA-RZB
+1-R
+➤ l'ensemble des points M d'affixe z tel que : |z - ZA| = |z - Zg| est la droite (D) le
+médiatrice du segment [AB]
+4- Transformations
+Translation Tude vecteur (z
+Soit M'(z') l'image de point M(z) par la translation Tu
+T(M) = M'→ MM' = U → z' = z + Zn
+Homothétie de centre (@et de rapport k
+h(M) = M' → ΩΜ² =ΚΩΜ NIɛ = k(z - w)
+Rotation R de centre (w) et d'angle 8
+Soit M'(z') l'image de M(z) par la Rotation R
+R(M) = M'
+UM = UM'
+((QM.NM') = 0[2)
+z'Iɛ = elo (z - w)
+- Astuce sur les transformations :
+Soit f une transformation tel que z' = az + b
+Si a = 1 alors f est la translation de vecteur u(b)
+b
+Si a ≠ 1 alors f est l'homothétie de rapport a et de centre n
+1-a
+Si a ≠ 1 et |a| = 1 alors la transformation f est la rotation de centre d'affixe
+b
+W= Et d'angle = arg(a) 1-a
+Testez-vous pour le jour J
+Consignes: L'épreuve dure 45 minutes
+Ce questionnaire comporte 20 QCм
+Chaque Question comporte une seule réponse juste
+L'utilisation de toute sorte de calculatrice est interdite
+
+1 Le nombre complexe (5-31 2025
+3+5i est égale à:
+Ai
+□ B -i
+C1
+D3+ 5i
+On pose j = - +i. Alors 1 + + 12 + ...+ 12023 est égale à
+Ai
+Bj
+□ C 1  □ D -j
+3 Le plan complexe est rapporté à un repère orthonormé direct
+Soient A et B les points d'affixes respectives –i et i
+L'ensemble des points M d'affixe z tel que
+□ A La médiatrice du segment [AB]  □ B La droite (AB)
+□ C La droite (AB) privé du point B  □ D Le cercle de diamètre [AB]
+iz-1
+z+i = 1 est:
+4 Le plan complexe est rapporté à un repère orthonormé direct
+Soient A; B et Cles points d'affixes respectives a = 2 ;b = 3 + i√3 et c = 2i√3
+L'affixe d du point D le centre du cercle circonscrit au triangle ABC est est :
+A1+i√3
+B2+i√3
+■C-3+iv3
+□ D -2+ i√3
+5 Le plan complexe est rapporté à un repère orthonormé direct
+On pose f(z) = (z — i)(z + iz) ; tel que z ∈ С
+Soit M l'image de z dans le plan complexe
+Alors l'ensemble des points M(z) du plan pour lesquels f(z) = 0 est :
+□ A La réunion de droite(D₁)d'équation x = y et le point A d'affixe - i  □ B La réunion des droites (D₁)d'équation x = y et (D2): x - y - 1 = 0
+□ C La réunion de droite(D₁) d'équation x = y et le point B d'affixe 1  □ D La réunion de droite(D₁) d'équation x = y et le point C d'affixe 2i
+6 Soit n E N* et x ER; on pose : Zn = 1+elx + ezix +..+e(n-1)ix alors:
+((n+1) ((n+1)x sin ()
+sin
+x sin (x Zn = cos +i sin 2 sin 2
+Zn = sin ((n-1) x
+sin (
+Zn = cos 2 sin
+Zn= cos 2
+sin (
+((n-1) x
+sin ()
+sin (x)
+/(n - 1) x sin ()
++i cos
++i sin ((n-1)x)
+sin ()
+sin ()
+(n-1)x\
+2 sin
+sin
+(n-1) x) sin( i sin 2
+sinG
+7 Soit n E N et x ER; on pose : Zn = 1+eix + e2ix +...+ e(n-1)ix
+Et Xn = 1 + cos(x) + cos(2x) +...+ cos((n - 1)x), alors:
+(n-1) x
+sin
+АX = cos 2 sin
+□ B X= sin ((n-1)x\ sin ()
+2 sin
+((n+1) x sin (
+CX = cos 2 sin
+(n-1) x sin
+QDX = sin 2
+sin
+8 On pose : a = 1+ i√3 et b=1+i
+Alors 48++48 est égale à:
+□ A 1
+B2
+Ci
+□ D 2i
+9 Dans C, On pose a = √2 + √2 + i√2- √2 alors un argument de a est égale à:
+DAT
+□ B
+с
+ST
+□ D
+10 On considère le point M d'affixe le nombre complexe z tel que M différent des points A
+z'+1_ (2+12
+et B d'affixes respectifs 1 et-1et soit M'le point d'affixez' telque 2= ( 1
+Si M appartient au cercle (C) de diamétre [AB] alors
+□ A M'appartient au cercle (C) de diamétre [AB]  □ B Les points O; A; B et M' sont cocycliques
+□ C Les points A; B et M'sont alignés  □ D M'appartient à (A) le médiatrice du segment [AB]
+11 Le plan complexe est rapporté à un repère orthonormé direct (0, ū, v) et a €]0; [
+Soient z1 et zzles solutions de l'équation(E)d'inconnue z: z² - sin(2a)z + sin²(a) = 0
+La valeur de a pour laquelle les points O, M(z₁) etM'(z2) sont les sommet d'un triangle
+équilatéral est :
+DA 1T
+□ B
+□ C TT
+S
+ODL
+12 Si z = eix -e-ix avec x ∈ ]0; п[, alors |z| est égale à:
+DA 2
+□ B 2cos x  □ C 2 cos 2
+□ D 2 sin x
+13 Dans C, si arg(iz) =2 [2π] et \z| = √2 alors la partie imaginaire de z³ est:
+A0
+□ B 2√2
+C2
+□ D -√2
+14 Le plan complexe est rapporté à un repère orthonormé direct
+Soit z un nombre complexe et ,M et M' les points d'affixesrespectivement
+√3
+,z et z' tel que : z' = (1+ i√3)z + i, alors une mesure de l'angle (NM; NM') est:
+OA
+2π
+□ B
+□ C
+2π
+□ D
+π
+15 Dans C, si |z| − z = 3 − i√3 alors |z| est égale à:
+□ A
+
+□ B
+□ C D
+2√3 3√2
+16 Le plan complexe est rapporté à un repère orthonormé direct
+Soit E et F les points d'affixes respectivement -1, et 1
+L'ensemble des points M d'affixe z tel que
+z+1
+z-1 = 2024 est
+2023 2025 A Un cercle de diamètre [EF] tel que : ZE =
+=
+et ZF =
+2025 2023
+2024 2025 B Un cercle de diamètre [EF] tel que : ZE =
+2025 et ZF =i2024
+2023 2025 C Un cercle de diamètre [EF] tel que: ZE et ZF 2025 2023
+2023 2024 DUn cercle de diamètre [EF] tel que : ZE =
+et ZF =
+2024 2023
+17 Soient a; b ∈ Ctels que |a| = |b| = 1, alors :
+□ A
+a+b
+ER 1 + ab
+18 Soient a; b e C tels que a ≠ b; ab ≠ 1 et
+□ B
+a+b
+1+ ab EiR
+□ C D
+a+b
+= 1
+1+ ab
+a+b
+11+ ab
+= √2
+a-b
+= 1, alors : 1-ab
+□ A
+□ B C D
+|a| = \b|= 1 |a| = 1 ou |b| = 1 |a| = √2 on |b| = 1 |b] = √2 ou |a| = 1
+19 Le plan complexe est rapporté à un repère orthonormé direct
+Soient un réel Considérons A et B les points d'affixes respectivement 3 + cos 0+ i sin 0
+et 1- i - cos 0 - i sin 9 et G le barycentre des points (A; 2) et (B; -1) L'ensemble des points G lorsque varie dans R est
+□ A Un cercle de centre (5+ i) et de rayon 3  □ B Un cercle de centre (1 + 51) et de rayon 3
+□ C Un cercle de centreN(5 + i) et de rayon 4  □ D Un cercle de centre (1 + 5i) et de rayon 4
+20 Un argument de z = 2-√2-i√2 est
+□ A
+□ B
+π
+π
+□ C D
+π
+Mathématiques
+Solution detaillée
+On a 5-3i = -i(3 - 5i)
+2025
+Donc: (3+51) = )-1)2024 X (-1( = ))-(?(101z X )-1( = -i
+Alors la bonne réponse est B
+Correction
+On sait que : z3 = 1 z =1 ou z = j =-+1=e on z = j = j²= --2
+1+j+j= 0 Et j3 = 1; j3k = 1; j3k+1 = j j3k+2 = j = j²
+1+j+j²+ .. + j2023 = 1+j+ j² + ...+ j2023
+2024-1 2022+2– 1 j2-1 j-1
+j-1 j-1 j-1 j-1
+1 √3 3 √3 ーラーレー1 -2
+12. 3+i√3
+1 √3 3√3 3-i√3
+(3+ i√3)(3+ i√3)
+3+1-1-2+
+9+6√3i - 3 1 √3
+9+3 12 2+2
+j2-1
+Autre méthode 1-1 de calcul de
+j_1_(-1)(+1) -i car 1+j+j=0
+j-1 7-1=j+12+2
+Alors la bonne réponse est D
+1 √3
+iz-1
+= 1 ⇒ |iz − 1| = |z + i|
+z+i
+⇒ |iz + i²| = |2 -1|
+=⇒ |i||z + i| = |z − i|
+|z - ZA| = |z — Zg| ⇒ MA = MB
+Donc L'ensemble des points M est La médiatrice du segment [AB]
+Alors la bonne réponse est A
+a-b 2-3-13 -1-N3 1N5(-1+1 ) √3 On a: 13 3
+e-b 21N3-3-1N3 -3-1N3 3(-1+1-5)
+Donc le trinagle ABC est rectangle en B
+Donc B apparient au cercle de diamètre [AC]
+Done D le centre du cercle circonscrit au triangle ABC est le milieu du segment [AC]
+Donc d =
+_a+c
+= 1 + i√3 2
+Alors la bonne réponse est A
+On pose z = x + iy, (x, y) ∈ IR2
+f(z) = (z- i()z + iz( = (x – iy — i)(x - iy + ix - у)
+= ((x − iy - i)((x — y) + i(x − y)) = (x — iy — i)(x - y)(1+i)
+= (x - y)(x - iy – i + ix + y + 1) = (x − y)(x + y + 1 + i(x - у - 1))
+Donc: (x + y + 1 = 0
+f(z) = 0 x -y = 0 ou
+Sx = 0
+ou {x -y-1= 0 → x =y ou y = -1
+Donc l'ensemble des points M(z) tel que f(z) = 0,est la réunion de droite(D₁)
+d'équationx = y et le point A d'affixe -i
+Alors la bonne réponse est A
+Soit n E N* et x ∈ R; calculer la somme suivante :
+On a pour tout x €R ona : ek -1= 2i sin (e
+Zn = 1 + eix + ezix +...+ e(n-1)ix = 1 + elx + (eix)² +...+ (eix)n-1
+(eix)n -1 einx-1
+eix -1 eix -1
+=
+nx inx
+2i sin ()e2 2
+2i sin (e
+(n-1) x (n-1) x
+=
+co COS + i sin 2
+((n-1) x) sin
+= coS + i sin 2
+sin
+Alors la bonne réponse est C
+ix
+inx ix sin (
+(2
+= e 2 2
+in nx
+sin
+(n-1) x
+sin(
+sin
+sin
+= ei(n-1) 2
+x sin()
+sin
+Zn = 1+elx +e2lx + ...+ e(n-1)1x
+2n = 1 + cos(x) + isin(x) + cos(2x) + isin(2x) +... cos((n – 1) + isin((n – 1)х)
+= 1 + cos(x) + cos(2x) +. + cos ((n - 1)x) + i [sin(x) + sin(2x) + . + sin((n – 1)x)]
+= X + i Yn
+((n-1) x) sin () (n-1) x
+= COS -+ i sin
+sin
+sin (
+sin (
+(n-1) x sin ((
+Donc: Xn = cos 2 sin
+Alors la bonne réponse est A
+Ona:a = 1+ i√3= [2] et b=1+i= [√2;
+b
+2;2:3
+π
+V 448 48+)4048= (348 + ()48 [2; 0]1 √2; 0]1
+48 48
+4]
+T
+= [16:48BX+ [14:48× = [1; 16] + [1; 12] = [1; 0] + [1; 0] = 1 + 1 = 2
+Alors la bonne réponse est B
+*=(√2+√2+1√2-√3) -(√2+√2+1/2-√2) =
+= 2+ √2 + 2i√2 + √2x2- √Z-(2-√2)
+= 2 + √2+2i22-√2²-2+√2
+= 2√2 + 2i√2
+{a²l= |2√Z + 2i√2= (2√2)²+ (2√2)* = √+∞ 8 = √16 =4
+2√2 2√2 √2 √2
+a² = 2√2 + 2i√2 =4(+) = 4(+) 22 = 4(cos(+isin()
+π
+Ona: arg(a²)=[2n] et on a: |a²) =4
+Done: 2 arg(a) =[2n] =[2 et lal² = 4
+Donc: arg(a)=[2x] et lal = √4 = 2
+Alors la bonne réponse est A
+M appartient au cercle (C)⇒ (AM; BM) =[2]
+z+1п arg=[2]
+z+1 2arg() = n[2n] 2-1
+(z + 1\
+arg1 = n[2n]
+z'+1
+= n[2п] ; car
+z'+1 /z+1²
+z'-1 →arg1 z'-11
+→ (AM'; BM) = [27]
+⇒ les points A; B et M'sont alignés
+Alors la bonne réponse est C
+z² -sin(2a)z+sin²(a)= 0 → z²-2sin(a)cos(a)+sin²(a)cos²(a)= sin²(a)(1-cos²(a))
+→(z-sina cosa)² = sin* a=(isin² a)
+z-sina(cosa ± isina) = sinae+ia
+Prenons, z, = sinae*ia et z₂ = sinae+ia
+ = 3 ہے) 20= (e 3 20 == OMM, équilateral e
+a=
+3 6
+Z2
+Alors la bonne réponse est D
+Ona z = eix - e-ix = cos(x) – isin(x) - (cos(x) + isin(x)) = -2i sin(x)
+Et on ax E ]0; π[ alors sin(x) ≥ 0_d'où |z[ = 2 sin(x)
+Alors la bonne réponse est D
+arg(iz) =2 [2n] = arg(i) + arg(z) =[2π] 6
+π 71
++ arg(2) = - [2] 2 6
+7π π
+→ arg(z) =-[2[29
+4π
+⇒ arg(z) =[2r] 6
+2π
+⇒ arg(2) = [2] 3
+Et ona |z| = √Z donc z = √Ze donc z³ = (vZ e)
+Donc 23 =2√2el2 = 2√2e° =2√2
+Donc Im(z3) = 0
+Alors la bonne réponse est A
+14 √3 (1+ i√3)z +it τ'-ω
+- [2] (NM; M') = arg()12n] = arg(- √3
+= arg(-
+2+3
+√3 (EM+1) (長++(M+1)(+2)
+√3 -)[2π]
+2+3
+√3 31 + +√3
+= arg(1+ i√3+ √3
+2+
+1 √3 [27] = arg[2n] = arg(1 + i√3 + 0)[2n] = arg(2(+
+Alors la bonne réponse est B
+iSoit z = x + iy avec x;y∈R
+|z| − z = 3 -i√3 √x² + y² - x - iy = 3- i√3
+√x²+ y²-x = 3 {√x²+ √3² =3+xо
+(x² +3 = 3² + 6x + x²
+y = √3 y = √3
+y = √3
+(6x +9=3 (6x =-6(x = -1 =
+y =√3 y=√3 Ly= √3 z = −1 + i√3 = |2 = 2
+Alors la bonne réponse est B
+16 Astuce
+2-2A l'ensemble des points M d'afixe z tel que 224 = R est un cercle de diamètre
+[EF] tel que : ZE ZA+R ZB 2023 et ZF - ZA-RZB _ 2024
+=
+1+R 2025 1-R 2023
+Alors la bonne réponse est C
+On pose z = a+b ER, (x,y) ∈ IR2 1+ab
+a+b 11
+ab
+a+b
+ab a+b
+= = 2
+1 + ab 1 1 1 + ab DONC a+b ER 1+ ab 1+ab ab Alors la bonne réponse est A
+a-b 1-ab=1 |a − b| = |1 - āb| |a − bl² = |1 – āb|²
+→ lal² + lb|² – 2|ab| = 1 + |āb|² – 2|ābl
+lal²-1— [bl²(a² — 1) = 0 ↔ (la|2 – 1)(1 – lbl2) = 0
+→ (la[² = 1) ou (1 = |b[²) → la| = 1 ou |b| = 1
+Alors la bonne réponse est B
+On a G le barycentre des points (A; 2) et (B; -1)
+_2ZA-ZB Donc Za = = 5 + 3 cos 0 + i(1 + 3 sin 0) 2-1
+On pose z¢ = x + iy avec x; y E IR
+Donc x = 5+ 3 cos 0 et y = 1+3 sin 0
+Donc (x - 5)² + (y - 1)2 = 9(cos 0)2 + 9(sin 0)2 = 9
+Donc L'ensemble des points G lorsque varie dans R est
+un cercle de centre N(5 + i) et de rayon 3
+Alors la bonne réponse est A
+√2
+z = 2- √Z- iV2= 2[1-+
+=2(1-e) =2e(e --e
+=20(e-e) =-4i sin() e
+= 4 ez sin =4 sin() e
+П3п
+=4 sine
+교교
+(care8--e=-2i sin)
+; (car -i = e
+3π
+4 sin(Σ 0 donc 4 sin()esest la forme exponentielle de z
+Alors la bonne réponse est D
+Testez-vous pour le jour J QCM
+Consignes:
+L'épreuve dure 45 minutes
+Ce questionnaire comporte 20 QCM
+Chaque Question comporte une seule réponse juste 8
+L'utilisation de toute sorte de calculatrice est interdite
+2023 (z+1
+Dans C, l'ensemble des solutions de l'équation = 1 est:
+e-1(+2024) □A ; k = 1;2.....; 2022
+2 sin(2023
+12024)
+□ B k = 1; 2 ......; 2022
+2 cos(5 S(2023
+k
+ロー(+2024)
+с k = 1; 2......; 202222
+2 tan(2023
+k
+e(2+2023
+□ D k = 1; 2......; 2022
+2 sin(2023)
+2 Le plan complexe est rapporté à un repère orthonormé direct
+L'ensemble des points M(z) ; z є C* du plan pour lesquels Re(z) = et z²+ R est: ε
+□ A un singleton  □ B Un ensemble de deux points points
+□ C Un ensemble de trois points  □ D Une droite
+22-1
+3 Dans C, l'ensemble des solutions de l'équation = z est:
+z+1
+□ A{-1
+□ B {1+i√3;1- i√3}  □ C (1+i√3 1-i√3
+2 2
+□ D {i√3;-i√3}
+4 On considère le nombre complexe suivant z =
+Le module de z est
+□ A COS
+Bsin
+□ C COS  □ D sin
+1+itan
+5 Dans C, si arg(iz) =2[2n] et |z| = √Ž alors la partie imaginaire de z³ est:
+O□ A 0
+в 2√2
+□ C √2  □ D -√2
+Le plan complexe est rapporté à un repère orthonormé direct
+L'ensemble des points M d'affixe z tels que |Z – 3 + i| = |z − 5| est:
+□ A Le cercle de centre A(-3) et de rayon1  □ B Le cercle de centre A(-i) et de rayon 1
+CLa droite d'équation 6x – 2y -15 = 0
+□ D La droite d'équation 6x - 8y +15 = 0
+7 Soit Z un nombre complexe tel que : Z =
+Un argument de Z est égale à:
+(1 + i)21 (1+ i√3)19
+(1- i)9
+0 A
+π
+117 0 B
+π
+ C6
+2元
+ D
+8 Soit z un nombre complexe de module 1 .Le nombre |√2 + z[² + |V2 - z² est égale à
+□ A
+2√2
+□ B
+2√2
+□ C
+□ D 4
+9 On pose j =-+i. Alors j2023 est égale à:
+Aj
+□ B -j  □ C -i
+Di
+10 Dans C, l'ensemble des solutions de l'équation 3iz - 7 = 8i est :
+□ A {3-2i}  □ B {3+ i}
+□ C {3-i}  □ D {i√3;-i√3}
+11 Le plan complexe est rapporté à un repère orthonormé direct
+L'ensemble des points M d'affixe z tels que liz - 3| = 1 est:
+□ A le cercle de centre A(-3) et de rayon1  □ B le cercle de centre A(-3i) et de rayon 1
+□ C la droite d'équation 6x + 8y + 15 = 0  □ D La droite d'équation 6x - 8y + 15 = 0
+Le plan complexe est rapporté à un repère orthonormé direct
+Soient les points A(a); B(b) et C(c) tel que: a =2; b = −1+i et c = 3+3i
+La nature du trinagle ABC est
+□ A le triagne ABC est équilatéral  □ B le triagne ABC réctangle en A
+Cle triagne ABC est isocèle et réctangle en A
+□ D le triagne ABC est isocèle et réctangle en B
+13 Le plan complexe est rapporté à un repère orthonormé direct
+Soient les points A(a); B(b) et C(c) tel que: a=2; b=-1+i et c= 3+3i
+La nature du trinagle ABC est
+□ A z = i
+Bz= 1
+Cz E iIR
+OD ZE IR
+14 Le plan complexe est rapporté à un repère orthonormé direct
+On considère le point M d'affixe le nombre complexe z
+et M' le point d'affixe z'=(z +
+Les valeurs du nombre complexe z pour que les points M et M' soient confondues est:
+□A {i; -i}
+□ B {1; i}
+□ C{i√3;-i√3}
+□ D {-1; 1}
+15 On considère le nombre complexe suivant : z =1+e.
+Un argumet de z est:
+□
+□ A
+π
+□ B
+π
+□ C
+TT
+□ D
+1-2 16 L'ensemble des points M d'affixe z tels queEiR z+1 est
+□ A Le cercle (C) de centre O et de rayon 2 privé du point A d'affixe - 1  □ B Le cercle (C) de centre O et de rayon 3 privé du point A d'affixe -1
+CLe cercle (C) de centre O et de rayon 1 privé du point A d'affixe -1
+Dla droite (D) le médiatrice du segment [AB].
+17 Soit le nombre complexe suivant z = 2 - √2- i√2.
+Un argumet de z est:
+□ A 3
+B3
+TT
+ос 8
+□ D
+18 La nature de la transformation f qui associe chaque point M(z) par son image M'(z') tel
+que f(z) = z' = iz + 2 - i est:
+□ A L'homothétie de rapport 4 est de centre d'affixe i
++i2 let et d'angle B La rotation de centre ( d'affixe 3
+2 2
+□ C La rotation de centre Ω d'affixe 13 i et d'angle -
+2 2 2
+3 1 D La rotation de centre d'affixe π
+2 2
+-iet d'angle 2
+19 T1
+cos est égale à: 16
+□ A 1
+2V 2+√2-√2
+□ B
+2-√2+ √2
+16 2+12 + V2
+D2+√2+√2 2
+La forme algébrique du nombre (+
+□ A + 2
+√3
+□ C √3
+√3 1
+√32023
+est:
+Mathématiques
+Solution detaillée
+Rappel:
+L'équation Z2023 = 1; z € C; possède exactement n racines sont :
+2k
+Wk= CoS 2023 + isin 2kπ
+2023
+2km
+e 2023, avec k ∈ {0; 1; 2 ... ...; 2022}
+On pose Z
+=
+=
+ 2+1 donc Z = 1 + donc z =avec Z ≠ 1 donc k ≠ 0
+2-1
+Soit k € {1; 2 ......; 2022}
+On sait que ei6 - 1 = 2i sin
+Correction
+Z
+=
+e
+1 1 1
+Z-1 2 kn
+e 2023 -1
+2i sin
+2kπ
+2023
+2kπ
+kn
+e
+2023
+2i sin 2023) e
+kn
+e2023
+1 e
+kn
+2e sin e
+kt
+2023 2023
+Alors la bonne réponse est D
+On pose u =+2 iy
+1 +
+z2 +==
+G+iy )² +I
++
+-i(+2
+kt
+2023
+TT
+2 sin(2023
+= iy + - y²
+Donc Im(z² +)= 0 donc y-1
+У
++y2
++
+ラー7
+iy
++ y
+= 0 donc у(1
+E R
+= 0
+4+y2
+Donc y = 0 on + y² = 1 donc y = 0 ou y² =4 doncy = 0 ouy = Tou y = 4 2
+√3 √3
+Alors la bonne réponse est C
+2z-1
+= z ⇒ 2z – 1 = z² + z
+z+1
+z²-z +1 = 0
+1+i√3
+ON= ou z =
+1-i√3
+Alors la bonne réponse est C
+2 =
+1 + i tan
+=
+cos
+TT
+COS 
+TT (8)+i sin
+=
+一
+cose
+sin TL
+1+i
+COS 8
+π
+COS 8
+8 е в
+=
+COS 8
++ i sin 8
+TT
+COS
+Et comme cos 2>8 0 donc le module de z est cos (
+Alors la bonne réponse est A
+arg(iz) =2 [2n] → arg(i) + arg(z) =2 [2t]
+π 7π
+⇒
+2+ arg(z) =[211]
+7π π
+⇒ arg(z) =-[2] 62
+4π
+⇒ arg(z) =[2r] 6
+2π
+⇒ arg(2) = [2]
+Et on a |z| = √2 donc z = √2 e
+Donc 23 = (ve)
+Donc z3 =2√2 ei2t = 2√2 e° =2√2
+Donc Im(z3) = 0
+Alors la bonne réponse est A
+6Z-3+ i| = |z − 5| → |z – (3 + i)| = |z −51
+Soit encore |z - (3 + i)[² = [z -512
+On pose z = x + iy, alors l'équation s'écrit :
+[x + iy - (3 + i)]² = [x + iy - 5]² → |x - 3 + i(y - 1)[² = |x − 5 + iy²
+→ (x -3)2 + (y − 1)² = (x - 5)² + y²
+x²-6x +9 + y² - 2y + 1 = x² - 10x + 25 + y²
+10x - 6x + 9 - 2y +1 - 25 =0 4x- 2y - 15 = 0
+Alors la bonne réponse est C
+arg(Z) = 21 arg(1+ i) + 19arg(1+1√3) – 9 arg(1-()[2t]
+1T IT 21+19-9(-) [21] 4
+16n+5n 18n+ 8n+n +
+[2t] +
+4 3
+5π π π
+434
+22π
+Ξ [2n] 12
+11 =[2n] 6
+Alors la bonne réponse est B
+On a z est un nombre complexe tel que |z] = 1
+[√2+ zl²+ V2- z² = (√Z+z)(√2 + z) + (√2- )(√2- 2)
+= (√Z + z)(√2 + z) + (√Z-z)(√2-z)
+= 2 + √2z+ √2z + zz + 2-√2z- √2Z+ zz
+= 4 + 2zž = 6 (Car zž = |z|² = 1)
+Alors la bonne réponse est C
+j2023 =j2022+1
+= (j3)337 j
+= (1)337 xj= j car j³ = 1
+Alors la bonne réponse est A
+1ère méthode
+10 On rempl□e les solutions données on trouve que 3 - i est solution
+z un élément de C, on pose z = x + iy, (x, y) ∈ IR2
+3iz – z = 8i → 3i(x + iy) - x + iy = 8i
+3ix - 3y – x + iy — 8i = 0
+→-3y - x + (3x + y -8)i = 0
+→ -3y - x = 0 et (3x +y − 8) = 0
+→ x = -3y et 3 x -3y +y-8= 0
+→ x = -3y et (-8y - 8) = 0
+→ x = -3y et y = −1
+x = 3 et y = -1
+z=3- і
+2ème méthode :
+Donc S = {3 - i} Alors la bonne réponse est C
+|iz - 3| = [i(z + 3i)] = |i| x |z + 3i
+= |z - (-3£)|
+Donc|iz - 3| = 1 → |z – (−3i)| = 1
+Soit A le point d'affixe -3і
+alors |iz – 3| = 1 s'écrit AM = 1.
+En effet: z-(-3i) = AM.
+L'ensemble des points M est le cercle de centre A(-3i) et de rayon 1
+Alors la bonne réponse est B
+On remarque que le sommet A est répété dans trois réponse donc :
+b-a -1 +i-2 -3+i
+c-a 3+3i -2 1+3i (1+3i)(-3- i)
+(-3)2 +12
+-3 - i - 9i +3+ 3i
+=
+-101
+10 --[1-
+⇒ le triagne ABC est isocèle et réctangle en A
+Alors la bonne réponse est C
+|1 + uz| = |1 + üz| ⇒ |1 + uz|² = |1 + ūz[²
+⇒ (1+ uz)(1 + uz) = (1 + ūz)(1+ ūz)
+⇒ (1 + uz)(1 + ū z) = (1 + ūz)(1 + u z)
+⇒1+ū Z + uz + uūzZ = 1+uZ+üz + u ū zZ
+ūz+ uz = u z + ūz
+⇒ (u - u(z + (n − n( Z = 0
+⇒ (u- ū()z - z( = 0
+Eton a u& IR donc u ≠ ū, d'où, u-ū0
+Donc z- Z = 0
+Donc z = Z
+Alors la bonne réponse est D
+On peut rempl□er les choix on trouve D
+1 ere méthode
+2eme méthode:
+1 1 1
+M=M'©z=z'©2= (2+ ) + )z = ²=1 z =1 ouz=-1
+Alors la bonne réponse est D
+2 = 1 + е в
+201 11-0) + ((20) = 1-2) + (2)
+ππ TT
+= 2cos-e 16 ; car e'16 + e 16 = 2co5 16 16
+2cos Σ 0 donc 2cos e est la forme exponentielle de z 16 16
+Alors la bonne réponse est A
+On pose z = x+ iy, (x, y) ∈ IR2 tel que z ≠-1
+z-i x+iy-i x + i(y – 1)
+z+1 x+ iy +1 x + i(y + 1)
+[x + i(y - 1)][x - i(y + 1)]
+=
+=
+Donc:
+x² + (y + 1)2
+x² - ix(y + 1) + ix(y - 1) + (y – 1)(y +1)
+x² + (y + 1)2
+x²- ix(y + 1)(1 — y) + (y – 1)(y +1)
+x² + (y + 1)2
+_x²+ y²-1+ ix(y² - 1)
+x² + (y + 1)2
+x² + y² - 1
+x² + (y + 1)2
+x (y2 - 1)
++ x² + (y + 1)2
+eilRx2²+y2- 1 = 0 et z -1 z+1
+x² +y² = 1 et z ≠ -1
+Donc l'ensemble des points M(z) c'est le cercle (C) de centre O et de rayon 1 privé du
+point A d'affixe -1
+Alors la bonne réponse est C
+√2 √2
+z = 2 − √2 − i√2=2 1-(+一
+=2(1) = 20(量一) =20(一)
+=-4i sine; ( care -=-21 sin)
+=4e sin() = 4 sine
+3п
+= 4 sin(
+sin() Σ 0 doncest un argument de z
+Alors la bonne réponse est B
+18 Astuce
+f une transformation tel que z' = az + b
+➤ Si a = 1 alors fest la translation de vecteur u(b)
+Si a ≠ 1 alors f est l'homothétie de rapport a et de centre
+b
+Si a ≠ 1 et |a| = 1 alors la transformation f est la rotation de centre d'affixe
+b
+ω= est d'angle 0 = arg(a) 1-a
+z'= -iz + 2-i,
+b2-i w=
+1-a 1+i
+Ona a= -i ≠ 1 et |a| = |−i| = 1
+Donc f est la rotation de centre N d'affixe
+et d'angle = arg(a) = arg(-i)=-[2]
+Alors la bonne réponse est C
+(2-i)(1-i)
+2-21-1-11
+=
+2 22
+1+cos
+π 8
+On a: να ε 0. cos(α) =
+donc
+2 2
+1+cos A
+1+cos
+CoS
+16 2
+1+1 2
+2+√2 1+ 4
+=1
+2+√2+√2 1 √2+√2+√2 4 2
+Alors la bonne réponse est D
+2023 3x674+1 √3 1 √3
+= e (674π)e3 =1xe3 = +
+2 2 2
+Alors la bonne réponse est A
+Mathématiques
+Arithmétique -Matrices
+Chapitre
+Arithmétique
+1- Divisibilité dans Z
+Soit a; b et c des entiers relatifs non nuls.
+a/b ⇒ b = ka ; k EZ
+Si a divise b et b divise c alors a divise c.
+Si c divise a et b alors c divise ma + nb où m et n sont deux entiers relatifs.
+2- Nombre premier
+Un entier naturel est premier s'il possède exactement deux diviseurs positifs
+distincts : 1 et lui-même.
+Tout entier naturel n strictement supérieur à 1 se décompose en produit de f□teurs
+premiers.
+η = p₁1 x p₂α2 x ... x p, ar avec p, P2, ..., p- nombres premiers distincts et α1, αz, .., α,
+entiers naturels non nuls.
+➤ Le nombre des diviseurs positifs de n est : (a₁ + 1) x (α₂ + 1) ... Χ (αr + 1)
+3- Division euclidienne
+Soit a un entier naturel et b entier naturel non nul.
+Il existe un unique couple d'entiers (q ; r) tel que a = bq + r avec 0 ≤r<b.
+*q est appelé le quotient de la division euclidienne de a par b,
+*r est appelé le reste.
+4- Congruence -Fermat
+Deux entiers a et b sont congrus modulo n lorsque a – b est divisible par n
+On note a = b[n].
+a = a[n] pour tout entier relatif a.
+Si a = b[n] et b = c[n] alors a = c[n]
+Si a = b[n] et a' = b'[n] alors on a :
+a+a'= b+b'[n] ; a -a' = b - b'[n]
+a xa'= bxb'[n] ; aP = bP[n] avec p ∈ N.
+Fermat :
+a ^b = 1 et p premier → ap-1 = 1 [p]
+4- PGCD - Gauss- Bézout:
+Si b divise a alors PGCD(a; b) = b
+PGCD(ka ; kb) = k xPGCD(a; b)
+d =a^b ssi (a; B) ∈ Z2 tels que
+( a = ad
+b=Bd
+ал в = 1
+Si аль = 1 et aлс = 1 alors a Abc = 1
+V(n; m) E №2: аль = 1 → a" ^ b = 1
+Gauss:
+аль = 1 et a/bc alors a/c
+➤ Si a /cet b/c et si a ^ b = 1 alors ab/с
+- Bézout:
+аль = 1 (u;v E Z) au + bv = 1
+L'équation (E): ax + by = c posède des solutions (x ; y) ∈ Z2 ssi алb/c
+II Matrices
+1- Dans M2(R),
+0 =() et 1 = )(
++B=( a1 a2 b2
+221 a b21 b22 A+B=
+AXB=
+(ka
+kb
+kc
+kd
+)-( a+b1 22+012
+(axx+cxy221+b21 axz+cxt\ 222+b2 5
+t) = (bxx+d xy bxz+dxt)
+□ A=( det(A) = ad - cсb
+det(A) = a ≠ 0 = A=() a-b
+□ A™¹,A = A.A™} = 1 = ) 0( -(1
+o
+(1 1
+M = 1 1)= M" = (n2n 2) = 2".M
+1 1
+м = ()M" = ( ") ; neN (1
+0 1
+M = ()→ M" = ( ) = M ;neN (10
+00
+(1 1
+M = ()→ M" = ( ) = M; nEN (1
+M= (a 0
+=M"= (n) = M
+2- Dans M3(R),
+/0 0 0) 1  0
+0=  0 0 et / =  1
+0
+0 1
+ 0
+( 9
+
+105 463 298 10+0+15 40+39+6 10+45+24
+6+0+5 24+24+3 12+36+8
+9+0+35 36+0+21 18+0+56
+/1 1
+→ M" = 3n-1M ; nEN
+M = 1
+1 1 1
+a a
+a
+M =
+a a a → M" = a".3n-1M; n∈N*
+a a a
+a 0 O an 0 0
+M = 0 b 0
+M" =
+10 
+
+
+bn 
+ cn
+n(n+1)\
+a a a 1 n
+M =
+0 0 a
+0 0
+(0aa ⇒ M" = an
+➤ det(A) = 0 A-¹ n'existe pas
+Σ A ≠ O;B ≠ 0 et Ax B = 0 = M" = 0 ⇒ A-¹ n'existe pas; B-1 n'existe pas
+n
+Testez-vous pour le jour ]
+Consignes:
+- L'épreuve dure 45 minutes
+- Ce questionnaire comporte 20 QCM
+- Chaque Question comporte une seule réponse juste
+- L'utilisation de toute sorte de calculatrice est interdite
+Pour tout n ∈ N*, on pose an = 2 n² + 5n + 4 = 2n +1
+
+et dn = an bn
+On a dn est égale à:
+□ A 1  □ B 2
+3C□
+□ D 4
+1 1 1
+2 On pose M 1 1 1 alors M2024 est égale à:
+1 1 1
+32024 32024 32024 A 32024 32024 32024
+32024 32024 32024
+32023 32024 32024
+32024 32023 32023 B□
+32024 32024 32023
+22024 32023 32023
+32023 C 32024 32023
+32023 32023 32024/
+32023 32023 32023
+32023 32023 32023 D□
+32023 32023 32023
+3 S□hant que 11 × 11 = 121, le produit 111111111× 111111111 est égale à
+□ A 1234567654321  □ B 123456787654321
+□ C 12345678987654321  □ D 1234568654321
+1 0 ΟΥ
+On pose M =  2 0 alors M2023 est égale à:
+Ο 0 3/
+□ A
+0
+0
+22024
+ 1 0 
+0 C 22023
+0 32024 0 32023
+1 0 0
+□ B  22022 0 D
+22023
+22023 32023
+22023 22023
+Ο  32022 1 22023 32023
+5 Le nombre de diviseur positifs du nombre N = 546 × 840 est :
+□ A 180  □ B 181
+□ C 182  □ D 183 /1 1 1
+6 On pose M = 0 1 alors M100 est égale à:
+0
+1 100
+DA 0 1
+0 1
+1 100 5050
+□ B  1 100
+0 0 1
+100 100 5050
+□ C  100 100
+0  100
+/1 100 5050
+□ D
+0
+0
+1 1
+0 1
+7 Les entiers relatifs n, tels que 2n + 5 divise n - 1
+□ A {5;-3; -2; 1}.
+1}. 2-; 3-; (6-; B□
+1}. 2-; 7; {6-; C□
+□ D {-6; -3; 11; 1}. 1
+SoitA = ( 3) on pose =I+ A + A +-+ * oun€N
+1 1
+Alors M est égale à:
+□ A + 3A
+BI+-1A
+22-1 CI+A2
+3-1 ()A
+9 Les entiers x tels que 6 + x = 5[3] sont :
+□ A Les entiers de la forme 1 + 3k avec k E Z.  □ B Les entiers de la forme 2 + 3k avec k E Z.
+□ C Les entiers de la forme 3+ 5k avec k E Z.  □ D Les entiers de la forme 2 + 5k avec k ∈ Z.
+/0 1 3\
+10 Soit la matrice A = 002
+000 Alors:
+AA3= 0 et A est inversible
+B1-A est inversible et (I - A)~1 = I + A2
+CI+A est inversible et (I + A)-1 = I − A + A²
+OD I+A est inversible et (I + A)-¹ = I – А
+11 Les entiers x tels que 3x = 5[4] sont:
+□ A Les entiers de la forme 1 + 3k avec k E Z.  □ B Les entiers de la forme 2 + 3k avec k E Z.
+□ C Les entiers de la forme 3 + 4k avec k E Z.  □ D Les entiers de la forme 2 + 5k avec k ∈ Z.
+12 Soitla matrice B =(
+Alors:
+0 1 1
+AB2- □ B — 21 = 0, et B n'est pas inversible  □ B Best inversible et B-1 = B - 1
+□ C B est inversible et B-1=B-1 2  □ D Best inversible et B-1 =2B -1
+13 Le reste de la division de 2456 par 5 est :
+□ A 1  □ B 2
+C3
+D4
+14 Le reste de la division de 92014 par 11 est:
+□ A 1
+B3
+C5
+□ D 7
+15 Le reste de la division de de 2437 par 7 est:
+□ A 1  □ B 2
+□ C 3
+D4
+16 Le chiffre d'unité de 222024 est :
+□ A 4
+B6
+C8
+9 D□
+17 Le PGCD de 252 et 360.est :
+□ A 2
+B4
+□ C 12  □ D 36
+18 Soient a et b deux entiers naturels non nuls tel que b est impair
+On pose d = (2b – 1) л (2d + 1), alors d est égale à:
+A1
+B2
+C3
+□ D 5
+19 Les solutions dans Z de système
+Ax= 10k - 2 ; kEZ
+Bx= 60k – 2; kEZ
+Cx=20k-2; kEZ.
+Dx= 40k -2; kEZ
+(x = 3[5] est: (x = 2[4]
+20 Les solutions de l'équation 3x = 2[19] dans Z sont
+□ A Les entiers de la forme 7 + 38k, avec kEZ.  □ B Les entiers de la forme 14 + 19k, avec k E Z
+□ C Les entiers de la forme 7 + 38k, avec k E Z.  □ D Les entiers de la forme 7 + 19k, avec k ∈ Z.
+Mathématiques
+Solution détaillée
+Correction
+2 n² +5n + 4 2n +1
+-2 n²-n n+2
+4n +4
+-4n-2
+Donc 2 n² + 5n + 4 = (2n + 1)(n+2) +2
+Donc dn = a₁ ^ b» = b ^ 2 = (2n +1) ^ 2 = 1
+Alors la bonne réponse est A
+Astuce
+1 1 1
+M = 1 1 1-Mn = 3n-1M ; n ∈ N*
+1 1 1
+/1 1 1 32023 32023 32023
+M2024 =32023 ☑ 1 1 1
+=
+1 1 1
+32023
+32023
+32023
+32023
+32023
+32023
+Alors la bonne réponse est D
+On a : (11)2 = 121 1 ère méthode
+1 1 1
+1 1 1
+1 1 1
+1 1 1
+1 1 1
+1 23 2 1
+Donc (111)2 = 12321
+Le résultat est symétrique dont le centre est le nombre des chiffres en dessous du carré
+On a 111111111 × 111111111 Σ 100000000 × 100000000
+Ona: (100000000)2 = (108)2 = 1016
+2ème méthode:
+On a 1016 est un entier de 17 chiffre et comme les entiers proposés contiennent mois
+de 17 chiffre sauf la réponse C
+Ona 111111111 = 0[3] donc (111111111)2 = 0[3]
+1234567654321 = 1[3] et 123456787654321 = 1[3]
+12345678987654321 = 0[3] et 1234568654321 = 2[3];
+Alors la bonne réponse est D
+3ème méthode
+Astuce
+a 0 O an 0 0
+M = 0 bn 
+1ο 0 0  cn
+/1 2023  0
+M2023 0 22023 0
+0 0 32023
+Alors la bonne réponse est C
+La décomposition en f□teurs premiers de N est N = 24 x 3² x 51 x 72 x 131
+Lombre de diviseurs de N est:
+(4+1) x (2 +1) x (1 + 1) × (2+1) × (1 +1) = 5×9 x 4 = 180
+Alors la bonne réponse est A
+6 Astuce
+n(n+1) a a a
+M=0 a a M" = an
+00a
+0
+0 0 1
+100(100+1) /1 1 1 1 100 /1 100 5050
+M = 0 1 1
+⇒ M100 = 1100
+0 1
+=
+0 1
+0  1
+0 
+0 1
+Alors la bonne réponse est B
+Si n =-6:
+2n +5 = −7 et n – 1 = −7. Or, -7/-7,donc -6 est bien solution
+Si n = -3:
+2n +5 = −1 et n - 1 = -4. Or, -1/-4,donc -3 est bien solution
+Si n = -2:
+2n +5 = 1 et n – 1 = -3. Or, 1/-3, donc -2 est bien solution.
+Sin = 1:
+2n +5 = 7 et n -1 = 0. Or, 7/0, donc -1 est bien solution.
+Les solutions sont-6, -3, -2 et 1.
+Alors la bonne réponse est B
+On a A2 = 3A donc A3 = 3A2 donc A3 = 3 x 3A donc A3 = 3². A
+Montrons par récurrence que A" = 3"-1.A
+M = I + A + A² +.. + An
+= I+A+ 3A + 32. A + 33.A +... + 3n-1. А
+= 1 + (1 +3+3² + 33 +...+3n-1)A
+3-1 3"-1 =1+ ()A 3-1 = 1 + (A2
+Alors la bonne réponse est D
+6 + x = 5[3] donc 6+x-6 = 5-6[3]
+x = -1[3] donc x = 2[3]
+Les entiers x solutions sont tous les entiers de la forme 2 + 3k avec kEZ.
+Alors la bonne réponse est B
+/0 1 3
+Soit la matrice A = 0 0 2
+00 Ο
+1 3 10 1 3 /0  2
+A2 = A x A = 
+0 2 x 0 0 2
+= 0 0 0
+0 0 0  0/ 0  0
+1 3 /0 0 2 /0  ο
+Donc A3 = A x A2 = 0
+0/
+On A3 = 0 donc A × A² = 0 Donc A-1 x A x A² = A-1 × 0
+0 2×00 0
+= 0 
+00 00 0 0 
+Donc A2 = 0 qui est absurde Donc que A n'est pas inversible
+=
+0
+On a A³ = 0 donc I - A3 = 1
+Donc 1 = 1 - A3 = (I — A) × (I + A + A²) = (I + A + A²) × (I - А)
+Donc I - A est inversible est (I — A)-1 = I + A + A2
+On a A3 = 0 doncI + A3 = 1
+Donc I = 1 + A3 = (I + A) × (I − A + A²) = (I − A + A²) x (I + А)
+Donc 1 + A est inversible est (I + A)-1 = I -A+A2
+3x = 5[4] donc 3x = 1[4]
+Donc x est congru à l'un des entiers 0, 1, 2 ou 3 modulo 4.
+Par disjonction des cas, on a :
+x modulo 4  1 2 3
+3x modulo 4 0 3 2 1
+Donc 3 x 3 = 1 [4]. On en déduit que x = 3[4].
+Les entiers x solutions sont tous les entiers de la forme 3+ 4k
+Alors la bonne réponse est C
+/1 1 1 /1  Ο
+On a 1
+1-
+1 1  = B
+o  1
+/1 1 1
+O pоse 1 1 1
+1 1 1
+Donc A =I+B
+Et on a A2 = 3A donc (I + B)² = 3(I+B)
+Donc 1 + 2B + B² = 31 + 3B donc B² - □ B — 21 = 0
+Donc B× (B — I) = 2I = (B -I) ×A
+Donc B(B-1) =1 = (B-1) ×A
+Donc Best inversible et B-1 = -
+Alors la bonne réponse est C
+13 Toute puissance de 1 est égale à 1. On cherche donc à faire apparaitre une puissance de
+2 qui est égale à 1 modulo 5.
+On choisit alors de décomposer 456 à l'aide du f□teur 4 car 24 = 16 = 1[5].
+2456 = 24×114[5]
+= (24)114[5]
+On applique la formule de congruence des puissances: (24)114 = 1114[5] donc 2456 =
+1114 [5]
+= 1[5]
+Le reste est égal à 1.
+Alors la bonne réponse est A
+14 99[11] et 92 = 4[11] et 93 = 3[11] et 94 = 5[11] et 95 = 1[11]
+On a 2014 = 5 x 402 +4
+92014 = 95×402 x94[11]
+= 1402 × 94[11] = 94[11]
+= 5[11] Alors la bonne réponse est C
+15 On cherche une puissance de 2 qui est égale à 1 modulo 7
+On choisit alors de décomposer 437 à l'aide du f□teur 3 car 23 = 8 = 1[7].
+2437 = 23×145+2[7]
+Donc 2437 = (23)145 x 22 [7]
+= 4[7]
+= 1145 × 4[7]
+Le reste est égal à 4.
+Alors la bonne réponse est D
+16 On a 22² = 6 et 22 = 256
+Remarque
+Le chiffre d'unité d'un entier naturel n est le reste de la division euclidienne de n par 10
+17 On applique l'algorithme d'Euclide :
+360 = 252 x 1 + 108
+252 = 108 x 2 + 36
+108 = 36x3+0
+Le dernier reste non nul est 36 donc PGCD(252; 360) = 36.
+En effet, d'après la propriété précédente :
+PGCD(252; 360) = PGCD(252; 108) = PGCD(108; 36) = PGCD(36; 0) = 36
+Alors la bonne réponse est D
+18 On a b est impair donc 2b - 1 est impair donc d est différent de 2
+On a d = (2b — 1) л (24 + 1) donc d/(2b -1) et d/(2a + 1)
+Donc 2b = 1[d] et 2a = -1[d]
+Donc 2ab = 1[d] et 2ba = -1[d]
+Donc 1= -1[d]
+□ D'où d/2
+Donc d=1 ou d=2
+Donc d=1 car d est différent de 2
+Alors la bonne réponse est A
+(x = 3[5] (x = 5q' + 3; q∈ Z
+(x = 2[4] x = 4q + 2; q'∈ Z
+(4q+2 = 5q'+3
+x=4q+2 ;q;q €Z
+Résoudrons l'équation (E) : 4x – 5y = 1
+Ona: 4 x(−1) — 5 х (−1) = 1
+Donc (-1; -1) est solution de (E)
+{4q -5q' = 1
+x = 4q+2 9;q'∈Z (*)
+Soit (x; y) dans Z2 solution de (E) : 4x — 5y = 1
+Ona (x; y) = (5k – 1 ; 4k – 1) ; kEZ
+(q = 5k- 1 et q' = 4k -1; kEZ
+x = 4q +2
+Donc x = 4(5k – 1)+ 2 ; ; kEZ
+Donc x = 20k – 2; kEZ
+Alors la bonne réponse est C
+On teste les solutions données on trouve la réponse D
+2ème méthode:
+1 ère méthode :
+Pour << se débarrasser » du f□teur 3, on va multiplier les deux membres par un inverse
+de 13:
+Donc: 13 × 3x = 13 × 2[19],
+Donc 39x = 26[19] donc 1x = 7[19] car 39 = 1[19] et 26 = 7[19]
+Donc x = 7[19]
+Réciproquement:
+Si x = 7[19] alors 3 × x = 21[19]
+3x = 2[19]
+On en déduit que x = 7[19].
+Les entiers x solutions sont tous les entiers de la forme 7 + 19k, avec k E Z.
+Alors la bonne réponse est D
+Mathématiques
+Géométrie dans l'esp□e -
+Probabilités
+Géométrie dans l'esp□e
+Soit (O, i,j, k) un repère orthonormé directe de l'esp□e
+1- Vecteurs coplanaires
+Ü(x;y; z) ; V(x'; y'; z') et W(x"; y"; z")
+Chapitre
+Les vecteurs U; V et W sont coplanaires ssi 3(a;ẞ) ∈ IR² : W = aU + □ BĪ
+Les vecteurs U; V et W sont coplanaires ssi det(Ü ; V; W) = 0
+y
+det(u;v w)=yy y = x1
+z zt
+2- Condition de colinéarité de deux vecteurs
+Soient U(x; y;z) et V(x'; y'; z')deux vecteurs
+U et V sont colinéaires si ; Зa є IR: U = aV
+U et V sont colinéaires si Ax= Ay= A₂= 0
+□ A=;A= et A = y И
+3- Formule trigonométrique du produit scalaire
+Soient U et Vdeux vecteurs non nuls dans l'esp□e donc: Ữ = AB et V = AC
+U.V = AB . AC = AB × AC × сcos (AB; AC)
+U.V = ||U||× |V| x cos(U;V)
+4- Formule analytique du scalaire
+Soient U(x; y; z) et V(x'; y'; z') on a:
+□ D.V-() ()= x'+'+2
+UIV→Ü.V = 0
+5- Norme d'un vecteur et distance entre deux points A(xA;YA;ZA) et B(Хв; Ув; Zв)
+||U||\ = √x² + y² +z2
+AB(xB - хAУв— УліZв— Z) et AB = √(xB -xA)² + (Ув — Уд)² + (2g-ZA)2
+Coordonnées de I le milieu de [AB] est; I
+XA+XB УА+УB ZA+ZB
+2 2 2
+>
+6- Drolte dans l'esp□e
+Soit (D) la droite passant par A(χλ; γл; zд) et de vecteur directeur U(a; b; c)
+Une représentation paramétrique de(D)
+(D):
+)x = x^ + at 8y = ул + bt
+(z = z + ct
+7- Plan dans l'esp□e - Vecteur normal
+; (tE IR)
+Tout plan à une équation cartésienne de la forme : (P) : ax + by + cz + d = 0
+Le Vecteur n(a; b; c) est un vecteur normal au plan (P) : ax + by + cz + d = 0
+□ A un point et n un vecteur de l'esp□e
+L'ensemble des points M(x; y; z)de l'esp□e tel que AM. n = 0 est un plan (P) passant
+par A et de vecteur normale n
+8- Distance d'un point à un plan
+Soient (P): ax + by + cz + d = Oun plan et A(xA; Ya; ZA) un point de l'esp□e
+|axA + byA + cZA + d
+d(A; (P)) Va² + b² + 2
+II Sphère dans l'esp□e
+1- Définitions
+Soit (S) la sphère de centre N(a; b; c) et de rayon r l'équation cartésienne de (S) est :
+(x - a)2 + (y - b)2 + (z -c)2 = r2
+L'équation cartésienne de la sphère (S) définie par son diamètre [AB] est donné par :
+M(x; y; z) eє (S) → AM.BM = 0
+2- Proposition: l'ensemble des points M
+L'ensemble des points M(x; y; z) de tel que : (S) : x² + y² + z² + ax + by + cz + d = 0
+est un sphère si a² + b² + c² - 4d >0
+√a²+b²+c²-4d
+Son centre est le point (--) et son rayon est r = 2
+3- Position relative d'un sphère et un plan
+Soit (S) une sphère de centre n et de rayon R (P) un plan et d la distance entre le centre
+est le plan (P) : d = d(Ω; (P))
+Si d=R alors (S) est tangente à(P) un point H
+Si d<R alors (S) coupe (P) Suivant un cercle (C) de centre H et de rayon r = √R2 - d²
+Pour déterminer les cordonnées de H on résoudre le système suivant:
+)x = xU + at
+(H): y= yn +bt ; (t EIR)
+)z = zU + ct
+(P): ax + by + cz + d = 0
+4- Position relative d'une sphère et une droite
+Soit (S) une sphère decentre N et d rayon R
+et (A) la droite passant par le point A et de vecteur directeur U(a; B; y)
+Pour déterminer les cordonnées des points d'intersections de (S) et (A), on résoudre le
+système suivant:
+□□
+(x = xA + at
+(A): y = yA + Bt ; (tEIR)
+Z = ZA + yt
+((S): (x - xn)² + (y - Уyn)2 + (z - zn)² = R2
+□ Dénombrement
+1-Cardinal d'un ensemble fini
+Le nombre d'éléments d'un ensemble fini est appelé le cardinal de E, noté par Card(E)
+2- Principe fondamentale de dénombrement
+Soit E une expérience dont les résultats nécessitent k choix,
+Si le 1ère choix se fait de n₁ façons différentes
+Le 2ième choix se fait de n2 façons différentes,
+Le kième choix se fait de n façons différentes,
+Alors le nombre de résultats possibles est donné par le produit: n1 X n2 X ... × nk
+3- Arrangements
+a- Arrangements sans répétition.
+Arrangements sans répétition de p parmi n
+□ A= n x (n – 1) × (n - 2) x ...x (n-p+1).
+Ona: A =
+-n! A = n!; A = n. (n-p)!
+Cas particulier: Permutations.
+n! = n x (n - 1) x ... × 2 x 1 ;; 0! = 1
+b- Arrangements avec répétition.
+Le nombre d'arrangements avec répétition de p éléments pris parmi par n est noté
+nP
+4- Combinaisons A
+n!
+□ C=CP =
+=
+p! p! x (n - p)!
+Remarques : C = C-1 = n ; C = C = 1 et C = Cn-P
+5- Type de tirage et importance d'ordre
+Type de
+tirage
+Nombre
+de tirages
+Importance de
+l'ordre
+Avec remise nP Important
+Sans remise AP Important
+Simultané CP Sans
+importance
+Nombre de possibilité d'arranger p éléments non distincts (Coefficient d'ordre)
+Si on a p1 éléments de type A et p2 éléments de type B et p3 éléments de type C tel
+que P1+ P2 + P3 = p
+Alors le nombre de possibilités d'arranger les p éléments dans p pl□es est
+p!
+VI Probabilité d'un évènement.
+P1!×p2! × p3!
+1- Propriétés
+P(N) = 1 et P(Ø) = 0
+0≤P(A) ≤ 1.
+P(A) = 1 - P(A)
+P(A U B) = P(A) + P(B) - P(A B)
+Hypothèse d'équiprobabilité: Card(A) P(A) =
+Card()
+2- Probabilité conditionnelle
+Propriété:
+La probabilité de l'événement B s□hant que de l'événement A est réalisé est le nombre
+noté PA (B) ou P(B/A) défini par:
+P(ANB) PA(B) =
+P(A)
+Arbre des possibilités:
+On a P(B) = P(B n A) + P(B nÃ),
+Donc P(B) = P(A) × P(B) + P(A) P(B).
+Cette relation est appelée loi des probabilités totales
+□ B P(AB) = P(A) xPA(B) PA(B)
+P(A) PA(B) B P(AND) = P(A) × PA(B)
+PA(B) B P(ẢN B) = P(A)x P(B)
+P(A)
+P(B) B P(An B) = P(A) x P(B)
+3- Indépendance de deux événements
+□ Définition
+On dit que les événements A et B sont indépendants si: P(A n B) = P(A) x P(B).
+Propriété
+Les événements A et B sont indépendants si et seulement PA (B) = P(B); avec P(A) ≠ 0
+4- Épreuves répétées.
+Soit A un événement associé à une expérience de probabilité p. On répète l'expérience n fois
+dans les mêmes conditions
+Alors la probabilité de réaliser exactement k fois l'événement A est: Chpk(1 - p)n-k,
+pour tout k € {0,1,2, ..., n}
+Testez-vous pour le jour J
+Consignes:
+L'épreuve dure 45 minutes
+Ce questionnaire comporte 20 QCM
+Chaque Question comporte une seule réponse juste
+L'utilisation de toute sorte de calculatrice est interdite
+Un s□ S₁ contient 2 boules rouges et 3 boules noires.
+Et un s□ S2 contient 3 boules rouges et 2 boules noires.
+Toutes les boules sont indiscernables au toucher
+
+On tire une boule de S1 si elle est noire on la met dans S2, puis en tire une boule de S2 et
+si elle est rouge on l'écart à coté puis en tire une boule de S2
+La probabilité que la boule tirée de S₂ est rouge est :
+DA
+□ B
+□ C
+□ D
+2 On garde les mèmes donnés de la question 1
+S□hant que la boule tirée de S₂ est rouge, quelle est la probabilité que la boule tirée de
+S₁ soit rouge
+□ A 4
+□ B
+□ C
+□ D
+□ A
+3 Dans l'esp□e rapporté à un repère orthonormé direct(0, i,j, k), on considère les deux
+points A(1; 2; 3) et B(2; 0; 1).
+L'ensemble des points M(x; y; z) équidistants des points A et B est
+□
+□ A Le plan x – y + z = 6  □ B Le plan 2x - 4y – 4z = -9
+□ C Le plan 2x - 4y - 4z = 9  □ D La droite définie par les équations : x + y+z=6 et 2x - 4y – 4z = −6
+4 Dans l'esp□e rapporté à un repère orthonormé direct(O, i,J,k), on considère le plan
+(P) d'équation 3x - 2z+3 = 0
+On dispose d'un dé régulier dont les f□es sont numérotées de 1 à 6
+On lance le dé et on obtient ainsi de manière équiprobable un nombre a (1 ≤ a ≤ 6)
+La probabilité que le point A(a²; 2а; 6а – 3) appartient au plan (P) est.
+□ A
+□ B
+□ C
+2 D
+5 Dans l'esp□e rapporté à un repère orthonormé direct(0, i,j, k), on considère les plans
+(P): x - z + 1 = 0 et (Q):x +y+1 = 0 et M(xo; yo; Zo) un point équidistant à (P) et (Q)
+Les coordonnées du point M vérifiant:
+AX+ yo = 0 ou 2x + yo - Zo +2 = 0
+Bx+ yo = 0 ou 2xo + Yo-Z0 = 0
+□ C 2x+ yo = 0 ou 2xo + yo-Zo = 0  □ D 2x + yo = 0 ou yo - Z° = 0
+6 Un s□ contient 7 boules tels que quatre boules portant les nombres 1;1;2;2 rouges et
+3 boules vertes portant les nombres 1;1;2.
+Toutes les boules sont indiscernables au toucher
+On tire successivement et sans remise deux boules du s□
+La probabilité d'avoir deux boules portant deux nombres différents s□hant qu'elles
+sont de mèmes couleurs est égale
+□ A
+□ B 1
+3 C□
+2 D
+7 Une urne contient 9 boules: 5 boules rouges numérotées 0;1;1;1;2
+4 boules vertes numérotées :0;1;1;2, sont indiscernables au toucher.
+On tire simultanément 3 boules de ce s□, on considère les événements suivants:
+□ B "Obtenir 3 boules dont la somme des numéros est égale à 3  □ C "Obtenir 3 boules vertes"
+Alors PB(C) est:
+□ A 오  □ B 2
+□ C
+D21
+8 Dans une école comporte 300 élèves. Ils sont inscrits aux clubs des □tivités de l'école
+selon la répartition suivante : 60 au club Cyber sécurité dont 30% sont des filles, 90 au
+club Sport dont 60% sont des filles, et 150 au club Environnement dont 72% sont des
+filles. Chaque élève pratique une et une seule □tivité. On choisit au hasard un(e) élève.
+La probabilité que l'élève choisit(e) soit une fille est
+□ A
+□ B
+15 C□
+□ D
+9 On garde les mêmes données de la question Q8. S□hant que l'élève choisit(e) est un
+garçon, la probabilité qu'il soit inscrit au club Environnement est:
+DAS
+□ B
+□ C
+0 D
+10 Dans l'esp□e rapporté à un repère orthonormé direct(O, ,J,k), on considère le plan
+(P) d'équation cartésienne (P): 2x - y - 2z +2 = 0 et la sphère (S) d'équation
+(S): x2 - 6x + y² + z² + 10z - 2 = 0. Une représentation paramétrique de la droite
+passant par le centre de la sphère et perpendiculaire à (P) est:
+(x = 3 + 2t
+□ A ;(tER)
+y = -t
+z = -5-2t
+(x = 3-2t
+□ B
+; (tER) y=t
+(z = -5-2t
+(x = 3 + 2t ; (tER) C
+z=5-2t
+(x = 3+2t
+□D y=-t ; (tER)
+z=5-2t
+11 Un restaurant propose à ses clients un menu qui se compose :
+Une entrée à choisir parmi 6 entrées possibles notée E₁, E2 ;Eз
+Un plat à choisir parmi 4 plats possibles notés P₁, P2, P3 et P4.
+Un dessert à choisir parmi 5 desserts possibles notés D₁, D2, D3, D4 et D5.
+Combien un client peut-il compose de menus différents? S□hant qu'un menu contient
+une entrée, un plat et un dessert.
+□ A 120  □ B 84
+□ C 50  □ D 60
+12 Dans l'esp□e rapporté à un repère orthonormé direct(0, ,J, k), Soit le plan (P)
+d'équation (P) : 2x + y − z +1 = 0 et (R) le plan d'équation x - 3y − z +3 = 0
+Une représentation paramétrique de la droite (D) l'intersection des plan (P)et (R)
+6 4
+DA
+(x
+□ B
+x=-+=t ,(tER) 5 1
+ソニラーラ
+z = t
+c = 3+ 2t y=-t; (teR)
+z = 5-2t
+7'
+□ C 5 ,(tER)
+y=-t
+z=t
+x =
+□ D ,(tER) 5
+y=--- -7 7
+z =t
+13 De combien de façons 5 enfants peuvent-ils s'asseoir sur un siège à 5 pl□es
+□ A 120  □ B 84
+□ C 50  □ D 60
+14 Dans l'esp□e rapporté à un repère orthonormé direct(O,T, J, R), soit (P) le plan défini
+par l'équation (P): 2x + 3y - z + 4 = 0 et A(1; 0; 1) un point de l'esp□e
+Les coordonnées du point H le projeté orthogonal du point A sur le plan (P) sont:
+9 1
+□ A (-2- C (2
+15 Dans l'esp□e rapporté à un repère orthonormé direct(0,ї, j,k)
+Soit le plan (Pa):x - 4y + 2z + d = 0 et (S) est une sphère de centre (1; 2; 3) et de
+rayon √21
+Les valeurs de réel d pour que le pan (Pa) coupe (S) suivant un cercle de rayon r Σ 0 est
+□ A {20; 21}  □ B {-20; 22}
+□ C]-20; 22[
+□ D [-20; 22]
+16 Dans l'esp□e rapporté à un repère orthonormé direct(0, i,j,k)
+Soit le plan (P): 2x – 5y - 6z + 4 = 0 et (S) est une sphère de centre 2(2;-2;3) et de
+rayon 3, alors:
+□ A Le plan (P) coupe la sphère (S) suivant un cercle de rayon 3 est de centre  □ B (P) coupe la sphère (S) suivant un cercle de rayon 3 est de centre H(2; 2; 3)
+CLe plan (P) est tangente à la sphère en H(2;2;3)
+□ D Le plan (P) est tangente à la sphère en H(2; 0; -3)
+17 Un s□ S contient 4 boules rouges et 2 boules noires.
+Un s□ S2 contient 2 boules rouges et une boule noire.
+Toutes les boules sont indiscernables au toucher.
+On choisit au hasard l'un des s□s, puis on en tire une boule de ce s□.
+S□hant que la boule tirée est rouge, quelle est la probabilité qu'elle soit tirée du s□ S1?
+□ A
+□ B
+□ C
+스
+□ D 3
+18 L'esp□e est menu d'un repère orthonormé (O,7,j,k) et n un entier naturel :
+Soient les points A (n; 4 ; 0); □ B (-n; 0; 0); C(-n; 4; 3) et D(n; 0; -3)
+Pour tout n on a les droites (AB) et (CD) sont sécantes en un point H
+Les coordonnées du point de cont□t H sont :
+□ A (0;-n; 2)  □ B (0; 2; 0)
+□ C (n; -n; 2)  □ D (0;1; 2)
+19 On choisit au hasard un nombre de 0 à 999
+La probabílité qu'au moins un de ses chiffres soit strictement supérieur à 5 est:
+UA 764
+1000
+□ B
+250
+□ C
+250
+784 D
+1000
+20 On coupe un cube ABCDEFGH de côté 6 cm selon le plan (BEG)
+On obtient le tétraèdre BEFG
+La mesere de la hateur du tétraèdre relative à la base BEG est:
+□ A 2√3  □ B 2√2
+□ C 25  □ D 3√2
+□ A
+Mathématiques Correction
+Solution détaillée 10
+Soient les événements suivants :
+R₁: << La boule tirée de S1 est rouge >»>
+N₁: << La boule tirée de S1 est noire »
+R₂: << La boule tirée de S₂ est rouge >>>
+N2: << La boule tirée de S2 est noire ».
+Schématisons l'expérience a l'aide d'un arbre pondéré
+Alors la bonne réponse est D
+P(R2) = P(R1 ი R2) + P(N1 N R2) = P(R1) × Pr, (R2) + P(N) × PN, (R)
+2 3
++
+3 3 R2 P(RR2) = P(R₁) x PR (R2)
+P (R2)=
+6 3
+P(R)=
+=
+P(N2)= N2 P(R, N2)= P(R₁) x P5, (N2)
+25 10
+12 15 27 P4(R2)= R2 P(N1R₂) = P(N₁)x PN (R)
+=
+T
++
+P(N)=
+50 50 50
+PN(N2)2
+2 PR₂ (R₁) P(R2n R1) =
+P(R1) × PR, (R2)
+P(R2)
+/
+P(N₁ N2) = P(N₁)x PN,(Nz)
+6 50 4
+P(R2) 27 25 27 9
+R2 P(R₁R2) = P(R₁) XPR (R2 PR(R2)
+25 35
+P(R₁)=
+P(N2) N2 P(R N2)= P(R₁) xPs, (N₂)
+P(R2)= R2 P(N₁NR2) = P(N₁) xPw₁(R)
+P(N,)= N
+P (N2) Nz P(N n N2) = P(N₁) xPN₁(N2)
+Alors la bonne réponse est A
+L'ensemble des points M(x; y; z) équidistants des points A et B est le plan (P) médiateur
+au segment [AB]
+Donc le plan (P) passe par le milieu du segment [AB] le point /(;1; 2) est de vecteur
+normal AB(1 - 2; -2) donc (P); x — 2y – 2z + d = 0 et 1(; 1; 2) є (P)
+Donc-2-4+d = 0 donc--+2 d donc d1
+□ D'où (P): x - 2y - 2z += 0 donc (P): 2x - 4y - 4z = -9 2
+Alors la bonne réponse est B
+□ A (a²; 2a; 6a – 3) є (P) 3x -2ZA +3 = 0
+3a² -2(6a — 3) +3= 0
+3a²- 12a + 9 = 0
+a²-4a + 3 = 0
+a=1 ou a = 3
+_ 2 ☐
+Donc La probabilité que le point A(a²; 2a; 6a - 3) appartient au plan (P) est p ==
+Alors la bonne réponse est B
+On a (P):x − z +1 = 0 et (P) : x+ y +1= 0
+Et on a M(xo; Yo; zo) un point équidistant à (P) et (Q) donc d(M; (P)) = d(M ; (Q))
+Ixo-Zo + 11 xo + yo + 1| d(M; (P)) = d(M; (Q)) √2 √2
+xo-Zo + 1| = |xo + yo + 1|
+xo-2o + 1 = xo + yo + 1 ou xo- Zo + 1 = -xo - yo -1
+yo + Zo = 0 ou 2xo + yo - Zo +2 = 0
+Alors la bonne réponse est A
+□ A << obtenir 2 boules portant deux nombres différents >>  □ B << obtenir 2 boules de même couleur» (V; V) ou (R ; R)
+Card(B) A + A3 18 3
+Donc: p(B) =
+Card(n) A² 427
+An B << obtenir 2 boules de même couleur et portant deux nombres différents
+» (V1; V2) ou (R1; R2)
+Card(An B) p(An B) =
+Card(2)
+=
+2x A X A + 2 x A x A
+□ A
+12 2
+=
+427
+p(An B)
+Donc PB(A n B) =
+p(B)
+=
+Alors la bonne réponse est C
+□ B "Obtenir 3 boules dont la somme des numéros est égale à 3(1;1;1) ou (0;1;2)
+Donc: Card(B) = C3 + (C} x C2 x C)
+5×4× 3
+=
++2×2× 5 = 10 +20 = 30
+3x2
+Card(B)
+Par suite p(B) = Card(Ω)
+=
+Bn C"Obtenir 3 boules vertes dont la somme des numéros est égale à 3" (0 ;1;2)
+Donc: Card(BnC) = C} x C} x C = 2
+Card(B nC) 2 1
+Par suite p(BnC) =
+Card (2) 84 42
+p(BnC) 42 1 14 1
+Pg(C) =
+p(B) 5 421 5 15
+Alors la bonne réponse est C
+F
+Csc TOO
+□ D'après la formule de la probabilité totale 60 G
+300
+P(F) = P(Cc)Pcsc(F) + P(Csp) PCsp (F) + P(Cenv)PCen (F) 60 F
+60 30 90 60 150 72 180 3
+Cp 300
+x =
+40 G
+300 100 300 100 300 100 300 5
+150 72 F
+Alors la bonne réponse est D
+360 100
+Cenv
+28 G
+9 F
+PG(Cenv) =
+P(Gn Cenu)
+P(G)
+Cae TO0
+60 G
+P(Сenv) PСеn (G) 300
+=
+60 F
+P(G) 100
+150 28 Csp 300
+300 100 40 = G
+150 72 F
+300 100
+=
+300
+28 2 7
+Ceny ☑
+1005 ☐ 20 28 G
+Alors la bonne réponse est B
+Alors la bonne réponse est A
+Le nombre des résultats possibles est 6×4×5 = 120
+Alors la bonne réponse est A
+12 1 ère méthode
+x = 3+ 2t
+On rempl□e y = -t ; (t € R) dans (P): 2x+y − z + 1 = 0 et (R) le plan
+z = 5-2t
+d'équation x - 3y – z + 3 = 0 don trouve que la réponse juste est A
+2eme méthode
+(P) et (R) sont sécantes suivant une droite (D) définie par les deux équation des plans
+((P): 2x + y-z+1 = 0 (P) et (R) donc: (D): (R):x- 3y − z + 3 = 0
+On pose par exemple z = t donс (2x +y -t+1=0 (x-3y-t+3 = 0: Donc
+(2x + y =t-1
+(x-3y = t-3
+On cherche à exprimer x et y en fonction de t
+J'ai choisit la méthode de déterminant de GRAMER
+□ D= 1-3 =-6-1-70
+t-1 1 Dx=1-3-3 = -3(t - 1) – (t – 3) = -4t +6
+Dy=i-31= 2t – 3) – (t − 1) =t-5
+Dx -4t +6 6 4 Dy t-5 5 1
+Donc: x =
+□ D -7 ・ラナラル 77
+=
+et y =
+□ D -7 ラーラ
+Donc une représentation paramétrique de la droite (D) l'intersection des plan
+6 4
+x = -=+t 77
+(P)et (R) est (D): ; (tEIR)
+y=-t シー
+7 7
+z = t
+Alors la bonne réponse est A
+13 5!5×4×3x 2 × 2 = 120.
+Alors la bonne réponse est A
+Les coordonnées du point H le projeté orthogonal du point A sur le plan (P) est
+l'intersection du plan (P) et la droite (D) passant par le point A, et orthogonale au plan
+(P)
+Alors les coordonnés (x;y;z) de H vérifie le systèmes :
+x = 1-2t
+y = 0 +3t
+z =1-t
+(2x + 3y -z+4 = 0
+Donc on rempl□e x = 1- 2t ; y = 3t et z = 1-t dans 2x + 3y - z +4= 0
+On trouve: 2(1-2t) +3(3t) - (1-t) +4 = 0
+Donc 2-4t +9t -1 -t+4= 0; Donc 4t = 6. Donct ==4 2
+On rempl□e t =3 danss
+Donc
+(x = -2
+y=
+9121
+Z=— 2
+(x = 1 - 2t
+y = 0 +3t
+(z = 1 -t
+On trouve
+DonCH(-22 -
+Alors la bonne réponse est B
+(x = 1 -2 x
+312
+wl2x y=3 +
+2=132
+On a le pan (Pa) coupe (S) suivant un cercle est :
+Donc d(; (Pd)) < √21
+1-8+6+ d
+Donc: < √21 √12 + (-4)2 +22
+Donc: 1-1+d! √21 < √21 donc : |d − 1| < 21
+Donc: -21 < d – 1 < 21
+Donc: -20 < d < 22
+Alors la bonne réponse est C
+d(; (P) = 1 (2 x 2) + (5 x 2) — (6x 3) +4| 0
+= 0 <R = 3
+√22 + (-5)2 + (-0)2 9
+Donc le plan (ABC) coupe la sphère (S) suivant un cercle de même rayon que (S)
+donc r = √R² – 02 = R = 3.Et comme d(; (ABC) = 0 donc le centre de cercle (r) est
+Q(2; -2; 3) le centre du sphère (S)
+Alors la bonne réponse est A
+R
+Ps,(R) =
+17 P(RS) PR(S1) =
+P(S1) ×Ps₁ (R) S1
+P(R) P(R) P(S1)
+Ps₁(N)= N
+P(S1) x Ps, (R)
+P(S1) x Ps, (R) + P(S2) XPs (R) R
+PS2(R) =
+1 4 1 4 1
+P(S2)= S
+2 3 1 3
+= =
+1 4 1 21 2 2
+ラメ Σ
+E
+Ps2(N)= N
+Alors la bonne réponse est C
+On a pour tout n les droites (AB) et (CD) sont sécantes en un point H
+(x = u-2nt (x = -n + 2nt'
+On a (AB): y =4-4t ; (tER) et (CD):
+z = 0+ Ot y = 4-4t' ; (t'∈ R)
+z =3-6t'
+Donc H vérifie le système suivant :
+(n-2nt = -n + 2nt'
+4-4t=4-4t'
+0=3-6t'
+(2n - 2n(t + t') = 0
+donc t=t'
+(2n- 2n(+ = 0
+t= 2 Donc
+t'= 2
+0=0
+t'= 2
+On rempl□e t = dans a représentation paramétrique de (AB) ou bien (CD) on trouve
+(x =n-2n x (x =0
+donc y =2 y=4-4x2
+z = 0
+z = 0
+Alors la bonne réponse est B
+1 ère méthode
+Le nombre de possibilités de choix d'un entier à trois chiffres est 103 = 1000
+Le nombre de possibilités de choix d'un entier dont tous les chiffres inférieurs à 5 est
+63 = 216
+(Il y 216 entiers compris entre 000 et 999 dont tous les chiffres inférieurs à 5)
+Donc par complémentarité 784 entiers dont au moins un des chiffres est strictement
+supérieur à 5
+□ D'où la probabilité cherchée est
+784
+1000 2ème méthode:
+On peut remarquer que le nombre des chiffres strictement supérieurs à 5 dans
+l'écriture d'un entier à trois chiffres suit la loi binomiale de paramètre n=3 et p=0,4
+Alors la bonne réponse est D
+Soit le repère orthonormé (A; AB; AD; AE)
+On a B(6;0;0); E(0;0;6); G(6;6;6); D(0;6 ;0) et F(6,0,6)
+1ère méthode:
+On a DF(6; −6;6) est normal au plan (BEG) donc-DF(1; -1;1) est normal au (BEG)
+Donc l'équation cartésienne du pla (BEG) est x - y + z-6= 0
+h= d(F; (BEG)
+Remarque
+=
+16+6-6| 16 6 6√3 =2√3 3 √12 +12+ (-1)2
+on peut trouver h d'une autre manière en effet :
+=
+√3 √3
+Une représentation paramétrique de (D) la hauteur passant par F est
+(x = t +6
+y = -t
+\z = t +6
+Donc (t +6) + t + (t + 6) − 6 = 0 donct = -2
+□ D'où les coordonnées de H l'intersectlon de (D) et (BEG) est
+(x = -2 +6= 4
+y= 2
+z = -2 +6=4
+Donc H(4;2;4) donc HF(2; 2;2) donch = HF = √4 + 4+ 4= 2√3
+On a le triangle BEG est un triangle équilatéral de de coté 6√6
+L'aire de ce triangle est égale à (6√6)² x= 18√3
+2éme méthode :
+Si h est la longueur de la hauteur issue de F de BEFG alors x hx 18√3 = 36
+Donc h =2√3
+Alors la bonne réponse est A
+Concours Blanc pour l'ENSA & ENSAM
+Consignes:
+- L'épreuve dure 45 minutes
+Ce questionnaire comporte 20 QCM
+- Chaque Question comporte une seule réponse juste
+- L'utilisation de toute sorte de calculatrice est interdite
+QCM 01
+Soit (un) une suite tel que lim (nn+1 - un( = 2
+Modèle
+n+∞
+Alors lim
+n+ n
+est égale à:
+(A) 0
+(B) 1
+QCM 02:
+(C) +∞
+(D) 2
+sin² n- cos³ n
+lim
+n→+∞ 
+(A)  (C) -8
+(B) 1 (D) +∞
+QCM 03:
+lim Inx ln(lnx) x1+
+(A) 0 (C) +∞
+(B) 1 (D)-∞
+QCM 04:
+n
+On pose: (Vn ∈ IN*); un la limite de S est:
+k=1
+(A) uzn - un ≥2 (C) 1
+U2n - Un <
+1 1
+(B) U2n - U ≤= (D) 4 U2n-Un <2
+QCM 05:
+Pour la même suite de la question 4), on a :
+(A) 210 26 (C) U210 = 3
+(B) U210 < 6
+(D) U210 <5
+QCM 06:
+Cos (Arctan x) =
+-1 1 (C) (A) √1+x2
+√1-x2
+-1
+1 (D) (B) √1-x2 √1+x2
+QCM 07:
+Soit f une fonction de R vers R continue en 0 telle que Vx ∈ R: f(2x) = f(x)
+Alors f est:
+(A) Constante
+(B) Strictement croissante
+(C) Strictement décroissante
+(D) Périodique de période 2
+QCM 08:
+Soit f une fonction de IR vers R dérivable en a ER:
+Alors f est:
+(A) f'(a)
+(B) f(a) + af'(a)
+QCM 09:
+π
+(A) 4
+(B) 3
+QCM 10:
+xf(a) - af(x) lim
+x→a x-α
+x4
+-px =
+Jo x2+1
+(C) f(a) -f'(a)
+(D) f(α) - af'(α)
+π 2
+(C) 4 3
+π 2
+(D) 43
+x 2 ln (x2 + 1)dx =
+Jo
+π
+(A) √3ln2 –
+9 (C) 2(√31n2-
+π
+(B) √3ln2+ و) D) √3ln2
+QCM 11:
+On considère le cube ABCDEFGH et on note (A; AB; AD; AE) un repère orthonormé
+G
+1.
+□ D
+□ B K C
+וו
+Les coordonnées du vecteur FD est :
+(A) (1; 1; 1)
+(B) (-1; 1; 1)
+QCM 12:
+(C) (-1;1; -1)
+(D) (1;1; 0)
+On garde les données de la question 11)
+Une représentation paramétrique de la droite (FD) est
+(A)
+(B)
+QCM 13:
+x = t
+y=t+1, (tER)
+z = -t
+x =-t y=-t+1; (t ER)
+z = -t
+(C)
+(D)
+}x = -t y=t+1,(t∈R)
+z =-t
+x =t {y=t+1.(tER) z = t
+On garde les données de la question 11) et on note I le milieu du segment [AB] et J le
+milieu du segment [EH] et K le milieu du segment [BC]
+La droite (FD) est
+(A) est orthogonale au plan (IJK)
+(B) n'est pas orthogonale au plan (IJК)
+QCM 14B
+(C) appartient au plan (IJK)
+(D) parallèle au plan (IJK)
+On garde les données de la question 13)
+Une équation cartésienne du plan (IJK) est
+(A) -x-y + z -
+= 0 (C) - x - y+z+= 0 2
+(B) x -y+z-=2 0
+QCM 15:
+On garde les données de la question 13)
+Les coordonnées du point M l'intersection de la droite (FD) et le plan (IJK) est :
+(D) x+y-z=02
+1 1 1
+(A) (i
+11 (B) (20)
+(C)0)
+(D) (1;1; 0)
+QCM 16:
+On garde les données de la question 13)
+Le triangle IJK est
+(A) Equilatéral
+(B) Rectangle en]
+(C) Rectangle en K
+(D) Rectangle en 1
+QCM 17:
+Le QCM du concours de ENSA comporte 20 questions pour ch□une desquelles 4
+réponses sont proposées et une seule est correcte, Un étudiant décide de remplir la
+grille-réponses en cochant au hasard une réponse pour ch□une des 20 questions, Pour
+un entier n tel que 0 ≤ n ≤ 20 on note An " répondre au hasard exactement n fois
+correctement "; l'événement An est réalisé si n réponses sont correctes et 20-n sont
+incorrectes
+Le nombre de grilles-réponses possibles est:
+(A) 24
+(B) 204
+(C) 80
+(D) 420
+QCM 18:
+On garde les données de la question 17)
+La probabilité de ne donner aucune réponse correcte est :
+320 1
+(A) (C) 204
+420
+24 1
+(B) (D)
+420 80
+QCM 19:
+On garde les données de la question 17)
+La probabilité de donner exactement n bonnes réponse correcte est :
+(A) C203n
+420
+C20320-n (C) 204
+C20320-n C203n
+(B) 420 (D) 80
+QCM 20:
+On garde les données de la question 17)
+La probabilité de répondre au hasard au moins 6 fois correctement est :
+20 C20320-n 20
+(A) C20320-n
+420 (C)
+n=6 204
+n=6
+20 C20320-n 20
+(B) C20320-n
+420 (D)
+n=0 204
+n=0
+Concours Blanc pour l'ENSA & ENSAМ
+Solution détaillée
+Modèle
+Astuce: Moyenne de CESARO
+lim vn =1⇒ lim n1+8
+On pose vn = Un - Un-1 pour tout n de IN
+On a lim Vn+1 = 2
+n+0
+Donc lim v = 2
+Donc d'après Moyenne de CESARO
+Donc lim
+n→+∞
+V₁+....+Vn-1
+= 2
+n
+n→+∞
+v₁ +....+Vn
+n
+)n1 - no( + (u2 - u₁) +..+)nu-Un-1) = 2 Donc lim+∞
+n
+un-uo Donc lim
+n→+∞ 
+= 2
+Donc un u
+lim = 2
+n→+∞  n
+Donc lim Un = 2
+n→+∞ 
+Alors la bonne réponse est D
+Soit n E N
+On a sin'n- cos³ n
+[sin² n| + |- cos3 n|
+n
+n
+S
+|sin² n|+ [cos³ n|
+n
+n
+sin² n - cos³ n
+=0
+n+∞ n
+On a +n n
+lim = = 0 donc lim
+Alors la bonne réponse est A
+lim Inx In(lnx) = lim t ln(t) = 0 (ona posser t = ln x) x1+ t0+
+Alors la bonne réponse est A
+=1
+Soit n E N'
+2n 2n
+-1 1 1
+U2n U" = k k k
+k=1 k=1 k=n+1
+Soit k E {n + 1; n + 2; .......; 2n}
+11 Onak≤ 2n donc>k2n
+2n 2n
+Donc: U2n - Un = Σ
+1 1 1 1
+2 2n 2n 2
+k=n+1 k=n+1
+Alors la bonne réponse est A
+1 1
+On a: U2x29- u29 2 donc u210 ≥2 + u29
+1 1 1
+Et on a u29 ≥+ u28 et u2 + u27 et....... et u22 ≥+ U21 2 2
+1 1 1 1 1 1 1 1
+□ D'ou u210 2222 ++++++++421 22 = 6
+Alors la bonne réponse est A
+On a : 1 + tan² (x) = Cos²(x)
+1 1
+Donc: Cos²(Arctan x) =
+1+ tan2 (Arctan x) 1 +x²
+Donc: Cos(Arctan x) = ±
+√1+x2
+π π
+Ona- < Arctan x < =
+2 2
+ππ
+ララ2'2 : cos x Σ 0 donc Cos(Arctan x) Σ 0
+Donc: Cos(Arctan x) =
+√1 +x2
+Alors la bonne réponse est B
+f(2x) = f(x) donc f(x) = f (2 x) = f) done donc f(x) =f (
+Donc on montre par récurrence que vn EN : f(x) = f()
+Et on a lim f) = f(0) car_lim= n+∞ 2n 0 et f est continue en о
+Donc f(x) = f(0) = constante
+Alors la bonne réponse est A
+xf(a) - af(x) xf(a) - af(a) + af(a) - af(x)
+lim = lim
+xa x-α x-a
+f(a)(x - a) a(f(x) - f(a))
+= lim
+x-а x-a x-α
+= f(a) - af'(a)
+Alors la bonne réponse est D
+x4 x4-1 +1 xp- =(1 (x² + 1) (x2 - 1) +1 dx
+Jo x2 +1 px= Jo x2 + 1 Jo x2 +1
+ م1 1] x² 2 π
+= x2-1+ xp =
+– x + arctan x
+=
+34 x2 +1 3 Jo
+Alors la bonne réponse est C
+√3 3
+x3 √3x3 2x
+-In(x² + 1) - dx
+3 Jo x2 + 1
+x3 1√3 2 √3 x4
+-In (x² + 1) 3% x² +1
+dx
+Vin (4)--x+aretan (0)
+2 π
+= 2√3 ln(2) -× = 2(√3ln2- 3
+Alors la bonne réponse est C
+Dans (A; AB ; AD; AE) un repère orthonormé on a
+□ D (0; 1;0) et F (1;0;1) d'ou FD(-1; 1;-1)
+Alors la bonne réponse est C
+La droite (FD) passe par le point D(0; 1; 0) et vecteur directeur FD(-1;1; -1)
+Une représentation paramétrique de la droite (FD) est
+Alors la bonne réponse est C
+Rappel: Expression analytique du produit vectoriel
+x = -t 13y = t+1, (tER)
+z =-t
+(yAy =
+U et V sont colinéaires ssi U ^V = 0
+□ A; B et C sont alignés ssi AB^AC = 0
+Le vecteur AB л AC est un vecteur normal au plan (ABC)
+Onal(0:0); 1 (21); 1 (10); (1); (0) ; K(1; 0;-1)
+On a le vecteur TAIR=+ est normal au plan (IJK)
+ET on a FD(-1;1; –1) =2 Ij л IK donc FD est normal au plan (IJK)
+□ D'où La droite (FD) est est orthogonale au plan (IJK)
+Alors la bonne réponse est A
+On a FD(-1; 1; -1) est vecteur normal au plan (IJK)
+Donc (IJK): — x + у- z +d = 0 donc (IJK): x — y + z + d = 0
+Et comme I (;0;0) appartient au plan (IJK) donc+ d = 0 doncd =
+□ D'oὺ (IJK): x-y +z-=2 0
+Alors la bonne réponse est B
+On a etle milieu du segment [FD] donc il appartient à la droite (FD)
+Et on a vérifie l'équation de (IJK) donc il appartient au plan (IJK)
+Et comme (FD) et (IJK) sont orthogonaux alors ce point est leur point d'intersection
+Alors la bonne réponse est A
+On a IK. IJ = 0 donc le triangle est rectangle en I
+Alors la bonne réponse est D
+Le nombre de grilles-réponses possibles est le nombre des arrangements avec
+répétition de 20 parmi 4 donc card() = 420
+Alors la bonne réponse est D
+On a card(Ω) = 420
+320
+On a P(A0) =2420 car pour chaque réponse fausse il y a trois choix
+Alors la bonne réponse est A
+Soit X la variable aléatoire qui égale au nombre des réponses correctes, il suit une loi
+binomiale de paramètre n=20 et p = (la probabilité de choisir la réponse correcte)
+P(A₁) = P(X = n) = C7°()"(1 –)20-n = C2o»220-n =
+C20320-n
+420
+Alors la bonne réponse est B
+La probabilité de répondre au hasard au moins 6 fois correctement est:
+20 C20320-и
+P(X ≥ 6) = 420
+n=6
+Alors la bonne réponse est A
+Concours Blanc pour l'ENSA & ENSAМ
+Consignes: L'épreuve dure 45 minutes
+Ce questionnaire comporte 20 QCM
+Chaque Question comporte une seule réponse juste
+L'utilisation de toute sorte de calculatrice est interdite
+QCM 01:
+Soient a; b Σ 0 on considère la suite (un) tel que :
+(b² + ab - a²)un -
+Un+1 b²un + b² - ab - a²
+a²
+a
+Modèle
+b
+et uo =
+En remarquant que la suite vn =
+b
+est arithmétique alors un est égale à:
+bun-a
+an +b an-b
+(A) (C) bn-a bn+a
+an + b n+b (B) (D)
+bn+a n+a
+QCM 02:
+On considère la suite (un) tel que :
+Γ1
+(B) Un E
+QCM 03:
+n
+(Vn ∈ IN*); un = Alors on a :
+2k+n
+k=1
+On garde les mêmes données de la question 2)
+Alors la limite de la suite (un) est
+(C) un € [2; 3[
+(D) un E [1; 2[
+(A) √3 (C) In (√3)
+(B) In(3) (D) 
+QCM 04:
+S□hant que (ln(x + √4 + x2))'=
+√4+x2 ,la valeur de l'intégrale
+√4 + x² dx est :
+(3+√5 √5
+(A) In 2
+(3+√5 (B) In 2 57
+QCM 05:
+(3+√5√5 (C) In (2+) 2
+(3+√5
+(D) ln +
+√5
+On considère l'équation suivante (E): cos4(3x) + sin*(3x) = 1
+Les solutions de (E) sont de la forme :
+π
+(A) メニュ2
++ 2kn; k EZ
+(B) x=-+ 2kn; kEZ 6
+QCM 06:
+kn (C) x = :kEZ
+kt
+(D) -; k ∈ Z
+7+3√5 7-3√5
+On pose a =
+2 2
+Alors la valeur de a est :
+(A) 4
+(B) 1
+(C) 2
+(D) 3
+QCM 07:
+Soit a Σ 0 alors la valeur de l'intégrale √a2 -x² dx est:
+πα
+(A) (C) па
+па
+(Β) 4πα (D) 4
+QCM 08
+On jette 3 fois un dé à 6 f□es numérotés de 1 à 6 et on note a; b et c les résultats
+successifs obtenus; on note Q(x) = ax² +bx +c
+La probabilité pour Q admet une seule r□ine double est:
+11 (A) 216
+(B) 216
+QCM 09:
+(C) 5
+216
+(D) 216
+Un s□ contient quatre boules jaunes et 3 boules rouges et 3 boules bleues
+Toutes les boules sont indiscernables au toucher
+On tire successivement et sans remise deux boules du saс
+La probabilité d'obtenir la deuxième boule tirée de couleur rouge est:
+17 (C) (A) 90
+13 15 (B) (D) 90 90
+QCM 10:
+On garde les mêmes données de la question 9)
+La probabilité d'obtenir la deuxième boule tirée de couleur rouge s□hant que la
+première est jaune est:
+(A) 6
+(B) 17
+(C) 17
+(D) 17
+QCM 11:
+Soit z = −1 + √2 + i
+Un argument de z est égale à:
+3π 71
+(A) (C)
+8 8
+5π π
+(B) (D) 8 8
+QCM 12:
+On garde les mèmes donnés de la question 11)
+La valeur de cos() est:
+2-√2 (A) 2
+2-√2 (B)
+√2-√2 (C) 2
+√2-√2 (D) 2
+QCM 13
+Soit a = cos () cos (4); en calculanta sin (); la valeur de a est :
+(A) 2
+(B) 3
+QCM 14:
+On garde les mèmes donnés de la question 13)
+La valeur de b = sin ( sin (2) est: 5
+(A) 4
+√5 (B) 4
+(C) A
+(D) 5
+(C) 4
+(D)
+V
+151 4
+QCM 15:
+Soient A et B deux points distincts du plan; l'ensemble des points M tel que
+AM.AM - 4AM.BM = 0
+(A) Un droite
+(B) Un cercle
+QCM 16:
+Soit (un) une suite tel que :
+(C) Une demi – droite
+(D) Un disque
+un =
+k=n
+□
+k² +5k + 6
+1k² + 5k + 4
+k=0
+L'expression simplifiée de un est
+6n +3 (A) n+4
+n+4 (B) 3n +6
+(C) n+4
+6n +3
+(D) 3n +6
+n+4
+QCM 17:
+Le concours d'entrée à la première année de ENSA pour l'année 2019 /2020 se déroule
+le 23 juillet 2019
+Le chiffre des unités de 232019 est :
+(A) 3
+(B) 9
+(C) 1
+(D) 7
+QCM 18:
+Soit (un) une suite tel que :
+k=n
+k
+Un = (e2* +e-2)
+L'expression simplifiée de un est
+e2n+1_ -2n+1
+(A) e-e-1
+(B) e2n+3 +e~2n+1
+e-e-1
+QCM 19:
+k=1
+(C)
+(D)
+e2-e-2h+1
+e+e-1
+©2n+1+e-2n+1
+e+e-1
+Soit f (x) = e* + nx² − 3 et un la solution de l'équation fn(x) = 0 (x Σ 0 et n >0):
+Alors un est
+(C) stationaire (A) Croissante
+(B) décroissante (D) Périodique
+QCM 20:
+On garde les mèmes donnés de la question 19)
+Alors la limite de la suite (un) est
+1 (C) 1
+(A) 2
+(B) 0 (D) 12
+Concours Blanc pour l'ENSA & ENSAM
+Solution détaillée
+On prend par exemple a = 1 et b = 2 mais les valeurs ne marchant pas
+Donc on prend par exemple a = 2 et b = 3
+Modèle
+Donc un+1 11un-4
+9un-1
+-3 25
+et uo = et u₁ =
+= 1
+an + b 2n +3 5
+(A) u= = doncu, = ==1 bn+ a 3n + 2
+n+b n+2 4
+(B) u = donc u₁ = = # 1
+bn+ a 2n + 1 5
+an-b n+2 -1 (C) un donc u₁= ≠1
+bn- a 2n +1 1
+Alors la bonne réponse est A
+Soit n E IN*
+Soit k € {1; 2;3; ... ; n};
+2+n≤ 2k + n ≤n
+1 1 1
+G <
+3n 2k+n 2+n
+n
+1 1 1
+1≤ 3n 2k+n 2+n
+k=1 k=1 k=1
+5n≤u>
+3n 2+n
+1 n
+<
+2+n
+1 2
+1- 3 2+n
+= "mun<1
+Alors la bonne réponse est B
+n n
+1 1 11
++
+= lim =
+11++∞ 2k+n n→+∞ 
+k=1 k=112
+Jo
+1+2x dx =
+Γ1 1 1 [1n 2 (1+2x) = 1n(3) = In(√3)
+Alors la bonne réponse est C
+□ A= [√4+x² √4+x²= [x√4+x²-√xx2x dx
+Jo 2√4+x2 Jo √4+x2
+Donc fdx = √5-A √4+x²
+On a (ln(x+ √4 +x²))' = √4+x²
+1 x2 1 x² +4 4
+√5-A=
+xp J=
+dx-J dx Jo √4+x² Jo √4+x² Jo √4 + x²
+√4+x² dx-dx
+Jo Jo √4+x2
+□ D'où √5- A = A- 4ln(1+ √5) + 4ln 2
+Donc 2A = √5 + 4ln(1 +√5) -4ln 2
+√5 Donc A = +2 ln(1+ √5) - 2 ln 2
+= A - 4 ln(1 +√5) +4 ln 2
+√5 Donc A =+ In (5+2/5) == √5 + 1n (3+√5 2 2
+Alors la bonne réponse est D
+On a A2 + B² = (A + B)2 - 2AB
+Donc cos4(3x) + sin4(3x) = (cos2(3x) + sin2(3x))2 - 2cos2(3x)sin² (3x)
+= 1 - 2cos2 (3x)sin2(3x) = 1-(2cos (3x)sin (3x))2 2
+= 1 -(sin (6x))
+(E) 1-- (sin (6x))2 = 1
+κπ
+sin(6x) = 0 → 6x = kn ; kEZ→ x = ; k EZ
+Alors la bonne réponse est D
+7+3√5 7-3√5
+a2 =
+2 V
+7+3√5 4 7+3√5 7-3√5 7-3√5 2 +
+2 2 V
+V
+7+3√5 7-3√5
+= -2+ 2 V
+7+3√5 7-3√5 Donc a2+2 = +
+2 2
+Donc (a + 2)² =
+7+3 √5 7-3√5 +
+2 2
+7+3√5 7+3√5 7-3√5
+Donc (a + 2)² =
+7-3√5 +2 +
+2 2
+V 2 2
+Donc (a + 2)2 = 7 + 2 donc (a²)2 + 4a² - 5= 0
+Donc a2 = -5<0 ou a² = 1 car le dicriminat est 36
+Donc a2 = 1 donca = 1 ou a = −1 < 0 et comme a Σ 0 donc a =
+Alors la bonne réponse est B
+1م
+□ A = [√a² -x² dx =a f√1- a dx
+On pose= sint donc dx = □os t dt
+π
+On a x = 0 donc t = 0 et x = a donc t =
+π
+□ A=a a√1 – sin?t cost dt = a2
+J0
+=
+a2
+π
+f21 + cos (2t)
+Jo 2
+dt
+a² انه a² 1
+201 +∞8 (20) = 2 + (20) 0 4
+11 πα²
+Alors la bonne réponse estD
+On a card (N) = 63 = 216
+Soit A l'événement Q admet une seule r□ine double
+Q admet une seule r□ine double donc le discriminant égale 0 donc b2 = 4□
+Donc A = {(1; 2; 1); (2; 4; 2); (1; 4; 4); (4; 4; 1); (3,6,3)}
+card(A) 5
+Donc P(A) =
+216 216
+Alors la bonne réponse est C
+Soit A l'événement la 2ème boule tirée est rouge, donc RR ou RR
+□ A +AA 3×2+7 ×3 27
+Donc P(А) =
+□ A 10 x 9 90
+Alors la bonne réponse est A
+Soit B l'événement la 1 ème boule tirée est jaune e, donc RR ou RR
+Soit An B l'événement " obtenir la deuxième boule tirée de couleur rouge et la
+première est jaune »
+4 3
+P(A)
+PANB) 4 PA(B) =
+279
+90 Alors la bonne réponse est A
+3п 2=-1+12+1=ve学+= (+1) = (+8- √2 √2
+3п 3п
+= 2√2 cos eB 8
+On a cos 37) 3п ()8 Σ 0 donc Un argument de z est égale à:
+Alors la bonne réponse est A
+On a z = 2√2 cos (3п 3π
+8 e 8 = 2√2 cos (
+(3п cosos() + isin()
+/3п =2/2cos() + 12/2isin () cos (3
+Et on a z = −1 + √2+i donc cos² (3п -1+√2 2-√2
+2√2 4
+3п
+□ B
+√2-√2
+=
+2 On a cos (2) Σ 0 donc cos
+Alors la bonne réponse est C
+Soit a = cos ()cos (24); 5 en calculanta sin(
+a sin ()= sin() cos
+2π 1 2п 2π 1 14п
+cosa =-sin COS -sin
+2 5 5 4 5
+1 TT
+=siT 4 sin (-)=sin
+Donc a = car sin ()0
+Alors la bonne réponse est C
+On aa = cos (1) cos (2)
+Donc a + b = cos (2) cos (2) + sin (7) sin (2) = cos(一) = cos)
+ab=cos() cos (2) - sin (1) sin (2) = cos(+) = cos() = -cos (
+Donc (a + b)(a-b) = cos (2)5 cos (2) =-a
+√5
+Donc a² - b² = -a = - donc-b2 =- donc b2 =
+donc b =
+4 4 16 4
+Alors la bonne réponse est B
+AM.AM -4AM.BM = 0 AM(AM - 4BM) = 0
+-3AM.GM = 0 avec G = bary{(A, 1); (B; -4}
+AM.GM = 0
+Donc c'est le cercle de diamètre [AG]
+Alors la bonne réponse est B
+16 k=n k=n k² + 5k + 6 (k+2) (k + 3) =
+un k² + 5k +4 (k+ 1) (k + 4)
+k=0 k=0
+2 x 3 3 x 4 4 x 5
+=
+X
+(n+2)(n + 2) (n+2)(n + 3)
+1x4 X2x5X3×5 9
+3(n +2)
+1x (n+4)
+X
+n(n+3) (n+ 1) (n + 4)
+3n +6
+n+4 Alors la bonne réponse est D
+17 23 =3[10] donc 232 = 9[10] donc 232 = −1[10] donc (232)1009 =-1[10]
+Donc 232018 = -1[10] donc 232019 = -23[10] donc 232019 = 7[10]
+Alors la bonne réponse est D
+18 k=n
+On a un = (e2" +e-2") doncuo =ete-1 k=1
+2n+1 e²- e-2-2n+1
+(A) un =
+e-e-1
+(B) e2n+1 +e-2n+1
+donc uo = e² -e-²_ (e-e-¹) (e + e-¹) =ete-1 e-e-1
+e² +e-2
+e-e-1
+e-e-1
+u =
+donc u, = I tete-1 e-e-1
+e2n+1_e-2n+1 (C) un = donc u, = e?-e_²
+=
+_ (e-e_¹) (e+e-¹) = e-e1%e+e-1 e+e-1 e+e-1 e+e-1
+e22n+1-2n+1 e2 +e-2
+(D) un =
+e+e-1 -donc u = e+e-1 e+e-1
+Alors la bonne réponse est A
+19 Soit x ≥ 0 et n Σ 0
+fn(x) = e* + nx² - 3 et un la solution de l'équation fn(x) = 0 (x ≥ 0 etn Σ 0) :
+Donc fn(un) = 0 et fn+1(Un+1) = 0
+On a fn(x) = e* + 2nx doncf est strictement croissante
+On a fn+1(x)-fn(x) = e* + (n + 1)x² - 3 - e* - nx² + 3 = x²Σ 0
+Donc fn+1 (x) Σ fn(x) donc fn+1(un+1) Σ fn(un+1)
+Donc fn (un+1) < 0 car fn+1(un+1) = 0
+Et on a fn (un) = 0 et fn (Un+1) < 0 donc fn(un+1) < fn(un)
+Et comme fn est croissante donc un+1 < nu
+Donc (un) est décroissante
+Alors la bonne réponse est B
+20 On a la suite (un) est décroissante et minorée par 0 donc elle est convergente
+On pose lim un = 7
+n+∞
+Donc_lim n→+∞ en = e car la fonction exp est continue sur IR
+f)nn( = 0en + n(un)2 - 3 = 0
+2(nn( =
+3- eun
+n
+2)n( =3- en
+n Alors la bonne réponse est B
+3-en ⇒_lim (n"(2 = lim = 0
+n+∞ 2+∞ n ⇒_lim )n"(z = 0
+n→+∞ lim un= 0
+n+∞
+Concours Blanc pour l'ENSA & ENSAM
+Consignes: L'épreuve dure 45 minutes
+Ce questionnaire comporte 20 QCM
+Chaque Question comporte une seule réponse juste
+L'utilisation de toute sorte de calculatrice est interdite
+Modèle
+Sans Correction
+QCM1:
+√6
+Soient a et b deux réels tels que : sin a + sin b =
+et cos a + cos b =
+Alors cos (a-b) =
+(A) 2
+(B) 0
+(C) 6
+√Z (D) 4
+QCM 02:
+Soient f et g deux fonctions définies sur R par :
+f(x) = ax² +bx + c ; a ER*et b; c∈Ret g(x) = f(x) + f'(x) + f"(x)
+Si Vx E R : f(x) Σ 0 alors :
+(A) Vx∈ R: g(x) Σ 0
+(B) Vx ER: g(x) < 0
+QCM 03:
+(C) Vx ∈ R : g(x) = 0
+(D) Ex ∈ R : g(x) = 0
+Soit w € C tel que |w| = √2 . On note a et ẞ les solutions de l'équation
+Alors
+(A) \a| + \B| = 2
+z² +i(w+ iw)z – 2i = 0
+(B) a|+ IB| = √2
+QCM 04:
+Soit fla fonction définie sur R par f(x) = 2x - E(x).
+Alors f f(x) dx =
+(A) -2
+(B) -1
+156(C) \a| + \B| = 2√2
+(D) |a|+ \B] = 3√Z
+(C)0
+(D) 2
+QCM 05:
+rez
+dx =
+J x(lnx)3
+(C) 1
+(A) 3
+1 (D) 8
+(B) 8
+QCM 06:
+S□hant que les devoirs de 4 élèves peuvent être corrigés par un ou plusieurs
+enseignants parmi 7 enseignants, la probabilité que ces 4 devoirs soient corrigés par
+exactement 2 enseignants est:
+(A) 7
+(B) 49
+QCM 07:
+Soit F la fonction définie sur R par:
+F(x)=[e et² dt
+x3
+Alors la dérivée première F'(x) est égale à
+(A) ex - ex²
+(B) 4x3e*
+QCM 08:
+38 (C) 343
+(D) 7
+(C) 4x³ex® - 3x²ex*
+(D) Autre
+Le plan complexe est rapporté à un repère orthonormé direct
+La transformation dont l'écriture complexe est z' = -jz+1 (avecj =e) est:
+2п
+(A) Larotation d'angle et de centre le point d'affixe j
+(B) La rotation d'angle (-1) et de centre le point d'affixe j
+(C) La rotation d'angle -23 et de centre le point d'af fixe -
+(D) L'homothétue de rapport - 3
+et de centre le point d'af fixe - j
+QCM 09:
+Soit (un) une suite tel que
+Alors lim un est égale à:
+11+∞
+(A) Ve
+(B) e
+Un =Z2k k
+k=0
+(C) 2
+(D) Ve
+QCM 10:
+Une entreprise utilise deux m□hines A et B pour contrôler la qualité d'un produit
+Selon les concepteurs de ses m□hines, la probabilité que la m□hine A tombe en panne
+est 0,03 et la probabilité que la m□hine B tombe en panne s□hant que la m□hine A est
+en panne est égale à 0,2
+La probabilité que les deux m□hines tombent simultanément en panne est
+(C) 0,06
+(D) 0,23
+(A) 0,006
+(B) 0,17
+QCM 11:
+Soit f la fonction définie sur [0; 1] par :
+Vx € [0; 1]:0≤ f(x) ≤ f(x) dx
+Jo
+Alors la dérivée première F'(x) est égale à
+(A) f est nulle sur [0; 1]
+(B) f est strictement croissante sur [0; 1]
+(C) f est strictement décroissante sur [0; 1]
+(D) f(1) Σ f(0)
+QCM 12:
+x2
+Soit f la fonction définie sur [0; +∞[ par: f(x) = ln(1 + x) +
+1+x2
+스
+S□hant que (Vn ∈ N); (3! an ∈ [0; +∞): f(an) = n
+(A) La suite (a,) est strictement décroissante
+(B) La suite (a,,) est strictement croissante
+(C) La suite (an) n'est pas monotonne
+(D) La suite (a) est stationnaire
+QCM 15:
+Soit F la fonction définie par:
+x² 1
+F(3) = JIn (t)
+Alors le domaine de définition de F est
+(A) ]0; 1[
+(B) ]1; +∞]
+QCM 16:
+(C) ]1;+∞[
+(D) ]0; 1[U ]1; +∞[
+Soit f la fonction définie sur [0; +∞[.Si f est continue sur [0; +∞[et lim_ f(x) = 2024 x0
+(A) 2024
+(B) 0
+x
+Alors limmf( dt=
+2024 (C) e
+(D) 1
+QCM 17:
+Soit (un) une suite tel que
+イ
+un = Σ n(n+2) k=0
+Alors lim un est égale à: n→+∞
+(A) 1
+(B) 4
+QCM 18:
+(C)
+(D)
+Soit (un) une suite tel que u, = 2 et Vn ∈ N: Un+1 = une-un
+지4
+514
+n
+On pose Sn = un
+k=0
+Alors lim Sn est égale à:
+n+0
+(A) 1
+(B) 2
+QCM 19:
+Soit f la fonction définie f(x) = sin(x) + 2 sin(2x) + 3sin (3x)
+(A) 24
+(B) 14
+QCM 20:
+(C) - 00
+(D) + ∞
+-2
+Alors 1
+2π Jo (f(t)) 2dt =
+(C) 7
+(D) 5
+L'équation suivante d'inconnue réelle x: (E): esinx -e-sinx -4 = 0
+Alors (E)
+(A) Admet une infinité de solution
+(B) n'admet pas de solution réelles
+(C) admet une solution réelle unique
+(D) Admet exactement quatre solutions réelles

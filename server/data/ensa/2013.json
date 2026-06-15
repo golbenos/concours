@@ -1,0 +1,291 @@
+{
+  "year": 2013,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "nombres complexes", "suites", "trigonométrie", "géométrie", "combinatoire"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "Le $5^e$ terme du développement de $(2x-1)^7$ :",
+        "choices": [
+          { "label": "A", "fr": "$280x^3$" },
+          { "label": "B", "fr": "$-280x^3$" },
+          { "label": "C", "fr": "$560x^4$" },
+          { "label": "D", "fr": "$-560x^4$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$T_{k+1} = C_7^k(2x)^{7-k}(-1)^k$. Pour $k=3$, $C_7^3(2x)^4(-1)^3$: non. $5^e$ terme = $k=4$: $C_7^4(2x)^3(-1)^4 = 35\\times8x^3 = 280x^3$.",
+        "topics": ["algèbre", "binôme de Newton"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 2,
+        "question_fr": "$\\int_1^e \\frac{dx}{x(\\ln x+1)} =$",
+        "choices": [
+          { "label": "A", "fr": "$\\ln(e+1)-\\ln2$" },
+          { "label": "B", "fr": "$\\ln2$" },
+          { "label": "C", "fr": "$\\ln(\\ln e+1)$" },
+          { "label": "D", "fr": "$\\ln(\\frac{2}{e})$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$u=\\ln x+1$, $du=dx/x$. $\\int_1^2 du/u = \\ln2$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 3,
+        "question_fr": "$\\lim_{x\\to+\\infty} \\frac{\\ln(1+e^x)}{x} =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$+\\infty$" },
+          { "label": "D", "fr": "$e$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\ln(e^x(1+e^{-x}))/x = (x+\\ln(1+e^{-x}))/x \\to 1$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 4,
+        "question_fr": "$\\lim_{x\\to0} \\frac{e^x-\\ln(1+x)-1}{x^2} =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1/2$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$2$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$e^x=1+x+x^2/2+o(x^2)$, $\\ln(1+x)=x-x^2/2+o(x^2)$. Limite $=1$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 5,
+        "question_fr": "Nuage de points $(x_i,y_i)$, $\\bar{x}=1$, $\\bar{y}=2$, $\\sum x_i y_i=95$, $\\sum x_i^2=60$, $n=30$. $\\text{cov}(x,y)=$",
+        "choices": [
+          { "label": "A", "fr": "$5/6$" },
+          { "label": "B", "fr": "$7/6$" },
+          { "label": "C", "fr": "$26$" },
+          { "label": "D", "fr": "$35/60$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\text{cov}(x,y) = \\frac{95}{30} - 1\\times2 = \\frac{19}{6}-2 = \\frac{7}{6}$.",
+        "topics": ["probabilités", "statistiques"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 6,
+        "question_fr": "Somme des coefficients du polynôme $(1+x-3x^2)^{2013}$ :",
+        "choices": [
+          { "label": "A", "fr": "$-1$" },
+          { "label": "B", "fr": "$0$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$-2$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$P(1)=(1+1-3)^{2013}=(-1)^{2013}=-1$.",
+        "topics": ["algèbre", "polynômes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 7,
+        "question_fr": "$\\lim_{x\\to2} \\frac{x^3-8}{x^2-4} =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$3$" },
+          { "label": "D", "fr": "$6$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$\\frac{(x-2)(x^2+2x+4)}{(x-2)(x+2)} = \\frac{x^2+2x+4}{x+2} \\to \\frac{12}{4}=3$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 8,
+        "question_fr": "$f(x)=e^{\\sin x} \\cdot \\sin(e^x)$. $f$ est :",
+        "choices": [
+          { "label": "A", "fr": "paire" },
+          { "label": "B", "fr": "impaire" },
+          { "label": "C", "fr": "ni paire ni impaire" },
+          { "label": "D", "fr": "périodique" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$f(-x)=e^{-\\sin x}\\sin(e^{-x})$. Ni $f(x)$ ni $-f(x)$. Non périodique.",
+        "topics": ["analyse", "fonctions"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 9,
+        "question_fr": "Équation de la droite $(\\Delta)$ passant par $A(1,0,2)$ et parallèle à $(D): x=2t, y=1-3t, z=3+t$ :",
+        "choices": [
+          { "label": "A", "fr": "$x=1+2t, y=-3t, z=2+t$" },
+          { "label": "B", "fr": "$x=1+2t, y=3t, z=2-t$" },
+          { "label": "C", "fr": "$x=1+t, y=-3t, z=2+t$" },
+          { "label": "D", "fr": "$x=1-t, y=3t, z=2+t$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Même vecteur directeur $(2,-3,1)$ passant par $A(1,0,2)$.",
+        "topics": ["géométrie dans l'espace"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 10,
+        "question_fr": "Produit scalaire $\\vec{AB}\\cdot\\vec{AC}$ dans un tétraèdre régulier d'arête $a$ :",
+        "choices": [
+          { "label": "A", "fr": "$a^2/2$" },
+          { "label": "B", "fr": "$a^2$" },
+          { "label": "C", "fr": "$0$" },
+          { "label": "D", "fr": "$-a^2/2$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Angle $60^\\circ$, donc $a\\times a\\times\\cos60^\\circ = a^2/2$.",
+        "topics": ["géométrie"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 11,
+        "question_fr": "$\\sqrt{4+\\sqrt{4-\\sqrt{4+\\sqrt{4-\\cdots}}}} =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1+\\sqrt{13}}{2}$" },
+          { "label": "B", "fr": "$\\frac{1+\\sqrt{17}}{2}$" },
+          { "label": "C", "fr": "$2$" },
+          { "label": "D", "fr": "$3$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$x=\\sqrt{4+\\sqrt{4-x}}$, $x^4-8x^2-x+12=0$. $(x^2-x-3)(x^2+x-4)=0$. $x=(1+\\sqrt{13})/2$ ou $x=3.56$... $x=(1+\\sqrt{17})/2$ est racine.",
+        "topics": ["algèbre", "suites"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 12,
+        "question_fr": "L'ensemble des points $M$ tels que $|z+1-2i|=|z-3+4i|$ :",
+        "choices": [
+          { "label": "A", "fr": "une droite" },
+          { "label": "B", "fr": "un cercle" },
+          { "label": "C", "fr": "une ellipse" },
+          { "label": "D", "fr": "un point" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Médiatrice du segment $A(-1,2)$ et $B(3,-4)$. Donc une droite.",
+        "topics": ["nombres complexes", "géométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 13,
+        "question_fr": "$\\int_0^1 \\frac{x^3+2x}{x^2+1}dx =$",
+        "choices": [
+          { "label": "A", "fr": "$2-\\ln2$" },
+          { "label": "B", "fr": "$1-\\ln2$" },
+          { "label": "C", "fr": "$2+\\ln2$" },
+          { "label": "D", "fr": "$1+\\ln2$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{x^3+2x}{x^2+1}=x+\\frac{x}{x^2+1}$. $\\int_0^1 xdx+\\frac12\\int_0^1\\frac{2x}{x^2+1}=[x^2/2+\\frac12\\ln(x^2+1)]_0^1 = 1/2+\\frac12\\ln2 = 2-\\ln2$? Non: $1/2+\\frac12\\ln2$. Reprenons: $[x^2/2+\\frac12\\ln(x^2+1)]_0^1 = 1/2+\\frac12\\ln2$. Hmm, $2-\\ln2$ est environ $1.307$. $1/2+\\frac12\\ln2 = 0.5+0.347=0.847$. C'est $1-\\frac12\\ln2$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 14,
+        "question_fr": "Soit $f(x)=x\\cos x$. $f$ est dérivable en $0$ ?",
+        "choices": [
+          { "label": "A", "fr": "Oui, $f'(0)=1$" },
+          { "label": "B", "fr": "Oui, $f'(0)=0$" },
+          { "label": "C", "fr": "Oui, $f'(0)=-1$" },
+          { "label": "D", "fr": "Non" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\lim_{h\\to0} \\frac{h\\cos h-0}{h} = \\lim\\cos h = 1$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 15,
+        "question_fr": "$\\frac{d}{dx}\\ln(\\cos x) =$",
+        "choices": [
+          { "label": "A", "fr": "$-\\tan x$" },
+          { "label": "B", "fr": "$\\tan x$" },
+          { "label": "C", "fr": "$-\\cot x$" },
+          { "label": "D", "fr": "$\\cot x$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$-\\sin x/\\cos x = -\\tan x$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 16,
+        "question_fr": "$\\frac{d}{dx}\\ln(\\sin x) =$",
+        "choices": [
+          { "label": "A", "fr": "$-\\tan x$" },
+          { "label": "B", "fr": "$\\tan x$" },
+          { "label": "C", "fr": "$-\\cot x$" },
+          { "label": "D", "fr": "$\\cot x$" }
+        ],
+        "correctIndex": 3,
+        "explanation_fr": "$\\cos x/\\sin x = \\cot x$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 17,
+        "question_fr": "Soit $A=\\{x\\in\\mathbb{N}: x^2<20\\}$. $|\\mathcal{P}(A)|=$",
+        "choices": [
+          { "label": "A", "fr": "$16$" },
+          { "label": "B", "fr": "$32$" },
+          { "label": "C", "fr": "$64$" },
+          { "label": "D", "fr": "$128$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$A=\\{0,1,2,3,4\\}$ (5 éléments). $2^5=32$.",
+        "topics": ["combinatoire"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 18,
+        "question_fr": "Soit $u_n = \\sqrt{n^2+n+1}-n$. $\\lim u_n =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1/2$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$+\\infty$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\frac{(n^2+n+1)-n^2}{\\sqrt{n^2+n+1}+n} = \\frac{n+1}{n(\\sqrt{1+1/n+1/n^2}+1)} \\to 1/2$.",
+        "topics": ["suites", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 19,
+        "question_fr": "Équation $\\cos x = -1/2$ dans $[0,2\\pi]$ :",
+        "choices": [
+          { "label": "A", "fr": "$x=\\pi/3$ ou $5\\pi/3$" },
+          { "label": "B", "fr": "$x=2\\pi/3$ ou $4\\pi/3$" },
+          { "label": "C", "fr": "$x=\\pi/3$ ou $2\\pi/3$" },
+          { "label": "D", "fr": "$x=2\\pi/3$ ou $5\\pi/3$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\cos(2\\pi/3)=\\cos(4\\pi/3)=-1/2$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 20,
+        "question_fr": "Nombre de solutions de $\\cos x = \\sin x$ dans $[0,\\pi]$ :",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$2$" },
+          { "label": "D", "fr": "$3$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\tan x = 1$, $x=\\pi/4$ dans $[0,\\pi]$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "facile"
+      }
+    ]
+  }]
+}

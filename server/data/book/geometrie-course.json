@@ -1,0 +1,45 @@
+{
+  "course": [
+    {
+      "title": "I. Géométrie dans l'espace",
+      "items": [
+        "**1. Vecteurs coplanaires** — $\\vec{U},\\vec{V},\\vec{W}$ coplanaires $\\Leftrightarrow$ $\\exists(\\alpha,\\beta):\\vec{W}=\\alpha\\vec{U}+\\beta\\vec{V}$ $\\Leftrightarrow$ $\\det(\\vec{U},\\vec{V},\\vec{W})=0$.",
+        "**2. Colinéarité** — $\\vec{U}$ et $\\vec{V}$ colinéaires $\\Leftrightarrow$ $\\exists\\alpha:\\vec{U}=\\alpha\\vec{V}$ $\\Leftrightarrow$ $\\begin{vmatrix}y&y'\\\\z&z'\\end{vmatrix}=\\begin{vmatrix}z&z'\\\\x&x'\\end{vmatrix}=\\begin{vmatrix}x&x'\\\\y&y'\\end{vmatrix}=0$.",
+        "**3. Produit scalaire (trigo)** — $\\vec{U}\\cdot\\vec{V}=AB\\cdot AC\\cdot\\cos(\\overrightarrow{AB},\\overrightarrow{AC})=\\|\\vec{U}\\|\\cdot\\|\\vec{V}\\|\\cdot\\cos(\\vec{U},\\vec{V})$.",
+        "**4. Produit scalaire (analytique)** — $\\vec{U}(x;y;z)\\cdot\\vec{V}(x';y';z')=xx'+yy'+zz'$. $\\vec{U}\\perp\\vec{V}$ $\\Leftrightarrow$ $\\vec{U}\\cdot\\vec{V}=0$.",
+        "**5. Norme et distance** — $\\|\\vec{U}\\|=\\sqrt{x^2+y^2+z^2}$, $AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$. Milieu : $I(\\frac{x_A+x_B}{2},\\frac{y_A+y_B}{2},\\frac{z_A+z_B}{2})$.",
+        "**6. Droite** — Passant par $A(x_A;y_A;z_A)$, vecteur $\\vec{U}(a;b;c)$ : $x=x_A+at,\\ y=y_A+bt,\\ z=z_A+ct$ $(t\\in\\mathbb{R})$.",
+        "**7. Plan** — Équation $ax+by+cz+d=0$, vecteur normal $\\vec{n}(a;b;c)$. Plan passant par $A$ de normale $\\vec{n}$ : $\\overrightarrow{AM}\\cdot\\vec{n}=0$.",
+        "**8. Distance point-plan** — $d(A,(P))=\\dfrac{|ax_A+by_A+cz_A+d|}{\\sqrt{a^2+b^2+c^2}}$."
+      ]
+    },
+    {
+      "title": "II. Sphère",
+      "items": [
+        "**1. Définition** — Centre $\\Omega(a;b;c)$, rayon $r$ : $(x-a)^2+(y-b)^2+(z-c)^2=r^2$. Sphère de diamètre $[AB]$ : $\\overrightarrow{AM}\\cdot\\overrightarrow{BM}=0$.",
+        "**2. Équation générale** — $x^2+y^2+z^2+ax+by+cz+d=0$ est une sphère si $a^2+b^2+c^2-4d>0$. Alors $\\Omega(-a/2,-b/2,-c/2)$, $r=\\sqrt{a^2+b^2+c^2-4d}/2$.",
+        "**3. Sphère et plan** — $d=d(\\Omega,(P))$. Si $d=R$ : tangente. Si $d<R$ : intersection = cercle de rayon $\\sqrt{R^2-d^2}$.",
+        "**4. Sphère et droite** — Résoudre $\\begin{cases}x=x_A+\\alpha t\\\\y=y_A+\\beta t\\\\z=z_A+\\gamma t\\end{cases}$ dans $(x-x_\\Omega)^2+(y-y_\\Omega)^2+(z-z_\\Omega)^2=R^2$."
+      ]
+    },
+    {
+      "title": "III. Dénombrement",
+      "items": [
+        "**1. Principe fondamental** — $k$ choix successifs avec $n_1,\\dots,n_k$ possibilités : $n_1\\times\\cdots\\times n_k$ résultats.",
+        "**2. Arrangements** — Sans remise, ordre important : $A_n^p=\\frac{n!}{(n-p)!}=n(n-1)\\dots(n-p+1)$. Permutations : $n!$.",
+        "**3. Avec répétition** — Ordre important, remise : $n^p$.",
+        "**4. Combinaisons** — Sans ordre, sans remise : $\\binom{n}{p}=\\frac{n!}{p!(n-p)!}$. Propriétés : $\\binom{n}{1}=n$, $\\binom{n}{0}=1$, $\\binom{n}{p}=\\binom{n}{n-p}$.",
+        "**5. Éléments non distincts** — $p_1$ de type $A$, $p_2$ de type $B$, $p_3$ de type $C$ : $\\dfrac{p!}{p_1!\\,p_2!\\,p_3!}$ façons de les arranger."
+      ]
+    },
+    {
+      "title": "IV. Probabilités",
+      "items": [
+        "**1. Propriétés** — $P(\\Omega)=1$, $P(\\emptyset)=0$, $0\\le P(A)\\le1$, $P(\\overline{A})=1-P(A)$, $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$. Équiprobabilité : $P(A)=\\frac{\\operatorname{Card}(A)}{\\operatorname{Card}(\\Omega)}$.",
+        "**2. Conditionnelle** — $P_A(B)=P(B\\mid A)=\\frac{P(A\\cap B)}{P(A)}$. Loi des probabilités totales : $P(B)=P(A)P_A(B)+P(\\overline{A})P_{\\overline{A}}(B)$.",
+        "**3. Indépendance** — $A$ et $B$ indépendants $\\Leftrightarrow$ $P(A\\cap B)=P(A)P(B)$ $\\Leftrightarrow$ $P_A(B)=P(B)$ (si $P(A)\\neq0$).",
+        "**4. Schéma de Bernoulli** — $n$ répétitions, probabilité $p$ de succès : $P(\\text{exactement }k\\text{ succès}) = \\binom{n}{k}p^k(1-p)^{n-k}$."
+      ]
+    }
+  ]
+}

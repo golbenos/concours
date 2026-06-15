@@ -1,0 +1,10 @@
+{
+  "name_fr": "ENSA",
+  "name_en": "ENSA",
+  "name_ar": "إنسـا",
+  "description_fr": "Concours d'accès aux Écoles Nationales des Sciences Appliquées",
+  "description_en": "Entrance exam for National Schools of Applied Sciences",
+  "description_ar": "امتحان الولوج إلى المدارس الوطنية للعلوم التطبيقية",
+  "icon": "🏛️",
+  "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2025]
+}

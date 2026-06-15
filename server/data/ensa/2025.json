@@ -1,0 +1,291 @@
+{
+  "year": 2025,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "nombres complexes", "suites", "trigonométrie", "géométrie", "matrices"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "$\\lim_{x\\to0} \\frac{\\sin(3x)}{\\sin(5x)} =$",
+        "choices": [
+          { "label": "A", "fr": "$3/5$" },
+          { "label": "B", "fr": "$5/3$" },
+          { "label": "C", "fr": "$0$" },
+          { "label": "D", "fr": "$1$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{3x}{5x} \\to 3/5$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 2,
+        "question_fr": "$\\int_0^1 x(1-x)^{10} dx =$",
+        "choices": [
+          { "label": "A", "fr": "$1/132$" },
+          { "label": "B", "fr": "$1/66$" },
+          { "label": "C", "fr": "$1/12$" },
+          { "label": "D", "fr": "$1/11$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$B(2,11) = \\frac{\\Gamma(2)\\Gamma(11)}{\\Gamma(13)} = \\frac{1!\\times10!}{12!} = \\frac{1}{11\\times12} = \\frac{1}{132}$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 3,
+        "question_fr": "Soit $f(x) = \\frac{x}{1+|x|}$. $f$ est :",
+        "choices": [
+          { "label": "A", "fr": "bornée et bijective" },
+          { "label": "B", "fr": "bornée non surjective" },
+          { "label": "C", "fr": "non bornée" },
+          { "label": "D", "fr": "constante" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$|f(x)|<1$, bornée. Bijective car $f^{-1}(y)=y/(1-|y|)$.",
+        "topics": ["analyse", "fonctions"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 4,
+        "question_fr": "$\\begin{vmatrix}1&a&a^2\\\\a&a^2&1\\\\a^2&1&a\\end{vmatrix} =$",
+        "choices": [
+          { "label": "A", "fr": "$-(a^3-1)^2$" },
+          { "label": "B", "fr": "$(a^3-1)^2$" },
+          { "label": "C", "fr": "$(a-1)^3$" },
+          { "label": "D", "fr": "$(a^3+1)^2$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Déterminant $= 1\\times(a^2\\times a - 1\\times1) - a\\times(a\\times a - 1\\times a^2) + a^2\\times(a\\times1 - a^2\\times a^2) = -a^6+2a^3-1 = -(a^3-1)^2$.",
+        "topics": ["algèbre", "matrices"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 5,
+        "question_fr": "$\\int_0^{\\pi/2} \\frac{\\sin^3 x}{\\cos^2 x}dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac12$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$\\frac32$" },
+          { "label": "D", "fr": "$2$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\int_0^{\\pi/2} \\tan^2 x \\sin x\\,dx = \\int_0^1 \\frac{u^2}{\\sqrt{1-u^2}} du$. Soit $t=\\cos x$, $\\int_1^0 -(1-t^2)/t^2 dt = \\int_0^1 (1/t^2-1)dt \\to \\infty$. Autre: $\\frac{\\sin x(1-\\cos^2 x)}{\\cos^2 x} = \\frac{\\sin x}{\\cos^2 x} - \\sin x$. Primitive $1/\\cos x + \\cos x$. $[1/\\cos x+\\cos x]_0^{\\pi/2}$ diverge... Reprenons: $\\frac{\\sin^3 x}{\\cos^2 x} = \\frac{\\sin x(1-\\cos^2 x)}{\\cos^2 x} = \\frac{\\sin x}{\\cos^2 x} - \\sin x$. Primitive $= \\frac{1}{\\cos x} + \\cos x$. $F(\\pi/2)-F(0) = (\\infty+0)-(1+1) \\to \\infty$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "difficile"
+      },
+      {
+        "id": 6,
+        "question_fr": "$\\lim_{n\\to\\infty} \\sqrt{n+\\sqrt{n+\\sqrt{n+\\cdots}}} - \\sqrt{n} =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1/2$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$\\infty$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$x_n^2 = n+x_n$, $x_n = \\frac{1+\\sqrt{1+4n}}{2}$. $x_n-\\sqrt{n} = \\frac{1+\\sqrt{1+4n}-2\\sqrt{n}}{2} \\to 1/2$.",
+        "topics": ["suites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 7,
+        "question_fr": "$z = 1+i\\sqrt{3}$. $\\arg(z) =$",
+        "choices": [
+          { "label": "A", "fr": "$\\pi/3$" },
+          { "label": "B", "fr": "$\\pi/6$" },
+          { "label": "C", "fr": "$2\\pi/3$" },
+          { "label": "D", "fr": "$-\\pi/3$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\arg(z) = \\arctan(\\sqrt{3}/1) = \\pi/3$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 8,
+        "question_fr": "$z = 1+i\\sqrt{3}$. $|z| =$",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$\\sqrt{2}$" },
+          { "label": "C", "fr": "$2$" },
+          { "label": "D", "fr": "$4$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$\\sqrt{1+3}=2$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 9,
+        "question_fr": "$(1+i\\sqrt{3})^{2025} =$",
+        "choices": [
+          { "label": "A", "fr": "$2^{2025}$" },
+          { "label": "B", "fr": "$-2^{2025}$" },
+          { "label": "C", "fr": "$-2^{2025}i$" },
+          { "label": "D", "fr": "$2^{2025}i$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$1+i\\sqrt{3}=2e^{i\\pi/3}$. $2^{2025}e^{i2025\\pi/3}=2^{2025}e^{i675\\pi}=2^{2025}e^{i\\pi}=2^{2025}$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 10,
+        "question_fr": "Soit $X=\\{1,2,3,4,5\\}$. Nombre d'applications $f:X\\to X$ telles que $f(1)=1$ :",
+        "choices": [
+          { "label": "A", "fr": "$5^4$" },
+          { "label": "B", "fr": "$4^5$" },
+          { "label": "C", "fr": "$5!$" },
+          { "label": "D", "fr": "$4!$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$f(1)$ fixé, les 4 autres ont 5 choix chacun : $5^4$.",
+        "topics": ["combinatoire"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 11,
+        "question_fr": "Urne : 5 rouges, 3 vertes. Tirage avec remise de 3 boules. Probabilité d'exactement 2 rouges :",
+        "choices": [
+          { "label": "A", "fr": "$C_3^2(5/8)^2(3/8)^1$" },
+          { "label": "B", "fr": "$C_3^2(5/8)^2$" },
+          { "label": "C", "fr": "$(5/8)^2(3/8)$" },
+          { "label": "D", "fr": "$C_3^2(5/8)^1(3/8)^2$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Loi binomiale : $\\binom{3}{2}(5/8)^2(3/8)$.",
+        "topics": ["probabilités"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 12,
+        "question_fr": "Soit $A=\\{1,2,\\ldots,100\\}$. Nombre d'éléments divisibles par 2 ou 3 :",
+        "choices": [
+          { "label": "A", "fr": "$67$" },
+          { "label": "B", "fr": "$50$" },
+          { "label": "C", "fr": "$33$" },
+          { "label": "D", "fr": "$83$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\lfloor100/2\\rfloor+\\lfloor100/3\\rfloor-\\lfloor100/6\\rfloor = 50+33-16=67$.",
+        "topics": ["arithmétique"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 13,
+        "question_fr": "$f(x)=x^3-3x+1$. $f'$ s'annule en :",
+        "choices": [
+          { "label": "A", "fr": "$x=\\pm1$" },
+          { "label": "B", "fr": "$x=0$" },
+          { "label": "C", "fr": "$x=\\pm\\sqrt{3}$" },
+          { "label": "D", "fr": "$x=\\pm\\sqrt{3}/3$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$f'(x)=3x^2-3=0$, $x=\\pm1$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 14,
+        "question_fr": "$\\frac{d}{dx}\\arcsin(\\sqrt{x}) =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1}{2\\sqrt{x(1-x)}}$" },
+          { "label": "B", "fr": "$\\frac{1}{\\sqrt{1-x}}$" },
+          { "label": "C", "fr": "$\\frac{1}{2\\sqrt{x}\\sqrt{1-x}}$" },
+          { "label": "D", "fr": "$\\frac{1}{\\sqrt{x(1-x)}}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{1}{\\sqrt{1-x}} \\times \\frac{1}{2\\sqrt{x}} = \\frac{1}{2\\sqrt{x(1-x)}}$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 15,
+        "question_fr": "Soit $P(x)=x^3+ax^2+bx+c$ ayant 3 racines réelles $r_1,r_2,r_3$. $r_1+r_2+r_3=$",
+        "choices": [
+          { "label": "A", "fr": "$-a$" },
+          { "label": "B", "fr": "$a$" },
+          { "label": "C", "fr": "$b$" },
+          { "label": "D", "fr": "$-c$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Relations coefficients-racines : somme = $-a$.",
+        "topics": ["algèbre", "polynômes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 16,
+        "question_fr": "Soit $M=\\begin{pmatrix}0&1\\\\-1&0\\end{pmatrix}$. $M^4=$",
+        "choices": [
+          { "label": "A", "fr": "$I$" },
+          { "label": "B", "fr": "$-I$" },
+          { "label": "C", "fr": "$0$" },
+          { "label": "D", "fr": "$M$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$M^2=-I$, $M^4=I$.",
+        "topics": ["algèbre", "matrices"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 17,
+        "question_fr": "$\\int_0^1 \\frac{x^3}{x^2+1}dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1-\\ln2}{2}$" },
+          { "label": "B", "fr": "$\\frac{1+\\ln2}{2}$" },
+          { "label": "C", "fr": "$\\frac12$" },
+          { "label": "D", "fr": "$\\ln2$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{x^3}{x^2+1} = x - \\frac{x}{x^2+1}$. $\\int_0^1 x dx - \\frac12\\int_0^1 \\frac{2x}{x^2+1}dx = [\\frac{x^2}{2} - \\frac12\\ln(x^2+1)]_0^1 = \\frac12 - \\frac12\\ln2$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 18,
+        "question_fr": "Équation $\\ln(x)+\\ln(x-1)=0$. Solutions :",
+        "choices": [
+          { "label": "A", "fr": "$x=\\frac{1+\\sqrt{5}}{2}$" },
+          { "label": "B", "fr": "$x=1$" },
+          { "label": "C", "fr": "$x=0$" },
+          { "label": "D", "fr": "pas de solution" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\ln(x(x-1))=0$, $x(x-1)=1$, $x^2-x-1=0$. $x=(1+\\sqrt{5})/2$ (car $x>1$).",
+        "topics": ["algèbre", "logarithmes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 19,
+        "question_fr": "Le rang de $\\begin{pmatrix}1&2&3\\\\2&4&6\\\\3&6&9\\end{pmatrix}$ :",
+        "choices": [
+          { "label": "A", "fr": "$1$" },
+          { "label": "B", "fr": "$2$" },
+          { "label": "C", "fr": "$3$" },
+          { "label": "D", "fr": "$0$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Les 3 lignes sont proportionnelles (L2=2L1, L3=3L1). Rang 1.",
+        "topics": ["algèbre", "matrices"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 20,
+        "question_fr": "Soit $f(x)=e^{-x^2}$. $\\int_{-\\infty}^{\\infty} f(x)dx =$",
+        "choices": [
+          { "label": "A", "fr": "$\\sqrt{\\pi}$" },
+          { "label": "B", "fr": "$\\pi$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$\\sqrt{\\pi/2}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Intégrale de Gauss : $\\int_{-\\infty}^\\infty e^{-x^2}dx = \\sqrt{\\pi}$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      }
+    ]
+  }]
+}

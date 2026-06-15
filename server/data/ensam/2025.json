@@ -1,0 +1,293 @@
+{
+  "year": 2025,
+  "subjects": [
+    {
+      "name_fr": "Mathématiques",
+      "name_en": "Mathematics",
+      "name_ar": "الرياضيات",
+      "topics": ["suites", "analyse", "trigonométrie", "intégrales", "nombres complexes", "algèbre", "probabilités", "géométrie"],
+      "questions": [
+        {
+          "id": 1,
+          "question_fr": "Pour tout $n$ entier et $n \\ge 2$, on pose $P_n = \\prod_{k=2}^n (1 - \\frac{1}{k^2})$. Si la suite $(P_n)$ est convergente alors sa limite est:",
+          "choices": [
+            { "label": "A", "fr": "$1$" },
+            { "label": "B", "fr": "$0$" },
+            { "label": "C", "fr": "$2$" },
+            { "label": "D", "fr": "$\\frac{1}{2}$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$P_n = \\prod_{k=2}^n \\frac{(k-1)(k+1)}{k^2} = \\frac{1}{2} \\cdot \\frac{n+1}{n} \\to \\frac{1}{2}$",
+          "topics": ["suites"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 2,
+          "question_fr": "Pour tout $n$ entier et $n \\ge 1$, on pose $S_n = \\sum_{k=1}^n \\frac{1}{k(k+1)}$. Si la suite $(S_n)$ est convergente alors sa limite est:",
+          "choices": [
+            { "label": "A", "fr": "$1$" },
+            { "label": "B", "fr": "$0$" },
+            { "label": "C", "fr": "$\\frac{1}{2}$" },
+            { "label": "D", "fr": "$3$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$\\frac{1}{k(k+1)} = \\frac{1}{k} - \\frac{1}{k+1}$, donc $S_n = 1 - \\frac{1}{n+1} \\to 1$",
+          "topics": ["suites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 3,
+          "question_fr": "On pose $(\\forall n \\in \\mathbb{N}^*)$ $S_n = \\sum_{k=1}^n \\frac{n}{n^2+k}$. La limite de $S_n$ est:",
+          "choices": [
+            { "label": "A", "fr": "$-1$" },
+            { "label": "B", "fr": "$0$" },
+            { "label": "C", "fr": "$\\frac{1}{2}$" },
+            { "label": "D", "fr": "$1$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "Par encadrement: $\\frac{n^2}{n^2+n} \\le S_n \\le \\frac{n^2}{n^2+1}$, donc $\\lim S_n = 1$",
+          "topics": ["suites", "analyse"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 4,
+          "question_fr": "La valeur maximale des termes $u_k = C_{22}^k \\times 20^{22-k} \\times 21^k$ dans le dÃ©veloppement de $(20+21)^{22}$ par la formule du binÃ´me de Newton est atteinte pour $k$ Ã©gale Ã :",
+          "choices": [
+            { "label": "A", "fr": "$8$" },
+            { "label": "B", "fr": "$9$" },
+            { "label": "C", "fr": "$10$" },
+            { "label": "D", "fr": "$11$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "Ã‰tude de la monotonie de $(u_k)$: $\\frac{u_{k+1}}{u_k} = \\frac{21(22-k)}{20(k+1)} \\ge 1$ pour $k \\le 11$",
+          "topics": ["suites", "algèbre"],
+          "difficulty": "difficile"
+        },
+        {
+          "id": 5,
+          "question_fr": "Soit la suite $(u_n)$ dÃ©finie pour tout entier naturel $n$ par $u_{n+1} = 2u_n + 3$ et $u_0 = 0$. Alors la limite de $(u_n)$ est :",
+          "choices": [
+            { "label": "A", "fr": "$0$" },
+            { "label": "B", "fr": "$1$" },
+            { "label": "C", "fr": "$\\frac{1}{2}$" },
+            { "label": "D", "fr": "$+\\infty$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "Suites arithmÃ©tico-gÃ©omÃ©trique: $u_{n+1} = 2u_n + 3$, $|2| > 1$ donc $(u_n)$ diverge vers $+\\infty$",
+          "topics": ["suites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 6,
+          "question_fr": "Soit $(u_n)$ dÃ©finie par $(\\forall n \\in \\mathbb{N})$ $u_{n+1} = \\sqrt{2u_n+3}$ et $u_0 = 1$. Si $(u_n)$ est convergente alors sa limite est :",
+          "choices": [
+            { "label": "A", "fr": "$0$" },
+            { "label": "B", "fr": "$-1$" },
+            { "label": "C", "fr": "$2$" },
+            { "label": "D", "fr": "$3$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "RÃ©soudre $\\ell = \\sqrt{2\\ell+3}$ donne $\\ell^2 - 2\\ell - 3 = 0$, soit $\\ell = 3$ ou $\\ell = -1$. La limite positive est $3$.",
+          "topics": ["suites"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 7,
+          "question_fr": "Soit $(u_n)$ une suite telle que $\\lim_{n\\to+\\infty} (u_{n+1} - u_n) = 2$. Alors $\\lim_{n\\to+\\infty} \\frac{u_n}{n}$ est Ã©gale Ã :",
+          "choices": [
+            { "label": "A", "fr": "$1$" },
+            { "label": "B", "fr": "$0$" },
+            { "label": "C", "fr": "$\\frac{1}{2}$" },
+            { "label": "D", "fr": "$2$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "ThÃ©orÃ¨me de CÃ©saro: $\\lim \\frac{u_n}{n} = \\lim (u_{n+1} - u_n) = 2$",
+          "topics": ["suites", "analyse"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 8,
+          "question_fr": "$\\lim_{n\\to+\\infty} (n - \\sqrt{n^2 - n})$ est Ã©gale Ã :",
+          "choices": [
+            { "label": "A", "fr": "$-\\infty$" },
+            { "label": "B", "fr": "$0$" },
+            { "label": "C", "fr": "$\\frac{1}{2}$" },
+            { "label": "D", "fr": "$1$" }
+          ],
+          "correctIndex": 2,
+          "explanation_fr": "$n - \\sqrt{n^2-n} = \\frac{n}{n+\\sqrt{n^2-n}} = \\frac{1}{1+\\sqrt{1-1/n}} \\to \\frac{1}{2}$",
+          "topics": ["analyse", "suites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 9,
+          "question_fr": "Soit $x \\in \\mathbb{R}^*$; $\\lim_{n\\to+\\infty} (1 + \\frac{x}{n})^n = 2022$ alors $x$ est Ã©gal Ã :",
+          "choices": [
+            { "label": "A", "fr": "$2\\ln 2022$" },
+            { "label": "B", "fr": "$2022\\ln 2$" },
+            { "label": "C", "fr": "$22\\ln 29$" },
+            { "label": "D", "fr": "$\\ln 2022$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$\\lim (1+\\frac{x}{n})^n = e^x = 2022 \\Rightarrow x = \\ln 2022$",
+          "topics": ["analyse", "suites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 10,
+          "question_fr": "Soit $(u_n)$ dÃ©finie par $(\\forall n \\in \\mathbb{N})$ $u_{n+1} = \\sqrt{2u_n}$ et $u_0 = 0$. Si $(u_n)$ est convergente alors sa limite est :",
+          "choices": [
+            { "label": "A", "fr": "$0$" },
+            { "label": "B", "fr": "$1$" },
+            { "label": "C", "fr": "$2$" },
+            { "label": "D", "fr": "$+\\infty$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$u_0 = 0 \\Rightarrow u_1 = \\sqrt{0} = 0$, donc par rÃ©currence $u_n = 0$. La limite est $0$.",
+          "topics": ["suites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 11,
+          "question_fr": "Soit $(U_n)_{n\\ge 5}$ une suite telle que $(\\forall n \\ge 5)$ $U_n = \\frac{1}{n} + \\frac{1}{2}$. La limite de $(U_n)$ est :",
+          "choices": [
+            { "label": "A", "fr": "$0$" },
+            { "label": "B", "fr": "$+\\infty$" },
+            { "label": "C", "fr": "$4$" },
+            { "label": "D", "fr": "$\\frac{1}{2}$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$\\lim_{n\\to+\\infty} \\frac{1}{n} = 0$, donc $\\lim U_n = \\frac{1}{2}$",
+          "topics": ["suites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 12,
+          "question_fr": "$\\lim_{n\\to+\\infty} (\\sqrt{n^2+n+1} - \\sqrt{n^2-n+1})$ :",
+          "choices": [
+            { "label": "A", "fr": "$2$" },
+            { "label": "B", "fr": "$+\\infty$" },
+            { "label": "C", "fr": "$0$" },
+            { "label": "D", "fr": "$1$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$\\frac{2n}{\\sqrt{n^2+n+1}+\\sqrt{n^2-n+1}} \\to \\frac{2}{1+1} = 1$",
+          "topics": ["suites", "analyse"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 13,
+          "question_fr": "Soit $(u_n)$ une suite gÃ©omÃ©trique de premier terme $u_0$ et de raison $q>0$ telle que $u_1 = 2$ et $u_2 = 4$. Alors $S_n = u_0+u_1+\\ldots+u_n =$ :",
+          "choices": [
+            { "label": "A", "fr": "$2^n - 1$" },
+            { "label": "B", "fr": "$2^{n+1} - 1$" },
+            { "label": "C", "fr": "$2^{n-1}$" },
+            { "label": "D", "fr": "$2^n + 1$" }
+          ],
+          "correctIndex": 1,
+          "explanation_fr": "$u_1=2$, $u_2=4 \\Rightarrow q=2$, $u_0=1$. $S_n = 1\\cdot\\frac{2^{n+1}-1}{2-1} = 2^{n+1}-1$",
+          "topics": ["suites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 14,
+          "question_fr": "Si $(v_n)_{n\\in\\mathbb{N}}$ est une suite telle que $(\\forall n\\in\\mathbb{N}^*)$ $v_1+v_2+\\ldots+v_n = 2n^2+n$. Alors :",
+          "choices": [
+            { "label": "A", "fr": "$v_8 = 31$" },
+            { "label": "B", "fr": "$v_8 = 53$" },
+            { "label": "C", "fr": "$v_8 = 54$" },
+            { "label": "D", "fr": "$v_8 = 62$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$S_n - S_{n-1} = v_n = 2n^2+n - [2(n-1)^2+(n-1)] = 4n-1$, donc $v_8 = 31$",
+          "topics": ["suites"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 15,
+          "question_fr": "Si $(v_n)$ est une suite arithmÃ©tique de premier terme $v_1=2$ de raison $r$ telle que $(v_n)$ est dÃ©croissante et $4(v_1)^2+(v_2)^2 = 164$. Alors :",
+          "choices": [
+            { "label": "A", "fr": "$r = -2$" },
+            { "label": "B", "fr": "$r = -4$" },
+            { "label": "C", "fr": "$r = -6$" },
+            { "label": "D", "fr": "$r = 2$" }
+          ],
+          "correctIndex": 2,
+          "explanation_fr": "$v_2 = 2+r$, $4(4)+(2+r)^2 = 164 \\Rightarrow (2+r)^2 = 148$, $2+r = \\pm\\sqrt{148}$, $r = -6$ (dÃ©croissante)",
+          "topics": ["suites"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 16,
+          "question_fr": "Soit $(u_n)$ une suite gÃ©omÃ©trique de premier terme $u_1 = 5$ et de raison $q>0$ telle que $u_5 = 1280$. Alors :",
+          "choices": [
+            { "label": "A", "fr": "$q = 1$" },
+            { "label": "B", "fr": "$q = 2$" },
+            { "label": "C", "fr": "$q = 3$" },
+            { "label": "D", "fr": "$q = 4$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$u_5 = u_1 \\cdot q^{4} = 5q^4 = 1280 \\Rightarrow q^4 = 256 \\Rightarrow q = 4$",
+          "topics": ["suites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 17,
+          "question_fr": "Soit $(u_n)$ une suite arithmÃ©tique telle que $u_2+u_3+u_4 = 21$ et $u_6 = 25$. Alors le premier terme $u_0$ est :",
+          "choices": [
+            { "label": "A", "fr": "$6$" },
+            { "label": "B", "fr": "$-52$" },
+            { "label": "C", "fr": "$-11$" },
+            { "label": "D", "fr": "$-36$" }
+          ],
+          "correctIndex": 2,
+          "explanation_fr": "$u_2+u_3+u_4 = (u_0+2r)+(u_0+3r)+(u_0+4r) = 3u_0+9r = 21$, $u_6 = u_0+6r = 25$. SystÃ¨me: $u_0 = -11$, $r = 6$",
+          "topics": ["suites"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 18,
+          "question_fr": "Soit $(u_n)$ une suite arithmÃ©tique telle que $u_3+u_4+\\ldots+u_{10} = 672$ et $u_6 = 81$. Alors le terme $u_3$ est :",
+          "choices": [
+            { "label": "A", "fr": "$103$" },
+            { "label": "B", "fr": "$213$" },
+            { "label": "C", "fr": "$123$" },
+            { "label": "D", "fr": "$105$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "Somme de 8 termes en progression arithmÃ©tique: $\\frac{8(u_3+u_{10})}{2} = 672$, $u_3+u_{10} = 168$. $u_6 = 81 = \\frac{u_3+u_{10}}{2}$, donc $u_3 = 103$",
+          "topics": ["suites"],
+          "difficulty": "difficile"
+        },
+        {
+          "id": 19,
+          "question_fr": "Soit $(U_n)_{n\\in\\mathbb{N}}$ une suite telle que $(\\forall n\\in\\mathbb{N})$ $U_{n+2} = U_{n+1} - U_n$, $U_0=1$, $U_1=2$. Pour tout $n\\in\\mathbb{N}$ on pose $V_n = U_{n+1} - U_n$. Alors :",
+          "choices": [
+            { "label": "A", "fr": "$V_n = (-1)^n$" },
+            { "label": "B", "fr": "$U_n = (-1)^n$" },
+            { "label": "C", "fr": "$U_n = 1$" },
+            { "label": "D", "fr": "$U_n = (-1)^{n+1}$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$V_{n+1} = U_{n+2}-U_{n+1} = (U_{n+1}-U_n)-U_{n+1} = -U_n = -(U_{n+1}-V_n) = -V_n$",
+          "topics": ["suites"],
+          "difficulty": "difficile"
+        },
+        {
+          "id": 20,
+          "question_fr": "Laquelle des suites suivantes est convergente ?",
+          "choices": [
+            { "label": "A", "fr": "$(n)$" },
+            { "label": "B", "fr": "$((-1)^n)$" },
+            { "label": "C", "fr": "$((-1)^n + \\frac{1}{n})$" },
+            { "label": "D", "fr": "$(\\frac{\\sin n}{n})$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$(\\frac{\\sin n}{n})$ converge vers $0$ par le thÃ©orÃ¨me des gendarmes ($-1/n \\le \\sin n/n \\le 1/n$).",
+          "topics": ["suites", "analyse"],
+          "difficulty": "facile"
+        }
+      ]
+    }
+  ]
+}

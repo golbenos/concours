@@ -1,0 +1,4372 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\sin(2x)-\\sin(x)}{\\sin(2x)+\\sin(x)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac13$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Factoriser $\\sin x$ : $\\frac{\\sin x(2\\cos x-1)}{\\sin x(2\\cos x+1)}=\\frac{2\\cos x-1}{2\\cos x+1}\\to\\frac13$"
+    },
+    {
+      "id": 2,
+      "question_fr": "$\\displaystyle \\lim_{x\\to\\pi/2}(\\pi-2x)\\tan x = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$2$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\pi$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Poser $t=\\pi/2-x\\to0$, $\\tan x=\\cot t\\sim1/t$ ⇒ $2t\\cdot1/t=2$"
+    },
+    {
+      "id": 3,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{\\pi\\sin(\\pi+\\sqrt{x})}{\\sqrt{x^3+x+1}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\pi$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$|\\sin|\\le1$, d\\'eno $\\to+\\infty$ ⇒ gendarmes"
+    },
+    {
+      "id": 4,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\sqrt{x+1}-\\sqrt{1-x}}{\\sin x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Conjugu\\'e : $\\frac{2x}{\\sin x(\\sqrt{x+1}+\\sqrt{1-x})}\\to\\frac{2}{1\\cdot2}=1$"
+    },
+    {
+      "id": 5,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{\\sin^2x-\\cos^3x}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Num born\\'e $[-1,1]$, d\\'eno $\\to+\\infty$"
+    },
+    {
+      "id": 6,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0^+}(\\sin x)^x = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\ln y=x\\ln(\\sin x)$ ; $\\sin x\\sim x$ ⇒ $x\\ln x\\to0$ ⇒ $y\\to e^0=1$"
+    },
+    {
+      "id": 7,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0^+}x^{\\ln(3x)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\ln y=\\ln(3x)\\ln x\\to(-\\infty)(-\\infty)=+\\infty$ ⇒ $y\\to+\\infty$"
+    },
+    {
+      "id": 8,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{2^x}{\\ln(x^2+1)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$e$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Exp domine log"
+    },
+    {
+      "id": 9,
+      "question_fr": "$\\displaystyle \\lim_{x\\to1^+}\\ln x\\cdot\\ln(\\ln x) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Poser $t=\\ln x\\to0^+$ ⇒ $t\\ln t\\to0$"
+    },
+    {
+      "id": 10,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0^+}x\\ln(x^2-x) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$e$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$x^2-x\\sim -x$ ⇒ $\\ln(x^2-x)\\sim\\ln x$ ⇒ $x\\ln x\\to0$"
+    },
+    {
+      "id": 11,
+      "question_fr": "$\\displaystyle \\lim_{x\\to1^-}\\frac{1}{x^2-1}e^{-1/(x-1)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^{-1}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$t=x-1\\to0^-$ ; $x^2-1\\sim2t$ ; $\\frac{1}{2t}\\to-\\infty$, $e^{-1/t}\\to+\\infty$ ⇒ prod $-\\infty$"
+    },
+    {
+      "id": 12,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{x}{\\sin x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$e$"
+        },
+        {
+          "label": "D",
+          "fr": "$3$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\lim_{u\\to0}\\frac{\\sin u}{u}=1$ ⇒ inverse $\\to1$"
+    },
+    {
+      "id": 13,
+      "question_fr": "$\\displaystyle \\lim_{x\\to a}\\frac{xf(a)-af(x)}{x-a} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$f(a)$"
+        },
+        {
+          "label": "B",
+          "fr": "$f'(a)$"
+        },
+        {
+          "label": "C",
+          "fr": "$f(a)-af(a)$"
+        },
+        {
+          "label": "D",
+          "fr": "$f(a)-af'(a)$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\frac{(x-a)f(a)-a(f(x)-f(a))}{x-a}\\to f(a)-af'(a)$"
+    },
+    {
+      "id": 14,
+      "question_fr": "$\\displaystyle \\lim_{x\\to2}\\frac{x-2}{\\ln x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "H\\^opital : $\\frac{1}{1/x}=x\\to2$"
+    },
+    {
+      "id": 15,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{2025x}{e^{2024x}-e^{2023x}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2025$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$2025e$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$e^{2023x}(e^x-1)\\sim e^{2023x}x$ ⇒ $\\frac{2025x}{e^{2023x}x}\\to2025$"
+    },
+    {
+      "id": 16,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\sqrt{x+1}-1}{\\ln(e+x)-1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$e$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^{-1}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\sqrt{x+1}-1\\sim x/2$, $\\ln(e+x)-1=\\ln(1+x/e)\\sim x/e$ ⇒ $\\frac{1/2}{1/e}=e/2$"
+    },
+    {
+      "id": 17,
+      "question_fr": "$\\displaystyle \\lim_{x\\to1}\\frac{x^2-1}{\\ln x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac23$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac32$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "H\\^opital : $\\frac{2x}{1/x}=2x^2\\to2$"
+    },
+    {
+      "id": 18,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\sqrt{3x}\\ln(1+x)}{\\sqrt{x+x^2}-\\sqrt{x}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2\\sqrt3$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$3\\sqrt2$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac16$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\sqrt{x+x^2}-\\sqrt{x}=\\sqrt{x}(\\sqrt{1+x}-1)\\sim x^{3/2}/2$ ; num $\\sim\\sqrt3\\,x^{3/2}$"
+    },
+    {
+      "id": 19,
+      "question_fr": "$\\displaystyle \\lim_{x\\to1}\\frac{\\tan(\\pi x)+\\dots+\\tan(n\\pi x)}{\\tan(\\pi x)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\pi$"
+        },
+        {
+          "label": "C",
+          "fr": "$1/\\pi$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\tan(k\\pi x)\\sim k\\pi(x-1)$ ; somme $\\sim\\pi(x-1)\\frac{n(n+1)}{2}$"
+    },
+    {
+      "id": 20,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{e^x-1}{x^3-3x-2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Num $\\sim x\\to0$, d\\'eno $\\to-2\\neq0$"
+    },
+    {
+      "id": 21,
+      "question_fr": "$\\displaystyle \\lim_{x\\to1}\\frac{x^3-3x-2}{\\ln(\\cos(3x))} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac23$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Num $\\to-4$, d\\'eno $\\to\\ln(\\cos3)<0$ ⇒ $+\\infty$"
+    },
+    {
+      "id": 22,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\sin^2(2x)}{\\ln(\\cos(3x))} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\sin^2(2x)\\sim4x^2$, $\\ln(\\cos(3x))\\sim-\\frac{9x^2}{2}$ ⇒ $\\frac{4}{-9/2}=-8/9$"
+    },
+    {
+      "id": 23,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\ln x-1}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\ln x\\to-\\infty$, $x\\to0^+$"
+    },
+    {
+      "id": 24,
+      "question_fr": "$\\displaystyle \\lim_{x\\to1}\\frac{\\ln(\\cos^{-1}x)}{x-1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\pi}{3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$t=\\cos^{-1}x\\to0$, croissances compar\\'ees"
+    },
+    {
+      "id": 25,
+      "question_fr": "$\\displaystyle \\lim_{x\\to1}\\frac{x+x^2+\\dots+x^n-n}{x-1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$n$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{n(n+1)}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{n(n+2)}{2}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Taux : $f'(1)=1+2+\\dots+n$"
+    },
+    {
+      "id": 26,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{1-\\cos x}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{n(n+1)}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{n(n+2)}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$n^2$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$1-\\cos x\\sim x^2/2$ ⇒ $x/2\\to0$"
+    },
+    {
+      "id": 27,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\ln(\\cos2x)}{x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac49$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\cos2x\\sim1-2x^2$, $\\ln(1-2x^2)\\sim-2x^2$"
+    },
+    {
+      "id": 28,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}x\\ln(1+\\frac1x) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\ln(1+1/x)\\sim1/x$"
+    },
+    {
+      "id": 29,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\ln(x^2+1)-x = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "Aucune"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\ln(x^2+1)\\sim2\\ln x$, $2\\ln x-x\\to-\\infty$"
+    },
+    {
+      "id": 30,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}x(e^{\\sqrt{x^2+1}}-x-1) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\sqrt{x^2+1}\\sim x+\\frac1{2x}$, poser $u=1/(2x)$"
+    },
+    {
+      "id": 31,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\sqrt{x^{2024}+2023}-\\sqrt{x^{2024}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Conjugu\\'e : $\\frac{2023}{\\sqrt{x^{2024}+2023}+\\sqrt{x^{2024}}}\\to0$"
+    },
+    {
+      "id": 32,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\sqrt{a^2x^2+bx}+x-ax = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{b+1}{2a}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\sqrt{a^2x^2+bx}=ax\\sqrt{1+\\frac{b}{a^2x}}\\sim ax+\\frac{b}{2a}$ (si $a=1$)"
+    },
+    {
+      "id": 33,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{x+x^2+\\dots+x^{2024}}{\\ln x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{2024\\cdot2025}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$2024$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$x^{2024}/\\ln x\\to+\\infty$"
+    },
+    {
+      "id": 34,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}(1+\\frac1x+\\frac1{x^2})^{2x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$(1+1/x+o(1/x))^{2x}\\to e^2$"
+    },
+    {
+      "id": 35,
+      "question_fr": "$\\displaystyle \\lim_{x\\to a}\\frac{\\sqrt{a+2x}-\\sqrt{3a}}{\\sqrt{x}-\\sqrt{a}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$3\\sqrt2$"
+        },
+        {
+          "label": "B",
+          "fr": "$2a$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\sqrt3$"
+        },
+        {
+          "label": "D",
+          "fr": "$2\\sqrt{3a}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Conjugu\\'es ou taux d'accroissement"
+    },
+    {
+      "id": 36,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{x-2}{e^{2x}-1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Num $\\to-2$, $e^{2x}-1\\sim2x\\to0$ ⇒ $-\\infty$"
+    },
+    {
+      "id": 37,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}n-\\sqrt{n^2-n} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac13$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Conjugu\\'e : $\\frac{n}{n+\\sqrt{n^2-n}}\\to\\frac12$"
+    },
+    {
+      "id": 38,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}(\\sqrt{n^2+n+1}-\\sqrt{n^2-n+1})n^2 = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Diff $\\sim1$ ⇒ $n^2\\to+\\infty$"
+    },
+    {
+      "id": 39,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{1+x\\ln\\sqrt{1+a/x}}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$a+1$"
+        },
+        {
+          "label": "D",
+          "fr": "$2a^2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\ln\\sqrt{1+a/x}\\sim a/(2x)$ ⇒ num $\\to1+a/2$, /$x\\to0$"
+    },
+    {
+      "id": 40,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}\\frac{\\sqrt{n^2}}{n} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\sqrt{n^2}=n$"
+    },
+    {
+      "id": 41,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}n-\\sqrt{(n+5)(n+7)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$-6$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\sqrt{n^2+12n+35}\\sim n+6$"
+    },
+    {
+      "id": 42,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\sqrt{9x^2-x+1}-3x = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$-6$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\sqrt{9x^2-x+1}=3x\\sqrt{1-\\frac1{9x}}\\sim3x-\\frac16$"
+    },
+    {
+      "id": 43,
+      "question_fr": "$\\displaystyle \\lim_{x\\to2}\\frac{x-1}{x\\ln(x^2)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\ln(x^2)=2\\ln x\\to2\\ln2$"
+    },
+    {
+      "id": 44,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}(1+\\frac{3}{n+2024})^{n+2024} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$e^3$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac13$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$(1+3/m)^m\\to e^3$"
+    },
+    {
+      "id": 45,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}n(\\frac1{4n}-\\frac34) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\ln(3/4)$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "Aucune"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\frac1{4n}-\\frac34\\to-\\frac34$ ⇒ $n\\cdot(-3/4)\\to-\\infty$"
+    },
+    {
+      "id": 46,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0^+}\\frac{\\sqrt{x}}{\\sqrt{x}+2\\sqrt{x}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\frac{\\sqrt{x}}{3\\sqrt{x}} = \\frac13$"
+    },
+    {
+      "id": 47,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}\\frac{n^3}{2^n} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln2$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Exp l'emporte"
+    },
+    {
+      "id": 48,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{e^{x+1}-2^x}{e^{x+1}+2^x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln2$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Diviser par $e^{x+1}$ : $\\frac{1-(2/e)^{x+1}e}{1+(2/e)^{x+1}e}\\to1$"
+    },
+    {
+      "id": 49,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}3^x e^{-3x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$e$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$(3/e^3)^x\\to0$ car $3/e^3<1$"
+    },
+    {
+      "id": 50,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{2^x}{\\ln(x^2+1)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac13$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Exp $\\gg$ log"
+    },
+    {
+      "id": 51,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0^+}\\ln(x^2+x) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac13$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$x^2+x\\sim x$ ⇒ $\\ln x\\to-\\infty$"
+    },
+    {
+      "id": 52,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\sqrt{x+1}-\\sqrt{x}+1}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Num $\\to2$, d\\'eno $\\to0$ ⇒ $+\\infty$"
+    },
+    {
+      "id": 53,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}\\frac{n+1}{\\sqrt{n}-2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\frac{n}{\\sqrt{n}}=\\sqrt{n}\\to+\\infty$"
+    },
+    {
+      "id": 54,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{\\ln x}{\\ln(x+3)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^{-3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\frac{\\ln x}{\\ln x+\\ln(1+3/x)}\\to1$"
+    },
+    {
+      "id": 55,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{(\\sin x)^{1/2}}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "Aucune"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\sin x\\sim x$ ⇒ $x^{-1/2}\\to+\\infty$"
+    },
+    {
+      "id": 56,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\sqrt{x+1}-\\sqrt{x}+\\sqrt{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$Autre r\\'eponse$"
+        },
+        {
+          "label": "E",
+          "fr": "Aucune"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\sqrt{x+1}-\\sqrt{x}\\to0$, reste $\\sqrt{x}\\to+\\infty$"
+    },
+    {
+      "id": 57,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\sqrt{x+\\sqrt{x+\\sqrt{x}}}-\\sqrt{x+\\sqrt{x}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Conjugu\\'e ⇒ $\\to0$"
+    },
+    {
+      "id": 58,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\sqrt{x+\\sqrt{x+\\sqrt{x}}}-\\sqrt{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "It\\'erer $\\sqrt{x+\\sqrt{x}}\\sim\\sqrt{x}+\\frac12$"
+    },
+    {
+      "id": 59,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}x\\ln\\left(\\frac{\\sqrt{x}+1}{1-x}\\right) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$e$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "Aucune"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Fraction $\\to1$, produit $x\\cdot0\\to0$"
+    },
+    {
+      "id": 60,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\left(1+\\frac{2024}{x-1}\\right)^x = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^{2024}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^3$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\ln L\\sim x\\cdot\\frac{2024}{x-1}\\to2024$"
+    },
+    {
+      "id": 61,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}\\sum_{k=1}^n\\frac1{n^2+k^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln2$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\ln2$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Chaque terme $\\le1/n^2$, somme $\\le1/n\\to0$"
+    },
+    {
+      "id": 62,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0^+}\\ln(1+\\sqrt{x})+e^{2x}-1 = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$3$"
+        },
+        {
+          "label": "D",
+          "fr": "Aucune"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Chaque terme $\\to0$"
+    },
+    {
+      "id": 63,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{\\pi/2-\\arctan x}{1/(2x+1)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$e$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\pi/2$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\pi/2-\\arctan x=\\arctan(1/x)\\sim1/x$, d\\'eno $\\sim1/(2x)$"
+    },
+    {
+      "id": 64,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0^+}e^{-x}-\\cos(\\sqrt{x}) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac32$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$e^{-x}\\to1$, $\\cos(\\sqrt{x})\\to1$"
+    },
+    {
+      "id": 65,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\left(\\frac{2x}{x^2}\\right)^x = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "D",
+          "fr": "Aucune"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Pour $x>2$, $0<2/x<1$ ⇒ $\\to0$"
+    },
+    {
+      "id": 66,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}\\frac{1}{2k+n} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln\\sqrt2$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\ln\\sqrt3$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\ln3$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "D\\'eno $\\to\\infty$"
+    },
+    {
+      "id": 67,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}\\frac{\\sin^2n-\\cos^2n}{n} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$Autre r\\'eponse$"
+        },
+        {
+          "label": "E",
+          "fr": "Aucune"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Num born\\'e $[-1,1]$"
+    },
+    {
+      "id": 68,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\sqrt[3]{x+343}-7}{\\sin(2024x)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$2024$"
+        },
+        {
+          "label": "C",
+          "fr": "$2024\\times3$"
+        },
+        {
+          "label": "D",
+          "fr": "$2024\\times3\\times49$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\sqrt[3]{x+343}-7\\sim\\frac{x}{3\\cdot49}$"
+    },
+    {
+      "id": 69,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}\\left(1+\\frac{2n}{7n}\\right)^{29n} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{29}{7}$"
+        },
+        {
+          "label": "B",
+          "fr": "$2022$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{7}{29}\\ln2022$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{29}{7}\\ln2022$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Base $9/7>1$, exp $\\to+\\infty$"
+    },
+    {
+      "id": 70,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}x^{1/x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$e$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\ln y=\\frac{\\ln x}{x}\\to0$"
+    },
+    {
+      "id": 71,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\left(\\frac{3x-1}{3x+2}\\right)^{2x-1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^{-1}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$1-\\frac{3}{3x+2}$ ⇒ $\\ln L\\sim2x\\cdot(-\\frac{3}{3x})=-2$"
+    },
+    {
+      "id": 72,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}(\\arctan x)^{1/x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$e$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\arctan x\\sim x$, $(x)^{1/x}\\to0$"
+    },
+    {
+      "id": 73,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}\\left(\\frac1n\\right)^{n^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$=e^{-n^2\\ln n}\\to0$"
+    },
+    {
+      "id": 74,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\left(1+\\frac1{\\sqrt{x}}\\right)^{-\\sqrt{x}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$e$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^{-1}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$(1+1/t)^{-t}\\to e^{-1}$, $t=\\sqrt{x}$"
+    },
+    {
+      "id": 75,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0^+}\\frac{\\ln x}{1-\\ln x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Diviser par $\\ln x$ : $\\frac{1}{1/\\ln x-1}\\to1$"
+    },
+    {
+      "id": 76,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}(x^{-x}+e^{-x}+1) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$x^{-x}\\to0$, $e^{-x}\\to0$ ⇒ $1$"
+    },
+    {
+      "id": 77,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\left(\\frac{\\sin x}{\\ln(1+x)}\\right)^{-\\sin x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Base $\\to1$, exp $\\to0$ ⇒ $1^0=1$"
+    },
+    {
+      "id": 78,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{x^2+\\ln x}{\\ln x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$x^2/\\ln x\\to+\\infty$"
+    },
+    {
+      "id": 79,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}(\\sqrt{x^2+1}-x)^{-x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$3$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\sqrt{x^2+1}-x\\sim1/(2x)$ ⇒ $(2x)^x\\to+\\infty$"
+    },
+    {
+      "id": 80,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\ln(1-x)-3x}{e^{-x}-1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-4$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$-2$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\ln(1-x)\\sim-x-x^2/2$ ; num $\\sim-4x$ ; $e^{-x}-1\\sim-x$ ⇒ $(-4x)/(-x)=4$"
+    },
+    {
+      "id": 81,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{e^{8x}-e^{2x}+x^2}{x^2-2x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-4$"
+        },
+        {
+          "label": "B",
+          "fr": "$-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$e^{8x}\\sim1+8x+32x^2$, $e^{2x}\\sim1+2x+2x^2$ ; num $\\sim6x$ ⇒ $6x/(-2x)=-3$"
+    },
+    {
+      "id": 82,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{e^x-1}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$4$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$2$"
+        },
+        {
+          "label": "D",
+          "fr": "$4\\sqrt3$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Classique"
+    },
+    {
+      "id": 83,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{2e^x-e^{2x}-1}{x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac13$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$2(1+x+x^2/2)-(1+2x+2x^2)-1=-x^2$"
+    },
+    {
+      "id": 84,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\ln(x+1)}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Classique"
+    },
+    {
+      "id": 85,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\tan x-x}{x^3} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$3$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\tan x=x+\\frac{x^3}3+o(x^3)$"
+    },
+    {
+      "id": 86,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}x\\ln(1+1/x) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\ln(1+1/x)\\sim1/x$"
+    },
+    {
+      "id": 87,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\cos x-1}{x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\cos x-1=-2\\sin^2(x/2)\\sim-x^2/2$"
+    },
+    {
+      "id": 88,
+      "question_fr": "$\\displaystyle \\lim_{n\\to\\infty}\\frac{2^{2n}+2}{4^n+1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac32$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac32$"
+        },
+        {
+          "label": "D",
+          "fr": "$3$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$2^{2n}=4^n$ ⇒ $\\frac{1+2/4^n}{1+1/4^n}\\to1$"
+    },
+    {
+      "id": 89,
+      "question_fr": "$\\displaystyle \\lim_{x\\to1}\\frac{\\sqrt{x^2+6x-7}}{x-1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\sqrt2$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\sqrt2$"
+        },
+        {
+          "label": "C",
+          "fr": "$3\\sqrt2$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$x^2+6x-7=(x-1)(x+7)$ ⇒ $\\frac{\\sqrt{x+7}}{\\sqrt{x-1}}\\to+\\infty$"
+    },
+    {
+      "id": 90,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\ln(e^x-1)^2+1 = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$(e^x-1)^2\\sim e^{2x}$, $\\ln e^{2x}=2x\\to+\\infty$"
+    },
+    {
+      "id": 91,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0^+}x^x = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$2$"
+        },
+        {
+          "label": "D",
+          "fr": "$3$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\ln y=x\\ln x\\to0$ ⇒ $y\\to1$"
+    },
+    {
+      "id": 92,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}(e^x+3x)^{2x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Base $\\to1$, exp $\\to0$ ⇒ $1^0=1$"
+    },
+    {
+      "id": 93,
+      "question_fr": "$\\displaystyle \\lim_{x\\to-\\infty}x^2e^x-x^2 = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$x^2e^x\\to0$, $-x^2\\to-\\infty$"
+    },
+    {
+      "id": 94,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{\\ln x}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Classique"
+    },
+    {
+      "id": 95,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}(2-\\cos x)^{\\sqrt{\\cos2x}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$e^3$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$2-\\cos x\\to1$, exp $\\to1$ ⇒ $1^1=1$"
+    },
+    {
+      "id": 96,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}x\\sin(1/x) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\sin(1/x)\\sim1/x$"
+    },
+    {
+      "id": 97,
+      "question_fr": "$\\displaystyle \\lim_{x\\to\\pi/2}(1+\\cos2x)^{\\tan x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\pi/2$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$1+\\cos2x=2\\cos^2x\\to0$, $\\tan x\\to+\\infty$ ⇒ $0^{+\\infty}=0$"
+    },
+    {
+      "id": 98,
+      "question_fr": "$\\displaystyle \\lim_{x\\to+\\infty}\\frac{\\sqrt{2x^2+1}-\\sqrt{x+1}}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$1/\\sqrt2$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\sqrt2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\frac{\\sqrt{2x^2+1}}{x}\\to\\sqrt2$, $\\frac{\\sqrt{x+1}}{x}\\to0$"
+    },
+    {
+      "id": 99,
+      "question_fr": "$\\displaystyle \\lim_{x\\to0}\\frac{\\tan x-\\sin x}{x^3} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\pi/2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\tan x-\\sin x=\\frac{\\sin x(1-\\cos x)}{\\cos x}\\sim\\frac{x\\cdot(x^2/2)}{1}=x^3/2$"
+    },
+    {
+      "id": 100,
+      "question_fr": "$\\displaystyle \\lim_{x\\to1}\\frac{\\sum_{k=1}^{100}x^k-100}{x-1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$100$"
+        },
+        {
+          "label": "B",
+          "fr": "$50$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$5050$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$f'(1)=1+2+\\dots+100=5050$"
+    },
+    {
+      "id": 101,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{\\sin x}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Limite classique fondamentale."
+    },
+    {
+      "id": 102,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 5} \\frac{x^2 - 7x - 8}{x - 8} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-13$"
+        },
+        {
+          "label": "B",
+          "fr": "$13$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "En 5 : (25-35-8)/(5-8) = (-18)/(-3) = 6. Absent des options."
+    },
+    {
+      "id": 103,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 4} \\frac{\\sqrt{x+5} - 3}{x-4} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Multiplier par le conjugue : (x+5-9)/[(x-4)(sqrt(x+5)+3)] = 1/(sqrt(x+5)+3) -> 1/6."
+    },
+    {
+      "id": 104,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{(1+x)^2 - 1}{(1+x)^3 - 1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "(2x+x^2)/(3x+3x^2+x^3) = (2+x)/(3+3x+x^2) -> 2/3."
+    },
+    {
+      "id": 105,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 9} \\frac{\\sqrt{x} - 2}{x - 9} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "En 9 : numerateur -> 1, denominateur -> 0, donc limite infinie."
+    },
+    {
+      "id": 106,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 5} \\frac{x^2 + 27}{x + 3} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-2$"
+        },
+        {
+          "label": "B",
+          "fr": "$2$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "En 5 : (25+27)/(5+3) = 52/8 = 6,5. Absent des options."
+    },
+    {
+      "id": 107,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 5} \\frac{2x^2 - 5x - 3}{x^2 - 2x - 3} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{5}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "En 5 : (50-25-3)/(25-10-3) = 22/12 = 11/6. Absent des options."
+    },
+    {
+      "id": 108,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 4} \\frac{x^2 - 2x}{\\sqrt{x+2} - 2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$8$"
+        },
+        {
+          "label": "B",
+          "fr": "$4$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Conjugue : x(x-2)(sqrt(x+2)+2)/(x-2) = x(sqrt(x+2)+2) -> 4(2+2)=16. Absent des options."
+    },
+    {
+      "id": 109,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 1} \\frac{x^2 + 3x - 4}{2x + 10} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{12}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "En 1 : (1+3-4)/(2+10) = 0/12 = 0."
+    },
+    {
+      "id": 110,
+      "question_fr": "$\\displaystyle \\lim_{x \\to -2} \\frac{x^2 - 5x - 2}{x + 2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-9$"
+        },
+        {
+          "label": "B",
+          "fr": "$9$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "En -2 : (4+10-2)/(-2+2) = 12/0 -> infini."
+    },
+    {
+      "id": 111,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 9} \\frac{\\frac{1}{x^2} - 1}{x - 5} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\frac{1}{81}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{81}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "En 9 : (1/81-1)/(9-5) = (-80/81)/4 = -20/81. Absent des options."
+    },
+    {
+      "id": 112,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 9} \\frac{1 - \\cos x}{\\sin x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\cot 9$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "cot 9 est propose mais faux. Aucune reponse correcte parmi les options."
+    },
+    {
+      "id": 113,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 1} \\frac{1 - \\sqrt{x}}{1 - x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "(1-sqrt(x))/(1-x^2) = 1/[(1+sqrt(x))(1+x)] -> 1/4. Absent des options."
+    },
+    {
+      "id": 114,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 5} \\frac{\\frac{1}{x^2} - \\frac{1}{25}}{x^2 - 25} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\frac{2}{625}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{2}{625}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Simplification : -1/(25x^2) -> -1/625. Absent des options."
+    },
+    {
+      "id": 115,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 9} \\frac{\\sqrt{1+\\sqrt{x}} - 2}{x - 9} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{12}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Conjugue : 1/[(sqrt(x)+3)(sqrt(1+sqrt(x))+2)] -> 1/24. Absent des options."
+    },
+    {
+      "id": 116,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{\\sin(3x)}{\\sin(2x)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{3}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "sin(3x)/sin(2x) ~ 3x/(2x) = 3/2."
+    },
+    {
+      "id": 117,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{e^x}{x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Exponentielle domine le polynome."
+    },
+    {
+      "id": 118,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 3} \\frac{x^2 - 9}{x - 3} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$6$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-6$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "x^2-9 = (x-3)(x+3) -> x+3 -> 6."
+    },
+    {
+      "id": 119,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{\\sin x}{x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "sin x / x^2 ~ 1/x -> infini."
+    },
+    {
+      "id": 120,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{x}{\\ln x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "x domine ln x."
+    },
+    {
+      "id": 121,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{e^x - 1}{x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "e^x-1 ~ x donc x/x^2 = 1/x -> infini."
+    },
+    {
+      "id": 122,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 1} \\frac{\\ln x}{x - 1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Taux d'accroissement de ln x en 1."
+    },
+    {
+      "id": 123,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{x - \\sin x}{x^3} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\frac{1}{6}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Limite classique : sin x ~ x - x^3/6."
+    },
+    {
+      "id": 124,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{3x^2 + 2x - 1}{x^2 + 5} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$3$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Diviser par x^2 : (3+2/x-1/x^2)/(1+5/x^2) -> 3."
+    },
+    {
+      "id": 125,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{\\sqrt{x^2 + 1}}{x + 1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "|x|sqrt(1+1/x^2)/(x+1) -> 1."
+    },
+    {
+      "id": 126,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{5x^3 - 2x}{x^3 + 3x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$5$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Diviser par x^3 : (5-2/x^2)/(1+3/x) -> 5."
+    },
+    {
+      "id": 127,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{1 - \\cos(2x)}{x \\sin x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "1-cos(2x) ~ 2x^2, x sin x ~ x^2 => 2."
+    },
+    {
+      "id": 128,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^x = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Limite fondamentale donnant e."
+    },
+    {
+      "id": 129,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{e^{2x} - 1}{e^x - 1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "e^{2x}-1 ~ 2x, e^x-1 ~ x => 2."
+    },
+    {
+      "id": 130,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{\\ln(x^2)}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "2 ln x / x -> 0."
+    },
+    {
+      "id": 131,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{x^2}{e^{2x}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "x^2/e^{2x} -> 0 par croissance comparee."
+    },
+    {
+      "id": 132,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{1}{n} \\sin\\left(\\frac{k\\pi}{n}\\right) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2}{\\pi}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Somme de Riemann : int_0^1 sin(pi x) dx = 2/pi."
+    },
+    {
+      "id": 133,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{1}{n} e^{k/n} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e-1$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "int_0^1 e^x dx = e-1."
+    },
+    {
+      "id": 134,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{k}{n^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "(1/n^2) * n(n+1)/2 -> 1/2."
+    },
+    {
+      "id": 135,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{k}{n^2} \\cos\\left(\\frac{k}{n}\\right) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\sin 1$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "int_0^1 x cos x dx = sin 1 + cos 1 - 1. Aucune des options."
+    },
+    {
+      "id": 136,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{1}{n} \\ln\\left(1 + \\frac{k}{n}\\right) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln 2$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "int_0^1 ln(1+x) dx = 2 ln 2 - 1. Aucune des options."
+    },
+    {
+      "id": 137,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{\\sin x - x}{x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\frac{1}{6}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "sin x - x ~ -x^3/6, divise par x^2 -> 0."
+    },
+    {
+      "id": 138,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{x^2}{\\sin^2 x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "(x/sin x)^2 -> 1."
+    },
+    {
+      "id": 139,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{\\ln x}{\\sqrt{x}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Croissances comparees."
+    },
+    {
+      "id": 140,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{\\tan x}{x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "tan x ~ x donc 1/x -> infini."
+    },
+    {
+      "id": 141,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{\\cos x}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "cos x borne, x -> inf => 0."
+    },
+    {
+      "id": 142,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{k}{n^2} e^{-k/n} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{e-1}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "int_0^1 x e^{-x} dx = 1 - 2/e. Aucune des options."
+    },
+    {
+      "id": 143,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{1}{n} \\cdot \\frac{k}{n+k} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1-\\ln 2$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "int_0^1 x/(1+x) dx = 1 - ln 2."
+    },
+    {
+      "id": 144,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{1}{n} \\sqrt{\\frac{k}{n}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "int_0^1 sqrt(x) dx = 2/3."
+    },
+    {
+      "id": 145,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{1}{n(1 + (k/n)^2)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "int_0^1 dx/(1+x^2) = pi/4."
+    },
+    {
+      "id": 146,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{k^2}{n^3} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "int_0^1 x^2 dx = 1/3."
+    },
+    {
+      "id": 147,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{x^2 + \\sin x}{x^2 + 1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "(1+sin x/x^2)/(1+1/x^2) -> 1."
+    },
+    {
+      "id": 148,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{4x + 3}{2x^2 - 1} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Degre numerateur < degre denominateur => 0."
+    },
+    {
+      "id": 149,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{2^x}{x^3} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Exponentielle (base > 1) domine le polynome."
+    },
+    {
+      "id": 150,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{\\sin(4x)}{\\sin(2x)} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "4x/(2x) = 2."
+    },
+    {
+      "id": 151,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} x \\ln\\left(1 + \\frac{2}{x}\\right) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "ln(1+2/x) ~ 2/x => x * 2/x = 2."
+    },
+    {
+      "id": 152,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{e^{2x} - e^x}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "e^{2x}-e^x = e^x(e^x-1) ~ 1*x => 1."
+    },
+    {
+      "id": 153,
+      "question_fr": "$\\displaystyle \\lim_{x \\to \\infty} \\frac{x^3}{e^{x/2}} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Exponentielle domine le polynome."
+    },
+    {
+      "id": 154,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{1 - \\cos(3x)}{x^2} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{9}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "1-cos(3x) ~ 9x^2/2 => 9/2."
+    },
+    {
+      "id": 155,
+      "question_fr": "$\\displaystyle \\lim_{x \\to 0} \\frac{\\ln(1+2x)}{x} = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "ln(1+2x) ~ 2x => 2."
+    },
+    {
+      "id": 156,
+      "question_fr": "$\\displaystyle \\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{1}{n} \\cos\\left(\\frac{k\\pi}{2n}\\right) = $",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2}{\\pi}$"
+        },
+        {
+          "label": "B",
+          "fr": "$0$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "int_0^1 cos(pi x/2) dx = 2/pi."
+    }
+  ]
+}

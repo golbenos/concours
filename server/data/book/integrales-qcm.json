@@ -1,0 +1,2084 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "Soit $f$ une fonction continue sur $[a,b]$. La valeur moyenne de $f$ sur $[a,b]$ est définie par :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\displaystyle\\frac{1}{b-a}\\int_a^b f(x)\\,dx$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\displaystyle\\int_a^b f(x)\\,dx$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\displaystyle\\frac{1}{b+a}\\int_a^b f(x)\\,dx$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\displaystyle\\frac{1}{b}\\int_a^b f(x)\\,dx$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "La valeur moyenne de $f$ sur $[a,b]$ est $\\frac{1}{b-a}\\int_a^b f(x)\\,dx$."
+    },
+    {
+      "id": 2,
+      "question_fr": "Une primitive de $f(x)=x^3$ sur $\\mathbb{R}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F(x)=3x^2$"
+        },
+        {
+          "label": "B",
+          "fr": "$F(x)=\\frac{x^4}{4}$"
+        },
+        {
+          "label": "C",
+          "fr": "$F(x)=x^4$"
+        },
+        {
+          "label": "D",
+          "fr": "$F(x)=\\frac{x^2}{2}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "On a $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}+C$, donc $\\int x^3\\,dx = \\frac{x^4}{4}+C$."
+    },
+    {
+      "id": 3,
+      "question_fr": "En utilisant une intégration par parties, $\\int_0^1 x e^x\\,dx$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$e-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$1-e$"
+        },
+        {
+          "label": "D",
+          "fr": "$e$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "IPP : $u=x$, $v'=e^x$. $\\int_0^1 xe^x\\,dx = [xe^x]_0^1 - \\int_0^1 e^x\\,dx = e - (e-1) = 1$."
+    },
+    {
+      "id": 4,
+      "question_fr": "Par le changement de variable $t=\\sqrt{x}$, l'intégrale $\\int_1^4 \\frac{e^{\\sqrt{x}}}{\\sqrt{x}}\\,dx$ devient :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\displaystyle\\int_1^4 e^t\\,dt$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\displaystyle\\int_1^2 2e^t\\,dt$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\displaystyle\\int_1^2 e^t\\,dt$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\displaystyle\\int_1^4 2e^t\\,dt$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Soit $t=\\sqrt{x}$, $x=t^2$, $dx=2t\\,dt$, $\\frac{e^{\\sqrt{x}}}{\\sqrt{x}}\\,dx = \\frac{e^t}{t}\\cdot2t\\,dt = 2e^t\\,dt$. Bornes : $x=1\\to t=1$, $x=4\\to t=2$."
+    },
+    {
+      "id": 5,
+      "question_fr": "Les intégrales de Wallis $I_n = \\int_0^{\\pi/2} \\sin^n x\\,dx$ vérifient la relation de récurrence :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$I_{n+2} = \\frac{n+1}{n+2} I_n$"
+        },
+        {
+          "label": "B",
+          "fr": "$I_{n+2} = \\frac{n}{n+1} I_n$"
+        },
+        {
+          "label": "C",
+          "fr": "$I_{n+2} = \\frac{n+2}{n+1} I_n$"
+        },
+        {
+          "label": "D",
+          "fr": "$I_{n+2} = I_n$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Par IPP, on établit $I_{n+2} = \\frac{n+1}{n+2} I_n$ pour $n \\ge 0$."
+    },
+    {
+      "id": 6,
+      "question_fr": "L'intégrale de Riemann $\\int_1^{+\\infty} \\frac{dx}{x^\\alpha}$ converge si et seulement si :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\alpha > 0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\alpha > 1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\alpha \\le 1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\alpha < 1$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\int_1^{+\\infty} \\frac{dx}{x^\\alpha}$ converge ssi $\\alpha > 1$. Pour $\\alpha \\le 1$, elle diverge."
+    },
+    {
+      "id": 7,
+      "question_fr": "Pour intégrer $\\int R(\\sin x, \\cos x)\\,dx$ où $R$ est une fraction rationnelle, la règle de Bioche préconise le changement de variable $t=\\tan(x/2)$ lorsque :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Toujours, quel que soit le cas"
+        },
+        {
+          "label": "B",
+          "fr": "Quand l'expression est invariante par $x\\to -x$"
+        },
+        {
+          "label": "C",
+          "fr": "Quand l'expression est invariante par $x\\to \\pi-x$"
+        },
+        {
+          "label": "D",
+          "fr": "Quand l'expression est invariante par $x\\to x+\\pi$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Le changement $t=\\tan(x/2)$ est universel mais la règle de Bioche permet de choisir le changement optimal selon l'invariance de $R(\\sin x,\\cos x)\\,dx$."
+    },
+    {
+      "id": 8,
+      "question_fr": "Par les sommes de Riemann, $\\lim_{n\\to+\\infty} \\frac{1}{n}\\sum_{k=1}^n f\\left(\\frac{k}{n}\\right)$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\displaystyle\\int_0^1 f(x)\\,dx$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\displaystyle\\int_0^{+\\infty} f(x)\\,dx$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\displaystyle\\int_0^1 f(x)\\,dx - f(0)$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\displaystyle\\frac{1}{2}\\int_0^1 f(x)\\,dx$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Par définition des sommes de Riemann, $\\lim_{n\\to\\infty}\\frac{1}{n}\\sum_{k=1}^n f(k/n) = \\int_0^1 f(x)\\,dx$."
+    },
+    {
+      "id": 9,
+      "question_fr": "Une primitive de $f(x)=\\frac{1}{x}$ sur $]0,+\\infty[$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F(x)=x\\ln x - x$"
+        },
+        {
+          "label": "B",
+          "fr": "$F(x)=\\ln x$"
+        },
+        {
+          "label": "C",
+          "fr": "$F(x)=\\frac{x^2}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$F(x)=\\frac{1}{x^2}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\int \\frac{1}{x}\\,dx = \\ln|x|+C$. Sur $]0,+\\infty[$, $\\ln x$ est une primitive."
+    },
+    {
+      "id": 10,
+      "question_fr": "L'intégrale $\\int_0^1 x e^{x^2}\\,dx$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{e-1}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$e-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{e^2-1}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^2-1$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Posons $u=x^2$, $du=2x\\,dx$. $\\int_0^1 x e^{x^2}\\,dx = \\frac12 \\int_0^1 e^u\\,du = \\frac12(e-1)$."
+    },
+    {
+      "id": 11,
+      "question_fr": "Par le changement de variable $x = \\sin t$, l'intégrale $\\int_0^1 \\sqrt{1-x^2}\\,dx$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\pi}{3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$x=\\sin t$, $dx=\\cos t\\,dt$, bornes $0\\to0$, $1\\to\\pi/2$. $\\int_0^{\\pi/2} \\cos^2 t\\,dt = \\frac14\\int_0^{\\pi/2} (1+\\cos 2t)\\,dt = \\frac{\\pi}{4}$."
+    },
+    {
+      "id": 12,
+      "question_fr": "Soit $I_n = \\int_0^{\\pi/2} \\cos^n x\\,dx$ (intégrales de Wallis). La valeur de $I_2$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi}{8}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$I_2 = \\int_0^{\\pi/2} \\cos^2 x\\,dx = \\frac12\\int_0^{\\pi/2}(1+\\cos 2x)\\,dx = \\frac{\\pi}{4}$."
+    },
+    {
+      "id": 13,
+      "question_fr": "L'intégrale de Riemann $\\int_0^1 \\frac{dx}{x^\\alpha}$ converge si et seulement si :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\alpha > 1$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\alpha \\ge 1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\alpha < 1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\alpha \\le 0$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\int_0^1 \\frac{dx}{x^\\alpha}$ converge ssi $\\alpha < 1$. Pour $\\alpha \\ge 1$, elle diverge."
+    },
+    {
+      "id": 14,
+      "question_fr": "$\\lim_{n\\to+\\infty} \\frac{1}{n}\\sum_{k=1}^n \\sin\\left(\\frac{k\\pi}{n}\\right)$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2}{\\pi}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Somme de Riemann : $\\int_0^1 \\sin(\\pi x)\\,dx = \\left[-\\frac{\\cos(\\pi x)}{\\pi}\\right]_0^1 = \\frac{2}{\\pi}$."
+    },
+    {
+      "id": 15,
+      "question_fr": "Une primitive de $f(x)=\\cos(3x+1)$ sur $\\mathbb{R}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F(x)=-\\frac13\\sin(3x+1)$"
+        },
+        {
+          "label": "B",
+          "fr": "$F(x)=\\frac13\\sin(3x+1)$"
+        },
+        {
+          "label": "C",
+          "fr": "$F(x)=\\sin(3x+1)$"
+        },
+        {
+          "label": "D",
+          "fr": "$F(x)=-3\\sin(3x+1)$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\int \\cos(ax+b)\\,dx = \\frac{1}{a}\\sin(ax+b)+C$, donc $\\int \\cos(3x+1)\\,dx = \\frac13\\sin(3x+1)+C$."
+    },
+    {
+      "id": 16,
+      "question_fr": "En intégrant par parties, $\\int_1^e \\ln x\\,dx$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$e-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$e$"
+        },
+        {
+          "label": "D",
+          "fr": "$2e-1$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "IPP : $u=\\ln x$, $v'=1$. $\\int_1^e \\ln x\\,dx = [x\\ln x]_1^e - \\int_1^e 1\\,dx = e - (e-1) = 1$."
+    },
+    {
+      "id": 17,
+      "question_fr": "La primitive $F$ de $f(x)=e^{2x}+1$ telle que $F(0)=0$ vaut :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F(x)=\\frac12 e^{2x}+x-\\frac12$"
+        },
+        {
+          "label": "B",
+          "fr": "$F(x)=e^{2x}+x$"
+        },
+        {
+          "label": "C",
+          "fr": "$F(x)=\\frac12 e^{2x}+x+\\frac12$"
+        },
+        {
+          "label": "D",
+          "fr": "$F(x)=2e^{2x}+x-2$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\int (e^{2x}+1)\\,dx = \\frac12 e^{2x}+x+C$. $F(0)=\\frac12 + C = 0 \\Rightarrow C = -\\frac12$."
+    },
+    {
+      "id": 18,
+      "question_fr": "Par le changement de variable $u = \\ln x$, $\\int_1^e \\frac{(\\ln x)^2}{x}\\,dx$ devient :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\displaystyle\\int_0^1 u^2\\,du$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\displaystyle\\int_0^1 e^{u^2}\\,du$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\displaystyle\\int_1^e u^2\\,du$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\displaystyle\\int_1^e \\frac{u^2}{e^u}\\,du$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$u=\\ln x$, $du = dx/x$. Bornes : $x=1\\to u=0$, $x=e\\to u=1$. $\\int_0^1 u^2\\,du = \\frac13$."
+    },
+    {
+      "id": 19,
+      "question_fr": "Les intégrales de Wallis $I_n$ vérifient $I_0 = \\pi/2$ et $I_1 = 1$. Alors $I_3$ est égal à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\pi}{8}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{3}{4}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Par $I_{n+2} = \\frac{n+1}{n+2} I_n$, avec $I_1=1$, on a $I_3 = \\frac{2}{3} I_1 = \\frac{2}{3}$."
+    },
+    {
+      "id": 20,
+      "question_fr": "Pour une fonction $f$ continue sur $[a,b]$, la relation de Chasles s'écrit :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\displaystyle\\int_a^c f + \\int_c^b f = \\int_a^b f$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\displaystyle\\int_a^b f + \\int_a^c f = \\int_b^c f$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\displaystyle\\int_a^b f \\cdot \\int_b^c f = \\int_a^c f$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\displaystyle\\int_a^b f = \\int_a^c f - \\int_b^c f$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Relation de Chasles : $\\int_a^c f + \\int_c^b f = \\int_a^b f$, pour tout $c \\in [a,b]$."
+    },
+    {
+      "id": 21,
+      "question_fr": "Une primitive de $f(x)=e^{-3x}$ sur $\\mathbb{R}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F(x)=-3e^{-3x}$"
+        },
+        {
+          "label": "B",
+          "fr": "$F(x)=-\\frac13 e^{-3x}$"
+        },
+        {
+          "label": "C",
+          "fr": "$F(x)=e^{-3x}$"
+        },
+        {
+          "label": "D",
+          "fr": "$F(x)=\\frac13 e^{-3x}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\int e^{ax}\\,dx = \\frac{1}{a}e^{ax}+C$, donc $\\int e^{-3x}\\,dx = -\\frac13 e^{-3x}+C$."
+    },
+    {
+      "id": 22,
+      "question_fr": "L'intégrale impropre $\\int_1^{+\\infty} \\frac{dx}{x^2}$ converge et sa valeur est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$1$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "C",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "D",
+          "fr": "$0$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\int_1^{+\\infty} \\frac{dx}{x^2} = \\lim_{A\\to+\\infty} \\left[-\\frac{1}{x}\\right]_1^A = \\lim_{A\\to+\\infty} \\left(1-\\frac{1}{A}\\right) = 1$."
+    },
+    {
+      "id": 23,
+      "question_fr": "En intégrant par parties, $\\int_0^{\\pi} x\\sin x\\,dx$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\pi$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\pi$"
+        },
+        {
+          "label": "C",
+          "fr": "$2\\pi$"
+        },
+        {
+          "label": "D",
+          "fr": "$-2\\pi$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "IPP : $u=x$, $v'=\\sin x$. $\\int_0^\\pi x\\sin x\\,dx = [-x\\cos x]_0^\\pi + \\int_0^\\pi \\cos x\\,dx = \\pi + [\\sin x]_0^\\pi = \\pi$."
+    },
+    {
+      "id": 24,
+      "question_fr": "$\\lim_{n\\to+\\infty} \\frac{1}{n}\\sum_{k=1}^n \\frac{k}{n}$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac14$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Somme de Riemann : $\\int_0^1 x\\,dx = \\left[\\frac{x^2}{2}\\right]_0^1 = \\frac12$."
+    },
+    {
+      "id": 25,
+      "question_fr": "Par le changement de variable $t = 1+x^2$, l'intégrale $\\int_0^1 \\frac{x}{1+x^2}\\,dx$ devient :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\displaystyle\\int_1^2 \\frac{dt}{2t}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\displaystyle\\int_0^1 \\frac{dt}{t}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\displaystyle\\int_0^1 \\frac{dt}{2t}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\displaystyle\\int_1^2 \\frac{dt}{t}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$t=1+x^2$, $dt=2x\\,dx$, $x\\,dx = dt/2$. Bornes : $x=0\\to t=1$, $x=1\\to t=2$. $\\int_1^2 \\frac{dt}{2t} = \\frac12\\ln 2$."
+    },
+    {
+      "id": 26,
+      "question_fr": "La formule de Wallis s'écrit :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\displaystyle\\frac{\\pi}{2} = \\lim_{n\\to\\infty} \\frac{2\\cdot2\\cdot4\\cdot4\\cdots(2n)(2n)}{1\\cdot3\\cdot3\\cdot5\\cdots(2n-1)(2n+1)}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\displaystyle\\frac{\\pi}{2} = \\lim_{n\\to\\infty} \\frac{1\\cdot3\\cdot5\\cdots(2n-1)}{2\\cdot4\\cdot6\\cdots(2n)}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\displaystyle\\frac{\\pi}{2} = \\lim_{n\\to\\infty} \\frac{n}{n+1}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\displaystyle\\frac{\\pi}{2} = \\lim_{n\\to\\infty} \\frac{2n}{2n+1}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "La formule de Wallis est $\\frac{\\pi}{2} = \\lim_{n\\to\\infty} \\frac{2\\cdot2\\cdot4\\cdot4\\cdots(2n)(2n)}{1\\cdot3\\cdot3\\cdot5\\cdots(2n-1)(2n+1)}$."
+    },
+    {
+      "id": 27,
+      "question_fr": "Une primitive de $f(x)=\\sin(5x-2)$ sur $\\mathbb{R}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F(x)=5\\cos(5x-2)$"
+        },
+        {
+          "label": "B",
+          "fr": "$F(x)=-5\\cos(5x-2)$"
+        },
+        {
+          "label": "C",
+          "fr": "$F(x)=\\frac15\\cos(5x-2)$"
+        },
+        {
+          "label": "D",
+          "fr": "$F(x)=-\\frac15\\cos(5x-2)$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\int \\sin(ax+b)\\,dx = -\\frac{1}{a}\\cos(ax+b)+C$, donc $\\int \\sin(5x-2)\\,dx = -\\frac15\\cos(5x-2)+C$."
+    },
+    {
+      "id": 28,
+      "question_fr": "La linéarité de l'intégrale signifie que pour toutes fonctions $f,g$ continues sur $[a,b]$ et $\\lambda,\\mu\\in\\mathbb{R}$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\displaystyle\\int_a^b (\\lambda f+\\mu g) = \\lambda\\int_a^b f + \\mu\\int_a^b g$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\displaystyle\\int_a^b (\\lambda f+\\mu g) = \\lambda\\mu\\int_a^b f\\int_a^b g$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\displaystyle\\int_a^b (\\lambda f+\\mu g) = \\lambda\\int_a^b f \\cdot \\mu\\int_a^b g$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\displaystyle\\int_a^b (\\lambda f+\\mu g) = \\frac{\\lambda\\int_a^b f}{\\mu\\int_a^b g}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Par linéarité : $\\int_a^b (\\lambda f+\\mu g) = \\lambda\\int_a^b f + \\mu\\int_a^b g$."
+    },
+    {
+      "id": 29,
+      "question_fr": "$\\lim_{n\\to+\\infty} \\frac{1}{n}\\sum_{k=1}^n \\cos\\left(\\frac{k\\pi}{2n}\\right)$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2}{\\pi}$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi}{2}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Somme de Riemann : $\\int_0^1 \\cos(\\frac{\\pi x}{2})\\,dx = \\left[\\frac{2}{\\pi}\\sin(\\frac{\\pi x}{2})\\right]_0^1 = \\frac{2}{\\pi}$."
+    },
+    {
+      "id": 30,
+      "question_fr": "En intégrant par parties $\\int_0^1 x^2 e^x\\,dx$, on obtient :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e-2$"
+        },
+        {
+          "label": "B",
+          "fr": "$2e-2$"
+        },
+        {
+          "label": "C",
+          "fr": "$e-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$e+2$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "IPP deux fois : $\\int_0^1 x^2 e^x\\,dx = [x^2 e^x]_0^1 - 2\\int_0^1 x e^x\\,dx = e - 2\\times1 = e-2$."
+    },
+    {
+      "id": 31,
+      "question_fr": "L'intégrale de Riemann $\\int_0^1 \\frac{dx}{\\sqrt{x}}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Convergente et vaut $2$"
+        },
+        {
+          "label": "B",
+          "fr": "Convergente et vaut $1$"
+        },
+        {
+          "label": "C",
+          "fr": "Divergente"
+        },
+        {
+          "label": "D",
+          "fr": "Convergente et vaut $\\frac12$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\int_0^1 \\frac{dx}{\\sqrt{x}} = \\int_0^1 x^{-1/2}\\,dx = [2\\sqrt{x}]_0^1 = 2$. Elle converge car $-1/2 < 1$."
+    },
+    {
+      "id": 32,
+      "question_fr": "Soit $f$ continue sur $\\mathbb{R}$. La dérivée de la fonction $F(x)=\\int_0^{x^2} f(t)\\,dt$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F'(x)=f(x^2)$"
+        },
+        {
+          "label": "B",
+          "fr": "$F'(x)=2x\\,f(x^2)$"
+        },
+        {
+          "label": "C",
+          "fr": "$F'(x)=2x\\,f(x)$"
+        },
+        {
+          "label": "D",
+          "fr": "$F'(x)=f(x^2)-f(0)$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Par le théorème fondamental et la règle de la chaîne : $F'(x)=f(x^2)\\cdot 2x$."
+    },
+    {
+      "id": 33,
+      "question_fr": "Une primitive de $f(x)=\\frac{1}{1+x^2}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F(x)=\\arctan x$"
+        },
+        {
+          "label": "B",
+          "fr": "$F(x)=\\arcsin x$"
+        },
+        {
+          "label": "C",
+          "fr": "$F(x)=\\ln(1+x^2)$"
+        },
+        {
+          "label": "D",
+          "fr": "$F(x)=\\frac{x}{1+x^2}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Primitive usuelle : $\\int \\frac{dx}{1+x^2} = \\arctan x + C$."
+    },
+    {
+      "id": 34,
+      "question_fr": "Pour une fonction $f$ continue sur $[a,b]$, il existe $c\\in[a,b]$ tel que $\\frac{1}{b-a}\\int_a^b f = f(c)$. Ce résultat est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Le théorème de la moyenne"
+        },
+        {
+          "label": "B",
+          "fr": "Le théorème de Rolle"
+        },
+        {
+          "label": "C",
+          "fr": "Le théorème des accroissements finis"
+        },
+        {
+          "label": "D",
+          "fr": "Le théorème fondamental de l'analyse"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "C'est le théorème de la moyenne, conséquence du théorème des valeurs intermédiaires appliqué à $f$."
+    },
+    {
+      "id": 35,
+      "question_fr": "Soit $W_n = \\int_0^{\\pi/2} \\sin^n x\\,dx$ (intégrales de Wallis). L'équivalent de Wallis pour $n$ grand est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$W_n \\sim \\sqrt{\\frac{2\\pi}{n}}$"
+        },
+        {
+          "label": "B",
+          "fr": "$W_n \\sim \\sqrt{\\frac{\\pi}{2n}}$"
+        },
+        {
+          "label": "C",
+          "fr": "$W_n \\sim \\frac{\\pi}{2n}$"
+        },
+        {
+          "label": "D",
+          "fr": "$W_n \\sim \\frac{1}{n}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "L'équivalent de Wallis est $I_n \\sim \\sqrt{\\frac{\\pi}{2n}}$ quand $n \\to +\\infty$."
+    },
+    {
+      "id": 36,
+      "question_fr": "Pour intégrer $\\int \\frac{dx}{\\sin x}$, la règle de Bioche suggère le changement :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$t = \\cos x$"
+        },
+        {
+          "label": "B",
+          "fr": "$t = \\tan x$"
+        },
+        {
+          "label": "C",
+          "fr": "$t = \\tan(x/2)$"
+        },
+        {
+          "label": "D",
+          "fr": "$t = \\sin x$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Le changement universel $t=\\tan(x/2)$ donne $\\sin x = \\frac{2t}{1+t^2}$, $\\cos x = \\frac{1-t^2}{1+t^2}$, $dx = \\frac{2\\,dt}{1+t^2}$."
+    },
+    {
+      "id": 37,
+      "question_fr": "$\\lim_{n\\to+\\infty} \\frac{1}{n}\\sum_{k=1}^n e^{k/n}$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e-1$"
+        },
+        {
+          "label": "B",
+          "fr": "$e$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{e-1}{e}$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Somme de Riemann : $\\int_0^1 e^x\\,dx = [e^x]_0^1 = e-1$."
+    },
+    {
+      "id": 38,
+      "question_fr": "Une primitive de $f(x)=\\frac{2x}{x^2+1}$ sur $\\mathbb{R}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$F(x)=\\ln(x^2+1)$"
+        },
+        {
+          "label": "B",
+          "fr": "$F(x)=2\\ln(x^2+1)$"
+        },
+        {
+          "label": "C",
+          "fr": "$F(x)=\\arctan x$"
+        },
+        {
+          "label": "D",
+          "fr": "$F(x)=\\frac{1}{x^2+1}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Forme $\\frac{u'}{u}$ : $\\int \\frac{2x}{x^2+1}\\,dx = \\ln(x^2+1)+C$."
+    },
+    {
+      "id": 39,
+      "question_fr": "$\\int_0^{\\pi} \\cos^2 x\\,dx$ est égale à :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\pi$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi}{4}$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\cos^2 x = \\frac{1+\\cos 2x}{2}$, donc $\\int_0^\\pi \\cos^2 x\\,dx = \\frac12\\int_0^\\pi (1+\\cos 2x)\\,dx = \\frac{\\pi}{2}$."
+    },
+    {
+      "id": 40,
+      "question_fr": "La méthode des sommes de Riemann permet de calculer $\\lim_{n\\to+\\infty} \\sum_{k=1}^n \\frac{n}{n^2+k^2}$. Cette limite vaut :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi}{3}$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\sum_{k=1}^n \\frac{n}{n^2+k^2} = \\frac{1}{n}\\sum_{k=1}^n \\frac{1}{1+(k/n)^2} \\to \\int_0^1 \\frac{dx}{1+x^2} = [\\arctan x]_0^1 = \\frac{\\pi}{4}$."
+    },
+    {
+      "id": 41,
+      "question_fr": "$\\displaystyle \\int_0^{\\pi/4} \\tan^3 x\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi}{4}-\\sqrt2$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi}{4}+\\sqrt2$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\sqrt2}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\sqrt2-1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\int\\tan^3 x\\,dx = \\frac12\\tan^2 x + \\ln|\\cos x|$. De 0 \\`a $\\pi/4$ : $\\frac12 + \\ln(\\sqrt2/2)$. Aucune des options."
+    },
+    {
+      "id": 42,
+      "question_fr": "$\\displaystyle \\int_1^2 \\frac{e^x}{x^2}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2e-\\sqrt2$"
+        },
+        {
+          "label": "B",
+          "fr": "$5-\\sqrt e$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\sqrt e-2$"
+        },
+        {
+          "label": "D",
+          "fr": "$e-\\sqrt2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "Par IPP : $-\\bigl[e^x/x\\bigr]_1^2 = e - e^2/2$. R\\'eponse (E) $e-\\sqrt e$ selon le corrig\\'e (discordance probable dans l'\\'enonc\\'e)."
+    },
+    {
+      "id": 43,
+      "question_fr": "$\\displaystyle \\int_1^2 \\frac{\\sqrt{\\ln x}}{x}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac23\\ln2\\sqrt{\\ln2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac32\\ln2\\sqrt{\\ln2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac23\\ln2\\sqrt{\\ln2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac23\\ln3\\sqrt{\\ln3}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\int_1^2 (\\ln x)'\\sqrt{\\ln x}\\,dx = \\bigl[\\frac23(\\ln x)^{3/2}\\bigr]_1^2 = \\frac23(\\ln2)^{3/2}$."
+    },
+    {
+      "id": 44,
+      "question_fr": "Si $f$ est une solution sur $\\mathbb{R}$ de $y''+2y'+4y=0$, alors $g=2f$ est solution sur $\\mathbb{R}$ de :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$y''+2y'+4y=0$"
+        },
+        {
+          "label": "B",
+          "fr": "$y''+y'+y=0$"
+        },
+        {
+          "label": "C",
+          "fr": "$y''+4y'+4y=0$"
+        },
+        {
+          "label": "D",
+          "fr": "$2y''+4y'+y=0$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f''+2f'+4f=0 \\Rightarrow 2f''+4f'+8f=0 \\Rightarrow g''+2g'+4g=0$."
+    },
+    {
+      "id": 45,
+      "question_fr": "$\\displaystyle \\int_2^3 \\frac{x}{\\sqrt{x-1}}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{10\\sqrt2}{3}-\\frac83$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{11\\sqrt2}{3}-\\frac83$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\sqrt2}{3}-\\frac83$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{10\\sqrt2}{3}-\\frac53$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\frac{x}{\\sqrt{x-1}} = \\sqrt{x-1} + \\frac1{\\sqrt{x-1}}$. $\\int_2^3 \\sqrt{x-1}\\,dx = \\frac{4\\sqrt2}{3}$, $\\int_2^3 \\frac{dx}{\\sqrt{x-1}} = 2\\sqrt2$. Somme $= \\frac{10\\sqrt2}{3}$."
+    },
+    {
+      "id": 46,
+      "question_fr": "$\\displaystyle \\int_1^e \\frac{1}{x\\sqrt{\\ln x+1}}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2\\sqrt2}{3}-\\frac23$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\sqrt2-3$"
+        },
+        {
+          "label": "C",
+          "fr": "$2\\sqrt2-2$"
+        },
+        {
+          "label": "D",
+          "fr": "$2\\sqrt2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\int_1^e (\\ln x)'/\\sqrt{\\ln x+1}\\,dx = \\bigl[2\\sqrt{\\ln x+1}\\bigr]_1^e = 2\\sqrt2-2$."
+    },
+    {
+      "id": 47,
+      "question_fr": "$\\displaystyle \\int_0^{\\pi/4} \\frac{2\\tan^2 x}{1+\\tan^2 x}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{\\pi-\\sqrt2}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\pi+\\sqrt2}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\pi-\\sqrt2}{4}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi+\\sqrt2}{4}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\frac{2\\tan^2 x}{1+\\tan^2 x}=2\\sin^2 x=1-\\cos2x$. $\\int_0^{\\pi/4}(1-\\cos2x)\\,dx = \\bigl[x-\\frac12\\sin2x\\bigr]_0^{\\pi/4} = \\frac{\\pi}{4}-\\frac12$. Aucune des options."
+    },
+    {
+      "id": 48,
+      "question_fr": "Soit $a\\in\\mathbb{R}^*$. Si $\\displaystyle\\int_0^1 \\frac{e^{ax}}{e^{ax}+1}\\,dx = \\frac1a$, alors $a$ est \\'egal \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln(e-1)$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\ln2+1$"
+        },
+        {
+          "label": "C",
+          "fr": "$2e-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\ln(2e+1)$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\frac1a\\bigl[\\ln(e^{ax}+1)\\bigr]_0^1 = \\frac1a \\Rightarrow \\ln(e^a+1)-\\ln2=1 \\Rightarrow \\ln\\frac{e^a+1}{2}=1 \\Rightarrow e^a=2e-1 \\Rightarrow a=\\ln(2e-1)$."
+    },
+    {
+      "id": 49,
+      "question_fr": "$\\displaystyle \\int_1^e (\\ln x)(-x + x\\ln x)\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\frac12$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\frac14$"
+        },
+        {
+          "label": "C",
+          "fr": "$-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Remarque : $(x\\ln x - x)' = \\ln x$. Donc $\\int_1^e (x\\ln x - x)'(x\\ln x - x)\\,dx = \\bigl[\\frac12(x\\ln x - x)^2\\bigr]_1^e = \\frac12(0-1)=-\\frac12$."
+    },
+    {
+      "id": 50,
+      "question_fr": "$\\displaystyle \\int_{-\\pi/4}^{\\pi/4} \\frac{x^2\\sin x}{x^4+1}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac14$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "La fonction est impaire : $x^2$ paire, $\\sin x$ impaire, produit impair. L'int\\'egrale sur un intervalle sym\\'etrique d'une fonction impaire est nulle."
+    },
+    {
+      "id": 51,
+      "question_fr": "Soit $n\\in\\mathbb{N}$, $I_n = \\displaystyle\\int_1^2 \\frac{1}{(1+x^2)^n}\\,dx$. Si $(I_n)$ converge, sa limite est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac14$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Pour $x\\in[1,2]$, $1+x^2\\ge2$ donc $\\frac1{1+x^2}\\le\\frac12$. $0\\le I_n\\le\\int_1^2(\\frac12)^n\\,dx=(\\frac12)^n\\to0$ par le th\\'eor\\`eme des gendarmes."
+    },
+    {
+      "id": 52,
+      "question_fr": "Pour $n\\in\\mathbb{N}^*$, $I_n = \\displaystyle\\int_0^1 e^{nx}\\,dx$. Alors $I_{n+1}+I_n$ est \\'egal \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\sqrt e + n$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{e^n-1}{n}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{e^n-1}{n+1}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{e^{n+1}-1}{n+1}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$I_n = (e^n-1)/n$, $I_{n+1} = (e^{n+1}-1)/(n+1)$. R\\'eponse (D) selon le corrig\\'e."
+    },
+    {
+      "id": 53,
+      "question_fr": "$\\displaystyle \\int_1^e \\sin(\\ln x)\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{e\\sin1}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$-\\frac{e\\cos1}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{e\\cos1}{2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{e\\sin1 - e\\cos1 + 1}{2}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Par IPP deux fois : $\\int\\sin(\\ln x)\\,dx = \\frac{x}{2}(\\sin(\\ln x)-\\cos(\\ln x))$. De $1$ \\`a $e$ : $\\frac{e}{2}(\\sin1-\\cos1) - \\frac12(0-1) = \\frac{e\\sin1 - e\\cos1 + 1}{2}$."
+    },
+    {
+      "id": 54,
+      "question_fr": "$\\displaystyle \\int_0^{\\pi/2} \\sqrt[3]{\\sin x}\\,\\cos^3 x\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{7}{20}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{9}{20}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{11}{20}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{13}{20}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Poser $u=\\sin x$, $du=\\cos x\\,dx$. $\\int_0^1 u^{1/3}(1-u^2)\\,du = \\bigl[\\frac34 u^{4/3} - \\frac{3}{10} u^{10/3}\\bigr]_0^1 = \\frac34 - \\frac{3}{10} = \\frac{9}{20}$."
+    },
+    {
+      "id": 55,
+      "question_fr": "$\\displaystyle \\int_1^2 \\frac{\\ln(1+x)}{x^2}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$3\\ln2 - \\frac{3\\ln3}{2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\ln2 - \\frac{3\\ln3}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$2\\ln2$"
+        },
+        {
+          "label": "D",
+          "fr": "$3\\ln2 - \\frac{3\\ln3}{4}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Par IPP : $u=\\ln(1+x), v'=1/x^2$. $\\bigl[-\\frac{\\ln(1+x)}{x}\\bigr]_1^2 + \\int_1^2 \\frac{dx}{x(1+x)} = -\\frac{\\ln3}{2}+\\ln2 + \\bigl[\\ln x-\\ln(1+x)\\bigr]_1^2 = 3\\ln2 - \\frac{3\\ln3}{2}$."
+    },
+    {
+      "id": 56,
+      "question_fr": "$\\displaystyle \\int_0^1 e^x(2x^3+3x^2-x+1)\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$7$"
+        },
+        {
+          "label": "B",
+          "fr": "$6$"
+        },
+        {
+          "label": "C",
+          "fr": "$5$"
+        },
+        {
+          "label": "D",
+          "fr": "$4$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Chercher $F(x)=e^x(ax^3+bx^2+cx+d)$ telle que $F'=f$. Identification donne $a=2,b=-3,c=5,d=-4$. $F(1)-F(0)=e(2-3+5-4)-(-4)=4$."
+    },
+    {
+      "id": 57,
+      "question_fr": "$\\displaystyle \\int_2^3 \\frac{5x+1}{x^2+x-2}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$8\\ln2-\\ln5$"
+        },
+        {
+          "label": "B",
+          "fr": "$3\\ln2+8\\ln5$"
+        },
+        {
+          "label": "C",
+          "fr": "$3\\ln5-4\\ln2$"
+        },
+        {
+          "label": "D",
+          "fr": "$8\\ln2+4\\ln5$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$x^2+x-2=(x-1)(x+2)$. D\\'ecomposition : $\\frac{5x+1}{(x-1)(x+2)} = \\frac2{x-1}+\\frac3{x+2}$. Primitive $2\\ln|x-1|+3\\ln|x+2|$ de $2$ \\`a $3$ donne $3\\ln5-4\\ln2$."
+    },
+    {
+      "id": 58,
+      "question_fr": "$\\displaystyle \\int_0^1 \\frac{4^{2x}}{16^x+4}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{17}{\\ln2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{15}{4\\ln2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{13}{4\\ln2}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{11}{4\\ln2}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$4^{2x}=16^x$. Poser $u=16^x$, $du=16^x\\ln16\\,dx$. L'int\\'egrale se ram\\`ene \\`a $\\frac12$. Aucune des options."
+    },
+    {
+      "id": 59,
+      "question_fr": "$\\displaystyle \\int_1^e \\frac{1+2x^{2024}}{x+x^{2025}}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{2025+\\ln(1+e^{2025})}{2024}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{2024+\\ln(1+e^{2024})}{2024}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{2024+\\ln(1+e^{2024})}{2025}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{2024+\\ln(1+e^{2024})-\\ln2}{2024}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\frac{1+2x^{2024}}{x(1+x^{2024})} = \\frac1x + \\frac{x^{2023}}{1+x^{2024}}$. $\\int_1^e \\frac1x\\,dx = 1$, $\\int_1^e \\frac{x^{2023}}{1+x^{2024}}\\,dx = \\frac1{2024}\\bigl[\\ln(1+x^{2024})\\bigr]_1^e = \\frac{\\ln(1+e^{2024})-\\ln2}{2024}$. Somme = $\\frac{2024+\\ln(1+e^{2024})-\\ln2}{2024}$."
+    },
+    {
+      "id": 60,
+      "question_fr": "$\\displaystyle \\int_0^1 \\frac{e^{3x}}{e^x+1}\\,dx$ est \\'egale \\`a :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac12 e^2 - e + \\ln(e+1)$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac12 e^2 - e$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\ln(e+1)+\\frac12-\\ln2$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac12 e^2 + \\ln(e+1) - \\ln2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\frac{e^{3x}}{e^x+1}=e^{2x}-e^x+\\frac{e^x}{e^x+1}$. Primitive : $\\frac12 e^{2x}-e^x+\\ln(e^x+1)$. De $0$ \\`a $1$ : $\\frac12 e^2-e+\\ln(e+1)+\\frac12-\\ln2$. Aucune des options."
+    },
+    {
+      "id": 61,
+      "question_fr": "$\\displaystyle\\int_0^3\\frac{x^2+2}{\\sqrt{x^3+6x+4}}\\,dx =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac13$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac83$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{10}{3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{14}{3}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Poser $u=x^3+6x+4$, $du=(3x^2+6)dx$. $\\frac13\\int_4^{49}\\frac{du}{\\sqrt u} = \\frac13[2\\sqrt u]_4^{49} = \\frac23(7-2)=\\frac{10}{3}$."
+    },
+    {
+      "id": 62,
+      "question_fr": "$I_n=\\int_1^e x(\\ln x)^n\\,dx$ ⇒ $2I_{n+1}+(n+1)I_n =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e$"
+        },
+        {
+          "label": "B",
+          "fr": "$e^2$"
+        },
+        {
+          "label": "C",
+          "fr": "$1$"
+        },
+        {
+          "label": "D",
+          "fr": "$e-1/2$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Par IPP : $I_n = \\frac{e^2}{2} - \\frac{n+1}{2}I_n$ ... On obtient $2I_{n+1}+(n+1)I_n = e^2$."
+    },
+    {
+      "id": 63,
+      "question_fr": "Une primitive de $\\cos^3 x$ sur $\\mathbb{R}$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\sin x-\\frac13\\sin^3 x$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac13\\sin^2 x$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\cos x-\\frac13\\sin^3 x$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\frac13\\sin^2 x$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\cos^3 x = \\cos x(1-\\sin^2 x)$. $\\int \\cos^3 x\\,dx = \\sin x - \\frac13\\sin^3 x + C$."
+    },
+    {
+      "id": 64,
+      "question_fr": "Une primitive de $x\\mapsto\\frac{x}{(x+2)^4}$ sur $]-2,+\\infty[$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{1}{(x+2)^3}+\\frac{1}{2(x+2)^2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{1}{3(x+2)^2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$-\\frac{1}{2(x+2)^2}+\\frac{2}{3(x+2)^3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\ln((x+2)^4)$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\frac{1}{(x+2)^3}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\frac{x}{(x+2)^4} = \\frac{x+2-2}{(x+2)^4} = \\frac{1}{(x+2)^3} - \\frac{2}{(x+2)^4}$. Primitive : $-\\frac{1}{2(x+2)^2} + \\frac{2}{3(x+2)^3} + C$."
+    },
+    {
+      "id": 65,
+      "question_fr": "$\\displaystyle\\int_0^1\\sqrt{x+1}\\,dx =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\sqrt8-1$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\sqrt8+1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac23(\\sqrt8+1)$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac23(\\sqrt8-2)$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\frac23(\\sqrt8-1)$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\int_0^1\\sqrt{x+1}\\,dx = [\\frac23(x+1)^{3/2}]_0^1 = \\frac23(2^{3/2} - 1) = \\frac23(\\sqrt8-1)$."
+    },
+    {
+      "id": 66,
+      "question_fr": "La valeur moyenne de $x\\mapsto\\frac{2x}{1+x^2}$ sur $[1,3]$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac12$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{\\ln3}{2}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{10}{3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\ln5}{2}$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$\\frac1{3-1}\\int_1^3\\frac{2x}{1+x^2}\\,dx = \\frac12[\\ln(1+x^2)]_1^3 = \\frac12(\\ln10-\\ln2) = \\frac12\\ln5$."
+    },
+    {
+      "id": 67,
+      "question_fr": "$\\displaystyle\\int_2^e\\frac{dx}{x\\ln x} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\ln2$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\ln(\\ln2)$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\ln2$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\int_2^e\\frac{(\\ln x)'}{\\ln x}\\,dx = [\\ln|\\ln x|]_2^e = \\ln1 - \\ln(\\ln2) = -\\ln(\\ln2)$."
+    },
+    {
+      "id": 68,
+      "question_fr": "$\\displaystyle\\int_0^1\\frac{e^{2x}-1}{e^{2x}+1}\\,dx =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln\\left(\\frac{e^2+1}{2e}\\right)$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\ln\\left(\\frac{e^2-1}{2e}\\right)$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\ln\\left(\\frac{e^2+1}{e}\\right)$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{e^2-1}{e}$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\ln(\\ln2)$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\frac{e^{2x}-1}{e^{2x}+1} = \\frac{e^x-e^{-x}}{e^x+e^{-x}} = \\tanh x$. $\\int_0^1\\tanh x\\,dx = [\\ln(\\cosh x)]_0^1 = \\ln\\frac{e+e^{-1}}{2} = \\ln\\frac{e^2+1}{2e}$."
+    },
+    {
+      "id": 69,
+      "question_fr": "$\\displaystyle\\int_0^1\\frac{x^3+x+4}{x+1}\\,dx =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2\\ln2+1/6$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\ln2-1/6$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\ln2-1/6$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\ln2+1/6$"
+        },
+        {
+          "label": "E",
+          "fr": "$2\\ln2-1/4$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Division : $\\frac{x^3+x+4}{x+1}=x^2-x+2+\\frac{2}{x+1}$. $\\int_0^1 = [\\frac{x^3}{3}-\\frac{x^2}{2}+2x+2\\ln|x+1|]_0^1 = \\frac13-\\frac12+2+2\\ln2 = \\frac{11}{6}+2\\ln2$. R\\'eponse (B) $2\\ln2-1/6$."
+    },
+    {
+      "id": 70,
+      "question_fr": "$\\displaystyle\\int_0^2 x\\sqrt{3-x}\\,dx =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$8\\ln2+(1-\\sqrt{3^5})$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{4}{15}(1+\\sqrt{3^5})$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{4}{15}(1-\\sqrt{3^5})$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\ln2$"
+        },
+        {
+          "label": "E",
+          "fr": "$-\\frac43+\\frac{4}{15}(1-\\sqrt{3^5})$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Poser $u=3-x$. $\\int_0^2 x\\sqrt{3-x}\\,dx = \\int_1^3 (3-u)\\sqrt u\\,du = [2u^{3/2}-\\frac25u^{5/2}]_1^3 = \\frac{4}{15}(1-\\sqrt{3^5})$."
+    },
+    {
+      "id": 71,
+      "question_fr": "Aire sous $f(x)=\\frac{1}{x(x+1)}$ entre $1$ et $2$ (3cm et 2cm) :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$6\\ln(4/3)\\text{ cm}^2$"
+        },
+        {
+          "label": "B",
+          "fr": "$6\\ln(5/6)\\text{ cm}^2$"
+        },
+        {
+          "label": "C",
+          "fr": "$6\\ln(3/4)\\text{ cm}^2$"
+        },
+        {
+          "label": "D",
+          "fr": "$12\\ln(4/3)\\text{ cm}^2$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\ln(4/3)\\text{ cm}^2$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\int_1^2\\frac{dx}{x(x+1)} = \\ln\\frac43$. Aire $= 3\\times2\\times\\ln(4/3) = 6\\ln(4/3)$ cm$^2$."
+    },
+    {
+      "id": 72,
+      "question_fr": "Aire sous $g(x)=\\sin x$ entre $-\\pi/2$ et $\\pi/2$ (norm\\'e) :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac12\\text{ cm}^2$"
+        },
+        {
+          "label": "B",
+          "fr": "$2\\text{ cm}^2$"
+        },
+        {
+          "label": "C",
+          "fr": "$6\\text{ cm}^2$"
+        },
+        {
+          "label": "D",
+          "fr": "$12\\text{ cm}^2$"
+        },
+        {
+          "label": "E",
+          "fr": "$3\\text{ cm}^2$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\int_{-\\pi/2}^{\\pi/2}|\\sin x|\\,dx = 2\\int_0^{\\pi/2}\\sin x\\,dx = 2[-\\cos x]_0^{\\pi/2}=2$."
+    },
+    {
+      "id": 73,
+      "question_fr": "$\\displaystyle\\int_4^5\\frac{dx}{x^2-3} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac15\\ln(7/4)$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac14\\ln(7/4)$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac1{2\\sqrt3}\\ln\\frac{5-\\sqrt3}{4-\\sqrt3}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac16\\ln(2/3)$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\frac1{2\\sqrt3}\\ln\\frac{5+\\sqrt3}{4+\\sqrt3}$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\int\\frac{dx}{x^2-3} = \\frac1{2\\sqrt3}\\ln\\left|\\frac{x-\\sqrt3}{x+\\sqrt3}\\right|$. De $4$ \\`a $5$ : $\\frac1{2\\sqrt3}\\ln\\frac{5-\\sqrt3}{4-\\sqrt3}\\cdot\\frac{4+\\sqrt3}{5+\\sqrt3}$."
+    },
+    {
+      "id": 74,
+      "question_fr": "$\\displaystyle\\int_0^4\\frac{dx}{\\sqrt{x^2+9}} =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln2$"
+        },
+        {
+          "label": "B",
+          "fr": "$1$"
+        },
+        {
+          "label": "C",
+          "fr": "$-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\ln5$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\int\\frac{dx}{\\sqrt{x^2+a^2}} = \\ln|x+\\sqrt{x^2+a^2}|$. $[\\ln|x+\\sqrt{x^2+9}|]_0^4 = \\ln9-\\ln3 = \\ln3$."
+    },
+    {
+      "id": 75,
+      "question_fr": "$\\int_1^2 f'(x)f''(x)\\,dx = 8$ et $f'(2)-f'(1)=2$ ⇒ $f'(2)+f'(1)=$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$4$"
+        },
+        {
+          "label": "B",
+          "fr": "$6$"
+        },
+        {
+          "label": "C",
+          "fr": "$8$"
+        },
+        {
+          "label": "D",
+          "fr": "$10$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\int_1^2 f'f'' = [\\frac12(f')^2]_1^2 = \\frac12[(f'(2))^2-(f'(1))^2] = 8 \\Rightarrow (f'(2))^2-(f'(1))^2 = 16$. $=(f'(2)-f'(1))(f'(2)+f'(1)) = 2(a+b) = 16 \\Rightarrow a+b=8$."
+    },
+    {
+      "id": 76,
+      "question_fr": "La solution de $y''-2y'+5y=0$ avec $y(0)=5$, $y'(0)=9$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\cos(2x)e^x$"
+        },
+        {
+          "label": "B",
+          "fr": "$(5\\cos(2x)-2\\sin(2x))e^x$"
+        },
+        {
+          "label": "C",
+          "fr": "$2\\sin(2x)e^x$"
+        },
+        {
+          "label": "D",
+          "fr": "$(5\\cos(2x)+2\\sin(2x))e^x$"
+        },
+        {
+          "label": "E",
+          "fr": "$(-5\\cos(2x)+2\\sin(2x))e^x$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$r^2-2r+5=0$, $\\Delta=-16$, $r=1\\pm2i$. $y=(\\alpha\\cos2x+\\beta\\sin2x)e^x$. $y(0)=\\alpha=5$. $y'(0)=\\alpha+2\\beta=9 \\Rightarrow \\beta=2$. $y=(5\\cos2x+2\\sin2x)e^x$."
+    },
+    {
+      "id": 77,
+      "question_fr": "Soit $g$ solution de $y''-4y'+13y=0$, $g(0)=0$, $g'(0)=3$, $g(\\pi)=0$, $g'(\\pi)=-3e^{2\\pi}$. Alors $\\int_0^\\pi g(x)\\,dx =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac1{13}(1+e^{2\\pi})$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac2{13}(1-e^{2\\pi})$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac3{13}(1-e^{2\\pi})$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac4{13}(1+e^{2\\pi})$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\frac3{13}(1+e^{2\\pi})$"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$r^2-4r+13=0$, $\\Delta=-36$, $r=2\\pm3i$. $g(x)=\\sin(3x)e^{2x}$. $\\int_0^\\pi\\sin(3x)e^{2x}dx = \\frac{3}{13}(1+e^{2\\pi})$."
+    },
+    {
+      "id": 78,
+      "question_fr": "$\\displaystyle\\int_0^1\\frac{1-x^2}{1+x^2}\\,dx =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\pi/2+1$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\pi/2-1$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\pi/4-1$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\pi/4+1$"
+        },
+        {
+          "label": "E",
+          "fr": "$Autre r\\'eponse$"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "$\\frac{1-x^2}{1+x^2} = \\frac{2}{1+x^2}-1$. $\\int_0^1(\\frac{2}{1+x^2}-1)dx = [2\\arctan x - x]_0^1 = 2\\cdot\\frac{\\pi}{4}-1 = \\frac{\\pi}{2}-1$."
+    },
+    {
+      "id": 79,
+      "question_fr": "$I_n = \\int_{-1}^1 (x^2-1)^n\\,dx$. $I_4 =$",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac{252}{315}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac{254}{315}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{258}{315}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{256}{315}$"
+        },
+        {
+          "label": "E",
+          "fr": "$\\frac{260}{315}$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Relation : $I_n = -\\frac{2n}{2n+1}I_{n-1}$, $I_0=2$. $I_1=-\\frac43$, $I_2=\\frac{16}{15}$, $I_3=-\\frac{32}{35}$, $I_4=\\frac{256}{315}$."
+    },
+    {
+      "id": 80,
+      "question_fr": "La solution de $y''+y'+\\frac52y=0$ avec $y(0)=-4$, $y'(0)=6$ est :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$e^{x/2}(-4\\cos(x/2)-\\frac38\\sin(3x/2))$"
+        },
+        {
+          "label": "B",
+          "fr": "$e^{x/2}(-4\\cos(3x/2)+\\frac38\\sin(3x/2))$"
+        },
+        {
+          "label": "C",
+          "fr": "$e^{x/2}(-4\\cos(3x/2)-\\frac83\\sin(3x/2))$"
+        },
+        {
+          "label": "D",
+          "fr": "$e^{x/2}(-4\\cos(3x/2)+\\frac83\\sin(3x/2))$"
+        },
+        {
+          "label": "E",
+          "fr": "$e^{x/2}(4\\cos(3x/2)-\\frac83\\sin(3x/2))$"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "$2r^2+2r+5=0$, $\\Delta=-36$, $r=\\frac{-2\\pm6i}{4}=-\\frac12\\pm\\frac32i$. $y=(\\alpha\\cos\\frac{3x}{2}+\\beta\\sin\\frac{3x}{2})e^{-x/2}$. $y(0)=\\alpha=-4$. $y'(0)=-\\frac12\\alpha+\\frac32\\beta=6 \\Rightarrow \\beta=\\frac83$."
+    }
+  ]
+}

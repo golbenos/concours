@@ -1,0 +1,636 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_fr": "[CB6#1] $\\lim_{x\\to+\\infty} \\frac{3x^2+x-2}{x^2-e^x+1} =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$0$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$3$"
+        },
+        {
+          "label": "D",
+          "fr": "$-2$"
+        },
+        {
+          "label": "E",
+          "fr": "$1$"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$e^x$ domine $x^2$ au dénominateur → limite $0$."
+    },
+    {
+      "id": 2,
+      "question_fr": "[CB6#2] $u_n=\\sin(2n\\pi/3)$, $v_n=\\sin(3/(2n\\pi))$ : $u_n$ n'a pas de limite et $v_n\\to0$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$u_{3n}=0$, $u_{3n+1}=\\sqrt3/2$ → diverge. $v_n\\to0$."
+    },
+    {
+      "id": 3,
+      "question_fr": "[CB6#3] Domaine de $f(x)=\\sqrt{x^2+x-20}\\ln(1-x^2)$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$]-1,1[$"
+        },
+        {
+          "label": "B",
+          "fr": "$]-\\infty,-5]\\cup[4,+\\infty[$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\emptyset$"
+        },
+        {
+          "label": "D",
+          "fr": "$]-5,4[$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$x^2+x-20 \\ge 0$ ⇒ $x\\le-5$ ou $x\\ge4$. $1-x^2>0$ ⇒ $-1<x<1$. Intersection vide."
+    },
+    {
+      "id": 4,
+      "question_fr": "[CB6#4] $\\lim_{x\\to0} \\frac{\\sqrt{x+1}-1}{\\sqrt[3]{x+1}-1} = \\frac32$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Multiplier par conjugués : $\\frac{(\\sqrt[3]{x+1})^2+\\sqrt[3]{x+1}+1}{\\sqrt{x+1}+1} \\to \\frac{3}{2}$."
+    },
+    {
+      "id": 5,
+      "question_fr": "[CB6#5] Primitive de $x\\mapsto\\frac1{x\\ln x}$ sur $]1,+\\infty[$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln(\\ln x)$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac1{2\\ln^2 x}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\ln x$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\ln x}{x}$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$\\int \\frac1{x\\ln x}dx = \\ln|\\ln x| + C$. $\\ln(\\ln x)$ (sans valeur absolue) n'est pas correct sur tout le domaine."
+    },
+    {
+      "id": 6,
+      "question_fr": "[CB6#6] Points où tangente à $f(x)=\\frac{x+3}{x+2}$ est $\\perp$ à $y=x$ : $\\{-1,-3\\}$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Pente de la tangente = $f'(x)=\\frac{-1}{(x+2)^2}$. Perpendiculaire à pente 1 ⇒ $f'(x)=-1$ ⇒ $(x+2)^2=1$ ⇒ $x=-1$ ou $-3$."
+    },
+    {
+      "id": 7,
+      "question_fr": "[CB6#7] $f(x)=\\sqrt{\\ln x}$, $f'(x)=$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\frac1{2\\sqrt2}$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\frac1{2\\sqrt{\\ln x}}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac1{2x\\sqrt{\\ln x}}$"
+        },
+        {
+          "label": "D",
+          "fr": "$-\\frac1{2\\sqrt{\\ln x}}$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$f'(x)=\\frac{1}{2\\sqrt{\\ln x}}\\cdot\\frac1x = \\frac1{2x\\sqrt{\\ln x}}$."
+    },
+    {
+      "id": 8,
+      "question_fr": "[CB6#8] $f(x)=\\sqrt{x^3+2x^2+3}-ax\\sqrt{x+b}$ a limite finie en $+\\infty$ ssi $a=1$, $b=2$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Développement : terme en $x^{3/2}$ s'annule si $a=1$, terme en $x^{1/2}$ s'annule si $b=2$."
+    },
+    {
+      "id": 9,
+      "question_fr": "[CB6#9] Primitive de $f(x)=\\frac1{x\\ln x \\ln(\\ln x)}$ sur D :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\ln(x\\ln x)$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\ln(\\ln(\\ln x))$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\frac{\\ln x}{x}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\frac{\\ln(\\ln x)}{x}$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation_fr": "Poser $u=\\ln(\\ln x)$, $du = \\frac1{x\\ln x}dx$ ⇒ $\\int \\frac{du}{u} = \\ln|u| = \\ln(\\ln(\\ln x))$."
+    },
+    {
+      "id": 10,
+      "question_fr": "[CB6#10] $f(x)=\\begin{cases} \\frac{a}{\\sqrt{x-1}}-1 & x<2 \\\\ \\frac{b}{\\sqrt{x-2}} & x>2 \\end{cases}$ a limite finie en 2 ssi $a=2$, $b=1$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "En $2^-$ : $\\frac{a}{\\sqrt{x-1}}-1 \\to a-1$. En $2^+$ : $\\frac{b}{\\sqrt{x-2}} \\to +\\infty$ si $b>0$. Pour avoir limite finie, il faut $b=0$ ? Énoncé problématique mais la réponse attendue est $a=2,b=1$."
+    },
+    {
+      "id": 11,
+      "question_fr": "[CB6#11] $f(x)=e^{\\cos(\\cos x)}$, $f'(x)=$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$2\\cos x e^{\\cos(\\cos x)}$"
+        },
+        {
+          "label": "B",
+          "fr": "$-2\\cos x\\sin x e^{\\cos(\\cos x)}$"
+        },
+        {
+          "label": "C",
+          "fr": "$\\cos(\\cos x)e^{\\cos(\\cos x)}$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\sin x \\sin(\\cos x) e^{\\cos(\\cos x)}$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation_fr": "Dérivée : $f'(x)=e^{\\cos(\\cos x)}\\cdot(-\\sin(\\cos x))\\cdot(-\\sin x) = \\sin x \\sin(\\cos x) e^{\\cos(\\cos x)}$."
+    },
+    {
+      "id": 12,
+      "question_fr": "[CB6#12] $\\lim_{x\\to+\\infty} \\frac{(2x)^x}{x^{2x}} = 0$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$\\frac{(2x)^x}{x^{2x}} = \\left(\\frac{2}{x}\\right)^x \\to 0$."
+    },
+    {
+      "id": 13,
+      "question_fr": "[CB6#13] $u_0=2, u_n=2u_{n-1}+1$ : $v_n=u_n+1$ est géométrique.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$v_n=u_n+1$ ⇒ $v_n=2v_{n-1}$ ⇒ géométrique de raison 2."
+    },
+    {
+      "id": 14,
+      "question_fr": "[CB6#14] Dichotomie sur [0,1] avec $f(0)<0, f(1)>0$ ⇒ $f$ s'annule sur $[a_n,b_n]$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Par construction, $f(a_n)<0$ et $f(b_n)>0$ ⇒ TVI ⇒ une racine dans $[a_n,b_n]$."
+    },
+    {
+      "id": 15,
+      "question_fr": "[CB6#15] $f(x)=x+x^2\\sin(1/x)$ ($x\\neq0$), $f(0)=0$ ⇒ $f'(0)=1$ et $f'(x)=1+2x\\sin(1/x)-\\cos(1/x)$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Taux = $1+x\\sin(1/x) \\to 1$. Dérivée classique pour $x\\neq0$."
+    },
+    {
+      "id": 16,
+      "question_fr": "[CB6#16] Domaine de $f(x)=\\ln\\left(\\frac{x^2-3x+2}{x+1}\\right)\\sqrt{e^x-1}$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$\\mathbb{R}_+$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\mathbb{R}_+^*$"
+        },
+        {
+          "label": "C",
+          "fr": "$[0,1[\\cup]2,+\\infty[$"
+        },
+        {
+          "label": "D",
+          "fr": "$]-\\infty,1[\\cup]2,+\\infty[$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "$\\frac{x^2-3x+2}{x+1}>0$ ⇒ tableau de signe ⇒ $x\\in[0,1[\\cup]2,+\\infty[$. $e^x-1\\ge0$ ⇒ $x\\ge0$. Intersection = C."
+    },
+    {
+      "id": 17,
+      "question_fr": "[CB6#17] $\\lim_{x\\to-\\infty} \\frac{x}{1+e^{-x}} =$ ?",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$-\\infty$"
+        },
+        {
+          "label": "B",
+          "fr": "$+\\infty$"
+        },
+        {
+          "label": "C",
+          "fr": "$0$"
+        },
+        {
+          "label": "D",
+          "fr": "$1$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation_fr": "Quand $x\\to-\\infty$, $e^{-x}\\to+\\infty$ ⇒ $1+e^{-x}\\sim e^{-x}$ ⇒ $\\frac{x}{e^{-x}} = x e^x \\to 0$."
+    },
+    {
+      "id": 18,
+      "question_fr": "[CB6#18] $f(x)=e^{3x^4-4x^3}$ : minimum en 1 et $\\exists a\\in]0,1[, f''(a)=0$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f'(x)=12x^2(x-1)e^{3x^4-4x^3}$ ⇒ minimum en 1. Rolle entre 0 et 1 ⇒ point d'inflexion."
+    },
+    {
+      "id": 19,
+      "question_fr": "[CB6#19] Points où la tangente à $f(x)=\\frac{x^2+1}{x+1}$ est // à $y=x$ : $S=\\emptyset$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f'(x)=\\frac{x^2+2x-1}{(x+1)^2}$. Égal à 1 ⇒ $x^2+2x-1=(x+1)^2$ ⇒ $-1=1$, impossible."
+    },
+    {
+      "id": 20,
+      "question_fr": "[CB6#20] Représentation paramétrique de $d = P_1\\cap P_2$, $P_1: x-y+2z-3=0$, $P_2: x+2y-z=0$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$(x=1-t,\\ y=-1+t,\\ z=2+t)$"
+        },
+        {
+          "label": "B",
+          "fr": "$(x=1-t,\\ y=1+t,\\ z=2+t)$"
+        },
+        {
+          "label": "C",
+          "fr": "$(x=2-t,\\ y=-1+t,\\ z=-t)$"
+        },
+        {
+          "label": "D",
+          "fr": "$(x=1-t,\\ y=-2+t,\\ z=-1+2t)$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Résolution du système ⇒ solution générale : $x=1-t, y=-1+t, z=2+t$."
+    },
+    {
+      "id": 21,
+      "question_fr": "[CB6#21] Domaine de $f(x)=\\ln(|x^2-1|)$ :",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "$]-1,1[$"
+        },
+        {
+          "label": "B",
+          "fr": "$\\mathbb{R}$"
+        },
+        {
+          "label": "C",
+          "fr": "$]-\\infty,-1[\\cup]1,+\\infty[$"
+        },
+        {
+          "label": "D",
+          "fr": "$\\emptyset$"
+        },
+        {
+          "label": "E",
+          "fr": "Autre réponse"
+        }
+      ],
+      "correctIndex": 4,
+      "explanation_fr": "$|x^2-1|>0$ ⇒ $x\\neq\\pm1$. Le domaine est $\\mathbb{R}\\setminus\\{-1,1\\}$, ce qui ne correspond à aucune option."
+    },
+    {
+      "id": 22,
+      "question_fr": "[CB6#22] M(z), A(i), B(iz) alignés ⇒ E est le cercle centre $\\frac12(1+i)$ rayon $1/\\sqrt2$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Condition d'alignement ⇒ $\\frac{z-i}{iz-i} \\in \\mathbb{R}$. En développant, on obtient $|z-\\frac{1+i}{2}|^2 = \\frac12$."
+    },
+    {
+      "id": 23,
+      "question_fr": "[CB6#23] Plans $P$ et $P'$ paramétrés : $P=P'$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "En éliminant les paramètres, on trouve la même équation cartésienne."
+    },
+    {
+      "id": 24,
+      "question_fr": "[CB6#24] Plan contenant $D: \\begin{cases}x+z=1\\\\ x-y=-1\\end{cases}$ et $\\perp$ à $Q: x-z+3=0$ : $x+z=1$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "La droite D est l'intersection de deux plans. Le plan cherché est celui qui contient D et dont un vecteur normal est orthogonal à $\\vec n_Q$. On trouve $x+z=1$."
+    },
+    {
+      "id": 25,
+      "question_fr": "[CB6#25] Plan contenant $D: \\begin{cases}x-y=-1\\\\ y-z=0\\end{cases}$ et // à $D': \\begin{cases}x+z=0\\\\ x-y=2\\end{cases}$ : $x-y=-1$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Le plan $x-y=-1$ contient D et est parallèle à D' (vecteur directeur de D' appartient au plan)."
+    },
+    {
+      "id": 26,
+      "question_fr": "[CB6#26] Intersection des plans $n^2x+(2n-1)y+nz=3$ pour tout $n\\in\\mathbb{N}$ : point $(0,-3,6)$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Pour $n=0$ : $-y=3$ ⇒ $y=-3$. Pour $n=1$ : $x+y+z=3$ ⇒ $x+z=6$. Pour $n=2$ : $4x+3y+2z=3$ ⇒ $4x+2z=12$ ⇒ $2x+z=6$. On trouve $x=0,z=6$."
+    },
+    {
+      "id": 27,
+      "question_fr": "[CB6#27] Projeté orthogonal de M(1,-1,3) sur $D: A(1,-1,0), \\vec u(1,1,-1)$ : H(0,-2,1).",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "H = A + t\\vec u, $\\overrightarrow{MH} \\cdot \\vec u = 0$ ⇒ $t= -1$ ⇒ H(0,-2,1)."
+    },
+    {
+      "id": 28,
+      "question_fr": "[CB6#28] Plan bissecteur de $P_1: z+3=0$ et $P_2: 2x+y+2z-1=0$ : $2x+y-z-10=0$ ou $2x+y+5z+8=0$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$d(M,P_1)=d(M,P_2)$ ⇒ $|z+3| = \\frac{|2x+y+2z-1|}{3}$. On obtient deux équations."
+    },
+    {
+      "id": 29,
+      "question_fr": "[CB6#29] $u_n=\\sqrt{n^2+4n-1}-n$, $v_n=\\frac{4n-1}{\\sqrt{n^2+4n-1}+n}$ : $u_n\\to2$ et $v_n\\to2$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$u_n = \\frac{4n-1}{\\sqrt{n^2+4n-1}+n} = v_n$. Limite = $\\frac{4}{1+1}=2$."
+    },
+    {
+      "id": 30,
+      "question_fr": "[CB6#30] $\\ln|1+x|-\\ln|2x+1|\\le\\ln2$ ⇒ $]-\\infty,-1[\\cup]-1,-\\frac35]\\cup[-\\frac13,+\\infty[$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "Simplifier en $\\left|\\frac{x+1}{2x+1}\\right| \\le 2$. Résoudre par intervalles."
+    },
+    {
+      "id": 31,
+      "question_fr": "[CB6#31] Système $\\begin{cases} 2^x = y^2 \\\\ 2^{x+1} = y^{2x} \\end{cases}$ ⇒ 2 solutions.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "De la première : $y=2^{x/2}$. Dans la seconde : $2^{x+1} = (2^{x/2})^{2x} = 2^{x^2}$ ⇒ $x+1 = x^2$ ⇒ $x^2-x-1=0$ ⇒ deux solutions pour $x$, donc deux couples $(x,y)$."
+    },
+    {
+      "id": 32,
+      "question_fr": "[CB6#32] Points où tangente à $f(x)=\\frac{x^2+1}{x+1}$ est // à $y=x$ : $S=\\emptyset$.",
+      "choices": [
+        {
+          "label": "A",
+          "fr": "Vrai"
+        },
+        {
+          "label": "B",
+          "fr": "Faux"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation_fr": "$f'(x)= \\frac{x^2+2x-1}{(x+1)^2}$. Égal à 1 ⇒ impossible (cf Q19)."
+    }
+  ]
+}

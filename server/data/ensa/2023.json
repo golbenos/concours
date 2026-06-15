@@ -1,0 +1,291 @@
+{
+  "year": 2023,
+  "subjects": [{
+    "name_fr": "Mathématiques",
+    "name_en": "Mathematics",
+    "name_ar": "الرياضيات",
+    "topics": ["algèbre", "analyse", "probabilités", "nombres complexes", "suites", "trigonométrie", "géométrie", "matrices"],
+    "questions": [
+      {
+        "id": 1,
+        "question_fr": "$\\int_0^1 \\frac{dx}{\\sqrt{1-x^2}} =$",
+        "choices": [
+          { "label": "A", "fr": "$\\pi/2$" },
+          { "label": "B", "fr": "$\\pi/4$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$0$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Primitive $\\arcsin x$, $\\arcsin(1)-\\arcsin(0) = \\pi/2$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 2,
+        "question_fr": "$\\lim_{x\\to0^+} x^{\\frac{1}{\\ln x}} =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$e$" },
+          { "label": "D", "fr": "$+\\infty$" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$x^{1/\\ln x} = e^{(\\ln x)/\\ln x}=e^1=e$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 3,
+        "question_fr": "$\\int_0^1 \\frac{dx}{e^x+e^{-x}} =$",
+        "choices": [
+          { "label": "A", "fr": "$\\arctan(1)-\\pi/4$" },
+          { "label": "B", "fr": "$\\arctan(e)-\\pi/4$" },
+          { "label": "C", "fr": "$e-1$" },
+          { "label": "D", "fr": "$\\ln(e+1)-\\ln2$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\int_0^1 \\frac{e^x dx}{1+e^{2x}} = [\\arctan(e^x)]_0^1 = \\arctan(e)-\\pi/4$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 4,
+        "question_fr": "Soit $z = 1+i$. $z^4 =$",
+        "choices": [
+          { "label": "A", "fr": "$-4$" },
+          { "label": "B", "fr": "$4$" },
+          { "label": "C", "fr": "$-4i$" },
+          { "label": "D", "fr": "$4i$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$z^2 = 2i$, $z^4 = (2i)^2 = -4$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 5,
+        "question_fr": "Soit $f(x)=|x-1|+|x+1|$. $f$ est :",
+        "choices": [
+          { "label": "A", "fr": "paire" },
+          { "label": "B", "fr": "impaire" },
+          { "label": "C", "fr": "ni paire ni impaire" },
+          { "label": "D", "fr": "périodique" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$f(-x)=|-x-1|+|-x+1|=|x+1|+|x-1|=f(x)$. Paire.",
+        "topics": ["analyse", "fonctions"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 6,
+        "question_fr": "Déterminant de $\\begin{pmatrix}1&0&1\\\\0&1&0\\\\1&0&1\\end{pmatrix}$ :",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$2$" },
+          { "label": "D", "fr": "$-1$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$1\\times(1\\times1-0\\times0)-0+1\\times(0\\times0-1\\times1)=1-1=0$.",
+        "topics": ["algèbre", "matrices"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 7,
+        "question_fr": "$\\sum_{k=0}^n C_n^k =$",
+        "choices": [
+          { "label": "A", "fr": "$n^2$" },
+          { "label": "B", "fr": "$2^n$" },
+          { "label": "C", "fr": "$2n$" },
+          { "label": "D", "fr": "$n!$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$(1+1)^n = 2^n$.",
+        "topics": ["algèbre", "combinatoire"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 8,
+        "question_fr": "Soit $f(x)=\\ln(1+x^2)$. $f'(x)=$",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{2x}{1+x^2}$" },
+          { "label": "B", "fr": "$\\frac{1}{1+x^2}$" },
+          { "label": "C", "fr": "$\\frac{2}{1+x^2}$" },
+          { "label": "D", "fr": "$\\frac{2x}{1+x}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac{2x}{1+x^2}$.",
+        "topics": ["analyse", "dérivation"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 9,
+        "question_fr": "Équation $\\sin x = 1/2$, solutions dans $[0,2\\pi]$ :",
+        "choices": [
+          { "label": "A", "fr": "$\\pi/6$ et $5\\pi/6$" },
+          { "label": "B", "fr": "$\\pi/3$ et $2\\pi/3$" },
+          { "label": "C", "fr": "$\\pi/6$ et $11\\pi/6$" },
+          { "label": "D", "fr": "$\\pi/3$ et $5\\pi/3$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\sin(\\pi/6)=\\sin(5\\pi/6)=1/2$.",
+        "topics": ["trigonométrie"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 10,
+        "question_fr": "Soit $M\\in\\mathcal{M}_2(\\mathbb{R})$ telle que $M^2=0$. Alors :",
+        "choices": [
+          { "label": "A", "fr": "$M=0$" },
+          { "label": "B", "fr": "$\\det M=0$" },
+          { "label": "C", "fr": "$M=I$" },
+          { "label": "D", "fr": "$M$ est inversible" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$\\det(M^2)=(\\det M)^2=0$, donc $\\det M=0$.",
+        "topics": ["algèbre", "matrices"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 11,
+        "question_fr": "$\\lim_{n\\to\\infty} \\frac{n!}{n^n} =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$1$" },
+          { "label": "C", "fr": "$+\\infty$" },
+          { "label": "D", "fr": "$e^{-1}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$n!/n^n = \\prod_{k=1}^n k/n \\le 1/n \\to 0$.",
+        "topics": ["suites", "analyse"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 12,
+        "question_fr": "$\\int_{-\\pi/2}^{\\pi/2} \\frac{\\sin x}{1+x^6}dx =$",
+        "choices": [
+          { "label": "A", "fr": "$0$" },
+          { "label": "B", "fr": "$\\pi$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$\\infty$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Fonction impaire, intégrale symétrique nulle.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 13,
+        "question_fr": "$\\frac{1}{2}\\ln\\left(\\frac{1+x}{1-x}\\right)$ est une primitive de :",
+        "choices": [
+          { "label": "A", "fr": "$\\frac{1}{1-x^2}$" },
+          { "label": "B", "fr": "$\\frac{x}{1-x^2}$" },
+          { "label": "C", "fr": "$\\frac{1}{1+x^2}$" },
+          { "label": "D", "fr": "$\\frac{1+x}{1-x}$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\frac12(\\ln(1+x)-\\ln(1-x))$, dérivée $=\\frac12(\\frac{1}{1+x}+\\frac{1}{1-x}) = \\frac{1}{1-x^2}$.",
+        "topics": ["analyse", "intégrales"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 14,
+        "question_fr": "L'ensemble des $z$ tels que $\\frac{z-2i}{z+2}\\in\\mathbb{R}$ :",
+        "choices": [
+          { "label": "A", "fr": "axe des abscisses" },
+          { "label": "B", "fr": "cercle" },
+          { "label": "C", "fr": "droite passant par $A(0,2)$ et $B(-2,0)$" },
+          { "label": "D", "fr": "tous les nombres complexes" }
+        ],
+        "correctIndex": 2,
+        "explanation_fr": "$\\arg((z-2i)/(z+2)) = 0$ ou $\\pi$, donc $M$ aligné avec $A(0,2)$ et $B(-2,0)$.",
+        "topics": ["nombres complexes"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 15,
+        "question_fr": "Loi de probabilité : $P(X=k) = c/2^k$ pour $k=1,2,3,4$. $c=$",
+        "choices": [
+          { "label": "A", "fr": "$16/15$" },
+          { "label": "B", "fr": "$15/16$" },
+          { "label": "C", "fr": "$8/7$" },
+          { "label": "D", "fr": "$7/8$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$c(1/2+1/4+1/8+1/16)=c\\times15/16=1$, $c=16/15$.",
+        "topics": ["probabilités"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 16,
+        "question_fr": "$(x,y)\\in\\mathbb{N}^2$, $x^2-y^2=19$. $x+y=$",
+        "choices": [
+          { "label": "A", "fr": "$19$" },
+          { "label": "B", "fr": "$20$" },
+          { "label": "C", "fr": "$21$" },
+          { "label": "D", "fr": "$18$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$(x-y)(x+y)=19$. 19 premier, donc $x-y=1$, $x+y=19$.",
+        "topics": ["arithmétique"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 17,
+        "question_fr": "$f(x) = \\frac{\\ln(\\cos x)}{x^2}$ prolongeable par continuité en $0$ avec $f(0)=$",
+        "choices": [
+          { "label": "A", "fr": "$-1/2$" },
+          { "label": "B", "fr": "$0$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$-1$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$\\ln(\\cos x) \\sim -x^2/2$, donc $f(x) \\to -1/2$.",
+        "topics": ["analyse", "limites"],
+        "difficulty": "moyen"
+      },
+      {
+        "id": 18,
+        "question_fr": "Nombre de solutions de $z^4=1$ dans $\\mathbb{C}$ :",
+        "choices": [
+          { "label": "A", "fr": "$2$" },
+          { "label": "B", "fr": "$4$" },
+          { "label": "C", "fr": "$1$" },
+          { "label": "D", "fr": "$3$" }
+        ],
+        "correctIndex": 1,
+        "explanation_fr": "$z=\\pm1, \\pm i$. 4 racines.",
+        "topics": ["nombres complexes"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 19,
+        "question_fr": "Soit $A=\\{1,2,3,4,5,6\\}$. Nombre de permutations où 1 n'est pas en 1ère position :",
+        "choices": [
+          { "label": "A", "fr": "$600$" },
+          { "label": "B", "fr": "$720$" },
+          { "label": "C", "fr": "$120$" },
+          { "label": "D", "fr": "$500$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "$6! - 5! = 720-120=600$.",
+        "topics": ["combinatoire"],
+        "difficulty": "facile"
+      },
+      {
+        "id": 20,
+        "question_fr": "Soit $\\vec{u}=(-1,2,3)$ et $\\vec{v}=(2,-1,1)$. $\\vec{u}\\times\\vec{v}=$",
+        "choices": [
+          { "label": "A", "fr": "$(5,7,-3)$" },
+          { "label": "B", "fr": "$(5,7,3)$" },
+          { "label": "C", "fr": "$(-5,-7,3)$" },
+          { "label": "D", "fr": "$(5,-7,-3)$" }
+        ],
+        "correctIndex": 0,
+        "explanation_fr": "Produit vectoriel : $(2\\times1-3\\times(-1), 3\\times2-(-1)\\times1, (-1)\\times(-1)-2\\times2) = (5,7,-3)$.",
+        "topics": ["géométrie"],
+        "difficulty": "moyen"
+      }
+    ]
+  }]
+}

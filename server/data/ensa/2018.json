@@ -1,0 +1,309 @@
+{
+  "year": 2018,
+  "subjects": [
+    {
+      "name_fr": "Mathématiques (QCM)",
+      "name_en": "Mathematics (MCQ)",
+      "name_ar": "الرياضيات",
+      "topics": ["analyse", "suites", "algèbre", "trigonométrie"],
+      "questions": [
+        {
+          "id": 1,
+          "question_fr": "Soit $(u_n)$ une suite réelle. Si $\\lim(u_{n+1}-u_n)=2$, alors $\\lim u_n/n =$",
+          "choices": [
+            { "label": "A", "fr": "$0$" },
+            { "label": "B", "fr": "$1$" },
+            { "label": "C", "fr": "$+\\infty$" },
+            { "label": "D", "fr": "$2$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "Théorème de Césaro : $\\lim\\frac{u_n}{n}=2$.",
+          "topics": ["suites"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 2,
+          "question_fr": "$\\lim_{n\\to+\\infty} \\frac{\\sin^2 n - \\cos^3 n}{n} =$",
+          "choices": [
+            { "label": "A", "fr": "$0$" },
+            { "label": "B", "fr": "$1$" },
+            { "label": "C", "fr": "$-\\infty$" },
+            { "label": "D", "fr": "$+\\infty$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "Fonctions bornées. $-\\frac{1}{n} \\le \\frac{\\sin^2 n - \\cos^3 n}{n} \\le \\frac{2}{n}$. Limite $0$ par le théorème des gendarmes.",
+          "topics": ["suites", "limites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 3,
+          "question_fr": "$\\lim_{x\\to1^+} \\ln x \\cdot \\ln(\\ln x) =$",
+          "choices": [
+            { "label": "A", "fr": "$1$" },
+            { "label": "B", "fr": "$0$" },
+            { "label": "C", "fr": "$+\\infty$" },
+            { "label": "D", "fr": "$-\\infty$" }
+          ],
+          "correctIndex": 1,
+          "explanation_fr": "$t=\\ln x \\to 0^+$, limite $\\lim_{t\\to0^+} t\\ln t = 0$.",
+          "topics": ["analyse", "limites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 4,
+          "question_fr": "$u_n=\\sum_{k=1}^n 1/k$. Alors :",
+          "choices": [
+            { "label": "A", "fr": "$u_{2n}-u_n \\ge 1/2$" },
+            { "label": "B", "fr": "$u_{2n}-u_n \\le 1/4$" },
+            { "label": "C", "fr": "$u_{2n}-u_n < 1/3$" },
+            { "label": "D", "fr": "$u_{2n}-u_n < 1/2$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$u_{2n}-u_n = \\sum_{k=n+1}^{2n} \\frac{1}{k} \\ge n\\times\\frac{1}{2n} = \\frac{1}{2}$.",
+          "topics": ["suites"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 5,
+          "question_fr": "Pour la même suite Q4, $u_{2^{10}}$ :",
+          "choices": [
+            { "label": "A", "fr": "$\\ge 6$" },
+            { "label": "B", "fr": "$< 6$" },
+            { "label": "C", "fr": "$= 3$" },
+            { "label": "D", "fr": "$< 5$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$u_{2^{10}} \\ge 1 + 10\\times\\frac{1}{2} = 6$.",
+          "topics": ["suites"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 6,
+          "question_fr": "$\\cos(\\text{Arctan } x) =$",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{1}{\\sqrt{1-x^2}}$" },
+            { "label": "B", "fr": "$\\frac{1}{\\sqrt{1+x^2}}$" },
+            { "label": "C", "fr": "$-\\frac{1}{\\sqrt{1+x^2}}$" },
+            { "label": "D", "fr": "$-\\frac{1}{\\sqrt{1-x^2}}$" }
+          ],
+          "correctIndex": 1,
+          "explanation_fr": "$\\cos^2\\theta = \\frac{1}{1+\\tan^2\\theta}$. $\\cos(\\text{Arctan }x) = \\frac{1}{\\sqrt{1+x^2}}$.",
+          "topics": ["trigonométrie"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 7,
+          "question_fr": "$f$ continue en $0$, $\\forall x, f(2x)=f(x)$. Alors $f$ est :",
+          "choices": [
+            { "label": "A", "fr": "Constante" },
+            { "label": "B", "fr": "Strictement croissante" },
+            { "label": "C", "fr": "Strictement décroissante" },
+            { "label": "D", "fr": "Périodique de période 2" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "Par récurrence $f(x)=f(x/2^n)$. En passant à la limite $f(x)=f(0)$.",
+          "topics": ["analyse", "continuité"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 8,
+          "question_fr": "$\\lim_{x\\to a} \\frac{x f(a)-a f(x)}{x-a} =$",
+          "choices": [
+            { "label": "A", "fr": "$f'(a)$" },
+            { "label": "B", "fr": "$f(a)+a f'(a)$" },
+            { "label": "C", "fr": "$f(a)-f'(a)$" },
+            { "label": "D", "fr": "$f(a)-a f'(a)$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$= f(a) - a\\frac{f(x)-f(a)}{x-a} \\to f(a)-a f'(a)$.",
+          "topics": ["analyse", "dérivation"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 9,
+          "question_fr": "$\\int_0^1 \\frac{x^4}{x^2+1}dx =$",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{\\pi}{4}$" },
+            { "label": "B", "fr": "$\\frac{2}{3}$" },
+            { "label": "C", "fr": "$\\frac{\\pi}{4} - \\frac{2}{3}$" },
+            { "label": "D", "fr": "$\\frac{\\pi}{4} + \\frac{2}{3}$" }
+          ],
+          "correctIndex": 2,
+          "explanation_fr": "$x^4 = (x^2-1)(x^2+1)+1$. $\\int_0^1(x^2-1+\\frac{1}{x^2+1})dx = [\\frac{x^3}{3}-x+\\text{Arctan }x]_0^1 = \\frac{\\pi}{4}-\\frac{2}{3}$.",
+          "topics": ["analyse", "intégrales"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 10,
+          "question_fr": "$\\int_0^{\\sqrt{3}} x^2\\ln(x^2+1)dx =$",
+          "choices": [
+            { "label": "A", "fr": "$\\sqrt{3}\\ln 2 - \\frac{\\pi}{9}$" },
+            { "label": "B", "fr": "$\\sqrt{3}\\ln 2 + \\frac{\\pi}{9}$" },
+            { "label": "C", "fr": "$2\\left(\\sqrt{3}\\ln 2 - \\frac{\\pi}{9}\\right)$" },
+            { "label": "D", "fr": "$\\sqrt{3}\\ln 2$" }
+          ],
+          "correctIndex": 2,
+          "explanation_fr": "IPP donne $I = 2\\sqrt{3}\\ln 2 - \\frac{2}{3}\\int_0^{\\sqrt{3}}\\frac{x^4}{x^2+1}dx$. En utilisant Q9, $\\int_0^{\\sqrt{3}}\\frac{x^4}{x^2+1}dx = \\frac{\\pi}{3}$, donc $I = 2\\sqrt{3}\\ln 2 - \\frac{2\\pi}{9}$.",
+          "topics": ["analyse", "intégrales"],
+          "difficulty": "difficile"
+        }
+      ]
+    },
+    {
+      "name_fr": "Géométrie dans l'espace (Exercice 1)",
+      "name_en": "Space Geometry (Exercise 1)",
+      "name_ar": "الهندسة الفضائية",
+      "topics": ["géométrie", "géométrie dans l'espace"],
+      "questions": [
+        {
+          "id": 11,
+          "question_fr": "Les coordonnées du vecteur $\\vec{FD}$ dans le cube $ABCDEFGH$ sont :",
+          "choices": [
+            { "label": "A", "fr": "$(1,1,1)$" },
+            { "label": "B", "fr": "$(-1,1,1)$" },
+            { "label": "C", "fr": "$(-1,1,-1)$" },
+            { "label": "D", "fr": "$(1,1,0)$" }
+          ],
+          "correctIndex": 2,
+          "explanation_fr": "$F(1,0,1)$, $D(0,1,0)$. $\\vec{FD}=(-1,1,-1)$.",
+          "topics": ["géométrie dans l'espace"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 12,
+          "question_fr": "Une représentation paramétrique de $(FD)$ est :",
+          "choices": [
+            { "label": "A", "fr": "$\\begin{cases}x=t\\\\ y=t+1\\\\ z=-t\\end{cases}$" },
+            { "label": "B", "fr": "$\\begin{cases}x=-t\\\\ y=-t+1\\\\ z=-t\\end{cases}$" },
+            { "label": "C", "fr": "$\\begin{cases}x=-t\\\\ y=t+1\\\\ z=-t\\end{cases}$" },
+            { "label": "D", "fr": "$\\begin{cases}x=t\\\\ y=t+1\\\\ z=t\\end{cases}$" }
+          ],
+          "correctIndex": 2,
+          "explanation_fr": "Droite passant par $D(0,1,0)$ de vecteur $\\vec{FD}(-1,1,-1)$.",
+          "topics": ["géométrie dans l'espace"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 13,
+          "question_fr": "La droite $(FD)$ et le plan $(IJK)$ :",
+          "choices": [
+            { "label": "A", "fr": "$(FD)$ est orthogonale au plan $(IJK)$" },
+            { "label": "B", "fr": "$(FD)$ n'est pas orthogonale au plan $(IJK)$" },
+            { "label": "C", "fr": "$(FD)$ appartient au plan $(IJK)$" },
+            { "label": "D", "fr": "$(FD)$ est parallèle au plan $(IJK)$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$\\vec{FD}\\cdot\\vec{IJ}=0$ et $\\vec{FD}\\cdot\\vec{IK}=0$, donc $\\vec{FD}$ orthogonal au plan $(IJK)$.",
+          "topics": ["géométrie dans l'espace"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 14,
+          "question_fr": "Une équation cartésienne du plan $(IJK)$ est $ax+by+cz+d=0$ avec :",
+          "choices": [
+            { "label": "A", "fr": "$a=-1,b=-1,c=1,d=-1/2$" },
+            { "label": "B", "fr": "$a=1,b=-1,c=1,d=-1/2$" },
+            { "label": "C", "fr": "$a=-1,b=-1,c=1,d=1/2$" },
+            { "label": "D", "fr": "$a=1,b=1,c=-1,d=-1/2$" }
+          ],
+          "correctIndex": 1,
+          "explanation_fr": "$\\vec{FD}(-1,1,-1)$ normal au plan. Équation $-x+y-z+1/2=0$, soit $x-y+z-1/2=0$.",
+          "topics": ["géométrie dans l'espace"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 15,
+          "question_fr": "Les coordonnées du point $M$, intersection de $(FD)$ et $(IJK)$ sont :",
+          "choices": [
+            { "label": "A", "fr": "$(1/2, 1/2, 1/2)$" },
+            { "label": "B", "fr": "$(1/2, 0, 1/2)$" },
+            { "label": "C", "fr": "$(1/2, 1/2, 0)$" },
+            { "label": "D", "fr": "$(1, 1, 0)$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "Paramétrique $(FD)$ : $x=-t,y=1+t,z=-t$. Dans $x-y+z-1/2=0$ : $-t-(1+t)-t-1/2=0 \\Rightarrow t=-1/2$. $M(1/2,1/2,1/2)$.",
+          "topics": ["géométrie dans l'espace"],
+          "difficulty": "moyen"
+        },
+        {
+          "id": 16,
+          "question_fr": "Le triangle $IJK$ est :",
+          "choices": [
+            { "label": "A", "fr": "Équilatéral" },
+            { "label": "B", "fr": "Rectangle en $J$" },
+            { "label": "C", "fr": "Rectangle en $K$" },
+            { "label": "D", "fr": "Rectangle en $I$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$IJ^2=3/2$, $IK^2=1/2$, $JK^2=2$. $IJ^2+IK^2=JK^2$, donc rectangle en $I$.",
+          "topics": ["géométrie"],
+          "difficulty": "moyen"
+        }
+      ]
+    },
+    {
+      "name_fr": "Probabilités (Exercice 2)",
+      "name_en": "Probability (Exercise 2)",
+      "name_ar": "الاحتمالات",
+      "topics": ["probabilités"],
+      "questions": [
+        {
+          "id": 17,
+          "question_fr": "QCM : 20 questions, 4 options chacune. Nombre de grilles-réponses possibles :",
+          "choices": [
+            { "label": "A", "fr": "$24$" },
+            { "label": "B", "fr": "$20^4$" },
+            { "label": "C", "fr": "$80$" },
+            { "label": "D", "fr": "$4^{20}$" }
+          ],
+          "correctIndex": 3,
+          "explanation_fr": "$4^{20}$ grilles possibles.",
+          "topics": ["probabilités", "combinatoire"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 18,
+          "question_fr": "Probabilité de ne donner aucune réponse correcte $P(A_0)=$",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{3^{20}}{4^{20}}$" },
+            { "label": "B", "fr": "$\\frac{24}{4^{20}}$" },
+            { "label": "C", "fr": "$\\frac{1}{20^4}$" },
+            { "label": "D", "fr": "$\\frac{1}{80}$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$P(A_0) = (3/4)^{20} = 3^{20}/4^{20}$.",
+          "topics": ["probabilités"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 19,
+          "question_fr": "Probabilité d'exactement $n$ bonnes réponses $P(A_n)=$",
+          "choices": [
+            { "label": "A", "fr": "$\\frac{\\binom{20}{n}3^n}{4^{20}}$" },
+            { "label": "B", "fr": "$\\frac{\\binom{20}{n}3^{20-n}}{4^{20}}$" },
+            { "label": "C", "fr": "$\\frac{\\binom{20}{3}3^{20-n}}{20^4}$" },
+            { "label": "D", "fr": "$\\frac{\\binom{20}{3}3^n}{80}$" }
+          ],
+          "correctIndex": 1,
+          "explanation_fr": "Loi binomiale $\\mathcal{B}(20,1/4)$ : $P(A_n) = \\binom{20}{n}(1/4)^n(3/4)^{20-n}$.",
+          "topics": ["probabilités"],
+          "difficulty": "facile"
+        },
+        {
+          "id": 20,
+          "question_fr": "Probabilité d'au moins 6 bonnes réponses :",
+          "choices": [
+            { "label": "A", "fr": "$\\sum_{n=6}^{20} \\frac{\\binom{20}{n}3^{20-n}}{4^{20}}$" },
+            { "label": "B", "fr": "$\\sum_{n=0}^{6} \\frac{\\binom{20}{n}3^{20-n}}{4^{20}}$" },
+            { "label": "C", "fr": "$\\sum_{n=6}^{20} \\frac{\\binom{20}{n}3^{20-n}}{20^4}$" },
+            { "label": "D", "fr": "$\\sum_{n=0}^{6} \\frac{\\binom{20}{n}3^{20-n}}{20^4}$" }
+          ],
+          "correctIndex": 0,
+          "explanation_fr": "$P(X\\ge6) = \\sum_{n=6}^{20} P(A_n)$.",
+          "topics": ["probabilités"],
+          "difficulty": "facile"
+        }
+      ]
+    }
+  ]
+}
