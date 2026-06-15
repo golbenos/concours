@@ -32,7 +32,7 @@ export default function Timer({ duration, onTimeUp, running }) {
   const isLow = remaining <= 60;
 
   return (
-    <span className={`font-mono font-body-md text-body-md ${isLow ? 'text-red-400 animate-pulse' : 'text-gray-400'}`}>
+    <span className={`font-mono font-body-md text-body-md ${isLow ? 'text-red-400 animate-pulse' : 'text-gray-400 dark:text-gray-500'}`}>
       {String(m).padStart(2, '0')}:{String(s).padStart(2, '0')}
     </span>
   );

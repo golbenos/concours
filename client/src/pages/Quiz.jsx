@@ -84,7 +84,7 @@ export default function Quiz() {
   const answeredCount = Object.keys(answers).length;
 
   if (loading) return <LoadingSpinner />;
-  if (questions.length === 0) return <div className="text-center py-20 text-gray-400">{t('no_questions_topic')}</div>;
+  if (questions.length === 0) return     <div className="text-center py-20 text-gray-400 dark:text-gray-500">{t('no_questions_topic')}</div>;
 
   if (submitted) {
     const score = questions.filter(q => answers[q.id] === q.correctIndex).length;
@@ -96,13 +96,13 @@ export default function Quiz() {
           </div>
         )}
         <div className="text-center mb-8">
-          <div className="font-headline-lg text-headline-lg text-emerald-600 mb-1">{score}<span className="text-gray-300">/{questions.length}</span></div>
-          <p className="font-body-md text-body-md text-gray-400 mt-2">{t('your_score')}</p>
-          <div className="w-full bg-gray-100 rounded-full h-2 mt-4 max-w-xs mx-auto">
+          <div className="font-headline-lg text-headline-lg text-emerald-600 dark:text-emerald-400 mb-1">{score}<span className="text-gray-300 dark:text-gray-600">/{questions.length}</span></div>
+          <p className="font-body-md text-body-md text-gray-400 dark:text-gray-500 mt-2">{t('your_score')}</p>
+          <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-2 mt-4 max-w-xs mx-auto">
             <div className="bg-emerald-500 h-2 rounded-full transition-all" style={{ width: `${(score / questions.length) * 100}%` }} />
           </div>
         </div>
-        <h2 className="font-headline-md text-headline-md text-gray-800 mb-5">{t('correction')}</h2>
+        <h2 className="font-headline-md text-headline-md text-gray-800 dark:text-gray-100 mb-5">{t('correction')}</h2>
         {submitting && <LoadingSpinner message={t('loading')} />}
         {!submitting && (
           <div className="space-y-5">
@@ -110,18 +110,18 @@ export default function Quiz() {
               const userAns = answers[q.id];
               const isCorrect = userAns === q.correctIndex;
               return (
-                <div key={q.id} className="bg-white border border-gray-100 rounded-2xl p-5">
+                <div key={q.id} className="bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-2xl p-5">
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="font-caption text-caption text-gray-400">{t('question')} {i + 1}</span>
-                    <span className={`px-2 py-0.5 rounded-full text-caption font-medium ${isCorrect ? 'bg-emerald-50 text-emerald-600' : userAns === undefined ? 'bg-gray-50 text-gray-400' : 'bg-red-50 text-red-500'}`}>
+                    <span className="font-caption text-caption text-gray-400 dark:text-gray-500">{t('question')} {i + 1}</span>
+                    <span className={`px-2 py-0.5 rounded-full text-caption font-medium ${isCorrect ? 'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400' : userAns === undefined ? 'bg-gray-50 dark:bg-gray-800 text-gray-400 dark:text-gray-500' : 'bg-red-50 dark:bg-red-900/30 text-red-500 dark:text-red-400'}`}>
                       {isCorrect ? t('correct') : (userAns === undefined ? t('no_answer') : t('incorrect'))}
                     </span>
                   </div>
                   <QCMQuestion question={q} selected={userAns} showResult />
                   {q.explanation_fr && (
-                    <div className="mt-3 p-4 bg-gray-50 rounded-xl border border-gray-100">
-                      <p className="font-label-md text-label-md text-gray-500 mb-1">{t('explanation')}</p>
-                      <p className="font-body-md text-body-md text-gray-700 leading-relaxed"><MathRenderer html={q.explanation_fr} /></p>
+                    <div className="mt-3 p-4 bg-gray-50 dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700">
+                      <p className="font-label-md text-label-md text-gray-500 dark:text-gray-400 mb-1">{t('explanation')}</p>
+                      <p className="font-body-md text-body-md text-gray-700 dark:text-gray-200 leading-relaxed"><MathRenderer html={q.explanation_fr} /></p>
                     </div>
                   )}
                 </div>
@@ -130,7 +130,7 @@ export default function Quiz() {
           </div>
         )}
         <div className="text-center mt-8">
-          <button onClick={() => navigate(`/exams/${examId}`)} className="font-body-md text-body-md text-emerald-600 hover:text-emerald-700">{t('back')}</button>
+          <button onClick={() => navigate(`/exams/${examId}`)} className="font-body-md text-body-md text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300">{t('back')}</button>
         </div>
       </div>
     );
@@ -141,8 +141,8 @@ export default function Quiz() {
     <div className="max-w-2xl mx-auto px-mobile py-8">
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-3">
-          <span className="font-caption text-caption text-gray-400 font-medium">{t('question')} {current + 1}/{questions.length}</span>
-          <div className="w-24 bg-gray-100 rounded-full h-1.5">
+          <span className="font-caption text-caption text-gray-400 dark:text-gray-500 font-medium">{t('question')} {current + 1}/{questions.length}</span>
+          <div className="w-24 bg-gray-100 dark:bg-gray-800 rounded-full h-1.5">
             <div className="bg-emerald-500 h-1.5 rounded-full transition-all" style={{ width: `${questions.length > 0 ? (answeredCount / questions.length) * 100 : 0}%` }} />
           </div>
         </div>
@@ -156,9 +156,9 @@ export default function Quiz() {
       <QCMQuestion question={q} selected={answers[q.id]} onSelect={selectAnswer} />
 
       <div className="flex items-center justify-between mt-5">
-        <button onClick={goPrev} disabled={current === 0} className="px-4 py-2 font-body-md text-body-md text-gray-500 hover:text-gray-700 disabled:opacity-30 transition">{t('previous')}</button>
+        <button onClick={goPrev} disabled={current === 0} className="px-4 py-2 font-body-md text-body-md text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 disabled:opacity-30 transition">{t('previous')}</button>
         <div className="flex gap-2">
-          <button onClick={toggleShowAnswer} className="px-4 py-2 font-body-md text-body-md border border-gray-200 rounded-xl text-gray-600 hover:bg-gray-50 transition">
+          <button onClick={toggleShowAnswer} className="px-4 py-2 font-body-md text-body-md border border-gray-200 dark:border-gray-700 rounded-xl text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition">
             {showAnswer ? t('hide_answer') : t('show_answer')}
           </button>
           <button onClick={goNext} className="bg-emerald-500 text-white px-5 py-2 rounded-xl font-label-md text-label-md hover:bg-emerald-600 transition">
@@ -168,12 +168,12 @@ export default function Quiz() {
       </div>
 
       {showAnswer && (
-        <div className="mt-4 p-4 bg-emerald-50 border border-emerald-200 rounded-2xl">
-          <p className="font-label-md text-label-md text-emerald-700 mb-1">
+        <div className="mt-4 p-4 bg-emerald-50 dark:bg-emerald-900/30 border border-emerald-200 dark:border-emerald-800 rounded-2xl">
+          <p className="font-label-md text-label-md text-emerald-700 dark:text-emerald-300 mb-1">
             {t('correct_answer')} : {['A', 'B', 'C', 'D'][q.correctIndex]}
           </p>
           {q.explanation_fr && (
-            <p className="font-body-md text-body-md text-emerald-600 leading-relaxed"><MathRenderer html={q.explanation_fr} /></p>
+            <p className="font-body-md text-body-md text-emerald-600 dark:text-emerald-400 leading-relaxed"><MathRenderer html={q.explanation_fr} /></p>
           )}
         </div>
       )}

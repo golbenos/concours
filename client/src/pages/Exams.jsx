@@ -30,25 +30,25 @@ export default function Exams() {
 
   return (
     <div className="max-w-2xl mx-auto px-mobile py-10">
-      <h1 className="font-headline-lg text-headline-lg text-gray-800 mb-1">{t('exams')}</h1>
-      <p className="font-body-md text-body-md text-gray-400 mb-6">{t('select_exam')}</p>
+      <h1 className="font-headline-lg text-headline-lg text-gray-800 dark:text-gray-100 mb-1">{t('exams')}</h1>
+      <p className="font-body-md text-body-md text-gray-400 dark:text-gray-500 mb-6">{t('select_exam')}</p>
       {examTypes.length === 0 && (
-        <div className="text-center py-20 text-gray-400 font-body-md text-body-md">{t('no_questions_topic')}</div>
+        <div className="text-center py-20 text-gray-400 dark:text-gray-500 font-body-md text-body-md">{t('no_questions_topic')}</div>
       )}
       <div className="grid grid-cols-1 gap-3">
         {examTypes.map(ex => (
           <button
             key={ex.id}
             onClick={() => navigate(`/exams/${ex.id}`)}
-            className="bg-white border border-gray-100 rounded-2xl p-5 text-left hover:border-emerald-300 hover:shadow-sm transition"
+            className="bg-white border border-gray-100 rounded-2xl p-5 text-left hover:border-emerald-300 hover:shadow-sm transition dark:bg-gray-900 dark:border-gray-800 dark:hover:border-emerald-600"
           >
             <div className="flex items-start gap-3">
               <span className="material-symbols-outlined text-2xl text-emerald-500 mt-0.5" style={{ fontVariationSettings: "'FILL' 1" }}>
                 {icons[ex.id] || 'school'}
               </span>
               <div className="min-w-0">
-                <h2 className="font-headline-md text-headline-md text-gray-800 mb-0.5">{ex.name_fr}</h2>
-                <p className="font-caption text-caption text-gray-400">{ex.description_fr || ''}</p>
+                <h2 className="font-headline-md text-headline-md text-gray-800 dark:text-gray-100 mb-0.5">{ex.name_fr}</h2>
+                <p className="font-caption text-caption text-gray-400 dark:text-gray-500">{ex.description_fr || ''}</p>
                 <span className="text-caption text-emerald-500 mt-1 inline-block">{ex.years?.length || 0} {t('years')}</span>
               </div>
             </div>

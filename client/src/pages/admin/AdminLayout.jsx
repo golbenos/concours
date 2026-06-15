@@ -13,10 +13,10 @@ export default function AdminLayout() {
   const isActive = (path, exact) => exact ? location.pathname === path : location.pathname.startsWith(path);
   return (
     <div className="max-w-4xl mx-auto px-mobile py-8">
-      <h1 className="font-headline-lg text-headline-lg text-gray-800 mb-5">{t('admin')}</h1>
+      <h1 className="font-headline-lg text-headline-lg text-gray-800 dark:text-gray-100 mb-5">{t('admin')}</h1>
       <div className="flex gap-2 mb-6 flex-wrap">
         {links.map(l => (
-          <Link key={l.to} to={l.to} className={`px-3 py-1.5 rounded-xl font-label-md text-label-md transition ${isActive(l.to, l.exact) ? 'bg-emerald-500 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
+          <Link key={l.to} to={l.to} className={`px-3 py-1.5 rounded-xl font-label-md text-label-md transition ${isActive(l.to, l.exact) ? 'bg-emerald-500 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-800'}`}>
             {l.label}
           </Link>
         ))}

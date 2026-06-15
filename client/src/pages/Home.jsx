@@ -73,7 +73,7 @@ export default function Home() {
             <h1 className="font-display text-display text-gray-900 max-w-xl">
               Réussissez vos concours nationaux <span className="text-emerald-600">(ENSA, ENSAM, Médecine)</span>
             </h1>
-            <p className="font-body-lg text-body-lg text-gray-500 max-w-lg">
+            <p className="font-body-lg text-body-lg text-gray-500 max-w-lg dark:text-gray-400">
               La plateforme de référence pour les bacheliers marocains. Accédez à des milliers de questions, des corrigés types et suivez votre évolution en temps réel.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
@@ -94,33 +94,33 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-10 md:py-12 bg-emerald-50/50 relative z-10 border-y border-gray-100">
+      <section className="py-10 md:py-12 bg-emerald-50/50 relative z-10 border-y border-gray-100 dark:bg-emerald-950/30 dark:border-gray-800">
         <div className="px-mobile md:px-desktop max-w-container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="flex items-center gap-6 p-6 rounded-2xl bg-white/60 backdrop-blur-sm border border-white/60">
-            <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600">
+          <div className="flex items-center gap-6 p-6 rounded-2xl bg-white/60 backdrop-blur-sm border border-white/60 dark:bg-gray-900/60 dark:border-gray-800">
+            <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 dark:bg-emerald-900/50">
               <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>quiz</span>
             </div>
             <div>
-              <p className="font-headline-md text-headline-md text-gray-800">{stats ? `${stats.questions}+ Questions` : 'Chargement...'}</p>
-              <p className="font-body-md text-body-md text-gray-400">Spécial ENSA</p>
+              <p className="font-headline-md text-headline-md text-gray-800 dark:text-gray-100">{stats ? `${stats.questions}+ Questions` : 'Chargement...'}</p>
+              <p className="font-body-md text-body-md text-gray-400 dark:text-gray-500">Spécial ENSA</p>
             </div>
           </div>
-          <div className="flex items-center gap-6 p-6 rounded-2xl bg-white/60 backdrop-blur-sm border border-white/60">
-            <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600">
+          <div className="flex items-center gap-6 p-6 rounded-2xl bg-white/60 backdrop-blur-sm border border-white/60 dark:bg-gray-900/60 dark:border-gray-800">
+            <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 dark:bg-emerald-900/50">
               <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>history_edu</span>
             </div>
             <div>
-              <p className="font-headline-md text-headline-md text-gray-800">{stats ? `${stats.exams}+ Années` : 'Chargement...'}</p>
-              <p className="font-body-md text-body-md text-gray-400">D'examens archivés</p>
+              <p className="font-headline-md text-headline-md text-gray-800 dark:text-gray-100">{stats ? `${stats.exams}+ Années` : 'Chargement...'}</p>
+              <p className="font-body-md text-body-md text-gray-400 dark:text-gray-500">D'examens archivés</p>
             </div>
           </div>
-          <div className="flex items-center gap-6 p-6 rounded-2xl bg-white/60 backdrop-blur-sm border border-white/60">
-            <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600">
+          <div className="flex items-center gap-6 p-6 rounded-2xl bg-white/60 backdrop-blur-sm border border-white/60 dark:bg-gray-900/60 dark:border-gray-800">
+            <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 dark:bg-emerald-900/50">
               <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>translate</span>
             </div>
             <div>
-              <p className="font-headline-md text-headline-md text-gray-800">3 Langues</p>
-              <p className="font-body-md text-body-md text-gray-400">Français, Arabe, Anglais</p>
+              <p className="font-headline-md text-headline-md text-gray-800 dark:text-gray-100">3 Langues</p>
+              <p className="font-body-md text-body-md text-gray-400 dark:text-gray-500">Français, Arabe, Anglais</p>
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@ export default function Home() {
       <section className="py-20 md:py-24 px-mobile md:px-desktop max-w-container mx-auto">
         <div className="text-center mb-16 space-y-4">
           <span className="text-emerald-600 font-bold uppercase tracking-widest text-caption">Pourquoi nous choisir ?</span>
-          <h2 className="font-headline-lg text-headline-lg text-gray-800">Une méthode d'apprentissage éprouvée</h2>
+          <h2 className="font-headline-lg text-headline-lg text-gray-800 dark:text-gray-100">Une méthode d'apprentissage éprouvée</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
@@ -137,22 +137,22 @@ export default function Home() {
             { icon: 'check_circle', title: 'Correction détaillée', desc: 'Chaque question est accompagnée d\'une explication pédagogique complète pour comprendre vos erreurs et progresser rapidement.' },
             { icon: 'trending_up', title: 'Suivi de progression', desc: 'Visualisez vos points forts et points faibles par matière grâce à notre tableau de bord analytique intelligent.' },
           ].map((f, i) => (
-            <div key={i} className="group p-8 rounded-3xl bg-white border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-              <div className="mb-6 w-14 h-14 bg-gray-50 rounded-2xl flex items-center justify-center text-emerald-600 group-hover:bg-emerald-500 group-hover:text-white transition-colors">
+            <div key={i} className="group p-8 rounded-3xl bg-white border border-gray-100 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 dark:bg-gray-900 dark:border-gray-800">
+              <div className="mb-6 w-14 h-14 bg-gray-50 rounded-2xl flex items-center justify-center text-emerald-600 group-hover:bg-emerald-500 group-hover:text-white transition-colors dark:bg-gray-800">
                 <span className="material-symbols-outlined text-3xl">{f.icon}</span>
               </div>
               <h3 className="font-headline-md text-headline-md mb-4">{f.title}</h3>
-              <p className="text-gray-400 leading-relaxed font-body-md text-body-md">{f.desc}</p>
+              <p className="text-gray-400 leading-relaxed font-body-md text-body-md dark:text-gray-500">{f.desc}</p>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="py-20 bg-emerald-50 mb-20 overflow-hidden">
+      <section className="py-20 bg-emerald-50 mb-20 overflow-hidden dark:bg-emerald-950/30">
         <div className="px-mobile md:px-desktop max-w-container mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl space-y-6">
-            <h2 className="font-headline-lg text-headline-lg text-gray-800">Prêt à décrocher votre admission ?</h2>
-            <p className="font-body-lg text-body-lg text-gray-400">Rejoignez plus de 15,000 étudiants qui se préparent quotidiennement sur Concours Maroc.</p>
+            <h2 className="font-headline-lg text-headline-lg text-gray-800 dark:text-gray-100">Prêt à décrocher votre admission ?</h2>
+            <p className="font-body-lg text-body-lg text-gray-400 dark:text-gray-500">Rejoignez plus de 15,000 étudiants qui se préparent quotidiennement sur Concours Maroc.</p>
           </div>
           <Link to="/register" className="bg-emerald-500 hover:bg-emerald-600 text-white px-10 py-5 rounded-2xl font-bold text-lg transition-colors shadow-lg active:scale-95 whitespace-nowrap inline-flex items-center gap-2">
             Créer mon compte gratuit

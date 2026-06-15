@@ -26,9 +26,9 @@ export default function AdminUsers() {
   if (loading) return <LoadingSpinner />;
 
   return (
-    <div className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
+    <div className="bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-2xl overflow-hidden">
       <table className="w-full font-body-md text-body-md">
-        <thead className="bg-gray-50 text-gray-500 font-label-md text-label-md">
+        <thead className="bg-gray-50 dark:bg-gray-950 text-gray-500 dark:text-gray-400 font-label-md text-label-md">
           <tr>
             <th className="text-left px-4 py-3 font-medium">{t('name')}</th>
             <th className="text-left px-4 py-3 font-medium">{t('email')}</th>
@@ -39,12 +39,12 @@ export default function AdminUsers() {
         </thead>
         <tbody className="divide-y divide-gray-50">
           {users.map(u => (
-            <tr key={u.id} className="hover:bg-gray-50">
-              <td className="px-4 py-3 font-medium text-gray-800">{u.name}</td>
-              <td className="px-4 py-3 text-gray-400">{u.email}</td>
-              <td className="px-4 py-3 text-gray-400">{u.exams_taken || 0}</td>
+            <tr key={u.id} className="hover:bg-gray-50 dark:hover:bg-gray-800">
+              <td className="px-4 py-3 font-medium text-gray-800 dark:text-gray-100">{u.name}</td>
+              <td className="px-4 py-3 text-gray-400 dark:text-gray-500">{u.email}</td>
+              <td className="px-4 py-3 text-gray-400 dark:text-gray-500">{u.exams_taken || 0}</td>
               <td className="px-4 py-3">
-                <span className={`font-caption text-caption px-1.5 py-0.5 rounded ${u.role === 'admin' ? 'bg-emerald-50 text-emerald-600' : 'bg-gray-50 text-gray-500'}`}>{u.role}</span>
+                <span className={`font-caption text-caption px-1.5 py-0.5 rounded ${u.role === 'admin' ? 'bg-emerald-50 text-emerald-600' : 'bg-gray-50 dark:bg-gray-950 text-gray-500 dark:text-gray-400'}`}>{u.role}</span>
               </td>
               <td className="px-4 py-3">
                 <button onClick={() => toggleRole(u.id, u.role)} className="font-caption text-caption text-emerald-600 hover:underline">

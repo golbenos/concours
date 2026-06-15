@@ -19,7 +19,7 @@ export default function StepIndicator({ total, current, answers, questions }) {
               'h-1.5 rounded-full transition-all duration-300 flex-1',
               state === 'current' && 'bg-emerald-500',
               state === 'answered' && 'bg-emerald-300',
-              state === 'pending' && 'bg-gray-200',
+              state === 'pending' && 'bg-gray-200 dark:bg-gray-700',
             ].join(' ')}
           />
         );
